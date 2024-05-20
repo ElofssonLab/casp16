@@ -49,48 +49,60 @@ Just submitted the standard AF3 model
 
 
 ## 12. 	H0208 	All groups 	646 	Unk 	- 	dahAB
-
+AF3-server dimer has highest score (0.91)
+Tried other stoichiometries but all gave lower scires
 
 
 ## 15. 	H0215 	All groups 	369 	Unk 	- 	mNeonGreen with bound nanobody
+Hihges AF3 scores for A4B4 - but it does not look fantastic and scores
+are low  0.37) 
+
+CHECK IF SOMETHING BETTER CAN BE DONE
+
 
 
 ## 16. 	M1209 	Prot-NucA 	520 	A122 	- 	FAB - HIV-I RRE stem loop II
 ## 17. 	R1209 	NucA 	72 	R1 	2024 - HIV-I RRE stem loop II RNA component
+Standard AF3 model
 
 
-## 18. 	T1210 	All groups 	1770 	 	- 	Q868N5
+## 18. 	T1210 	All groups  A1	1770 	 	- 	Q868N5
+Standard AF3 model
 
-
-## 19. 	M1211 	Prot-NucA 	282 	A2 	- 	CVB3 cloverleaf RNA in complex with 3C protease
+## 19. 	M1211 	Prot-NucA 	282 	A2R1 	- 	CVB3 cloverleaf RNA in complex with 3C protease
 ## 20. 	R1211 	NucA 	90 	A1 	20243 cloverleaf RNA in complex with 3C protease
+Standard af3-model
+
+## 21. 	T1214  A1	All groups /Ligand4-05-24 	- 	YncD (NP_415968)
+Stanrdard af3-model
 
 
-## 21. 	T1214 	All groups /Ligand4-05-24 	- 	YncD (NP_415968)
 
-
-## 22. 	M1212 	Prot-NucA 	809 	A16-03 	- 	Fanzor2 ternary structure
+## 22. 	M1212 	A1R1V1W1 Prot-NucA 	809 	A16-03 	- 	Fanzor2 ternary structure
 ## 23. 	R1212 	NucA 	247 	A1R1V1W	- 	Fanzor2 ternary structure
 ## 24. 	T1212 	All groups 	466 	A	- 	Fanzor2 ternary structure
 
-
-
-## 25. 	H0213 	All groups 	1635 	8 	- 	DP71_eIF2_PP1_complex
-
-
-## 26. 	M1216 	Prot-NucA 	1106 	A05-29 	- 	Tetrameric SPARSAgRNA–target ssDNA complex
+af3 models  has overlapping DNA-strands.
+Split DNA into fragments and then joined them together for the manual predictions
 
 
 
+## 25. 	H0213  UNK	All groups 	1635 	8 	- 	DP71_eIF2_PP1_complex
 
-## 28. 	H0217 	All groups 	2939 	UNK 	- 	AcP10_eIF2B_complex
+
+## 26. 	M1216 	Prot-NucA 	1106 A4B4C4D4	A05-29 	- 	Tetrameric SPARSAgRNA–target ssDNA complex
+
+
+
+
+## 28. 	H0217 UNK	All groups 	2939 	UNK 	- 	AcP10_eIF2B_complex
 Submitted the model (XXX) with highest pTM
 
 ##  29. 	H2202 	All groups 	190 	A2B2 		- 	Q9GZX9_plus_P43026 
 Standard AF3
 
 
-## 31. 	T0218 	All groups 	1164 	UNK 	 	- 	Cry26Aa
+## 31. 	T0218 UNK	All groups 	1164 	UNK 	 	- 	Cry26Aa
 AF3-server predicts a trimer (clearly best pTM/ipTM scores)
 The trimer looks a bit strange - split into N and C-termiinal pars
 N-terminal is a good trimer 
