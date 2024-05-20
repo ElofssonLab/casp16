@@ -40,15 +40,20 @@ Just AF3 predictions
 
 
 ## 10. 	T0206 	All groups 	237 	Unk 	-  Porcine astrovirus 4 capsid spike
+## 35. 	T1206 * 	All groups 	237 	A2 	Porcine astrovirus 4 capsid spike 
 Selected the AF3 model with highest pTM (dimer pTM=0.93 vs 0.88 for monomer och 0.33 for trimer)
+ DIMER CORRECTLY PREDICTED
 
 
-## 11. 	T1207 	All groups 	144 	A1	- 	Q9YLS4, 2A protein part of viral polyprotein
+## 11. 	T1207 	All groups 	144 	A1	- 	Q9YLS4, 2A protein part of viral polyprotein  
+## 36. 	T2207 	All groups 	144 	A1   Q9YLS4, 2A protein part of viral polyprotein 
 Just submitted the standard AF3 model
 
 
 
 ## 12. 	H0208 	All groups 	646 	Unk 	- 	dahAB
+## 13. 	T0208s1 	All groups 	328 	A1 		- 	dahAB subunit 1
+## 14. 	T0208s2 	All groups 	318 	A1 		- 	dahAB subunit 2
 AF3-server dimer has highest score (0.91)
 Tried other stoichiometries but all gave lower scires
 
@@ -83,15 +88,21 @@ Stanrdard af3-model
 ## 24. 	T1212 	All groups 	466 	A	- 	Fanzor2 ternary structure
 
 af3 models  has overlapping DNA-strands.
-Split DNA into fragments and then joined them together for the manual predictions
+Split DNA into fragments and then joined them together for the manual
+predictions
+Merged thes using pymol scripts.
 
 
 
 ## 25. 	H0213  UNK	All groups 	1635 	8 	- 	DP71_eIF2_PP1_complex
+The best AF3 scrore is the monomer (i.e one copy of each chain)
+(Ranking sscore 0.68 as best)
+Tried different copiees of different chains but all have loewr rankinc score
+
 
 
 ## 26. 	M1216 	Prot-NucA 	1106 A4B4C4D4	A05-29 	- 	Tetrameric SPARSAgRNA–target ssDNA complex
-
+standard af3 predictions
 
 
 
@@ -111,3 +122,15 @@ C-erminal some other trimer but with low scores
 
 ## 32. 	T1219 	All groups 	32 	A1 		Only MODEL2/QMODE3  HD6 uniprot Q01524
 Standard AF3 models
+
+
+## 33. 	H0220 	All groups 	1912 	UNK 	- 	BoDV-1 Replication complex
+## 34. 	T0220s1 	All groups 	1711 	A1 	- 	BoDV-1 Replication complex 
+af3-server - monomer is best (one of each chain) Ranking score 0.70
+Manual selection picks a version of one 
+
+Rank 1:  ./fold_h0220_summary_confidences_0.json             0.640000  0.64  0.79           0.72
+Rank 2; ./fold_h0220_onethree_summary_confidences_0.json    0.397500  0.58  0.72           0.70 
+Rank 3: ./fold_h0220_onetwob_summary_confidences_0.json     0.413333  0.59  0.74           0.70 
+Rank 4: ./fold_h0220_summary_confidences_3.json             0.6500000.65  0.79           0.70
+Rank 5: ./fold_h0220_onefour_summary_confidences_0.json     0.332000  0.56  0.69           0.70
