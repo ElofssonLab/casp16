@@ -11,14 +11,15 @@ The Critical Assessment of protein Structure Prediction (CASP) is a community-wi
 
 
 ## 1. 	T1201  All groups 	210 	A2 		Q9GZX9
-Default AF3 predictions
-### 27. 	T2201 	All groups 	210 	A2	- 	Q9GZX9
+bbDefault AF3 predictions
+bb### 27. 	T2201 	All groups 	210 	A2	- 	Q9GZX9
 made new models
 
 ## 2. 	H1202 All groups 	190 	A2B2	Q9GZX9_plus_P43026
 Default AF3 predictions
 ### 29. 	H2202 	All groups 	190 	A2B2 	- 	Q9GZX9_plus_P43026 
 Made new models
+
 
 
 ## 3. 	R1203 NucA 	134 	R1 	2024 response element stem-loop II
@@ -69,7 +70,30 @@ Tried other stoichiometries but all gave lower scores
 Hihges AF3 scores for A4B4 - but it does not look fantastic and scores
 are low  0.37) 
 CHECKED IF SOMETHING BETTER CAN BE DONE - but nothing came up.
+Selection
+RANK 5 ./fold_h0215_hexamer_summary_confidences_2.json       0.065833  0.21  0.29           0.24
+RANK 4./fold_h0215_hexamer_summary_confidences_0.json       0.062500  0.21  0.28           0.24
+RANK 3 ./fold_h0215_dimer_summary_confidences_0.json         0.110000  0.18  0.41           0.25
+RANK 2 ./fold_h0215_pentamer_summary_confidences_0.json      0.110000  0.25  0.33           0.28
+RANK 1 ./fold_h0215_tetramer_summary_confidences_0.json      0.205000  0.37  0.46           0.41
+
+Increased samplign gives:
+./fold_h0215_tetramer_summary_confidences_3.json      0.120000  0.24  0.35           0.27
+./fold_h0215_tetramer_summary_confidences_2.json      0.120000  0.24  0.35           0.28
+./fold_h0215_pentamer_summary_confidences_0.json      0.110000  0.25  0.33           0.28
+./fold_h0215_tetramer_summary_confidences_1.json      0.172500  0.32  0.42           0.37
+./fold_h0215_tetramer_summary_confidences_0.json      0.205000  0.37 0.46           0.41
+
+Selected:
+Rank 1 ./fold_h0215_tetramer_summary_confidences_0.json 
+Rank 2 ./fold_h0215_tetramer_summary_confidences_1.json
+Rank 3 ./fold_h0215_pentamer_summary_confidences_0.json 
+Rank 4  3 ./fold_h0215_dimer_summary_confidences_0.json  
+Rank 5 fold_h0215_fiveplusthree_model_0-elofsson.pdb 
 ### H1215 (CAPRI)
+
+
+
 
 
 ## 16. 	M1209 	Prot-NucA 	520 	A122 	- 	FAB - HIV-I RRE stem loop II
@@ -143,7 +167,20 @@ Rank 5: ./fold_h0220_onefour_summary_confidences_0.json     0.332000  0.56  0.69
 
 
 
-## * prot-rna-rna complex and two RNA subunits
+## M1221 * prot-rna-rna complex and two RNA subunits  	Prot-NucA
+## 599 	A1R1S1 		- 	RNase P enzyme-substrate complex 
+
+** NOT SUBMITTED DUE TO ERROR
+
+af3-server standard prediction
+Manual try sampling more (10x5 models).
+Best models:
+./fold_m1221f_summary_confidences_1.json    0.206667  0.28  0.44           0.31
+./fold_m1221b_summary_confidences_1.json    0.220000  0.28  0.43           0.31
+./fold_m1221f_summary_confidences_0.json    0.196667  0.29  0.43           0.32
+./fold_m1221b_summary_confidences_0.json    0.223333  0.28  0.44           0.32
+./fold_m1221g_summary_confidences_0.json    0.216667  0.29  0.43           0.32
+
 
 
 ## protein heterooligomer :: assembly only
