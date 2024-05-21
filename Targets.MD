@@ -143,8 +143,6 @@ Rank 5: ./fold_h0220_onefour_summary_confidences_0.json     0.332000  0.56  0.69
 
 
 
-
-
 ## * prot-rna-rna complex and two RNA subunits
 
 
