@@ -11,13 +11,14 @@ The Critical Assessment of protein Structure Prediction (CASP) is a community-wi
 
 
 ## 1. 	T1201  All groups 	210 	A2 		Q9GZX9
-## 27. 	T2201 	All groups 	210 	A2	- 	Q9GZX9
 Default AF3 predictions
+### 27. 	T2201 	All groups 	210 	A2	- 	Q9GZX9
+made new models
 
 ## 2. 	H1202 All groups 	190 	A2B2	Q9GZX9_plus_P43026
-## 29. 	H2202 	All groups 	190 	A2B2 	- 	Q9GZX9_plus_P43026 
-Default AF2 predictions
-
+Default AF3 predictions
+### 29. 	H2202 	All groups 	190 	A2B2 	- 	Q9GZX9_plus_P43026 
+Made new models
 
 
 ## 3. 	R1203 NucA 	134 	R1 	2024 response element stem-loop II
@@ -25,8 +26,11 @@ Just AF3 predictions
 
 
 ## 4. 	H1204  All groups 	429 	5-17 	from: 2024-05-17 	Human hemoglob
-## 30. 	H2204 	All groups 	429 	A2B2C2 	 	- 	Human hemoglobin in complex with nanobody
 Just AF3 predictions
+## 30. 	H2204 	All groups 	429 	A2B2C2 	 	- 	Human hemoglobin in complex with nanobody
+Made new predictions
+
+SHOULD RUN MANY PREDICTIONS
 
 
 ## 5. 	L1000 	Ligand 	247 	A1 	20hymase
@@ -40,14 +44,15 @@ Just AF3 predictions
 
 
 ## 10. 	T0206 	All groups 	237 	Unk 	-  Porcine astrovirus 4 capsid spike
-## 35. 	T1206 * 	All groups 	237 	A2 	Porcine astrovirus 4 capsid spike 
 Selected the AF3 model with highest pTM (dimer pTM=0.93 vs 0.88 for monomer och 0.33 for trimer)
- DIMER CORRECTLY PREDICTED
+## 35. 	T1206 * 	All groups 	237 	A2 	Porcine astrovirus 4 capsid spike 
+DIMER CORRECTLY PREDICTED - made new models
 
 
 ## 11. 	T1207 	All groups 	144 	A1	- 	Q9YLS4, 2A protein part of viral polyprotein  
-## 36. 	T2207 	All groups 	144 	A1   Q9YLS4, 2A protein part of viral polyprotein 
 Just submitted the standard AF3 model
+### 36. 	T2207 	All groups 	144 	A1   Q9YLS4, 2A protein part of viral polyprotein 
+Submitted a new  AF3 model
 
 
 
@@ -55,15 +60,16 @@ Just submitted the standard AF3 model
 ## 13. 	T0208s1 	All groups 	328 	A1 		- 	dahAB subunit 1
 ## 14. 	T0208s2 	All groups 	318 	A1 		- 	dahAB subunit 2
 AF3-server dimer has highest score (0.91)
-Tried other stoichiometries but all gave lower scires
+Tried other stoichiometries but all gave lower scores
+### H1208 (CAPRI)
+
 
 
 ## 15. 	H0215 	All groups 	369 	Unk 	- 	mNeonGreen with bound nanobody
 Hihges AF3 scores for A4B4 - but it does not look fantastic and scores
 are low  0.37) 
-
-CHECK IF SOMETHING BETTER CAN BE DONE
-
+CHECKED IF SOMETHING BETTER CAN BE DONE - but nothing came up.
+### H1215 (CAPRI)
 
 
 ## 16. 	M1209 	Prot-NucA 	520 	A122 	- 	FAB - HIV-I RRE stem loop II
@@ -134,3 +140,21 @@ Rank 2; ./fold_h0220_onethree_summary_confidences_0.json    0.397500  0.58  0.72
 Rank 3: ./fold_h0220_onetwob_summary_confidences_0.json     0.413333  0.59  0.74           0.70 
 Rank 4: ./fold_h0220_summary_confidences_3.json             0.6500000.65  0.79           0.70
 Rank 5: ./fold_h0220_onefour_summary_confidences_0.json     0.332000  0.56  0.69           0.70
+
+
+
+
+
+## * prot-rna-rna complex and two RNA subunits
+
+
+## protein heterooligomer :: assembly only
+
+
+
+## protein heterooligomer :: assembly only
+## prot-rna-rna complex and two RNA subunits
+
+
+## protein heterooligomer :: assembly only
+## protein monomer
