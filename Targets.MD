@@ -112,7 +112,11 @@ Rank 3 ./fold_h0215_pentamer_summary_confidences_0.json
 Rank 4  3 ./fold_h0215_dimer_summary_confidences_0.json  
 Rank 5 fold_h0215_fiveplusthree_model_0-elofsson.pdb 
 ### H1215 (CAPRI)
+Fold is only monomer A1B1
+Low scores
 
+
+Manual running more examples:
 
 
 
