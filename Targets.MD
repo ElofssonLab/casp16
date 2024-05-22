@@ -114,9 +114,15 @@ Rank 5 fold_h0215_fiveplusthree_model_0-elofsson.pdb
 ### H1215 (CAPRI)
 Fold is only monomer A1B1
 Low scores
+./fold_h1215_summary_confidences_0.json         0.17  0.17  0.60           0.27
 
-
-Manual running more examples:
+Manual running more examples:but no improvement
+Selected these:
+./fold_h1215_summary_confidences_3.json         0.13  0.13  0.59           0.24
+./fold_h1215c_summary_confidences_0.json        0.13  0.13  0.60           0.24
+./fold_h0215_summary_confidences_0.json         0.13  0.13  0.60           0.24
+./fold_h1215_summary_confidences_1.json         0.15  0.15  0.60           0.26
+./fold_h1215_summary_confidences_0.json         0.17  0.17  0.60           0.27
 
 
 
@@ -245,9 +251,12 @@ Best models:
 ./fold_m1221g_summary_confidences_0.json    0.216667  0.29  0.43           0.32
 
 
-
+##  43. 	H0222 	All groups 	485 	UNK 	2024-05-22 	2024-05-25 	2024-06-05 	2024-06-05 	- 	RSV G - Fab 2B11 complex 
 ## protein heterooligomer :: assembly only
-
+Af3-standard monomers much better scores than other things
+./fold_h0222_summary_confidences_0.json              0.420000  0.71 0.76           0.76
+Manual 
+Tried other things - but nothing better
 
 
 ## protein heterooligomer :: assembly only
