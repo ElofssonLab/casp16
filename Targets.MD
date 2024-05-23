@@ -313,10 +313,30 @@ Af3-standard monomers much better scores than other things
 Manual 
 Tried other things - but nothing better
 
+## 45. 	H0223 	All groups 	486 	UNK 	2024-05-23 	2024-05-26 	2024-06-06 	2024-06-06 	- 	RSV G - Fab 1G8 complex
+### protein heterooligomer :: assembly only
+### prot-rna-rna complex and two RNA subunits
 
-## protein heterooligomer :: assembly only
-## prot-rna-rna complex and two RNA subunits
+The protein looks the same as H0222
+
+Submitted standard AF3 models both as server and Elofsson (multimers
+look bad)
+
+- ./fold_h0223_summary_confidences_0.json             0.376667  0.77  0.81           0.81
+
 
 
 ## protein heterooligomer :: assembly only
 ## protein monomer
+### 46. 	M1224 	Prot-NucA 	599 	A1R1S1 	2024-05-23 	2024-05-26 	2024-06-06 	2024-06-06 	- 	RNase P enzyme-substrate complex
+### 47. 	R1224s2 	NucA 	395 	A1 	2024-05-23 	2024-05-26 	2024-06-04 	2024-06-04 	- 	RNase P enzyme-substrate complex
+### 48. 	R1224s3 	NucA 	86 	A1 	2024-05-23 	2024-05-26 	2024-06-06 	2024-06-06 	- 	RNase P enzyme-substrate complex 
+
+Standard AF3 for server
+Multiple tries for Elofsson -scores increase a bit for Elofsson
+
+- ./fold_h0223_summary_confidences_3.json             0.363333  0.75  0.79           0.79
+- ./fold_h0223_summary_confidences_4.json             0.376667  0.74  0.78           0.79
+- ./fold_h0223_summary_confidences_1.json             0.373333  0.76  0.80           0.80
+- ./fold_h0223_summary_confidences_2.json             0.380000  0.76  0.80           0.80
+- ./fold_h0223_summary_confidences_0.json             0.376667  0.77  0.81           0.81
