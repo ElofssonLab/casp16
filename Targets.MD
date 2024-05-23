@@ -3,45 +3,62 @@
 The Critical Assessment of protein Structure Prediction (CASP) is a community-wide, worldwide experiment for protein structure prediction taking place every two years since 1994. CASP provides an objective measure of the state of the art in protein structure prediction, covering all aspects from secondary structure prediction to tertiary structure, and more recently quaternary structure prediction. Participants are provided with the amino acid sequence of proteins for which the structure is known but not yet released to the public. They are then asked to predict the three-dimensional structure of these proteins. The predictions are evaluated objectively once the experimental structures become public
 
 ## Organsiation
-- casp16-af3 contains teh AF3 predictiosn used both for af3-server and elofsson
-- casp16-qa All code related to 
-- casp16 - This folder with attempts for manual predictions
+* casp16-af3 contains teh AF3 predictiosn used both for af3-server and elofsson
+* casp16-qa All code related to 
+* casp16 - This folder with attempts for manual predictions
 
 # Targets
 
 
 ## 1. 	T1201  All groups 	210 	A2 		Q9GZX9
 Default AF3 predictions
-targets/T1201/fold_t1201_summary_confidences_1....        0.67  ...           0.76
+
+- T1201/fold_t1201_summary_confidences_1....        0.67  ...           0.76
 
 ### 27. 	T2201 	All groups 	210 	A2	- 	Q9GZX9
 made new models
-targets/T2201/fold_t2201_summary_confidences_1....        0.69  ...           0.77
+
+- T2201/fold_t2201_summary_confidences_1....        0.69  ...           0.77
 
 
 ## 2. 	H1202 All groups 	190 	A2B2	Q9GZX9_plus_P43026
 Default AF3 predictions
-targets/H1202/fold_h1202_summary_confidences_0....      0.6600  ...           0.84
+
+- H1202/fold_h1202_summary_confidences_0....      0.6600  ...           0.84
+
 ### 29. 	H2202 	All groups 	190 	A2B2 	- 	Q9GZX9_plus_P43026 
 Made new models
-targets/H2202/fold_h2202_summary_confidences_1....       0.660  ...           0.84
+
+- H2202/fold_h2202_summary_confidences_1....       0.660  ...           0.84
 
 
 
 ## 3. 	R1203 NucA 	134 	R1 	2024 response element stem-loop II
 Just AF3 predictions
-targets/R1203/fold_r1203_summary_confidences_1....         NaN  ...           0.40
+
+- R1203/fold_r1203_summary_confidences_1....         NaN  ...           0.40
 
 
 ## 4. 	H1204  All groups 	429 	5-17 	from: 2024-05-17 	Human hemoglob
 Just AF3 predictions
-targets/H1204/fold_h1204_summary_confidences_0....    0.286667  ...           0.49
+
+- H1204/fold_h1204_summary_confidences_0....    0.286667  ...           0.49
 
 ## 30. 	H2204 	All groups 	429 	A2B2C2 	 	- 	Human hemoglobin in complex with nanobody
 Made new predictions
-targets/H2204/fold_h2204_summary_confidences_1....    0.315000  ...           0.49
+Af3-server
+- H2204/fold_h2204_summary_confidences_1....    0.315000  ...           0.49
 
-SHOULD RUN MANY PREDICTIONS
+
+RUN MANY PREDICTIONS (25)
+
+- ./fold_h2204c_summary_confidences_3.json    0.368333  0.52  0.60           0.55
+- ./fold_h2204c_summary_confidences_2.json    0.366667  0.53  0.60           0.55
+- ./fold_h2204c_summary_confidences_4.json    0.358333  0.52  0.59           0.55
+- ./fold_h2204c_summary_confidences_1.json    0.370000  0.53  0.60           0.56
+- ./fold_h2204c_summary_confidences_0.json    0.370000  0.53  0.60           0.56
+
+
 
 
 ## 5. 	L1000 	Ligand 	247 	A1 	20hymase
@@ -52,26 +69,29 @@ SHOULD RUN MANY PREDICTIONS
 
 ## 9. 	R1205 	NucA 	59 	R1 	2024-A
 Just AF3 predictions
-targets/R1205/fold_r1205_summary_confidences_1....         NaN  ...           0.24
+
+- R1205/fold_r1205_summary_confidences_1....         NaN  ...           0.24
 
 
 
 ## 10. 	T0206 	All groups 	237 	Unk 	-  Porcine astrovirus 4 capsid spike
 Selected the AF3 model with highest pTM (dimer pTM=0.93 vs 0.88 for monomer och 0.33 for trimer)
-targets/T0206/fold_t0206_dimer_summary_confiden...    0.930000  ...           0.93
+
+- T0206/fold_t0206_dimer_summary_confiden...    0.930000  ...           0.93
 
 ## 35. 	T1206 * 	All groups 	237 	A2 	Porcine astrovirus 4 capsid spike 
 DIMER CORRECTLY PREDICTED - made new models
-targets/T0206/fold_t1206_summary_confidences_4....    0.920000  ...           0.93
+
+- T0206/fold_t1206_summary_confidences_4....    0.920000  ...           0.93
 
 
 ## 11. 	T1207 	All groups 	144 	A1	- 	Q9YLS4, 2A protein part of viral polyprotein  
 Just submitted the standard AF3 model
-targets/T1207/fold_2024_05_08_21_57_summary_con...         NaN  ...           0.71
+- T1207/fold_2024_05_08_21_57_summary_con...         NaN  ...           0.71
 
 ### 36. 	T2207 	All groups 	144 	A1   Q9YLS4, 2A protein part of viral polyprotein 
 Submitted a new  AF3 model
-targets/T1207/fold_t2207_summary_confidences_0....         NaN  ...           0.72
+- T1207/fold_t2207_summary_confidences_0....         NaN  ...           0.72
 
 
 ## 12. 	H0208 	All groups 	646 	Unk 	- 	dahAB
@@ -79,50 +99,58 @@ targets/T1207/fold_t2207_summary_confidences_0....         NaN  ...           0.
 ## 14. 	T0208s2 	All groups 	318 	A1 		- 	dahAB subunit 2
 AF3-server dimer has highest score (0.91)
 Tried other stoichiometries but all gave lower scores
-targets/H0208/fold_h0208_summary_confidences_0....    0.920000  ...           0.96
+
+- H0208/fold_h0208_summary_confidences_0....    0.920000  ...           0.96
 
 ### H1208 (CAPRI)
 Submitted new models
-targets/H0208/fold_h1208_summary_confidences_2....    0.930000  ...           0.96
+- H0208/fold_h1208_summary_confidences_2....    0.930000  ...           0.96
 
 
 
 ## 15. 	H0215 	All groups 	369 	Unk 	- 	mNeonGreen with bound nanobody
 Hihges AF3 scores for A4B4 - but it does not look fantastic and scores
 are low  0.37) 
+
 CHECKED IF SOMETHING BETTER CAN BE DONE - but nothing came up.
+
 Selection
-RANK 5 ./fold_h0215_hexamer_summary_confidences_2.json       0.065833  0.21  0.29           0.24
-RANK 4./fold_h0215_hexamer_summary_confidences_0.json       0.062500  0.21  0.28           0.24
-RANK 3 ./fold_h0215_dimer_summary_confidences_0.json         0.110000  0.18  0.41           0.25
-RANK 2 ./fold_h0215_pentamer_summary_confidences_0.json      0.110000  0.25  0.33           0.28
-RANK 1 ./fold_h0215_tetramer_summary_confidences_0.json      0.205000  0.37  0.46           0.41
+
+- RANK 5 ./fold_h0215_hexamer_summary_confidences_2.json       0.065833  0.21  0.29           0.24
+- RANK 4./fold_h0215_hexamer_summary_confidences_0.json       0.062500  0.21  0.28           0.24
+- RANK 3 ./fold_h0215_dimer_summary_confidences_0.json         0.110000  0.18  0.41           0.25
+- RANK 2 ./fold_h0215_pentamer_summary_confidences_0.json      0.110000  0.25  0.33           0.28
+- RANK 1 ./fold_h0215_tetramer_summary_confidences_0.json      0.205000  0.37  0.46           0.41
 
 Increased samplign gives:
-./fold_h0215_tetramer_summary_confidences_3.json      0.120000  0.24  0.35           0.27
-./fold_h0215_tetramer_summary_confidences_2.json      0.120000  0.24  0.35           0.28
-./fold_h0215_pentamer_summary_confidences_0.json      0.110000  0.25  0.33           0.28
-./fold_h0215_tetramer_summary_confidences_1.json      0.172500  0.32  0.42           0.37
-./fold_h0215_tetramer_summary_confidences_0.json      0.205000  0.37 0.46           0.41
+- ./fold_h0215_tetramer_summary_confidences_3.json      0.120000  0.24  0.35           0.27
+- ./fold_h0215_tetramer_summary_confidences_2.json      0.120000  0.24  0.35           0.28
+- ./fold_h0215_pentamer_summary_confidences_0.json      0.110000  0.25  0.33           0.28
+- ./fold_h0215_tetramer_summary_confidences_1.json      0.172500  0.32  0.42           0.37
+- ./fold_h0215_tetramer_summary_confidences_0.json      0.205000  0.37 0.46           0.41
 
 Selected:
-Rank 1 ./fold_h0215_tetramer_summary_confidences_0.json 
-Rank 2 ./fold_h0215_tetramer_summary_confidences_1.json
-Rank 3 ./fold_h0215_pentamer_summary_confidences_0.json 
-Rank 4  3 ./fold_h0215_dimer_summary_confidences_0.json  
-Rank 5 fold_h0215_fiveplusthree_model_0-elofsson.pdb 
+
+- Rank 1 ./fold_h0215_tetramer_summary_confidences_0.json 
+- Rank 2 ./fold_h0215_tetramer_summary_confidences_1.json
+- Rank 3 ./fold_h0215_pentamer_summary_confidences_0.json 
+- Rank 4  3 ./fold_h0215_dimer_summary_confidences_0.json  
+- Rank 5 fold_h0215_fiveplusthree_model_0-elofsson.pdb 
+
 ### H1215 (CAPRI)
 Fold is only monomer A1B1
 Low scores
-./fold_h1215_summary_confidences_0.json         0.17  0.17  0.60           0.27
+- ./fold_h1215_summary_confidences_0.json         0.17  0.17  0.60           0.27
 
 Manual running more examples:but no improvement
+
 Selected these:
-./fold_h1215_summary_confidences_3.json         0.13  0.13  0.59           0.24
-./fold_h1215c_summary_confidences_0.json        0.13  0.13  0.60           0.24
-./fold_h0215_summary_confidences_0.json         0.13  0.13  0.60           0.24
-./fold_h1215_summary_confidences_1.json         0.15  0.15  0.60           0.26
-./fold_h1215_summary_confidences_0.json         0.17  0.17  0.60           0.27
+
+- ./fold_h1215_summary_confidences_3.json         0.13  0.13  0.59           0.24
+- ./fold_h1215c_summary_confidences_0.json        0.13  0.13  0.60           0.24
+- ./fold_h0215_summary_confidences_0.json         0.13  0.13  0.60           0.24
+- ./fold_h1215_summary_confidences_1.json         0.15  0.15  0.60           0.26
+- ./fold_h1215_summary_confidences_0.json         0.17  0.17  0.60           0.27
 
 
 
@@ -130,12 +158,12 @@ Selected these:
 ## 16. 	M1209 	Prot-NucA 	520 	A122 	- 	FAB - HIV-I RRE stem loop II
 ## 17. 	R1209 	NucA 	72 	R1 	2024 - HIV-I RRE stem loop II RNA component
 Standard AF3 model
-targets/M1209/fold_m1209_summary_confidences_1....    0.356667  ...           0.67
+- M1209/fold_m1209_summary_confidences_1....    0.356667  ...           0.67
 
 
 ## 18. 	T1210 	All groups  A1	1770 	 	- 	Q868N5
 Standard AF3 model
-targets/T1210/fold_t1210_summary_confidences_4....         NaN  ...           0.88
+- T1210/fold_t1210_summary_confidences_4....         NaN  ...           0.88
 
 
 ## 19. 	M1211 	Prot-NucA 	282 	A2R1 	- 	CVB3 cloverleaf RNA in complex with 3C protease
@@ -143,12 +171,14 @@ targets/T1210/fold_t1210_summary_confidences_4....         NaN  ...           0.
 This was first not allowed to run, but after JMs talk to DeepMind it was run.
 I made models based on fragments that actually looked correc (Rank 1)
 Standard af3-model
-./fold_m1211_summary_confidences_0.json              0.526667  0.69  0.78           0.71
+
+- ./fold_m1211_summary_confidences_0.json              0.526667  0.69  0.78           0.71
 
 
 ## 21. 	T1214  A1	All groups /Ligand4-05-24 	- 	YncD (NP_415968)
 Standard af3-model
-targets/T1214/fold_t1214_summary_confidences_4....         NaN  ...           0.95
+
+- T1214/fold_t1214_summary_confidences_4....         NaN  ...           0.95
 
 
 
@@ -158,7 +188,8 @@ targets/T1214/fold_t1214_summary_confidences_4....         NaN  ...           0.
 ## 24. 	T1212 	All groups 	466 	A	- 	Fanzor2 ternary structure
 
 af3 models  has overlapping DNA-strands.
-targets/M1212/fold_m1212_single_dna_summary_con...    0.633333  ...           0.68
+
+- M1212/fold_m1212_single_dna_summary_con...    0.633333  ...           0.68
 
 Split DNA into fragments and then joined them together for the manual
 predictions
@@ -168,7 +199,8 @@ Merged thes using pymol scripts.
 
 ## 25. 	H0213  UNK	All groups 	1635 	8 	- 	DP71_eIF2_PP1_complex
 The best AF3 scrore is the monomer (i.e one copy of each chain)
-targets/H0213/fold_h0213_summary_confidences_0....    0.506000  ...           0.68
+
+- H0213/fold_h0213_summary_confidences_0....    0.506000  ...           0.68
 
 (Ranking sscore 0.68 as best)
 Tried different copiees of different chains but all have loewr rankinc score
@@ -178,7 +210,20 @@ Tried different copiees of different chains but all have loewr rankinc score
 
 ## 26. 	M1216 	Prot-NucA 	1106 A4B4C4D4	A05-29 	- 	Tetrameric SPARSAgRNA–target ssDNA complex
 standard af3 predictions
-targets/M1216/fold_m1216_summary_confidences_2....    0.185625  ...           0.53
+
+- M1216/fold_m1216_summary_confidences_2....    0.185625  ...           0.53
+
+Running more models for manual predictions.
+Slightly better scores
+- ./fold_m1216e_summary_confidences_3.json    0.202500  0.57  0.60           0.59
+- ./fold_m1216d_summary_confidences_2.json    0.214375  0.57  0.61           0.59
+- ./fold_m1216c_summary_confidences_0.json    0.215625  0.57  0.60           0.59
+- ./fold_m1216e_summary_confidences_0.json    0.206250  0.58  0.61           0.60
+- ./fold_m1216d_summary_confidences_0.json    0.214375  0.58  0.61           0.60
+- ./fold_m1216d_summary_confidences_1.json    0.206875  0.58  0.61           0.60
+-- Gives too many steric clashes !!
+
+
 
 
 
@@ -188,18 +233,21 @@ Standard AF3model (single copies)
  "iptm": 0.62,  "num_recycles": 10.0,  "ptm": 0.64,  "ranking_score": 0.68
 
 Submitted the model with highest pTM which was extra chains ABD
-targets/H0217/fold_h0217_abd_summary_confidence...    0.543333  ...           0.76
+
+- H0217/fold_h0217_abd_summary_confidence...    0.543333  ...           0.76
 
 
 
 ##  29. 	H2202 	All groups 	190 	A2B2 		- 	Q9GZX9_plus_P43026 
 Standard AF3
-targets/H2202/fold_h2202_summary_confidences_1....       0.660  ...           0.84
+
+- H2202/fold_h2202_summary_confidences_1....       0.660  ...           0.84
 
 
 ## 31. 	T0218 UNK	All groups 	1164 	UNK 	 	- 	Cry26Aa
 AF3-server predicts a trimer (clearly best pTM/ipTM scores)
-targets/T0218/fold_t0218_n_terminal_trimer_summ...    0.770000  ...           0.82
+
+- T0218/fold_t0218_n_terminal_trimer_summ...    0.770000  ...           0.82
 
 The trimer looks a bit strange - split into N and C-termiinal pars
 N-terminal is a good trimer 
@@ -209,7 +257,7 @@ WHAT TO DO?
 
 ## 32. 	T1219 	All groups 	32 	A1 		Only MODEL2/QMODE3  HD6 uniprot Q01524
 Standard AF3 models
-targets/T1219/fold_t1219_summary_confidences_1....         NaN  ...           0.62
+- T1219/fold_t1219_summary_confidences_1....         NaN  ...           0.62
 
 RUN more ?
 
@@ -217,44 +265,51 @@ RUN more ?
 ## 33. 	H0220 	All groups 	1912 	UNK 	- 	BoDV-1 Replication complex
 ## 34. 	T0220s1 	All groups 	1711 	A1 	- 	BoDV-1 Replication complex 
 af3-server - monomer is best (one of each chain) Ranking score 0.70
-targets/T1219/fold_t1219_summary_confidences_1....         NaN  ...           0.62
+
+- T1219/fold_t1219_summary_confidences_1....         NaN  ...           0.62
 
 
 Manual selection picks a version of one 
 
-Rank 1:  ./fold_h0220_summary_confidences_0.json             0.640000  0.64  0.79           0.72
-Rank 2; ./fold_h0220_onethree_summary_confidences_0.json    0.397500  0.58  0.72           0.70 
-Rank 3: ./fold_h0220_onetwob_summary_confidences_0.json     0.413333  0.59  0.74           0.70 
-Rank 4: ./fold_h0220_summary_confidences_3.json             0.6500000.65  0.79           0.70
-Rank 5: ./fold_h0220_onefour_summary_confidences_0.json     0.332000  0.56  0.69           0.70
+- Rank 1:  ./fold_h0220_summary_confidences_0.json             0.640000  0.64  0.79           0.72
+- Rank 2; ./fold_h0220_onethree_summary_confidences_0.json    0.397500  0.58  0.72           0.70 
+- Rank 3: ./fold_h0220_onetwob_summary_confidences_0.json     0.413333  0.59  0.74           0.70 
+- Rank 4: ./fold_h0220_summary_confidences_3.json             0.6500000.65  0.79           0.70
+- Rank 5: ./fold_h0220_onefour_summary_confidences_0.json     0.332000  0.56  0.69           0.70
 
 
 
 ## M1221 * prot-rna-rna complex and two RNA subunits  	Prot-NucA
 ## 599 	A1R1S1 		- 	RNase P enzyme-substrate complex 
 AF3-stanard model
-targets/M1221/fold_m1221_summary_confidences_0....    0.210000  ...           0.29
+
+- M1221/fold_m1221_summary_confidences_0....    0.210000  ...           0.29
+
 Manual - extended sampling
-targets/M1221/fold_m1221b_summary_confidences_0...    0.223333  ...           0.32
+
+- M1221/fold_m1221b_summary_confidences_0...    0.223333  ...           0.32
 
 
 
-** NOT SUBMITTED DUE TO ERROR
+
 
 af3-server standard prediction
 Manual try sampling more (10x5 models).
 Best models:
-./fold_m1221f_summary_confidences_1.json    0.206667  0.28  0.44           0.31
-./fold_m1221b_summary_confidences_1.json    0.220000  0.28  0.43           0.31
-./fold_m1221f_summary_confidences_0.json    0.196667  0.29  0.43           0.32
-./fold_m1221b_summary_confidences_0.json    0.223333  0.28  0.44           0.32
-./fold_m1221g_summary_confidences_0.json    0.216667  0.29  0.43           0.32
+
+- ./fold_m1221f_summary_confidences_1.json    0.206667  0.28  0.44           0.31
+- ./fold_m1221b_summary_confidences_1.json    0.220000  0.28  0.43           0.31
+- ./fold_m1221f_summary_confidences_0.json    0.196667  0.29  0.43           0.32
+- ./fold_m1221b_summary_confidences_0.json    0.223333  0.28  0.44           0.32
+- ./fold_m1221g_summary_confidences_0.json    0.216667  0.29  0.43           0.32
 
 
 ##  43. 	H0222 	All groups 	485 	UNK 	2024-05-22 	2024-05-25 	2024-06-05 	2024-06-05 	- 	RSV G - Fab 2B11 complex 
 ## protein heterooligomer :: assembly only
 Af3-standard monomers much better scores than other things
-./fold_h0222_summary_confidences_0.json              0.420000  0.71 0.76           0.76
+
+- ./fold_h0222_summary_confidences_0.json              0.420000  0.71 0.76           0.76
+
 Manual 
 Tried other things - but nothing better
 
