@@ -315,7 +315,7 @@ Tried other things - but nothing better
 
 ## 45. 	H0223 	All groups 	486 	UNK 	2024-05-23 	2024-05-26 	2024-06-06 	2024-06-06 	- 	RSV G - Fab 1G8 complex
 ### protein heterooligomer :: assembly only
-### prot-rna-rna complex and two RNA subunits
+
 
 The protein looks the same as H0222
 
@@ -325,9 +325,7 @@ look bad)
 - ./fold_h0223_summary_confidences_0.json             0.376667  0.77  0.81           0.81
 
 
-
-## protein heterooligomer :: assembly only
-## protein monomer
+### prot-rna-rna complex and two RNA subunits
 ### 46. 	M1224 	Prot-NucA 	599 	A1R1S1 	2024-05-23 	2024-05-26 	2024-06-06 	2024-06-06 	- 	RNase P enzyme-substrate complex
 ### 47. 	R1224s2 	NucA 	395 	A1 	2024-05-23 	2024-05-26 	2024-06-04 	2024-06-04 	- 	RNase P enzyme-substrate complex
 ### 48. 	R1224s3 	NucA 	86 	A1 	2024-05-23 	2024-05-26 	2024-06-06 	2024-06-06 	- 	RNase P enzyme-substrate complex 
@@ -340,3 +338,28 @@ Multiple tries for Elofsson -scores increase a bit for Elofsson
 - ./fold_h0223_summary_confidences_1.json             0.373333  0.76  0.80           0.80
 - ./fold_h0223_summary_confidences_2.json             0.380000  0.76  0.80           0.80
 - ./fold_h0223_summary_confidences_0.json             0.376667  0.77  0.81           0.81
+
+
+## protein heterooligomer :: assembly only
+## 49. 	H0225 	All groups 	483 	UNK 	2024-05-24 	2024-05-27 	2024-06-07 	2024-06-07 	- 	RSV G - Fab 1G1 complex
+
+The same as H0222/H0223 monomers looks best
+
+- ./fold_h0225b_summary_confidences_4.json     0.463333  0.69  0.72           0.73
+- ./fold_h0225e_summary_confidences_0.json     0.430000  0.69  0.73           0.74
+- ./fold_h0225b_summary_confidences_1.json     0.470000  0.69  0.72           0.74
+- ./fold_h0225b_summary_confidences_0.json     0.473333  0.70  0.73           0.74
+- ./fold_h0225e_summary_confidences_1.json     0.436667  0.70  0.73           0.74
+
+
+## 50. 	T1226 	All groups 	123 	A1 	 	TuAsV-2A3 (part of polyprotein) 
+## protein monomer
+af3-standard
+
+Run five models for manual predictions
+
+- ./fold_t1226e_summary_confidences_1.json         NaN   NaN  0.64           0.69
+- ./fold_t1226b_summary_confidences_0.json         NaN   NaN  0.64           0.69
+- ./fold_t1226d_summary_confidences_1.json         NaN   NaN  0.64           0.69
+- ./fold_t1226_summary_confidences_0.json          NaN   NaN  0.64           0.69
+- ./fold_t1226d_summary_confidences_0.json         NaN   NaN  0.66           0.71
