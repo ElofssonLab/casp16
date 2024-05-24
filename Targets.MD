@@ -50,12 +50,19 @@ Af3-server
 - H2204/fold_h2204_summary_confidences_1....    0.315000  ...           0.49
 
 
-RUN MANY PREDICTIONS (25)
+RUN MANY PREDICTIONS (50)
 
 - ./fold_h2204c_summary_confidences_3.json    0.368333  0.52  0.60           0.55
 - ./fold_h2204c_summary_confidences_2.json    0.366667  0.53  0.60           0.55
 - ./fold_h2204c_summary_confidences_4.json    0.358333  0.52  0.59           0.55
 - ./fold_h2204c_summary_confidences_1.json    0.370000  0.53  0.60           0.56
+- ./fold_h2204c_summary_confidences_0.json    0.370000  0.53  0.60           0.56
+
+PICK the best of the first raned one (but they are all very similar)
+- ./fold_h2204k_summary_confidences_0.json    0.316667  0.46  0.54           0.49
+- ./fold_h2204p_summary_confidences_0.json    0.316667  0.46  0.54           0.49
+- ./fold_h2204e_summary_confidences_0.json    0.320000  0.47  0.55           0.50
+- ./fold_h2204b_summary_confidences_0.json    0.336667  0.48  0.56           0.51
 - ./fold_h2204c_summary_confidences_0.json    0.370000  0.53  0.60           0.56
 
 
