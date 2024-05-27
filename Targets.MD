@@ -420,8 +420,71 @@ Run five models for manual predictions
 
 # WEEK 5 (May 27)
 ## * protein heterooligomer and its subunit 1
+## 5. 	H0227 	All groups 	1304 	UNK    	- 	LetA (P0AD03) and LetB (P76272) 
+
+af3-submit best ranked version
+
+- ./fold_h0227_summary_confidences_0.json               0.430000  0.43  0.41           0.45
+- ./fold_h0227_thtree_four_summary_confidences_0....    0.222857  0.45  0.48           0.47
+- ./fold_h0227_two_four_summary_confidences_0.json      0.303333  0.51  0.54           0.54
+- ./fold_h0227_one_five_summary_confidences_0.json      0.425000  0.54  0.55           0.56
+- ./fold_h0227_one_four_summary_confidences_0.json      0.466000  0.58  0.60           0.60
+
+Visual analysis clearly shows it is a 1-5 subunit run more versions 
+
+- ./fold_h0227_one_five_e_summary_confidences_0.json    0.443333  0.54  0.56           0.56
+- ./fold_h0227_one_five_c_summary_confidences_0.json    0.448333  0.54  0.56           0.56
+- ./fold_h0227_one_five_summary_confidences_0.json      0.425000  0.54  0.55           0.56
+- ./fold_h0227_one_five_b_summary_confidences_0.json    0.453333  0.54  0.56           0.57
+- ./fold_h0227_one_five_d_summary_confidences_0.json    0.440000  0.55  0.56           0.57
+- ./fold_h0227_one_four_summary_confidences_0.json      0.466000  0.58   0.60           0.60  Submit as Model 5 just as a backup (do not trust it)
+
+
+
+
 ## * RNA
+##4. 	R1241 	NucA 	480 	A1 	2024-05-27 	2024-05-30 	2024-06-10 	2024-06-10 	- 	group II intron 
+                                         chain_iptm  iptm   ptm  ranking_score
+Standard af3
+
+- ./fold_r1241_summary_confidences_4.json         NaN   NaN  0.77           0.77
+- ./fold_r1241_summary_confidences_1.json         NaN   NaN  0.78           0.78
+- ./fold_r1241_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_r1241_summary_confidences_3.json         NaN   NaN  0.78           0.78
+- ./fold_r1241_summary_confidences_2.json         NaN   NaN  0.78           0.78
+
+increased sampling does not change a lot
+- ./fold_r1241_summary_confidences_0.json           NaN   NaN  0.78           0.78
+- ./fold_r1241_e_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_r1241b_summary_confidences_0.json          NaN   NaN  0.78           0.78
+- ./fold_r1241c_summary_confidences_0.json          NaN   NaN  0.79           0.79
+- ./fold_r1241d_summary_confidences_0.json          NaN   NaN  0.79           0.79
+
+
 ## *,CAPRI - homooligomer in the open and closed states
+
+## 1. 	T1249v2 * 	All groups 	488 	A3 		Arenaviral spike complex 
+## 2. 	T1249v1 * 	All groups 	488 	A3 	-13 	Arenaviral spike complex 
+
+- ./fold_t1249v1_summary_confidences_0.json    0.396667  0.43  0.52 0.47
+- ./fold_t1249v2_summary_confidences_0.json        0.34  0.38  0.48           0.44
+
+Some structural variation (but it has low scores)
+Submits default versions - made some more models (10 of each using
+scilifelab.se account
+
+- ./fold_t1249v1_f_summary_confidences_0.json    0.456667  0.50  0.57           0.54
+- ./fold_t1249v1_i_summary_confidences_0.json    0.446667  0.49  0.57           0.54
+- ./fold_t1249v1_e_summary_confidences_0.json    0.450000  0.49  0.57           0.55
+- ./fold_t1249v1_d_summary_confidences_0.json    0.450000  0.50  0.58           0.55
+- ./fold_t1249v1_h_summary_confidences_0.json    0.456667  0.50  0.57 0.57
+ 
+
+- ./fold_t1249v2_c_summary_confidences_0.json        0.38  0.41  0.50        0.46
+- ./fold_t1249v2_h_summary_confidences_0.json        0.41  0.45  0.53        0.49
+- ./fold_t1249v2_j_summary_confidences_0.json        0.43  0.48  0.56        0.53
+- ./fold_t1249v2_e_summary_confidences_0.json        0.44  0.48  0.56        0.54
+- ./fold_t1249v2_d_summary_confidences_0.json        0.44  0.48  0.56        0.54
 
 
 
