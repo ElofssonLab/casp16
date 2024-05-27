@@ -370,3 +370,5 @@ Run five models for manual predictions
 - ./fold_t1226d_summary_confidences_1.json         NaN   NaN  0.64           0.69
 - ./fold_t1226_summary_confidences_0.json          NaN   NaN  0.64           0.69
 - ./fold_t1226d_summary_confidences_0.json         NaN   NaN  0.66           0.71
+
+# WEEK 5 (May 27)
