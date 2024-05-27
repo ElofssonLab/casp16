@@ -72,6 +72,9 @@ PICK the best of the first raned one (but they are all very similar)
 ## 6. 	L2000 	Ligand 	255 	A1 	20athepsin G
 ## 7. 	L3000 	Ligand 	846 	A1 	20utotaxin
 ## 8. 	L4000 	Ligand 	306 	A2 	20Pro
+Just run standard AF3  for all these models
+Can not be submitted
+
 
 
 ## 9. 	R1205 	NucA 	59 	R1 	2024-A
@@ -172,6 +175,13 @@ Standard AF3 model
 Standard AF3 model
 - T1210/fold_t1210_summary_confidences_4....         NaN  ...           0.88
 
+Run more examples
+- ./fold_t1210f_summary_confidences_0.json         NaN   NaN  0.86           0.88
+- ./fold_t1210c_summary_confidences_0.json         NaN   NaN  0.86           0.88
+- ./fold_t1210b_summary_confidences_0.json         NaN   NaN  0.86           0.88
+- ./fold_t1210e_summary_confidences_0.json         NaN   NaN  0.86           0.88
+- ./fold_t1210d_summary_confidences_0.json         NaN   NaN  0.87           0.89
+
 
 ## 19. 	M1211 	Prot-NucA 	282 	A2R1 	- 	CVB3 cloverleaf RNA in complex with 3C protease
 ## 20. 	R1211 	NucA 	90 	A1 	20243 cloverleaf RNA in complex with 3C protease
@@ -210,7 +220,16 @@ The best AF3 scrore is the monomer (i.e one copy of each chain)
 - H0213/fold_h0213_summary_confidences_0....    0.506000  ...           0.68
 
 (Ranking sscore 0.68 as best)
-Tried different copiees of different chains but all have loewr rankinc score
+Tried different copies of different chains but all have loewr rankinc score
+
+Manual running more "monomers"
+Best first ranked models:
+
+- ./fold_h0213b_summary_confidences_0.json             0.520000  0.62  0.65           0.69
+- ./fold_h0213c_summary_confidences_0.json             0.526000  0.62  0.66           0.69
+- ./fold_h0213g_summary_confidences_0.json             0.518000  0.62  0.65           0.69
+- ./fold_h0213f_summary_confidences_0.json             0.518000  0.62  0.65           0.69
+- ./fold_h0213e_summary_confidences_0.json             0.558000  0.65  0.69           0.73
 
 
 
@@ -239,9 +258,14 @@ Slightly better scores
 Standard AF3model (single copies)
  "iptm": 0.62,  "num_recycles": 10.0,  "ptm": 0.64,  "ranking_score": 0.68
 
-Submitted the model with highest pTM which was extra chains ABD
+Submitted the model with highest pTM which was extra chains ABD but
+tool the 5 best stoichiometries and sibmitted
 
-- H0217/fold_h0217_abd_summary_confidence...    0.543333  ...           0.76
+./fold_h0217_abd_c_summary_confidences_0.json    0.547778  0.70  0.71           0.77'
+./fold_h0217_acd_summary_confidences_0.json      0.475556  0.66  0.67           0.72
+./fold_h0217_ad_summary_confidences_0.json       0.502500  0.65  0.67           0.72
+./fold_h0217_ade_summary_confidences_0.json      0.490000  0.65  0.66 0.71
+./fold_h0217_summary_confidences_0.json          0.486667  0.62  0.64           0.68
 
 
 
@@ -260,13 +284,27 @@ The trimer looks a bit strange - split into N and C-termiinal pars
 N-terminal is a good trimer 
 C-erminal some other trimer but with low scores
 WHAT TO DO?
+Run more trimers. Pick the best
+
+- ./fold_t0218_trimer_e_summary_confidences_0.json      0.516667  0.55  0.59           0.59
+- ./fold_t0218_trimer_f_summary_confidences_0.json      0.526667  0.56  0.60           0.60
+- ./fold_t0218_trimer_d_summary_confidences_0.json      0.526667  0.56  0.60           0.60
+- ./fold_t0218_trimer_h_summary_confidences_0.json      0.526667  0.56  0.60           0.60
+- ./fold_t0218_trimer_b_summary_confidences_0.json      0.526667  0.56  0.60           0.60
 
 
 ## 32. 	T1219 	All groups 	32 	A1 		Only MODEL2/QMODE3  HD6 uniprot Q01524
 Standard AF3 models
 - T1219/fold_t1219_summary_confidences_1....         NaN  ...           0.62
 
-RUN more ?
+RUN more ? But they all look the same..
+
+
+- ./fold_t1219h_summary_confidences_0.json                NaN   NaN  0.62           0.62
+- ./fold_t1219c_summary_confidences_0.json                NaN   NaN  0.62           0.62
+- ./fold_t1219_summary_confidences_0.json                 NaN   NaN  0.62           0.62
+- ./fold_t1219g_summary_confidences_0.json                NaN   NaN  0.62           0.62
+- ./fold_t1219f_summary_confidences_0.json                NaN   NaN  0.63           0.63
 
 
 ## 33. 	H0220 	All groups 	1912 	UNK 	- 	BoDV-1 Replication complex
@@ -283,6 +321,15 @@ Manual selection picks a version of one
 - Rank 3: ./fold_h0220_onetwob_summary_confidences_0.json     0.413333  0.59  0.74           0.70 
 - Rank 4: ./fold_h0220_summary_confidences_3.json             0.6500000.65  0.79           0.70
 - Rank 5: ./fold_h0220_onefour_summary_confidences_0.json     0.332000  0.56  0.69           0.70
+
+Updated to new versions
+
+- RANK 5 ./fold_h0220_c_summary_confidences_0.json             0.650000  0.65  0.78           0.71 
+- RANK 4 ./fold_h0220_onefour_summary_confidences_0.json       0.332000  0.56  0.69           0.70
+- RANK 3 ./fold_h0220_onetwob_summary_confidences_0.json       0.413333  0.59  0.74           0.70
+- RANK 2 ./fold_h0220_one_three_b_summary_confidences_0....    0.375000  0.57  0.71           0.72
+- RANK 1 ./fold_h0220_summary_confidences_0.json               0.640000  0.64  0.79           0.72
+
 
 
 
