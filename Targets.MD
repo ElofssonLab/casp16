@@ -417,3 +417,36 @@ Run five models for manual predictions
 - ./fold_t1226d_summary_confidences_1.json         NaN   NaN  0.64           0.69
 - ./fold_t1226_summary_confidences_0.json          NaN   NaN  0.64           0.69
 - ./fold_t1226d_summary_confidences_0.json         NaN   NaN  0.66           0.71
+
+# WEEK 5 (May 27)
+## * protein heterooligomer and its subunit 1
+## * RNA
+## *,CAPRI - homooligomer in the open and closed states
+
+
+
+## Tuesday: 2 targets
+## *,CAPRI hybrid complex representing an enzyme bound to its multiple cognate DNA sites
+## +,CAPRI protein heterocomplex H1213 - stay tuned as changes to the sequence with respect to H0213 are possible: pending re-confirmation with the authors
+
+
+
+
+## Wednesday: 3 targets
+## * protein heterooligomer :: assembly only
+## * protein heterooligomer :: assembly only
+## * RNA
+
+ 
+## Thursday: 3 targets
+## * protein monomer
+## +,CAPRI - protein heterocomplex H1217
+## ++ T2210
+
+
+ 
+## Friday: 4 targets
+## * protein heterooligomer :: assembly only
+## * RNA
+## +,CAPRI protein homooligomer T1218
+## ++ T2219
