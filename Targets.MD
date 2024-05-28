@@ -2,10 +2,10 @@
 
 The Critical Assessment of protein Structure Prediction (CASP) is a community-wide, worldwide experiment for protein structure prediction taking place every two years since 1994. CASP provides an objective measure of the state of the art in protein structure prediction, covering all aspects from secondary structure prediction to tertiary structure, and more recently quaternary structure prediction. Participants are provided with the amino acid sequence of proteins for which the structure is known but not yet released to the public. They are then asked to predict the three-dimensional structure of these proteins. The predictions are evaluated objectively once the experimental structures become public
 
-## Organsiation
-* casp16-af3 contains teh AF3 predictiosn used both for af3-server and elofsson
-* casp16-qa All code related to 
-* casp16 - This folder with attempts for manual predictions
+## Organization
+* CASP16-AF3 contains the AF3 predictions used both for AF3-server and Elofsson
+* CASP16-QA All code related to 
+* CASP16 - This folder with attempts for manual predictions
 
 # Targets
 
@@ -39,14 +39,14 @@ Just AF3 predictions
 - R1203/fold_r1203_summary_confidences_1....         NaN  ...           0.40
 
 
-## 4. 	H1204  All groups 	429 	5-17 	from: 2024-05-17 	Human hemoglob
+## 4. 	H1204  All groups 	429 	5-17 	from: 2024-05-17 	Human hemoglobin
 Just AF3 predictions
 
 - H1204/fold_h1204_summary_confidences_0....    0.286667  ...           0.49
 
 ## 30. 	H2204 	All groups 	429 	A2B2C2 	 	- 	Human hemoglobin in complex with nanobody
 Made new predictions
-Af3-server
+AF3-server
 - H2204/fold_h2204_summary_confidences_1....    0.315000  ...           0.49
 
 
@@ -58,7 +58,7 @@ RUN MANY PREDICTIONS (50)
 - ./fold_h2204c_summary_confidences_1.json    0.370000  0.53  0.60           0.56
 - ./fold_h2204c_summary_confidences_0.json    0.370000  0.53  0.60           0.56
 
-PICK the best of the first raned one (but they are all very similar)
+PICK the best of the first ranked one (but they are all very similar)
 - ./fold_h2204k_summary_confidences_0.json    0.316667  0.46  0.54           0.49
 - ./fold_h2204p_summary_confidences_0.json    0.316667  0.46  0.54           0.49
 - ./fold_h2204e_summary_confidences_0.json    0.320000  0.47  0.55           0.50
@@ -119,7 +119,7 @@ Submitted new models
 
 
 ## 15. 	H0215 	All groups 	369 	Unk 	- 	mNeonGreen with bound nanobody
-Hihges AF3 scores for A4B4 - but it does not look fantastic and scores
+Highest AF3 scores for A4B4 - but it does not look fantastic and scores
 are low  0.37) 
 
 CHECKED IF SOMETHING BETTER CAN BE DONE - but nothing came up.
@@ -132,7 +132,7 @@ Selection
 - RANK 2 ./fold_h0215_pentamer_summary_confidences_0.json      0.110000  0.25  0.33           0.28
 - RANK 1 ./fold_h0215_tetramer_summary_confidences_0.json      0.205000  0.37  0.46           0.41
 
-Increased samplign gives:
+Increased sampling gives:
 - ./fold_h0215_tetramer_summary_confidences_3.json      0.120000  0.24  0.35           0.27
 - ./fold_h0215_tetramer_summary_confidences_2.json      0.120000  0.24  0.35           0.28
 - ./fold_h0215_pentamer_summary_confidences_0.json      0.110000  0.25  0.33           0.28
@@ -186,7 +186,7 @@ Run more examples
 ## 19. 	M1211 	Prot-NucA 	282 	A2R1 	- 	CVB3 cloverleaf RNA in complex with 3C protease
 ## 20. 	R1211 	NucA 	90 	A1 	20243 cloverleaf RNA in complex with 3C protease
 This was first not allowed to run, but after JMs talk to DeepMind it was run.
-I made models based on fragments that actually looked correc (Rank 1)
+I made models based on fragments that actually looked correct (Rank 1)
 Standard af3-model
 
 - ./fold_m1211_summary_confidences_0.json              0.526667  0.69  0.78           0.71
@@ -210,17 +210,17 @@ af3 models  has overlapping DNA-strands.
 
 Split DNA into fragments and then joined them together for the manual
 predictions
-Merged thes using pymol scripts.
+Merged these using pymol scripts.
 
 
 
 ## 25. 	H0213  UNK	All groups 	1635 	8 	- 	DP71_eIF2_PP1_complex
-The best AF3 scrore is the monomer (i.e one copy of each chain)
+The best AF3 score is the monomer (i.e one copy of each chain)
 
 - H0213/fold_h0213_summary_confidences_0....    0.506000  ...           0.68
 
-(Ranking sscore 0.68 as best)
-Tried different copies of different chains but all have loewr rankinc score
+(Ranking score 0.68 as best)
+Tried different copies of different chains but all have lower ranking score
 
 Manual running more "monomers"
 Best first ranked models:
@@ -231,6 +231,7 @@ Best first ranked models:
 - ./fold_h0213f_summary_confidences_0.json             0.518000  0.62  0.65           0.69
 - ./fold_h0213e_summary_confidences_0.json             0.558000  0.65  0.69           0.73
 
+WRONG SEQUENCE CANCELED
 
 
 
@@ -256,10 +257,10 @@ Slightly better scores
 
 ## 28. 	H0217 UNK	All groups 	2939 	UNK 	- 	AcP10_eIF2B_complex
 Standard AF3model (single copies)
- "iptm": 0.62,  "num_recycles": 10.0,  "ptm": 0.64,  "ranking_score": 0.68
+ "ipTM": 0.62,  "num_recycles": 10.0,  "pTM": 0.64,  "ranking_score": 0.68
 
 Submitted the model with highest pTM which was extra chains ABD but
-tool the 5 best stoichiometries and sibmitted
+tool the 5 best stoichiometries and submitted
 
 ./fold_h0217_abd_c_summary_confidences_0.json    0.547778  0.70  0.71           0.77'
 ./fold_h0217_acd_summary_confidences_0.json      0.475556  0.66  0.67           0.72
@@ -280,9 +281,9 @@ AF3-server predicts a trimer (clearly best pTM/ipTM scores)
 
 - T0218/fold_t0218_n_terminal_trimer_summ...    0.770000  ...           0.82
 
-The trimer looks a bit strange - split into N and C-termiinal pars
+The trimer looks a bit strange - split into N and C-terminal pars
 N-terminal is a good trimer 
-C-erminal some other trimer but with low scores
+C-germinal some other trimer but with low scores
 WHAT TO DO?
 Run more trimers. Pick the best
 
@@ -335,7 +336,7 @@ Updated to new versions
 
 ## M1221 * prot-rna-rna complex and two RNA subunits  	Prot-NucA
 ## 599 	A1R1S1 		- 	RNase P enzyme-substrate complex 
-AF3-stanard model
+AF3-standard model
 
 - M1221/fold_m1221_summary_confidences_0....    0.210000  ...           0.29
 
@@ -359,7 +360,7 @@ Best models:
 
 
 ##  43. 	H0222 	All groups 	485 	UNK 	2024-05-22 	2024-05-25 	2024-06-05 	2024-06-05 	- 	RSV G - Fab 2B11 complex 
-## protein heterooligomer :: assembly only
+## protein hetero oligomer :: assembly only
 Af3-standard monomers much better scores than other things
 
 - ./fold_h0222_summary_confidences_0.json              0.420000  0.71 0.76           0.76
