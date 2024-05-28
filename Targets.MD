@@ -233,6 +233,20 @@ Best first ranked models:
 
 WRONG SEQUENCE CANCELED
 
+## +,CAPRI protein heterocomplex H1213 - stay tuned as changes to the sequence with respect to H0213 are possible: pending re-confirmation with the authors
+## 52. 	H1213 * 	All groups 	1373 	A1B1C1D1E1 	DP71_eIF2_PP1_complex 
+
+Standard AF3 - scores good all models look the same
+
+Manual selection
+
+- ./fold_h1213b_summary_confidences_0.json       0.700  0.76  0.80           0.82
+- ./fold_h1213e_summary_confidences_0.json       0.682  0.76  0.80           0.82
+- ./fold_h1213d_summary_confidences_0.json       0.690  0.76  0.80           0.82
+- ./fold_h1213_summary_confidences_0.json        0.700  0.77  0.80           0.82
+- ./fold_h1213c_summary_confidences_0.json       0.688  0.76  0.80           0.82
+
+
 
 
 ## 26. 	M1216 	Prot-NucA 	1106 A4B4C4D4	A05-29 	- 	Tetrameric SPARSAgRNA–target ssDNA complex
@@ -491,7 +505,10 @@ scilifelab.se account
 
 ## Tuesday: 2 targets
 ## *,CAPRI hybrid complex representing an enzyme bound to its multiple cognate DNA sites
-## +,CAPRI protein heterocomplex H1213 - stay tuned as changes to the sequence with respect to H0213 are possible: pending re-confirmation with the authors
+## 57. 	M1228v1 * 	Prot-NucA 	663 	A4B2C2D2E2 	- 	SPbeta_int_DNA
+## 58. 	M1228v2 * 	Prot-NucA 	663 	A4B2C2D2E2 	- 	SPbeta_int_DNA 
+
+Running standard AF3 (looks plausible) x10 for increased sampling
 
 
 
