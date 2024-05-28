@@ -509,9 +509,19 @@ scilifelab.se account
 ## 58. 	M1228v2 * 	Prot-NucA 	663 	A4B2C2D2E2 	- 	SPbeta_int_DNA 
 
 Running standard AF3 (looks plausible) x10 for increased sampling
+- ./fold_m1228v1i_summary_confidences_0.json    0.190000  0.51  0.54           0.52
+- ./fold_m1228v1f_summary_confidences_0.json    0.223333  0.54  0.56           0.54
+- ./fold_m1228v1h_summary_confidences_0.json    0.252500  0.55  0.57           0.56
+- ./fold_m1228v1e_summary_confidences_0.json    0.235000  0.56  0.58           0.56
+- ./fold_m1228v1j_summary_confidences_0.json    0.245833  0.56  0.57           0.57
 
+v2 model h is completely different (and high scoring). WIll follow the ranking.
 
-
+- ./fold_m1228v2g_summary_confidences_0.json    0.210000  0.51  0.53           0.51
+- ./fold_m1228v2f_summary_confidences_0.json    0.225000  0.53  0.55           0.53
+- ./fold_m1228v2c_summary_confidences_0.json    0.231667  0.54  0.56           0.55
+- ./fold_m1228v2j_summary_confidences_0.json    0.225833  0.56  0.58           0.56
+- ./fold_m1228v2h_summary_confidences_0.json    0.270000  0.60  0.61           0.60
 
 ## Wednesday: 3 targets
 ## * protein heterooligomer :: assembly only
