@@ -609,13 +609,27 @@ models for dimers
 - ./fold_h0230_dimer_summary_confidences_0.json       0.510000  0.70  0.78           0.75
 
 
+Better models with more samples: (these are dimers but names are wrong)
+- ./fold_h0229_b_summary_confidences_0.json           0.350000  0.65  0.74           0.70
+- ./fold_h0229_e_summary_confidences_0.json           0.347500  0.64  0.74           0.70
+- ./fold_h0229_g_summary_confidences_0.json           0.350000  0.65  0.74           0.70
+- ./fold_h0229_k_summary_confidences_0.json           0.345000  0.64  0.74           0.70
+- ./fold_h0229_j_summary_confidences_0.json           0.355000  0.66  0.75           0.71
+
+-  ./fold_h0230_dimer_h_summary_confidences_0.json     0.497500  0.70  0.77           0.75
+- ./fold_h0230_dimer_c_summary_confidences_0.json     0.497500  0.71  0.78           0.75
+- ./fold_h0230_dimer_summary_confidences_0.json       0.510000  0.70  0.78           0.75
+- ./fold_h0230_dimer_f_summary_confidences_0.json     0.530000  0.72  0.79           0.76
+- ./fold_h0230_dimer_g_summary_confidences_0.json     0.517500  0.72  0.79           0.76
+
 
 ## * RNA
 ## 63. 	R1242 	NucA 	205 	A1 	- 	RaiA RNA motif, C. acetobutylicum 
 
 Standard af3
 
-Five models for manul but all models look the same (but scores are bad)
+Five models for manul but all models look the same (but scores are
+bad)  
 
 - targets/R1242/fold_r1242c_summary_confidences_0...         NaN   NaN  0.46           0.46
 - targets/R1242/fold_r1242d_summary_confidences_0...         NaN   NaN  0.47           0.47
