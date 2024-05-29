@@ -588,7 +588,40 @@ v2: Outliers d,h and s  (d,s similar but swapped places of chains)
 ## Wednesday: 3 targets
 ## * protein heterooligomer :: assembly only
 ## * protein heterooligomer :: assembly only
+## 61. 	H0229 	All groups 	987 	UNK 4-06-12 	- 	ORF61/A3A
+## 62. 	H0230 	All groups 	984 	UNK 4-06-12 	- 	ORF61/A3B
+
+Clearly highest scores for dimer and contact map for tetramers looks
+like it should be dimer
+
+- ./fold_h0229_tetramer_summary_confidences_0.json    0.146250  0.38  0.48           0.42
+- ./fold_h0229_trimer_summary_confidences_0.json      0.163333  0.38  0.50           0.43
+- ./fold_h0229_summary_confidences_0.json             0.430000  0.43  0.79           0.54
+- ./fold_h0229_dimer_summary_confidences_0.json       0.332500  0.62  0.72           0.67
+
+
+for H0230 - the scores are higher and the dimer less clear but still
+models for dimers
+
+- ./fold_h0230_tetramer_summary_confidences_0.json    0.185000  0.40  0.49           0.44
+- ./fold_h0230_trimer_summary_confidences_0.json      0.211667  0.41  0.53           0.46
+- ./fold_h0230_summary_confidences_0.json             0.630000  0.63  0.84           0.70
+- ./fold_h0230_dimer_summary_confidences_0.json       0.510000  0.70  0.78           0.75
+
+
+
 ## * RNA
+## 63. 	R1242 	NucA 	205 	A1 	- 	RaiA RNA motif, C. acetobutylicum 
+
+Standard af3
+
+Five models for manul but all models look the same (but scores are bad)
+
+- targets/R1242/fold_r1242c_summary_confidences_0...         NaN   NaN  0.46           0.46
+- targets/R1242/fold_r1242d_summary_confidences_0...         NaN   NaN  0.47           0.47
+- targets/R1242/fold_r1242b_summary_confidences_0...         NaN   NaN  0.47           0.47
+- targets/R1242/fold_r1242e_summary_confidences_0...         NaN   NaN  0.47           0.47
+- targets/R1242/fold_r1242_summary_confidences_0....         NaN   NaN  0.48           0.48
 
  
 ## Thursday: 3 targets
