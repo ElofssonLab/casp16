@@ -273,8 +273,9 @@ Slightly better scores
 Standard AF3model (single copies)
  "ipTM": 0.62,  "num_recycles": 10.0,  "pTM": 0.64,  "ranking_score": 0.68
 
-Submitted the model with highest pTM which was extra chains ABD but
-tool the 5 best stoichiometries and submitted
+Submitted the model with highest pTM which was extra chains ABD.
+
+Submitted  the 5 best stoichiometries and submitted
 
 ./fold_h0217_abd_c_summary_confidences_0.json    0.547778  0.70  0.71           0.77'
 ./fold_h0217_acd_summary_confidences_0.json      0.475556  0.66  0.67           0.72
@@ -295,17 +296,25 @@ AF3-server predicts a trimer (clearly best pTM/ipTM scores)
 
 - T0218/fold_t0218_n_terminal_trimer_summ...    0.770000  ...           0.82
 
+
+## +,CAPRI - protein heterocomplex H1217
+
+
 The trimer looks a bit strange - split into N and C-terminal pars
 N-terminal is a good trimer 
-C-germinal some other trimer but with low scores
+C-terminal some other trimer but with low scores
 WHAT TO DO?
 Run more trimers. Pick the best
+
 
 - ./fold_t0218_trimer_e_summary_confidences_0.json      0.516667  0.55  0.59           0.59
 - ./fold_t0218_trimer_f_summary_confidences_0.json      0.526667  0.56  0.60           0.60
 - ./fold_t0218_trimer_d_summary_confidences_0.json      0.526667  0.56  0.60           0.60
 - ./fold_t0218_trimer_h_summary_confidences_0.json      0.526667  0.56  0.60           0.60
 - ./fold_t0218_trimer_b_summary_confidences_0.json      0.526667  0.56  0.60           0.60
+
+
+## +,CAPRI protein homooligomer T1218
 
 
 ## 32. 	T1219 	All groups 	32 	A1 		Only MODEL2/QMODE3  HD6 uniprot Q01524
@@ -320,6 +329,8 @@ RUN more ? But they all look the same..
 - ./fold_t1219_summary_confidences_0.json                 NaN   NaN  0.62           0.62
 - ./fold_t1219g_summary_confidences_0.json                NaN   NaN  0.62           0.62
 - ./fold_t1219f_summary_confidences_0.json                NaN   NaN  0.63           0.63
+
+
 
 
 ## 33. 	H0220 	All groups 	1912 	UNK 	- 	BoDV-1 Replication complex
@@ -448,11 +459,11 @@ af3-submit best ranked version
 Visual analysis clearly shows it is a 1-5 subunit run more versions 
 
 - ./fold_h0227_one_five_e_summary_confidences_0.json    0.443333  0.54  0.56           0.56
-- ./fold_h0227_one_five_c_summary_confidences_0.json    0.448333  0.54  0.56           0.56
-- ./fold_h0227_one_five_summary_confidences_0.json      0.425000  0.54  0.55           0.56
-- ./fold_h0227_one_five_b_summary_confidences_0.json    0.453333  0.54  0.56           0.57
-- ./fold_h0227_one_five_d_summary_confidences_0.json    0.440000  0.55  0.56           0.57
-- ./fold_h0227_one_four_summary_confidences_0.json      0.466000  0.58   0.60           0.60  Submit as Model 5 just as a backup (do not trust it)
+- R4./fold_h0227_one_five_c_summary_confidences_0.json    0.448333  0.54  0.56           0.56
+- R3 ./fold_h0227_one_five_summary_confidences_0.json      0.425000  0.54  0.55           0.56
+- R2 ./fold_h0227_one_five_b_summary_confidences_0.json    0.453333  0.54  0.56           0.57
+- R1 ./fold_h0227_one_five_d_summary_confidences_0.json    0.440000  0.55  0.56           0.57
+- R5 ./fold_h0227_one_four_summary_confidences_0.json      0.466000  0.58   0.60           0.60  Submit as Model 5 just as a backup (do not trust it)
 
 
 
@@ -582,7 +593,6 @@ v2: Outliers d,h and s  (d,s similar but swapped places of chains)
  
 ## Thursday: 3 targets
 ## * protein monomer
-## +,CAPRI - protein heterocomplex H1217
 ## ++ T2210
 
 
@@ -590,5 +600,4 @@ v2: Outliers d,h and s  (d,s similar but swapped places of chains)
 ## Friday: 4 targets
 ## * protein heterooligomer :: assembly only
 ## * RNA
-## +,CAPRI protein homooligomer T1218
 ## ++ T2219
