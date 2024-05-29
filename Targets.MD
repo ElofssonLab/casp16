@@ -523,6 +523,57 @@ v2 model h is completely different (and high scoring). WIll follow the ranking.
 - ./fold_m1228v2j_summary_confidences_0.json    0.225833  0.56  0.58           0.56
 - ./fold_m1228v2h_summary_confidences_0.json    0.270000  0.60  0.61           0.60
 
+
+with 20x sampling a few new models are found. Picked high scoring + outlier (original model)
+
+
+- ./fold_m1228v1m_summary_confidences_0.json    0.185833  0.46  0.49           0.46
+- ./fold_m1228v1g_summary_confidences_0.json    0.191667  0.47  0.49           0.47
+- ./fold_m1228v1s_summary_confidences_0.json    0.188333  0.46  0.49           0.47
+- ./fold_m1228v1k_summary_confidences_0.json    0.194167  0.48  0.51           0.48
+- ./fold_m1228v1b_summary_confidences_0.json    0.202500  0.49  0.51           0.49
+- R5 ./fold_m1228v1_summary_confidences_0.json     0.209167  0.50  0.52           0.50
+- ./fold_m1228v1c_summary_confidences_0.json    0.195000  0.50  0.53           0.50
+- ./fold_m1228v1d_summary_confidences_0.json    0.213333  0.50  0.53           0.50
+- ./fold_m1228v1q_summary_confidences_0.json    0.208333  0.50  0.53           0.51
+- ./fold_m1228v1i_summary_confidences_0.json    0.190000  0.51  0.54           0.52
+- ./fold_m1228v1l_summary_confidences_0.json    0.222500  0.53  0.55           0.53
+- ./fold_m1228v1p_summary_confidences_0.json    0.230833  0.52  0.54           0.53
+- ./fold_m1228v1f_summary_confidences_0.json    0.223333  0.54  0.56           0.54
+- ./fold_m1228v1e_summary_confidences_0.json    0.235000  0.56  0.58           0.56
+- ./fold_m1228v1h_summary_confidences_0.json    0.252500  0.55  0.57           0.56
+- ./fold_m1228v1o_summary_confidences_0.json    0.241667  0.55  0.57           0.56
+- R4 ./fold_m1228v1j_summary_confidences_0.json    0.245833  0.56  0.57           0.57
+- R3 ./fold_m1228v1t_summary_confidences_0.json    0.241667  0.57  0.59           0.57
+- R2 ./fold_m1228v1r_summary_confidences_0.json    0.243333  0.58  0.59           0.58
+- R1 ./fold_m1228v1n_summary_confidences_0.json    0.264167  0.58  0.60           0.59 
+
+
+v2: Outliers d,h and s  (d,s similar but swapped places of chains)
+
+- ./fold_m1228v2m_summary_confidences_0.json    0.161667  0.42  0.46           0.43
+- ./fold_m1228v2s_summary_confidences_0.json    0.205833  0.49  0.52           0.49
+- ./fold_m1228v2n_summary_confidences_0.json    0.197500  0.49  0.51           0.49
+- ./fold_m1228v2b_summary_confidences_0.json    0.177500  0.48  0.51           0.49
+- R5 ./fold_m1228v2d_summary_confidences_0.json    0.197500  0.48  0.51           0.49
+- ./fold_m1228v2i_summary_confidences_0.json    0.201667  0.50  0.53           0.50
+- ./fold_m1228v2g_summary_confidences_0.json    0.210000  0.51  0.53           0.51
+- ./fold_m1228v2_summary_confidences_0.json     0.210000  0.50  0.52           0.51
+- ./fold_m1228v2e_summary_confidences_0.json    0.219167  0.51  0.53           0.51
+- ./fold_m1228v2f_summary_confidences_0.json    0.225000  0.53  0.55           0.53
+- ./fold_m1228v2k_summary_confidences_0.json    0.212500  0.52  0.55           0.53
+- ./fold_m1228v2c_summary_confidences_0.json    0.231667  0.54  0.56           0.55
+- ./fold_m1228v2p_summary_confidences_0.json    0.233333  0.55  0.57           0.55
+- ./fold_m1228v2q_summary_confidences_0.json    0.240000  0.56  0.57           0.56
+- ./fold_m1228v2j_summary_confidences_0.json    0.225833  0.56  0.58           0.56
+- R4 ./fold_m1228v2l_summary_confidences_0.json    0.253333  0.58  0.59           0.58
+- R3 ./fold_m1228v2o_summary_confidences_0.json    0.256667  0.60  0.62           0.60
+- R2 ./fold_m1228v2h_summary_confidences_0.json    0.270000  0.60  0.61           0.60
+- R1 ./fold_m1228v2r_summary_confidences_0.json    0.249167  0.61  0.63           0.62
+
+
+
+
 ## Wednesday: 3 targets
 ## * protein heterooligomer :: assembly only
 ## * protein heterooligomer :: assembly only
