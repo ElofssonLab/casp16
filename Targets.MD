@@ -183,6 +183,11 @@ Run more examples
 - ./fold_t1210d_summary_confidences_0.json         NaN   NaN  0.87           0.89
 
 
+# ++ T2210 
+## 66. 	T2210 	All groups 	1770 	A1 	- 	Q868N5
+Submitted default models for both.
+
+
 ## 19. 	M1211 	Prot-NucA 	282 	A2R1 	- 	CVB3 cloverleaf RNA in complex with 3C protease
 ## 20. 	R1211 	NucA 	90 	A1 	20243 cloverleaf RNA in complex with 3C protease
 This was first not allowed to run, but after JMs talk to DeepMind it was run.
@@ -640,7 +645,31 @@ bad)
  
 ## Thursday: 3 targets
 ## * protein monomer
-## ++ T2210
+## 64. 	H1217 * 	All groups 	2939 	A1B1C1D1E1F1 AcP10_eIF2B_complex
+
+My guess iof stoichimoetry was wrong (was more simple only one copy of
+each chain)
+
+- ./fold_h1217h_summary_confidences_0.json    0.486667  0.62  0.64           0.68
+- ./fold_h1217c_summary_confidences_0.json    0.490000  0.62  0.65           0.68
+- ./fold_h1217b_summary_confidences_0.json    0.481667  0.62  0.64           0.68
+- ./fold_h1217i_summary_confidences_0.json    0.485000  0.62  0.65           0.68
+- ./fold_h1217e_summary_confidences_0.json    0.495000  0.63  0.65           0.69
+
+## 65. 	T1231 	All groups 	142 	A1 		A0A0E4G3H6
+
+
+Default af3 
+
+Manual predictions  Seeems a bit too easy
+
+- ./fold_t1231f_summary_confidences_0.json         NaN   NaN  0.87           0.87
+- ./fold_t1231b_summary_confidences_0.json         NaN   NaN  0.89           0.89
+- ./fold_t1231_summary_confidences_0.json          NaN   NaN  0.89           0.89
+- ./fold_t1231j_summary_confidences_0.json         NaN   NaN  0.89           0.89
+- ./fold_t1231i_summary_confidences_0.json         NaN   NaN  0.90           0.90
+
+	
 
 
  
