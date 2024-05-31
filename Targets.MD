@@ -321,6 +321,15 @@ Run more trimers. Pick the best
 
 ## +,CAPRI protein homooligomer T1218
 
+Should be a dimer. Rerun
+
+./fold_t1218e_summary_confidences_0.json        0.34  0.34  0.41           0.38
+./fold_t1218_summary_confidences_0.json         0.33  0.33  0.42           0.38
+./fold_t1218g_summary_confidences_0.json        0.34  0.34  0.42           0.39
+./fold_t1218i_summary_confidences_0.json        0.35  0.35  0.42           0.40
+./fold_t1218j_summary_confidences_0.json        0.35  0.35  0.43           0.40
+
+
 
 ## 32. 	T1219 	All groups 	32 	A1 		Only MODEL2/QMODE3  HD6 uniprot Q01524
 Standard AF3 models
@@ -335,6 +344,11 @@ RUN more ? But they all look the same..
 - ./fold_t1219g_summary_confidences_0.json                NaN   NaN  0.62           0.62
 - ./fold_t1219f_summary_confidences_0.json                NaN   NaN  0.63           0.63
 
+
+
+## ++ T2219
+## 70. 	T2219 	All groups 	32 	A1  	- 	HD6 uniprot Q01524 
+standard submission
 
 
 
@@ -470,7 +484,9 @@ Visual analysis clearly shows it is a 1-5 subunit run more versions
 - R1 ./fold_h0227_one_five_d_summary_confidences_0.json    0.440000  0.55  0.56           0.57
 - R5 ./fold_h0227_one_four_summary_confidences_0.json      0.466000  0.58   0.60           0.60  Submit as Model 5 just as a backup (do not trust it)
 
+### It should be a hexamer but too big for af3 to run
 
+Trying to write a script to merge them..
 
 
 ## * RNA
@@ -642,8 +658,7 @@ bad)
 - targets/R1242/fold_r1242e_summary_confidences_0...         NaN   NaN  0.47           0.47
 - targets/R1242/fold_r1242_summary_confidences_0....         NaN   NaN  0.48           0.48
 
- 
-## Thursday: 3 targets
+ ## Thursday: 3 targets
 ## * protein monomer
 ## 64. 	H1217 * 	All groups 	2939 	A1B1C1D1E1F1 AcP10_eIF2B_complex
 
@@ -675,5 +690,43 @@ Manual predictions  Seeems a bit too easy
  
 ## Friday: 4 targets
 ## * protein heterooligomer :: assembly only
+##  67. 	H0232 	All groups 	462 	UNK   	- 	Human astrovirus 2 capsid spike - antibody scFv 4B6 complex 
+
+for af3-server dimer is clearly best but still bad will submit some
+mix of models
+
+- fold_h0232_dimer_summary_confiden...    0.230000  0.36  0.50           0.40
+- fold_h0232_dimer_summary_confiden...    0.220000  0.35  0.50           0.40
+- fold_h0232_dimer_summary_confiden...    0.225000  0.35  0.49           0.40
+- fold_h0232_dimer_summary_confiden...    0.230000  0.36  0.50           0.40
+- fold_h0232_dimer_summary_confiden...    0.220000  0.36  0.50           0.40
+
+Manual 
+
+A one-two coupling os clear better
+./fold_h0232_two_one_summary_confidences_0.json     0.363333  0.48
+0.63           0.53
+
+
+Manual submit as R4 and R4 dimers and momomres the rest top ranked two-one
+- ./fold_h0232_two_one_e_summary_confidences_0.json    0.360000  0.48  0.63           0.53
+- ./fold_h0232_two_one_b_summary_confidences_0.json    0.380000  0.49  0.64           0.53
+- ./fold_h0232_two_one_c_summary_confidences_0.json    0.363333  0.49  0.64           0.53
+- ./fold_h0232_two_one_summary_confidences_0.json      0.363333  0.48  0.63           0.53
+- ./fold_h0232_two_one_d_summary_confidences_0.json    0.363333  0.48  0.63           0.53
+
+
 ## * RNA
-## ++ T2219
+## 68. 	R1248 	NucA 	407 	R1 	- 	GOLLD 3primedomain env46 ##
+
+AF3 standard
+
+All models bad
+
+- ./fold_r1248_e_summary_confidences_0.json         NaN   NaN  0.21     0.21
+- ./fold_r1248_c_summary_confidences_0.json         NaN   NaN  0.21     0.21
+- ./fold_r1248_f_summary_confidences_0.json         NaN   NaN  0.22     0.22
+- ./fold_r1248_b_summary_confidences_0.json         NaN   NaN  0.22     0.22
+- ./fold_r1248_summary_confidences_0.json           NaN   NaN  0.22   0.22 
+  
+  
