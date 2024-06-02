@@ -486,8 +486,16 @@ Visual analysis clearly shows it is a 1-5 subunit run more versions
 
 ### It should be a hexamer but too big for af3 to run
 
-Trying to write a script to merge them..
+Trying to write a script to merge them.. DONE
+First set of mergin gave clearly the best scores for model_2-fix.pdb
+Much nicer models when using Ctermina hexamer (building2.bash)
 
+Submitted:
+- fold_h0227_cut2_hexamer_model_0-fold_h0227cterminal_model_0-elofsson.pdb
+- fold_h0227_cut2_hexamer_c_model_0-fold_h0227cterminal_model_0-elofsson.pdb
+- fold_h0227_cut2_hexamer_b_model_0-fold_h0227cterminal_model_0-elofsson.pdb
+- fold_h0227_cut2_hexamer_b_model_1-fold_h0227cterminal_model_0-elofsson.pdb
+- fold_h0227_cut2_hexamer_model_1-fold_h0227cterminal_model_0-elofsson.pdb
 
 ## * RNA
 ##4. 	R1241 	NucA 	480 	A1 	2024-05-27 	2024-05-30 	2024-06-10 	2024-06-10 	- 	group II intron 
