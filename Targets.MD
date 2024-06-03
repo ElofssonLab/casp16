@@ -679,10 +679,23 @@ each chain)
 - ./fold_h1217i_summary_confidences_0.json    0.485000  0.62  0.65           0.68
 - ./fold_h1217e_summary_confidences_0.json    0.495000  0.63  0.65           0.69
 
+## . A correction to the stoichiometry of H1217. The target was
+released last week as A1B1C1D1E1F1 complex, but in fact it is a
+decamer of eIF2B with two copies of the viral protein bound. We have
+adjusted the stoichiometry for this target on the website and also
+reopened server prediction until Jun 6 (will be sending a new modeling
+query to the registered servers shortly). 
+
+
+Too big to rerun - will run as parts for manual predictions - keep as
+monomers for AF3-SERVER
+
+
+
 ## 65. 	T1231 	All groups 	142 	A1 		A0A0E4G3H6
 
 
-Default af3 
+Default af3
 
 Manual predictions  Seeems a bit too easy
 
@@ -738,3 +751,91 @@ All models bad
 - ./fold_r1248_summary_confidences_0.json           NaN   NaN  0.22   0.22 
   
   
+
+
+# 2. This week we plan to release 18 targets. Eleven of these will be new, including one that is conceptually new (RNA with the solvent shell).
+
+## Monday: 4 targets
+
+## * protein heterooligomer :: assembly only
+## 71. 	H0233 	All groups 	658 	UNK 	Human astrovirus 1 capsid spike - antibody Fab 3H4 complex 
+
+Best scores with monomer 
+
+- ./fold_h0233_trimer_summary_confidences_0.json      0.208889  0.32  0.37           0.33
+- ./fold_h0233_tetramer_summary_confidences_0.json    0.199167  0.35  0.39           0.36
+- ./fold_h0233_dimer_summary_confidences_0.json       0.700000  0.79  0.82           0.79
+- ./fold_h0233_summary_confidences_0.json             0.826667  0.84  0.83           0.83
+
+But chain A is clearly interacting with itself (but only one copy)
+Even with rerun it is best - but will submit two alternative as model
+4 and 5
+
+/fold_h0233_twooneone_summary_confidences_0.json     0.322500  0.37  0.50           0.40
+./fold_h0233_dimer_b_summary_confidences_0.json       0.673333  0.75  0.79           0.76
+./fold_h0233_dimer_summary_confidences_0.json         0.700000  0.79  0.82           0.79
+./fold_h0233e_summary_confidences_0.json              0.823333  0.82  0.81           0.82
+./fold_h0233_summary_confidences_0.json               0.826667  0.84  0.83           0.83
+./fold_h0233c_summary_confidences_0.json              0.836667  0.84  0.82           0.83
+./fold_h0233b_summary_confidences_0.json              0.833333  0.84  0.84           0.84
+./fold_h0233d_summary_confidences_0.json              0.833333  0.84  0.84           0.84
+
+
+
+## * RNA
+## 73. 	R1255 	NucA 	124 	A1 		SL5 SARS-CoV-2: rotated junction 
+
+Standard af3 low quality scores. 
+For manual will run more targets
+
+Manual selections
+- ./fold_r1255b_summary_confidences_0.json         NaN   NaN  0.32           0.32
+- ./fold_r1255d_summary_confidences_0.json         NaN   NaN  0.32           0.32
+- ./fold_r1255c_summary_confidences_0.json         NaN   NaN  0.32           0.32
+- ./fold_r1255_summary_confidences_0.json          NaN   NaN  0.32           0.32
+- ./fold_r1255f_summary_confidences_0.json         NaN   NaN  0.34           0.34
+
+
+## +,CAPRI H1220
+## 72. 	H1220 * 	All groups 	1912 	A1B4 from:  	BoDV-1 Replication complex
+
+Earlier versions had different stoichimetries with
+variations. Submitted A1B4 but not as top ranked model.
+
+Submittesd standard AF3 and will rerun more for manual
+
+- ./fold_h1220j_summary_confidences_0.json       0.352  0.57  0.69           0.71
+- ./fold_h1220f_summary_confidences_0.json       0.330  0.54  0.68           0.71
+- ./fold_h1220h_summary_confidences_0.json       0.322  0.55  0.68           0.72
+- ./fold_h1220d_summary_confidences_0.json       0.330  0.55  0.69           0.73
+- ./fold_h1220c_summary_confidences_0.json       0.370  0.58  0.70           0.73
+
+
+
+## ++,CAPRI T2206
+## 75. 	T2206 * 	All groups 	237 	A2 	-17 	- 	Porcine astrovirus 4 capsid spike 
+
+Just resubmission of models - good models so no reason to run extra
+
+
+## Tuesday: 4 targets
+## * two homooligomers
+## * protein heterooligomer :: assembly only
+## ++,CAPRI H2208
+
+## Wednesday: 4 targets
+## * protein homooligomer
+## * RNA
+## +,CAPRI H1222
+## ++,CAPRI H2215
+
+## Thursday: 3 targets
+## * protein homooligomer
+## *,CAPRI hybrid complex similar to M1228 - see Additional Information on the target-specific page.
+## +,CAPRI H1223
+
+## Friday: 4 targets
+## * protein homooligomer
+## +,CAPRI H1225
+## ++ T2226
+## * an ensemble of conformations for an RNA with the solvent shell. The structure of the local solvent shell (water and ions) will be compared against cryo-EM data. More details will be provided with the target release.
