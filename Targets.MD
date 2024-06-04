@@ -116,6 +116,11 @@ Tried other stoichiometries but all gave lower scores
 Submitted new models
 - H0208/fold_h1208_summary_confidences_2....    0.930000  ...           0.96
 
+## ++,CAPRI H2208
+## 77. 	H2208 * 	All groups 	646 	A1B1	- 	dahAB
+submitted new models again
+
+- ./fold_h2208_summary_confidences_0.json        0.91  0.91  0.9           0.95
 
 
 ## 15. 	H0215 	All groups 	369 	Unk 	- 	mNeonGreen with bound nanobody
@@ -843,7 +848,7 @@ Manual selections
 Earlier versions had different stoichimetries with
 variations. Submitted A1B4 but not as top ranked model.
 
-Submittesd standard AF3 and will rerun more for manual
+Submitted standard AF3 and will rerun more for manual
 
 - ./fold_h1220j_summary_confidences_0.json       0.352  0.57  0.69           0.71
 - ./fold_h1220f_summary_confidences_0.json       0.330  0.54  0.68           0.71
@@ -861,8 +866,67 @@ Just resubmission of models - good models so no reason to run extra
 
 ## Tuesday: 4 targets
 ## * two homooligomers
+## 78. 	T0234 * 	All groups 	413 	UNK 	- 	YP_010355913.1
+
+Clearly highest score for monomer
+
+- ./fold_t0234_trimer_summary_confidences_0.json      0.240000  0.27  0.47           0.33
+-  ./fold_t0234_dimer_summary_confidences_0.json       0.420000  0.42  0.58           0.48
+- ./fold_t0234_summary_confidences_0.json                  NaN   NaN 0.86           0.89
+  
+  Rerun monomers for manual prediction
+-   ./fold_t0234e_summary_confidences_0.json                 NaN   NaN  0.86           0.89
+- ./fold_t0234_summary_confidences_0.json                  NaN   NaN  0.86           0.89
+- ./fold_t0234d_summary_confidences_0.json                 NaN   NaN  0.86           0.90
+- ./fold_t0234c_summary_confidences_0.json                 NaN   NaN  0.86           0.90
+- ./fold_t0234f_summary_confidences_0.json                 NaN   NaN  0.86           0.90
+  
+
+## 79. 	T0235 * 	All groups 	115 	UNK 	- 	A0A410N6V5.2 
+
+Run up to dodecamer.  Similar scores with 1,5,7 subunits
+- ./fold_t0235_dodecamer_summary_confidences_0.json     0.273333  0.49  0.53           0.56
+- ./fold_t0235_octamer_summary_confidences_0.json       0.475000  0.63  0.66           0.63
+- ./fold_t0235_heptameter_summary_confidences_0.json    0.674286  0.80  0.82           0.80
+- ./fold_t0235_hexameter_summary_confidences_0.json     0.760000  0.85  0.87           0.86
+- ./fold_t0235_pentamer_summary_confidences_0.json      0.796000  0.87  0.88           0.87
+- ./fold_t0235_summary_confidences_0.json                    NaN   Nan 0.84
+  
+  For AF3 submit 5 best stoichiometries
+  
+ For manual run some more options. Still monomer best, but my guess is
+ pentamer so I choose this first. 
+ 
+-  ./fold_t0235_pentamer_c_summary_confidences_0.json    0.790000  0.86  0.88           0.86
+- ./fold_t0235_hexameter_summary_confidences_0.json     0.760000  0.85  0.87           0.86
+
+- ./fold_t0235_pentamer_summary_confidences_0.json      0.796000  0.87  0.88           0.87
+- ./fold_t0235_b_summary_confidences_0.json                  NaN   NaN  0.84           0.89
+- ./fold_t0235_c_summary_confidences_0.json                  NaN   NaN  0.84           0.90
+- ./fold_t0235_hexameter_c_summary_confidences_0....    0.770000  0.87  0.88           0.87
+- ./fold_t0235_pentamer_b_summary_confidences_0.json    0.790000  0.86  0.88           0.87
+  
+
+
 ## * protein heterooligomer :: assembly only
-## ++,CAPRI H2208
+
+## 76. 	H0236 * 	All groups 	528 	UNK 	- 	Haloferax tailed virus 1
+
+Clearly best scores for trimer - but not interaction of chain B
+
+- ./fold_h0236_dimer_b_summary_confidences_0.json      0.17000  0.17  0.43           0.27
+- ./fold_h0236_dimer_summary_confidences_0.json        0.16250  0.17  0.43           0.27
+- ./fold_h0236_summary_confidences_0.json              0.14000  0.14  0.70           0.27
+- ./fold_h0236_tetramer_summary_confidences_0.json     0.16375  0.33  0.45           0.37
+- ./fold_h0236_trimer_summary_confidences_0.json       0.36500  0.68  0.74           0.73
+
+
+Also ThreeSix makes ok prediction. Submit a mix as elofsson
+./fold_h0236_threesix_summary_confidences_0.json      0.388889  0.61  0.68           0.67
+./fold_h0236_threesix_b_summary_confidences_0.json    0.387778  0.63  0.69           0.69
+./fold_h0236_trimer_b_summary_confidences_0.json      0.336667  0.64  0.71           0.70
+./fold_h0236_trimer_c_summary_confidences_0.json      0.326667  0.66  0.72           0.72
+./fold_h0236_trimer_summary_confidences_0.json        0.365000  0.68  0.74           0.73
 
 ## Wednesday: 4 targets
 ## * protein homooligomer
