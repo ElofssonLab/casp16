@@ -687,10 +687,11 @@ reopened server prediction until Jun 6 (will be sending a new modeling
 query to the registered servers shortly). 
 
 
-Too big to rerun - will run as parts for manual predictions - keep as
-monomers for AF3-SERVER
+Too big to rerun - will run as parts for manual predictions - 
 
-For AF3-server - best model is dimer without F - just add a dimer of F fareway
+For AF3-server - best model is dimer without F - just add a dimer of F fareway as it has no predicted contacts with the rest.
+
+
 - fold_h1217_dimer_d_f_summary_conf...    0.374444  0.57  0.59           0.63
 - fold_h1217_summary_confidences_0....    0.476667  0.61  0.64           0.67
 - fold_h1217e_summary_confidences_0...    0.495000  0.63  0.65           0.69
@@ -699,6 +700,38 @@ For AF3-server - best model is dimer without F - just add a dimer of F fareway
 
 
 For manual predictions tried to make a model without disorder but it is worse
+
+Merging the AF with the dimer_d-f works well. Will generate more models and try to pick the best
+
+- ./fold_h1217_dimer_a_e_nof_b_summary_confidence...    0.656000  0.77  0.78           0.84
+- ./fold_h1217_dimer_a_e_nof_d_summary_confidence...    0.656000  0.77  0.78           0.84
+- ./fold_h1217_dimer_a_e_nof_e_summary_confidence...    0.656000  0.77  0.78           0.84
+- ./fold_h1217_dimer_a_e_nof_f_summary_confidence...    0.656000  0.77  0.78           0.84
+- ./fold_h1217_dimer_a_e_nof_g_summary_confidence...    0.656000  0.77  0.78           0.84
+- ./fold_h1217_dimer_a_e_nof_summary_confidences_...    0.656000  0.77  0.78           0.84
+- ./fold_h1217_dimer_a_e_nof_c_summary_confidence...    0.656000  0.77  0.78           0.84
+
+./fold_h1217_dimer_d_f_e_summary_confidences_0....    0.368889  0.56  0.59           0.63
+./fold_h1217_dimer_d_f_f_summary_confidences_0....    0.368889  0.57  0.59           0.63
+./fold_h1217_dimer_d_f_summary_confidences_0.json     0.374444  0.57  0.59           0.63
+./fold_h1217_dimer_d_f_c_summary_confidences_0....    0.377778  0.58  0.60           0.64
+./fold_h1217_dimer_d_f_b_summary_confidences_0....    0.374444  0.57  0.59           0.64
+./fold_h1217_dimer_d_f_g_summary_confidences_0....    0.374444  0.57  0.59           0.64
+
+
+The K and L chains are all over- No real consensus where they are. Mainly not overlapping
+
+pick five from
+
+- fold_h1217_dimer_a_e_nof_c_model_0_fold_h1217_dimer_d_f_b_model_0.pdb
+- fold_h1217_dimer_a_e_nof_c_model_0_fold_h1217_dimer_d_f_f_model_0.pdb
+- fold_h1217_dimer_a_e_nof_c_model_0_fold_h1217_dimer_d_f_e_model_0.pdb
+- fold_h1217_dimer_a_e_nof_c_model_0_fold_h1217_dimer_d_f_model_0.pdb
+- fold_h1217_dimer_a_e_nof_c_model_0_fold_h1217_dimer_d_f_g_model_0.pdb
+
+Skip fold_h1217_dimer_a_e_nof_c_model_0_fold_h1217_dimer_d_f_c_model_0.pdb (as it is similar to _g_)
+
+
 
 ## 65. 	T1231 	All groups 	142 	A1 		A0A0E4G3H6
 
