@@ -690,7 +690,15 @@ query to the registered servers shortly).
 Too big to rerun - will run as parts for manual predictions - keep as
 monomers for AF3-SERVER
 
+For AF3-server - best model is dimer without F - just add a dimer of F fareway
+- fold_h1217_dimer_d_f_summary_conf...    0.374444  0.57  0.59           0.63
+- fold_h1217_summary_confidences_0....    0.476667  0.61  0.64           0.67
+- fold_h1217e_summary_confidences_0...    0.495000  0.63  0.65           0.69
+- fold_h1217_dimer_a_d_summary_conf...    0.519000  0.70  0.71           0.76
+- fold_h1217_dimer_a_e_nof_summary_...    0.656000  0.77  0.78           0.84
 
+
+For manual predictions tried to make a model without disorder but it is worse
 
 ## 65. 	T1231 	All groups 	142 	A1 		A0A0E4G3H6
 
