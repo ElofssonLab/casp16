@@ -167,7 +167,15 @@ Selected these:
 - ./fold_h1215_summary_confidences_1.json         0.15  0.15  0.60           0.26
 - ./fold_h1215_summary_confidences_0.json         0.17  0.17  0.60           0.27
 
+## ++,CAPRI H2215
+## 81. 	H2215 * 	All groups 	369 	A1B1 	 	- 	mNeonGreen with bound nanobody 10N6V5.2
 
+Quite big improvement in this round of submissions
+- ./fold_h2215d_summary_confidences_0.json        0.13  0.13  0.60 0.24
+- ./fold_h1215_summary_confidences_0.json         0.17  0.17  0.60           0.27
+- ./fold_h2215b_summary_confidences_0.json        0.21  0.21  0.63           0.30
+- ./fold_h2215e_summary_confidences_0.json        0.31  0.31  0.66           0.39
+- ./fold_h2215_summary_confidences_0.json         0.39  0.39  0.69           0.46
 
 
 ## 16. 	M1209 	Prot-NucA 	520 	A122 	- 	FAB - HIV-I RRE stem loop II
@@ -930,9 +938,68 @@ Also ThreeSix makes ok prediction. Submit a mix as elofsson
 
 ## Wednesday: 4 targets
 ## * protein homooligomer
+## 83. 	T0237 	All groups 	488 	UNK 	 	- 	Bd3071 
+
+Tetramer is best
+in_iptm  iptm   ptm  ranking_score
+./fold_t0237_hexamer_summary_confidences_0.json     0.470000  0.43  0.47           0.46
+./fold_t0237_pentamer_summary_confidences_0.json    0.422000  0.57  0.63           0.61
+./fold_t0237_dimer_summary_confidences_0.json       0.570000  0.57  0.68           0.62
+./fold_t0237_summary_confidences_0.json                  NaN   NaN  0.81           0.83
+./fold_t0237_trimer_summary_confidences_0.json      0.763333  0.81  0.83           0.84
+./fold_t0237_tetramer_summary_confidences_0.json    0.830000  0.88 0.89           0.91
+
+
+Will run some more tetra and trimers for manual predictions, clearly
+tetraers are best
+- ./fold_t0237_tetramer_e_summary_confidences_0.json    0.830000  0.88  0.89           0.91
+- ./fold_t0237_tetramer_h_summary_confidences_0.json    0.830000  0.88  0.89           0.91
+- ./fold_t0237_tetramer_d_summary_confidences_0.json    0.830000  0.88  0.89           0.91
+- ./fold_t0237_tetramer_i_summary_confidences_0.json    0.850000  0.89  0.90           0.92
+- ./fold_t0237_tetramer_f_summary_confidences_0.json    0.842500  0.89  0.90           0.92
+
+
+
+
+
 ## * RNA
+## 82. 	R1256 	NucA 	127 	A1 	 	- 	SL5 Bt-CoV-HKU5: SL5c truncated 
+
+Low scores
+
+- ./fold_r1256_summary_confidences_2.json         NaN   NaN  0.22           0.22
+- ./fold_r1256_summary_confidences_3.json         NaN   NaN  0.22           0.22
+- ./fold_r1256_summary_confidences_4.json         NaN   NaN  0.22           0.22
+- ./fold_r1256_summary_confidences_0.json         NaN   NaN  0.23           0.23
+- ./fold_r1256_summary_confidences_1.json         NaN   NaN  0.23           0.23
+
+Reruning manual - but all bad
+
+- ./fold_r1256_i_summary_confidences_0.json         NaN   NaN  0.23           0.23
+- ./fold_r1256_g_summary_confidences_0.json         NaN   NaN  0.24           0.24
+- ./fold_r1256_f_summary_confidences_0.json         NaN   NaN  0.24           0.24
+- ./fold_r1256_d_summary_confidences_0.json         NaN   NaN  0.24           0.24
+- ./fold_r1256_h_summary_confidences_0.json         NaN   NaN  0.24           0.24
+
+
+
 ## +,CAPRI H1222
-## ++,CAPRI H2215
+## 80. 	H1222 * 	All groups 	485 	A1B1C1 	 	RSV G - Fab 2B11 complex
+- ./fold_h1222_summary_confidences_4.json    0.443333  0.71  0.74           0.75
+- ./fold_h1222_summary_confidences_1.json    0.466667  0.72  0.75           0.76
+- ./fold_h1222_summary_confidences_3.json    0.440000  0.71  0.75           0.76
+- ./fold_h1222_summary_confidences_2.json    0.436667  0.71  0.75           0.76
+- ./fold_h1222_summary_confidences_0.json    0.466667  0.72  0.75           0.77
+
+Runinig some more, some improvement in score similar binding modes but
+one strand is pointing in a different direction
+
+- ./fold_h1222h_summary_confidences_0.json    0.440000  0.72  0.76           0.76
+- ./fold_h1222_summary_confidences_0.json     0.466667  0.72  0.75           0.77
+- ./fold_h1222g_summary_confidences_0.json    0.576667  0.75  0.77           0.79
+- ./fold_h1222b_summary_confidences_0.json    0.703333  0.78  0.79           0.82
+- ./fold_h1222e_summary_confidences_0.json    0.710000  0.79  0.80           0.83
+
 
 ## Thursday: 3 targets
 ## * protein homooligomer
