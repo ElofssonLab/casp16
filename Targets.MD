@@ -1002,9 +1002,77 @@ one strand is pointing in a different direction
 
 
 ## Thursday: 3 targets
-## * protein homooligomer
-## *,CAPRI hybrid complex similar to M1228 - see Additional Information on the target-specific page.
+
+
+
 ## +,CAPRI H1223
+## 84. 	H1223 * 	All groups 	486 	A1B1C1 	 	RSV G - Fab 1G8 complex
+
+af3 submitted standard model'
+
+Manual run multiple timed gets the antigen peptide binding in
+different poses. Picks the top ones
+
+- ./fold_h1223_c_summary_confidences_0.json    0.403333  0.75  0.79           0.80
+- ./fold_h1223_h_summary_confidences_0.json    0.403333  0.76  0.80           0.80
+- ./fold_h1223_summary_confidences_0.json      0.443333  0.78  0.81           0.81
+- ./fold_h1223_f_summary_confidences_0.json    0.373333  0.77  0.81           0.81
+- ./fold_h1223_j_summary_confidences_0.json    0.386667  0.78  0.82 0.82
+
+
+## * protein homooligomer 
+## 87. 	T0238 	All groups 	327 	UNK 		- 	Bd2098
+
+Best scores with monomer - but clearly dimers have a OK signal
+
+ranking_score
+- ./fold_t0238_pentamer_summary_confidences_0.json    0.120000  0.19  0.26           0.23
+- ./fold_t0238_hexamer_summary_confidences_0.json     0.143333  0.23  0.30           0.24
+- ./fold_t0238_tetramer_summary_confidences_0.json    0.200000  0.26  0.35           0.28
+- ./fold_t0238_trimer_summary_confidences_0.json      0.283333  0.28  0.40           0.31
+- ./fold_t0238_dimer_summary_confidences_0.json       0.560000  0.56  0.61           0.57
+- ./fold_t0238_summary_confidences_0.json                  NaN   NaN   0.64           0.64
+  
+  Running a bit extas still monomer is best, but I do belice in
+  dimer. Pickst the following 
+-  ./fold_t0238_trimer_summary_confidences_0.json      0.283333  0.28  0.40           0.31
+- ./fold_t0238_dimer_summary_confidences_0.json       0.560000  0.56  0.61           0.57
+- ./fold_t0238_summary_confidences_0.json                  NaN   NaN  0.64           0.64
+- ./fold_t0238_b_summary_confidences_0.json                NaN   NaN  0.65           0.65
+- ./fold_t0238_dimer_c_summary_confidences_0.json     0.580000  0.58  0.61           0.58
+
+## *,CAPRI hybrid complex similar to M1228 - see Additional Information on the target-specific page.
+## 85. 	M1239v1 * 	Prot-NucA 	738 	A4B2C2D2E2 	 	- 	SPbeta_intRDF_DNA
+## 86. 	M1239v2 * 	Prot-NucA 	738 	A4B2C2D2E2 	 	- 	SPbeta_intRDF_DNA
+## 88. 	T1239v1 	All groups 	620  	Only MODEL2/QMODE3 SPbeta_intRDF_DNA  protein subunit of M1239v1
+## 89. 	T1239v2 	All groups 	620 	A1 	SPbeta_intRDF_DNA protein subunit of M1239v2
+
+Same target as T1228  but with extra fused protein.
+Run it twice (v1 and v2) similar scores but look differnt. Submit them
+for af3
+- ./fold_m1239v1_summary_confidences_0.json       0.095  0.30  0.39           0.34
+- ./fold_m1239v2_summary_confidences_0.json       0.097  0.31  0.39           0.35
+
+Run 10 more models for manual predictions selet the two best ones (and
+the ones that are most similar to them
+
+
+
+Clusters M1239v1:
+- ./fold_m1239v1_summary_confidences_0.json       0.095  0.30  0.39           0.34
+- ./fold_m1239_p_summary_confidences_0.json       0.096  0.30  0.39           0.34
+- ./fold_m1239_j_summary_confidences_0.json       0.093  0.33  0.40           0.35
+- ./fold_m1239_b_summary_confidences_0.json       0.102  0.33  0.43           0.37
+- ./fold_m1239_r_summary_confidences_0.json       0.096  0.33  0.41 0.37
+
+M1239v2
+- ./fold_m1239v2_summary_confidences_0.json       0.097  0.31  0.39           0.35
+- ./fold_m1239_t_summary_confidences_0.json       0.111  0.33  0.42           0.36
+- ./fold_m1239_d_summary_confidences_0.json       0.100  0.32  0.41           0.36
+- ./fold_m1239_k_summary_confidences_0.json       0.102  0.35  0.42           0.38 
+- ./fold_m1239_g_summary_confidences_0.json       0.112  0.38  0.45           0.41
+- ./fold_m1239_l_summary_confidences_0.json       0.115  0.38  0.45 0.41
+
 
 ## Friday: 4 targets
 ## * protein homooligomer
