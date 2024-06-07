@@ -624,6 +624,24 @@ v2: Outliers d,h and s  (d,s similar but swapped places of chains)
 - R2 ./fold_m1228v2h_summary_confidences_0.json    0.270000  0.60  0.61           0.60
 - R1 ./fold_m1228v2r_summary_confidences_0.json    0.249167  0.61  0.63           0.62
 
+June 7 - reclustering and considering (only top 5 for each clluster shown)
+
+
+  
+Cluster v1  
+- ./fold_m1228v1_summary_confidences_0.json      0.209167  0.50  0.52           0.50 
+- ./fold_m1228v1h_summary_confidences_0.json     0.252500  0.55  0.57           0.56 
+- ./fold_m1228v1o_summary_confidences_0.json     0.241667  0.55  0.57           0.56 
+- ./fold_m1228v1n_summary_confidences_0.json     0.264167  0.58  0.60           0.59 
+- ./fold_m1228v2h_summary_confidences_0.json     0.270000  0.60  0.61           0.60
+
+
+Cluster v2
+- ./fold_m1228v1t_summary_confidences_0.json     0.241667  0.57  0.59           0.57 
+- ./fold_m1228v1r_summary_confidences_0.json     0.243333  0.58  0.59           0.58 
+- ./fold_m1228v2l_summary_confidences_0.json     0.253333  0.58  0.59           0.58 
+- ./fold_m1228v2o_summary_confidences_0.json     0.256667  0.60  0.62   0.60 
+- ./fold_m1228v2r_summary_confidences_0.json     0.249167  0.61  0.63           0.62
 
 
 
