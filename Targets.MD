@@ -527,6 +527,15 @@ Submitted:
 - fold_h0227_cut2_hexamer_b_model_1-fold_h0227cterminal_model_0-elofsson.pdb
 - fold_h0227_cut2_hexamer_model_1-fold_h0227cterminal_model_0-elofsson.pdb
 
+
+## 95. 	H1227 * 	All groups 	1304 	A1B6	LetA (P0AD03) and LetB(P76272) 
+## 98. 	T1227s1 	All groups 	427 	A1 6-24 	- 	LetA (P0AD03) and LetB (P76272)  
+ Made a new cut for AF3-server just submit the five models
+
+Submit the H0227 model for manual
+
+
+
 ## * RNA
 ##4. 	R1241 	NucA 	480 	A1 	2024-05-27 	2024-05-30 	2024-06-10 	2024-06-10 	- 	group II intron 
                                          chain_iptm  iptm   ptm  ranking_score
@@ -571,6 +580,42 @@ scilifelab.se account
 - ./fold_t1249v2_e_summary_confidences_0.json        0.44  0.48  0.56        0.54
 - ./fold_t1249v2_d_summary_confidences_0.json        0.44  0.48  0.56        0.54
 
+## 100. 	T2249v1 	All groups 	488 	A3 		- 	Arenaviral spike complex
+## 101. 	T2249v2 	All groups 	488 	A3 		- 	Arenaviral spike complex
+
+af3 Just submit the same
+
+Manual clustering (did not do that before)
+- ./fold_t1249v2_b_summary_confidences_0.json    0.280000  0.31  0.43           0.36
+- ./fold_t1249v1_k_summary_confidences_0.json    0.316667  0.35  0.46           0.40
+- ./fold_t1249v2_i_summary_confidences_0.json    0.330000  0.36  0.47           0.41
+- ./fold_t1249v1_j_summary_confidences_0.json    0.330000  0.37  0.48           0.42
+- ./fold_t1249v2_f_summary_confidences_0.json    0.350000  0.39  0.49           0.43
+- ./fold_t1249v1_c_summary_confidences_0.json    0.356667  0.39  0.49           0.43
+- ./fold_t1249v1_g_summary_confidences_0.json    0.350000  0.38  0.49           0.44
+- ./fold_t1249v2_summary_confidences_0.json      0.340000  0.38  0.48           0.44
+- ./fold_t1249v1_b_summary_confidences_0.json    0.380000  0.41  0.50           0.45
+- ./fold_t1249v2_g_summary_confidences_0.json    0.370000  0.41  0.51           0.46
+
+- ./fold_t1249v2_j_summary_confidences_0.json    0.430000  0.48  0.56           0.53
+
+
+
+### Cluster v2
+- ./fold_t1249v2_c_summary_confidences_0.json    0.380000  0.41  0.50           0.46 
+- ./fold_t1249v1_summary_confidences_0.json      0.396667  0.43  0.52           0.47 
+- ./fold_t1249v2_h_summary_confidences_0.json    0.410000  0.45  0.53 0.49
+- ./fold_t1249v2_d_summary_confidences_0.json    0.440000  0.48  0.56           0.54 
+- ./fold_t1249v1_e_summary_confidences_0.json    0.450000  0.49  0.57  0.55
+
+
+
+### Cluster v1
+- ./fold_t1249v2_e_summary_confidences_0.json    0.440000  0.48  0.56           0.54 
+- ./fold_t1249v1_i_summary_confidences_0.json    0.446667  0.49  0.57           0.54 
+- ./fold_t1249v1_f_summary_confidences_0.json    0.456667  0.50  0.57           0.54 
+- ./fold_t1249v1_d_summary_confidences_0.json    0.450000  0.50  0.58 0.55
+- ./fold_t1249v1_h_summary_confidences_0.json    0.456667  0.50  0.57           0.57
 
 
 ## Tuesday: 2 targets
@@ -1154,3 +1199,62 @@ Conversion of ions did not work
 
 As this will be evaluated on the water shell I just submitted the same
 as a manual model
+
+
+## 94. 	H0244 	All groups 	425 	UNK 		BJCNb48
+## 96. 	T0244s1 	All groups 	157 	A1 6-24 	- 	BJCNb48
+## 97. 	T0244s2 	All groups 	129 	A1 6-24 	- 	BJCNb48
+
+
+Monomer highest score but dimer looks almost beter. Submits both as AF3
+
+- ./fold_h0244_hexamer_summary_confidences_0.json     0.058889  0.24  0.26           0.38
+- ./fold_h0244_pentamer_summary_confidences_0.json    0.063333  0.23  0.26           0.39
+- ./fold_h0244_tetramer_summary_confidences_0.json    0.098333  0.26  0.30           0.40
+- ./fold_h0244_trimer_summary_confidences_0.json      0.100000  0.24  0.29           0.41
+- ./fold_h0244_dimer_summary_confidences_0.json       0.220000  0.40  0.44           0.59
+- ./fold_h0244_summary_confidences_0.json             0.270000  0.41  0.49           0.63
+
+Some combinations give better scores 
+
+- ./fold_h0244_onetwotwo_summary_confidences_0.json    0.136000  0.28  0.36           0.54
+- ./fold_h0244_dimer_summary_confidences_0.json        0.220000  0.40  0.44           0.59
+- ./fold_h0244_summary_confidences_0.json              0.270000  0.41  0.49           0.63
+- ./fold_h0244_onetwoone_summary_confidences_0.json    0.262500  0.43  0.49           0.71
+- ./fold_h0244_twotwoone_summary_confidences_0.json    0.352000  0.51  0.53           0.75
+
+Run more models
+- ./fold_h0244_onetwoone_g_summary_confidences_0....    0.205000  0.35  0.44           0.63
+- ./fold_h0244_onetwoone_c_summary_confidences_0....    0.200000  0.35  0.44           0.63
+- ./fold_h0244_onetwoone_d_summary_confidences_0....    0.200000  0.35  0.44           0.64
+- ./fold_h0244_onetwoone_b_summary_confidences_0....    0.252500  0.38  0.46           0.67
+- ./fold_h0244_onetwoone_f_summary_confidences_0....    0.235000  0.39  0.47           0.70
+- ./fold_h0244_onetwoone_summary_confidences_0.json     0.262500  0.43  0.49           0.71 
+- ./fold_h0244_twotwoone_e_summary_confidences_0....    0.324000  0.47  0.51           0.72
+- ./fold_h0244_twotwoone_f_summary_confidences_0....    0.368000  0.51  0.54           0.73
+- ./fold_h0244_twotwoone_g_summary_confidences_0....    0.350000  0.50  0.53           0.73
+- ./fold_h0244_twotwoone_c_summary_confidences_0....    0.342000  0.49  0.52           0.74
+- ./fold_h0244_twotwoone_b_summary_confidences_0....    0.348000  0.50  0.52           0.75
+- ./fold_h0244_twotwoone_summary_confidences_0.json     0.352000  0.51  0.53           0.75
+- ./fold_h0244_twotwoone_d_summary_confidences_0....    0.348000  0.50  0.53           0.76 
+
+Clearly twtwoone is best but not convinced picks three alternatives
+
+- ./fold_h0244_dimer_summary_confidences_0.json        0.220000  0.40  0.44           0.59
+- ./fold_h0244_summary_confidences_0.json              0.270000  0.41  0.49           0.63
+- ./fold_h0244_onetwoone_summary_confidences_0.json     0.262500  0.43  0.49           0.71 
+- ./fold_h0244_twotwoone_summary_confidences_0.json     0.352000  0.51  0.53           0.75 
+- ./fold_h0244_twotwoone_d_summary_confidences_0....    0.348000  0.50  0.53           0.76 
+
+
+## 99. 	T1243 	All groups 	293 	A1 	202     MTMA3 (UNIPROT ID: P0CH91)
+
+Easy target - do a standard stuff
+
+- ./fold_t1243_g_summary_confidences_0.json         NaN   NaN  0.91           0.93
+- ./fold_t1243_summary_confidences_0.json           NaN   NaN  0.91           0.93
+- ./fold_t1243_e_summary_confidences_0.json         NaN   NaN  0.92           0.94
+- ./fold_t1243_c_summary_confidences_0.json         NaN   NaN  0.92           0.94
+- ./fold_t1243_f_summary_confidences_0.json         NaN   NaN  0.92 0.94
+
+
