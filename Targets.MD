@@ -476,6 +476,23 @@ Run five models for manual predictions
 - ./fold_t1226_summary_confidences_0.json          NaN   NaN  0.64           0.69
 - ./fold_t1226d_summary_confidences_0.json         NaN   NaN  0.66           0.71
 
+## ++ T2226
+## 93. 	T2226 	All groups 	123 	A1 	- 	TuAsV-2A3 (part of polyprotein) 
+
+
+
+
+AF3 submmitted new model
+
+Manual pick best of old and new with extra sampling
+
+
+./fold_t1226_summary_confidences_0.json          NaN   NaN  0.64           0.69
+./fold_t2226f_summary_confidences_0.json         NaN   NaN  0.64           0.70
+./fold_t2226b_summary_confidences_0.json         NaN   NaN  0.64           0.70
+./fold_t2226e_summary_confidences_0.json         NaN   NaN  0.64           0.70
+./fold_t1226d_summary_confidences_0.json         NaN   NaN  0.66           0.71
+
 # WEEK 5 (May 27)
 ## * protein heterooligomer and its subunit 1
 ## 5. 	H0227 	All groups 	1304 	UNK    	- 	LetA (P0AD03) and LetB (P76272) 
@@ -1094,6 +1111,46 @@ M1239v2
 
 ## Friday: 4 targets
 ## * protein homooligomer
+## 92. 	T0240 	All groups 	653 	UNK  	- 	Bd3442
+
+Af3-server
+Trimer is best but not best methods.
+
+- ./fold_t0240_pentamer_summary_confidences_0.json      0.2020  0.30  0.33         -99.60
+- ./fold_t0240_dimer_summary_confidences_0.json         0.3200  0.32  0.34           0.41
+- ./fold_t0240_tetramer_summary_confidences_0.json      0.3025  0.38  0.38           0.44
+- ./fold_t0240_summary_confidences_0.json                  NaN   NaN  0.37           0.47
+- ./fold_t0240_trimer_summary_confidences_0.json        0.3700  0.42 0.42           0.50
+
+Manual predictions are less clear - just pick the top ranked ones
+- ./fold_t0240trimer_d_summary_confidences_0.json       0.3500  0.39  0.40           0.47
+- ./fold_t0240_b_summary_confidences_0.json                NaN   NaN  0.38           0.47
+- ./fold_t0240_d_summary_confidences_0.json                NaN   NaN  0.37           0.48
+- ./fold_t0240_c_summary_confidences_0.json                NaN   NaN  0.38           0.48
+- ./fold_t0240_trimer_summary_confidences_0.json        0.3700  0.42  0.42           0.50
+
+
 ## +,CAPRI H1225
-## ++ T2226
+## 90. 	H1225 * 	All groups 	483 	A1B1C1 	RSV G - Fab 1G1 complex
+
+AF3 default model
+Human sampling more (As with other similar moels)
+
+- ./fold_h1225_b_summary_confidences_0.json    0.423333  0.69  0.72           0.73
+- ./fold_h1225_summary_confidences_0.json      0.433333  0.69  0.72           0.73
+- ./fold_h1225_e_summary_confidences_0.json    0.453333  0.69  0.73           0.74
+- ./fold_h1225_g_summary_confidences_0.json    0.473333  0.70  0.72           0.74
+- ./fold_h1225_f_summary_confidences_0.json    0.443333  0.70  0.73           0.74
+
+
+
+## 91. 	R1260 	NucA 	387 	A1 		- 	ribozyme
 ## * an ensemble of conformations for an RNA with the solvent shell. The structure of the local solvent shell (water and ions) will be compared against cryo-EM data. More details will be provided with the target release.
+
+AF3 submitted defaults
+Conversion of ions did not work
+./fold_r1260_ions_summary_confidences_0.json    0.313548   0.3  0.69           0.38
+./fold_r1260_summary_confidences_0.json              NaN   NaN  0.70 0.70
+
+As this will be evaluated on the water shell I just submitted the same
+as a manual model
