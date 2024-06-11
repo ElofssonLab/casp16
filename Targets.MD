@@ -265,6 +265,18 @@ Manual selection
 - ./fold_h1213c_summary_confidences_0.json       0.688  0.76  0.80           0.82
 
 
+## ++,CAPRI H2213
+## 103. 	H2213 * 	Prot 	1373 	A1B1C1D1E1 	- 	DP71_eIF2_PP1_complex
+
+Rerun one model (for af3 predictions). Manual submit the same
+
+- ./fold_h1213f_summary_confidences_0.json       0.702  0.77  0.81           0.82
+- ./fold_h2213_summary_confidences_0.json        0.696  0.76  0.80           0.82
+- ./fold_h1213b_summary_confidences_0.json       0.700  0.76  0.80           0.82
+- ./fold_h1213e_summary_confidences_0.json       0.682  0.76  0.80           0.82
+- ./fold_h1213d_summary_confidences_0.json       0.690  0.76  0.80           0.82
+- ./fold_h1213_summary_confidences_0.json        0.700  0.77  0.80           0.82
+- ./fold_h1213c_summary_confidences_0.json       0.688  0.76  0.80           0.82
 
 
 ## 26. 	M1216 	Prot-NucA 	1106 A4B4C4D4	A05-29 	- 	Tetrameric SPARSAgRNA–target ssDNA complex
@@ -1270,8 +1282,80 @@ Easy target - do a standard stuff - all look the same
 
 ## Tuesday: 3 targets
 ## * protein heterooligomer and its two subunits
+## 102. 	H0245 	Prot 	317 	UNK 		- 	FUNcomplex 
+## 104. 	T0245s1 	Prot 	183 	A1 	- 	FUNcomplex
+## 105. 	T0245s2 	Prot 	134 	A1 	- 	FUNcomplex
+
+AF3-server submitting the monomer version
+
+- ./fold_h0245_dimer_h_summary_confidences_0.json       0.072500  0.11  0.33           0.21
+- ./fold_h0245_dimer_j_summary_confidences_0.json       0.085000  0.12  0.33           0.21
+- ./fold_h0245_tetramer_a_summary_confidences_0.json    0.090000  0.13  0.34           0.22
+- ./fold_h0245_dimer_i_summary_confidences_0.json       0.085000  0.12  0.33           0.22
+- ./fold_h0245_dimer_b_summary_confidences_0.json       0.100000  0.13  0.35           0.22
+- ./fold_h0245_dimer_a2_summary_confidences_0.json      0.090000  0.13  0.34           0.22
+- ./fold_h0245_dimer_c_summary_confidences_0.json       0.095000  0.13  0.34           0.22
+- ./fold_h0245_dimer_d_summary_confidences_0.json       0.090000  0.13  0.34           0.22
+- ./fold_h0245_dimer_f_summary_confidences_0.json       0.085000  0.12  0.34           0.22
+- ./fold_h0245_dimer_g_summary_confidences_0.json       0.105000  0.14  0.35           0.23
+- ./fold_h0245_tetramer_summary_confidences_0.json      0.101250  0.20  0.30           0.25
+- ./fold_h0245_hexamer_summary_confidences_0.json       0.055833  0.18  0.25           0.25
+- ./fold_h0245_pentamer_summary_confidences_0.json      0.071000  0.18  0.26           0.25
+- ./fold_h0245_trimer_summary_confidences_0.json        0.095000  0.17  0.29           0.26
+- ./fold_h0245_summary_confidences_0.json               0.180000  0.18  0.56           0.31
+- ./fold_h0245_f_summary_confidences_0.json             0.220000  0.22  0.58           0.34
+- ./fold_h0245_d_summary_confidences_0.json             0.210000  0.21  0.57           0.34
+- ./fold_h0245_e_summary_confidences_0.json             0.220000  0.22  0.57           0.34
+- ./fold_h0245_b_summary_confidences_0.json             0.230000  0.23  0.58           0.35
+- ./fold_h0245_a_summary_confidences_0.json             0.750000  0.75  0.80           0.81
+- ./fold_h0245_a_summary_confidences_4.json            0.71000  0.71  0.79           0.78
+- ./fold_h0245_a_summary_confidences_3.json            0.73000  0.73  0.80           0.80
+- ./fold_h0245_a_summary_confidences_2.json            0.73000  0.73  0.80           0.80
+- ./fold_h0245_a_summary_confidences_1.json            0.75000  0.75  0.81           0.81
+- ./fold_h0245_a_summary_confidences_0.json            0.75000  0.75  0.80           0.81
+
+One model has for some reason much better score than the otthers will
+submit that as manual prediction
+
+
+
 ## * protein single-sequence target
-## ++,CAPRI H2213
+## 106. 	T0246 	Prot 	168 	UNK    	- 	DcmC 
+
+Dimer or monomer submits a mix (first dimer) for af3-server
+
+- ./fold_t0246_hexamer_summary_confidences_0.json        0.190  0.27  0.38           0.31
+- ./fold_t0246_trimer_summary_confidences_0.json         0.180  0.25  0.46           0.32
+- ./fold_t0246_pentamer_summary_confidences_0.json       0.202  0.30  0.43           0.34
+- ./fold_t0246_tetramer_summary_confidences_0.json       0.575  0.63  0.71           0.66
+- ./fold_t0246_dimer_summary_confidences_0.json          0.910  0.91  0.92           0.93
+- ./fold_t0246_summary_confidences_0.json                  NaN   NaN  0.92           0.94
+
+Running more
+
+- ./fold_t0246_hexamer_summary_confidences_0.json        0.190  0.27  0.38           0.31
+- ./fold_t0246_trimer_summary_confidences_0.json         0.180  0.25  0.46           0.32
+- ./fold_t0246_pentamer_summary_confidences_0.json       0.202  0.30  0.43           0.34
+- ./fold_t0246_tetramer_summary_confidences_0.json       0.575  0.63  0.71           0.66
+- ./fold_t0246_f_summary_confidences_0.json                NaN   NaN  0.91           0.93
+- ./fold_t0246_dimer_e_summary_confidences_0.json        0.920  0.92  0.92           0.93
+- ./fold_t0246_dimer_summary_confidences_0.json          0.910  0.91  0.92           0.93
+- ./fold_t0246_dimer_d_summary_confidences_0.json        0.920  0.92  0.93           0.94
+- ./fold_t0246_dimer_c_summary_confidences_0.json        0.920  0.92  0.93           0.94
+- ./fold_t0246_summary_confidences_0.json                  NaN   NaN  0.92           0.94
+- ./fold_t0246_dimer_b_summary_confidences_0.json        0.920  0.92  0.93           0.94
+- ./fold_t0246_b_summary_confidences_0.json                NaN   NaN  0.91           0.94
+- ./fold_t0246_e_summary_confidences_0.json                NaN   NaN  0.91           0.94
+
+I still think dimer is more likely Picks
+
+- ./fold_t0246_d_summary_confidences_0.json                NaN   NaN  0.91           0.94
+- ./fold_t0246_c_summary_confidences_0.json                NaN   NaN  0.91           0.94 
+- ./fold_t0246_dimer_c_summary_confidences_0.json        0.920  0.92  0.93           0.94
+- ./fold_t0246_dimer_b_summary_confidences_0.json        0.920  0.92  0.93           0.94
+- ./fold_t0246_dimer_f_summary_confidences_0.json        0.920  0.92  0.93           0.94
+
+
 
 ## Wednesday: 4 targets
 ## * protein homooligomer
