@@ -1242,7 +1242,9 @@ Run more models
 - ./fold_h0244_twotwoone_summary_confidences_0.json     0.352000  0.51  0.53           0.75
 - ./fold_h0244_twotwoone_d_summary_confidences_0....    0.348000  0.50  0.53           0.76 
 
-Clearly twotwoone is best but not convinced picks three alternatives. Thebinding site of the A-chain is different
+Clearly twotwoone is best but not convinced picks three
+alternatives. The binding site of the A-chain is different (only one
+nanobody is binding -this makes some sense to me).
 
 - ./fold_h0244_dimer_summary_confidences_0.json        0.220000  0.40  0.44           0.59
 - ./fold_h0244_summary_confidences_0.json              0.270000  0.41  0.49           0.63
