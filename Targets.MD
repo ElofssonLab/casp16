@@ -528,6 +528,7 @@ Submitted:
 - fold_h0227_cut2_hexamer_model_1-fold_h0227cterminal_model_0-elofsson.pdb
 
 
+## +,CAPRI H1227 (and T1227s1)
 ## 95. 	H1227 * 	All groups 	1304 	A1B6	LetA (P0AD03) and LetB(P76272) 
 ## 98. 	T1227s1 	All groups 	427 	A1 6-24 	- 	LetA (P0AD03) and LetB (P76272)  
  Made a new cut for AF3-server just submit the five models
@@ -580,6 +581,7 @@ scilifelab.se account
 - ./fold_t1249v2_e_summary_confidences_0.json        0.44  0.48  0.56        0.54
 - ./fold_t1249v2_d_summary_confidences_0.json        0.44  0.48  0.56        0.54
 
+## ++,CAPRI T2249v1 and T2249v2
 ## 100. 	T2249v1 	All groups 	488 	A3 		- 	Arenaviral spike complex
 ## 101. 	T2249v2 	All groups 	488 	A3 		- 	Arenaviral spike complex
 
@@ -1200,6 +1202,8 @@ Conversion of ions did not work
 As this will be evaluated on the water shell I just submitted the same
 as a manual model
 
+## Monday: 4 targets
+## * protein heterooligomer and its two subunits
 
 ## 94. 	H0244 	All groups 	425 	UNK 		BJCNb48
 ## 96. 	T0244s1 	All groups 	157 	A1 6-24 	- 	BJCNb48
@@ -1238,7 +1242,7 @@ Run more models
 - ./fold_h0244_twotwoone_summary_confidences_0.json     0.352000  0.51  0.53           0.75
 - ./fold_h0244_twotwoone_d_summary_confidences_0....    0.348000  0.50  0.53           0.76 
 
-Clearly twtwoone is best but not convinced picks three alternatives
+Clearly twotwoone is best but not convinced picks three alternatives. Thebinding site of the A-chain is different
 
 - ./fold_h0244_dimer_summary_confidences_0.json        0.220000  0.40  0.44           0.59
 - ./fold_h0244_summary_confidences_0.json              0.270000  0.41  0.49           0.63
@@ -1247,9 +1251,11 @@ Clearly twtwoone is best but not convinced picks three alternatives
 - ./fold_h0244_twotwoone_d_summary_confidences_0....    0.348000  0.50  0.53           0.76 
 
 
+## * protein monomer
+
 ## 99. 	T1243 	All groups 	293 	A1 	202     MTMA3 (UNIPROT ID: P0CH91)
 
-Easy target - do a standard stuff
+Easy target - do a standard stuff - all look the same
 
 - ./fold_t1243_g_summary_confidences_0.json         NaN   NaN  0.91           0.93
 - ./fold_t1243_summary_confidences_0.json           NaN   NaN  0.91           0.93
@@ -1258,3 +1264,28 @@ Easy target - do a standard stuff
 - ./fold_t1243_f_summary_confidences_0.json         NaN   NaN  0.92 0.94
 
 
+
+
+## Tuesday: 3 targets
+## * protein heterooligomer and its two subunits
+## * protein single-sequence target
+## ++,CAPRI H2213
+
+## Wednesday: 4 targets
+## * protein homooligomer
+## * RNA with ligand
+## +,CAPRI H1229 (and T1229s1)
+## +,CAPRI H1230 (and T1230s1)
+
+## Thursday: 5 targets
+## * protein single-sequence target
+## * protein heterooligomer :: assembly only
+## * RNA with ligand
+## ++,CAPRI H2217
+## ++ T2231
+
+## Friday: 4 targets
+## * protein single-sequence target
+## * RNA homooligomer (stage 0)
+## +,CAPRI H1232
+## ++,CAPRI T2218
