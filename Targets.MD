@@ -1359,16 +1359,61 @@ I still think dimer is more likely Picks
 
 ## Wednesday: 4 targets
 ## * protein homooligomer
+
 ## * RNA with ligand
 
+## +,CAPRI H1230 (and T1230s1) 
+## 107. 	H1229 * 	Prot 	987 	A1B1  	ORF61/A3A
+## 109. 	T1229s1 	Prot 	788 	A1 	26-26 	- 	ORF61/A3A 
+Predictied as dimers initially but should be monomers
+
+- ./fold_h1229_f_summary_confidences_0.json        0.36  0.36  0.78           0.48
+- ./fold_h1229_e_summary_confidences_0.json        0.41  0.41  0.79           0.52
+- ./fold_h0229_summary_confidences_0.json          0.43  0.43  0.79           0.54
+- ./fold_h1229_summary_confidences_0.json          0.48  0.48  0.80           0.58
+- ./fold_h1229_c_summary_confidences_0.json        0.52  0.52  0.81           0.61
+- ./fold_h1229_d_summary_confidences_0.json        0.56  0.56  0.82           0.64
+- ./fold_h1229_b_summary_confidences_0.json        0.66  0.66  0.84           0.73
+
+
+All models look the same af3 first model, top ranked manual 
+
 ## +,CAPRI H1229 (and T1229s1)
-## +,CAPRI H1230 (and T1230s1)
-Predictied as dimers initially.
+## 108. 	H1230 * 	Prot 	984 	A1B1  	ORF61/A3B
+## 110. 	T1230s1 	Prot 	788 	A1 	26-26 	- 	ORF61/A3B
+Predictied as dimers initially but should be monomer
+
+- ./fold_h1230_d_summary_confidences_0.json        0.57  0.57  0.82           0.65
+- ./fold_h1230_c_summary_confidences_0.json        0.62  0.62  0.83           0.69
+- ./fold_h0230_summary_confidences_0.json          0.63  0.63  0.84           0.70
+- ./fold_h1230_b_summary_confidences_0.json        0.64  0.64  0.83           0.71
+- ./fold_h1230_summary_confidences_0.json          0.65  0.65  0.83           0.72
+- ./fold_h1230_f_summary_confidences_0.json        0.67  0.67  0.84           0.73
+- ./fold_h1230_e_summary_confidences_0.json        0.72  0.72  0.85           0.78
+
+All models look the same af3 first model, top ranked manual 
 
 
+## 111. 	T1247 	Prot 	697 	A1  PilK 
+- ./fold_t1247_e_summary_confidences_0.json         NaN   NaN  0.56           0.57
+- ./fold_t1247_h_summary_confidences_0.json         NaN   NaN  0.56           0.57
+- ./fold_t1247_g_summary_confidences_0.json         NaN   NaN  0.58           0.58
+- ./fold_t1247_b_summary_confidences_0.json         NaN   NaN  0.55           0.58
+- ./fold_t1247_c_summary_confidences_0.json         NaN   NaN  0.57           0.58
+- ./fold_t1247_d_summary_confidences_0.json         NaN   NaN  0.57           0.58
+- ./fold_t1247_f_summary_confidences_0.json         NaN   NaN  0.58           0.59
+- ./fold_t1247_summary_confidences_0.json           NaN   NaN  0.57   0.61
+  
+  Models are not consisten in domain packing
+  
+  For af3-defaults
+  fir manual - submit top 5 first ranked
+  
 
 ## Thursday: 5 targets
 ## * protein single-sequence target
+
+
 ## * protein heterooligomer :: assembly only
 ## * RNA with ligand
 ## ++,CAPRI H2217
