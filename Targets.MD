@@ -1360,18 +1360,29 @@ I still think dimer is more likely Picks
 ## Wednesday: 4 targets
 ## * protein homooligomer
 ## * RNA with ligand
+
 ## +,CAPRI H1229 (and T1229s1)
 ## +,CAPRI H1230 (and T1230s1)
+Predictied as dimers initially.
+
+
 
 ## Thursday: 5 targets
 ## * protein single-sequence target
 ## * protein heterooligomer :: assembly only
 ## * RNA with ligand
 ## ++,CAPRI H2217
+
+Just resubmit - have updated the target name
+
 ## ++ T2231
+Just resubmit  have updated target names
 
 ## Friday: 4 targets
 ## * protein single-sequence target
 ## * RNA homooligomer (stage 0)
 ## +,CAPRI H1232
+submitted twp-one as manual predictions
+
 ## ++,CAPRI T2218
+
