@@ -1429,18 +1429,96 @@ For manual tries multiple ligands, gdp etc but the first ranked model always loo
 
 
 ## Thursday: 5 targets
-## * protein single-sequence target
+
 ## * RNA with ligand
-## * protein heterooligomer :: assembly only
+## 115. 	R1262 	NucA/Ligand 	89 	A1   	- 	ZTP riboswitch with AICA
+
+Submittes merged AMP model for AF3-.server
+- ./fold_r1262_gdp_b_summary_confidences_0.json        0.84  0.84  0.68           0.81
+- ./fold_r1262_gdp_summary_confidences_0.json          0.84  0.84  0.67           0.81
+- ./fold_r1262_amp_summary_confidences_0.json          0.87  0.87  0.65           0.82
+- ./fold_r1262_amp_b_summary_confidences_0.json        0.88  0.88  0.65           0.83
+- ./fold_r1262_amp_d_summary_confidences_0.json        0.87  0.87  0.65           0.83
+- ./fold_r1262_amp_c_summary_confidences_0.json        0.88  0.88  0.67           0.83
+
+
+This ends up in a different place -will submit as Model 5 just as a backup
+- ./fold_r1262_gfgg_summary_confidences_0.json         0.63  0.63  0.56           1.12
+
+
+
 
 ## ++,CAPRI H2217
-
+## 114. 	H2217 * 	Prot 	2939 	A1B1C1D1E1F10 	- 	AcP10_eIF2B_complex
 Just resubmit - have updated the target name
 
 ## ++ T2231
+## 117. 	T2231 	Prot 	142 	A1   	- 	A0A0E4G3H6  
 Just resubmit  have updated target names
 
 
+
+## * protein single-sequence target
+## 116. 	T0257 	Prot 	1263 	UNK  	- 	P13390
+
+Big protein with many domains 
+
+- ./fold_t0257_tetramer_summary_confidences_0.json      0.2425  0.33  0.36         -99.52
+- ./fold_t0257_summary_confidences_0.json                  NaN   NaN  0.35           0.46
+- ./fold_t0257_dimer_summary_confidences_0.json         0.3600  0.36  0.39           0.50
+- ./fold_t0257_trimer_summary_confidences_0.json        0.3700  0.41  0.43           0.57
+
+
+Trimers has hightest score - will submit as af3
+Run more for manual
+- ./fold_t0257_tetramer_summary_confidences_0.json      0.2425  0.33  0.36         -99.52
+- ./fold_t0257_c_summary_confidences_0.json                NaN   NaN  0.35           0.46
+- ./fold_t0257_summary_confidences_0.json                  NaN   NaN  0.35           0.46
+- ./fold_t0257_b_summary_confidences_0.json                NaN   NaN  0.35           0.48
+- ./fold_t0257_d_summary_confidences_0.json                NaN   NaN  0.35           0.48
+- ./fold_t0257_dimer_summary_confidences_0.json         0.3600  0.36  0.39           0.50
+- ./fold_t0257_dimer_f_summary_confidences_0.json       0.3200  0.32  0.35           0.50
+- ./fold_t0257_dimer_e_summary_confidences_0.json       0.3500  0.35  0.38           0.51
+- ./fold_t0257_trimer_b_summary_confidences_0.json      0.3600  0.40  0.42           0.51
+- ./fold_t0257_dimer_b_summary_confidences_0.json       0.3500  0.35  0.39           0.52
+- ./fold_t0257_dimer_c_summary_confidences_0.json       0.3400  0.34  0.36           0.52
+- ./fold_t0257_trimer_c_summary_confidences_0.json      0.3300  0.38  0.40           0.53
+- ./fold_t0257_dimer_d_summary_confidences_0.json       0.3600  0.36  0.39           0.53
+- ./fold_t0257_trimer_e_summary_confidences_0.json      0.3400  0.38  0.40           0.55
+- ./fold_t0257_trimer_f_summary_confidences_0.json      0.3900  0.43  0.44           0.56
+- ./fold_t0257_trimer_summary_confidences_0.json        0.3700  0.41  0.43           0.57
+- ./fold_t0257_trimer_d_summary_confidences_0.json      0.3700  0.42  0.43           0.58
+
+For manual pick top 5 vesion (i.e 4 trimers and one dimer)
+
+## * protein heterooligomer :: assembly only
+## 113. 	H0258 	Prot 	2827 	UNK     	- 	LRRK2/14-3-3 complex
+
+
+Too big to run as a dimer submit monomer as AF3-server
+
+- ./fold_h0258_summary_confidences_0.json               0.220000  0.22  0.70           0.34
+- ./fold_h0258_one_two_summary_confidences_0.json       0.353333  0.27  0.65           0.37
+- ./fold_h0258_chain_a_cut_summary_confidences_0....    0.510000  0.51  0.59           0.55
+
+
+Cut into pieces and run again...
+
+                                                    chain_iptm  iptm   ptm  ranking_score
+- ./fold_h0258_summary_confidences_0.json               0.220000  0.22  0.70           0.34
+- ./fold_h0258_b_summary_confidences_0.json             0.220000  0.22  0.69           0.35
+- ./fold_h0258_e_summary_confidences_0.json             0.230000  0.23  0.69           0.35
+- ./fold_h0258_one_two_summary_confidences_0.json       0.353333  0.27  0.65           0.37
+- ./fold_h0258_d_summary_confidences_0.json             0.260000  0.26  0.69           0.38
+- ./fold_h0258_c_summary_confidences_0.json             0.280000  0.28  0.70           0.39
+- ./fold_h0258_chain_a_dimer_cut2_summary_confide...    0.395000  0.48  0.54           0.50
+- ./fold_h0258_chain_a_cut_summary_confidences_0....    0.510000  0.51  0.59           0.55
+
+
+Building cut protein as dimers and rebuilding with full sequences
+looks good.
+
+Submits one to test
 
 ## Friday: 4 targets
 ## * protein single-sequence target
@@ -1450,3 +1528,10 @@ submitted twp-one as manual predictions
 
 ## ++,CAPRI T2218
  have updated target names
+
+
+
+
+
+
+
