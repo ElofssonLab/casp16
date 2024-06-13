@@ -1360,7 +1360,8 @@ I still think dimer is more likely Picks
 ## Wednesday: 4 targets
 ## * protein homooligomer
 
-## * RNA with ligand
+
+
 
 ## +,CAPRI H1230 (and T1230s1) 
 ## 107. 	H1229 * 	Prot 	987 	A1B1  	ORF61/A3A
@@ -1416,12 +1417,29 @@ All models look the same af3 first model, top ranked manual
 
 ## * protein heterooligomer :: assembly only
 ## * RNA with ligand
+# 109. 	R1261 	NucA/Ligand 	89 	A1 	- 	ZTP riboswitch 
+
+Running with AMP (the most similar ligand) and superposing. 
+
+For manual tries multiple ligands, gdp etc but the first ranked model always look shte same
+
+- ./fold_r1261_ampgmp4_summary_confidences_0.json    0.107778  0.40  0.50           0.42
+- ./fold_r1261_summary_confidences_0.json                 NaN   NaN  0.52           0.52
+- R5 ./fold_r1261_amp_c_summary_confidences_2.json      0.880000  0.88  0.66           0.83
+- R4 ./fold_r1261_gdp_summary_confidences_0.json        0.840000  0.84  0.67           0.81
+- R3 ./fold_r1261_amp_summary_confidences_0.json        0.880000  0.88  0.66           0.83
+- R2 ./fold_r1261_amp_b_summary_confidences_0.json      0.880000  0.88  0.66           0.83
+- R1  ./fold_r1261_amp_c_summary_confidences_0.json      0.880000  0.88  0.66           0.83
+
+
 ## ++,CAPRI H2217
 
 Just resubmit - have updated the target name
 
 ## ++ T2231
 Just resubmit  have updated target names
+
+
 
 ## Friday: 4 targets
 ## * protein single-sequence target
