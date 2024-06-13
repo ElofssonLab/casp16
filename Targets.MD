@@ -1408,14 +1408,9 @@ All models look the same af3 first model, top ranked manual
   Models are not consisten in domain packing
   
   For af3-defaults
-  fir manual - submit top 5 first ranked
-  
-
-## Thursday: 5 targets
-## * protein single-sequence target
+  for manual - submit top 5 first ranked
 
 
-## * protein heterooligomer :: assembly only
 ## * RNA with ligand
 # 109. 	R1261 	NucA/Ligand 	89 	A1 	- 	ZTP riboswitch 
 
@@ -1431,6 +1426,12 @@ For manual tries multiple ligands, gdp etc but the first ranked model always loo
 - R2 ./fold_r1261_amp_b_summary_confidences_0.json      0.880000  0.88  0.66           0.83
 - R1  ./fold_r1261_amp_c_summary_confidences_0.json      0.880000  0.88  0.66           0.83
 
+
+
+## Thursday: 5 targets
+## * protein single-sequence target
+## * RNA with ligand
+## * protein heterooligomer :: assembly only
 
 ## ++,CAPRI H2217
 
@@ -1448,4 +1449,4 @@ Just resubmit  have updated target names
 submitted twp-one as manual predictions
 
 ## ++,CAPRI T2218
-
+ have updated target names
