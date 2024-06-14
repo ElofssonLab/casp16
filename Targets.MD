@@ -1593,20 +1593,101 @@ i.e
 
 ## Friday: 4 targets
 ## * protein single-sequence target
+## 120. 	T0259 	Prot 	243 	UNK 	 	- 	AZI86_00190
+
+Trimer best
+
+- ./fold_t0259_dimer_summary_confidences_0.json       0.500000  0.50  0.66           0.62
+- ./fold_t0259_pentamer_summary_confidences_0.json    0.406000  0.53  0.60           0.64
+- ./fold_t0259_tetramer_summary_confidences_0.json    0.570000  0.64  0.70           0.76
+- ./fold_t0259_hexamer_summary_confidences_0.json     0.651667  0.76  0.79           0.87
+- ./fold_t0259_summary_confidences_0.json                  NaN   NaN  0.81           0.91
+- ./fold_t0259_trimer_summary_confidences_0.json      0.820000  0.84   0.86           0.95
+  
+More models even better
+
+- ./fold_t0259_dimer_summary_confidences_0.json       0.500000  0.50  0.66           0.62
+- ./fold_t0259_pentamer_summary_confidences_0.json    0.406000  0.53  0.60           0.64
+- ./fold_t0259_tetramer_summary_confidences_0.json    0.570000  0.64  0.70           0.76
+- ./fold_t0259_hexamer_summary_confidences_0.json     0.651667  0.76  0.79           0.87
+- ./fold_t0259_trimer_j_summary_confidences_0.json    0.770000  0.80  0.82           0.89
+- ./fold_t0259_b_summary_confidences_0.json                NaN   NaN  0.81           0.91
+- ./fold_t0259_summary_confidences_0.json                  NaN   NaN  0.81           0.91
+- ./fold_t0259_trimer_h_summary_confidences_0.json    0.810000  0.83  0.85           0.93
+- ./fold_t0259_trimer_d_summary_confidences_0.json    0.810000  0.84  0.85           0.94
+- ./fold_t0259_trimer_f_summary_confidences_0.json    0.830000  0.85  0.87           0.95
+- ./fold_t0259_trimer_summary_confidences_0.json      0.820000  0.84  0.86           0.95
+- ./fold_t0259_trimer_e_summary_confidences_0.json    0.840000  0.87  0.88           0.96
+- ./fold_t0259_trimer_i_summary_confidences_0.json    0.820000  0.85  0.86           0.96
+- ./fold_t0259_trimer_b_summary_confidences_0.json    0.830000  0.86  0.87           0.96
+- ./fold_t0259_trimer_g_summary_confidences_0.json    0.860000  0.89  0.90           0.97
+- ./fold_t0259_trimer_c_summary_confidences_0.json    0.836667  0.86  0.88           0.97
+- ./fold_t0259_trimer_k_summary_confidences_0.json    0.860000  0.88  0.89           0.98
+  
+  
+  
+
 ## * RNA homooligomer (stage 0)
+## 119. 	R0254 	NucA 	413 	UNK 	 	- 	GOLLD 3primedomain env38
+
+Nothing well predicted - will submit monomer -the others loook like hallicinations
+
+./fold_r0254_trimer_summary_confidences_0.json          0.10  0.13  0.18           0.14
+./fold_r0254_tetramer_summary_confidences_0.json        0.09  0.15  0.18           0.16
+./fold_r0254_dimer_summary_confidences_0.json           0.21  0.21  0.22           0.21
+./fold_r0254_summary_confidences_0.json                  NaN   NaN  0.26           0.26
+
+More models
+ 
+- ./fold_r0254_trimer_summary_confidences_0.json          0.10  0.13  0.18           0.14
+- ./fold_r0254_tetramer_summary_confidences_0.json        0.09  0.15  0.18           0.16
+- ./fold_r0254_dimer_summary_confidences_0.json           0.21  0.21  0.22           0.21
+- ./fold_r0254_f_summary_confidences_0.json                NaN   NaN  0.26           0.26
+- ./fold_r0254_d_summary_confidences_0.json                NaN   NaN  0.26           0.26
+- ./fold_r0254_c_summary_confidences_0.json                NaN   NaN  0.26           0.26
+- ./fold_r0254_summary_confidences_0.json                  NaN   NaN  0.26           0.26
+- ./fold_r0254_b_summary_confidences_0.json                NaN   NaN  0.26           0.26
+- ./fold_r0254_e_summary_confidences_0.json                NaN   NaN 0.26           0.26
+
+Submit dimer as model 5 just in case.
+
 ## +,CAPRI H1232
-submitted twp-one as manual predictions
+## 118. 	H1232 * 	Prot 	462 	A2B2 	Human astrovirus 2 capsid spike - antibody scFv 4B6 complex 
+
+submitted twp-one as manual predictions but it is twotwo
+
+Submitted new model as prediction for af3 - but generating more makes
+higher scoring models
+
+chain_iptm  iptm   ptm  ranking_score
+./fold_h0232_dimer_summary_confidences_0.json      0.2300  0.36  0.50           0.40
+./fold_h1232_summary_confidences_0.json            0.2300  0.36  0.50           0.41
+./fold_h1232_b_summary_confidences_0.json          0.2325  0.36  0.50           0.41
+./fold_h1232_i_summary_confidences_0.json          0.2400  0.36  0.50           0.41
+./fold_h1232_d_summary_confidences_0.json          0.2350  0.37  0.50           0.41
+./fold_h1232_h_summary_confidences_0.json          0.2350  0.36  0.50           0.41
+./fold_h1232_c_summary_confidences_0.json          0.2350  0.36  0.50           0.41
+./fold_h1232_j_summary_confidences_0.json          0.2450  0.38  0.51           0.42
+./fold_h1232_e_summary_confidences_0.json          0.2400  0.37  0.51           0.42
+./fold_h1232_f_summary_confidences_0.json          0.2500  0.38  0.52           0.43
+./fold_h1232_g_summary_confidences_0.json          0.2600  0.40  0.53           0.44
+
+
 
 ## ++,CAPRI T2218
- have updated targets names
-
-
-## 118. 	H1232 * 	Prot 	462 	A2B2 	Human astrovirus 2 capsid spike - antibody scFv 4B6 complex
-## 119. 	R0254 	NucA 	413 	UNK 	 	- 	GOLLD 3primedomain env38
-## 120. 	T0259 	Prot 	243 	UNK 	 	- 	AZI86_00190
 ## 121. 	T2218 * 	Prot 	1164 	A2 	 	- 	Cry26Aa 
+ have updated targets names
+ Just resubmitted
+
+
+
+
+
 
 
 
 ## Remaining stuff
-R1261 - submit some version with water shell
+R1260 - submit some version with water shell. Works to buld it - will
+tun more models and then just submit
+
+Running twenty more models
