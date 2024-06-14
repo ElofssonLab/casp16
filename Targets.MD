@@ -1495,7 +1495,7 @@ For manual pick top 5 vesion (i.e 4 trimers and one dimer)
 ## 113. 	H0258 	Prot 	2827 	UNK     	- 	LRRK2/14-3-3 complex
 
 
-Too big to run as a dimer submit monomer as AF3-server
+Too big to run as a dimer submit mix of monomer and A1B2 as AF3-server 
 
 - ./fold_h0258_summary_confidences_0.json               0.220000  0.22  0.70           0.34
 - ./fold_h0258_one_two_summary_confidences_0.json       0.353333  0.27  0.65           0.37
@@ -1547,6 +1547,49 @@ does not show any interactions between the dimers)
 - ./fold_h0258_chain_a_cut_c_summary_confidences_...    0.520000  0.52  0.60           0.56
 
 
+Looking at  fold_h0258_cut_dimer_model_0-fold_h0258_*elofsson.pdb
+(both one and two Bchains).
+Checking different cuts and it appears as if they all generate the same model (Rmsd 1-2 Å)
+
+
+### Clusters
+- OK fold_h0258_cut_dimer_model_0-fold_h0258_b_model_0-dimer-elofsson.pdb 
+- OK fold_h0258_cut_dimer_model_0-fold_h0258_d_model_0-dimer-elofsson.pdb
+
+- OK fold_h0258_cut_dimer_model_0-fold_h0258_e_model_0-dimer-elofsson.pdb (slightly different from the other two)
+- OK fold_h0258_cut_dimer_model_0-fold_h0258_model_0-dimer-elofsson.pdb
+
+
+- OK fold_h0258_cut_dimer_model_0-fold_h0258_one_two_c_model_0-dimer-elofsson.pdb
+- OK fold_h0258_cut_dimer_model_0-fold_h0258_one_two_e_model_0-dimer-elofsson.pdb
+
+- OK fold_h0258_cut_dimer_model_0-fold_h0258_one_two_model_0-dimer-elofsson.pdb
+
+### Bad models
+- Overlaps fold_h0258_cut_dimer_model_0-fold_h0258_c_model_0-dimer-elofsson.pdb
+
+- Overlaps fold_h0258_cut_dimer_model_0-fold_h0258_one_two_d_model_0-dimer-elofsson.pdb
+- Some Overlaps fold_h0258_cut_dimer_model_0-fold_h0258_one_two_b_model_0-dimer-elofsson.pdb
+
+
+Selects Good models with highest scores althought that is only for a partial chasin
+
+
+- ./fold_h0258_e_summary_confidences_0.json             0.230000  0.23  0.69           0.35
+- ./fold_h0258_one_two_c_summary_confidences_0.json     0.353333  0.26  0.65           0.37
+- ./fold_h0258_one_two_summary_confidences_0.json       0.353333  0.27  0.65           0.37
+- ./fold_h0258_d_summary_confidences_0.json             0.260000  0.26  0.69           0.38
+- ./fold_h0258_one_two_e_summary_confidences_0.json     0.336667  0.27  0.65           0.38
+
+i.e
+- R5 fold_h0258_cut_dimer_model_0-fold_h0258_one_two_c_model_0-dimer-elofsson.pdb
+- R4 fold_h0258_cut_dimer_model_0-fold_h0258_e_model_0-dimer-elofsson.pdb
+- R3 fold_h0258_cut_dimer_model_0-fold_h0258_model_0-dimer-elofsson.pdb
+- R2 fold_h0258_cut_dimer_model_0-fold_h0258_d_model_0-dimer-elofsson.pdb
+- R1 fold_h0258_cut_dimer_model_0-fold_h0258_one_two_e_model_0-dimer-elofsson.pdb
+
+
+
 
 ## Friday: 4 targets
 ## * protein single-sequence target
@@ -1563,3 +1606,5 @@ submitted twp-one as manual predictions
 
 
 
+## Remaining stuff
+R1261 - submit some version with water shell
