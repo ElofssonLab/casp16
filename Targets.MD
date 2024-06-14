@@ -1598,11 +1598,13 @@ i.e
 submitted twp-one as manual predictions
 
 ## ++,CAPRI T2218
- have updated target names
+ have updated targets names
 
 
-
-
+## 118. 	H1232 * 	Prot 	462 	A2B2 	Human astrovirus 2 capsid spike - antibody scFv 4B6 complex
+## 119. 	R0254 	NucA 	413 	UNK 	 	- 	GOLLD 3primedomain env38
+## 120. 	T0259 	Prot 	243 	UNK 	 	- 	AZI86_00190
+## 121. 	T2218 * 	Prot 	1164 	A2 	 	- 	Cry26Aa 
 
 
 
