@@ -1516,9 +1516,37 @@ Cut into pieces and run again...
 
 
 Building cut protein as dimers and rebuilding with full sequences
-looks good.
+looks good. Can you one or two B chains - scores are similar but
+strong interactions between the B-chains so likely correct (tetramer
+does not show any interactions between the dimers)
 
-Submits one to test
+### Monomers
+- ./fold_h0258_summary_confidences_0.json               0.220000  0.22  0.70           0.34
+- ./fold_h0258_b_summary_confidences_0.json             0.220000  0.22  0.69           0.35
+- ./fold_h0258_e_summary_confidences_0.json             0.230000  0.23  0.69           0.35
+- ./fold_h0258_onethree_summary_confidences_0.json      0.192500  0.25  0.63           0.36
+- ./fold_h0258_one_two_c_summary_confidences_0.json     0.353333  0.26  0.65           0.37
+- ./fold_h0258_one_two_summary_confidences_0.json       0.353333  0.27  0.65           0.37
+- ./fold_h0258_one_two_b_summary_confidences_0.json     0.320000  0.26  0.65           0.37
+- ./fold_h0258_one_two_d_summary_confidences_0.json     0.356667  0.26  0.65           0.37
+- ./fold_h0258_onefour_summary_confidences_0.json       0.224000  0.27  0.60           0.37
+- ./fold_h0258_d_summary_confidences_0.json             0.260000  0.26  0.69           0.38
+- ./fold_h0258_one_two_e_summary_confidences_0.json     0.336667  0.27  0.65           0.38
+- ./fold_h0258_c_summary_confidences_0.json             0.280000  0.28  0.70           0.39
+
+
+### Cut dimers
+- ./fold_h0258_ctermcut_summary_confidences_0.json      0.240000  0.45  0.58           0.50
+- ./fold_h0258_cut_dimer_summary_confidences_0.json     0.290000  0.44  0.54           0.50
+- ./fold_h0258_chain_a_dimer_cut2_summary_confide...    0.395000  0.48  0.54           0.50
+- ./fold_h0258_chain_a_cut_b_summary_confidences_...    0.490000  0.49  0.59           0.54
+- ./fold_h0258_chain_a_cut_f_summary_confidences_...    0.490000  0.49  0.59           0.54
+- ./fold_h0258_chain_a_cut_d_summary_confidences_...    0.510000  0.51  0.60           0.55
+- ./fold_h0258_chain_a_cut_e_summary_confidences_...    0.500000  0.50  0.59           0.55
+- ./fold_h0258_chain_a_cut_summary_confidences_0....    0.510000  0.51  0.59           0.55
+- ./fold_h0258_chain_a_cut_c_summary_confidences_...    0.520000  0.52  0.60           0.56
+
+
 
 ## Friday: 4 targets
 ## * protein single-sequence target
