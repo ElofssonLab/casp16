@@ -1659,18 +1659,18 @@ submitted twp-one as manual predictions but it is twotwo
 Submitted new model as prediction for af3 - but generating more makes
 higher scoring models
 
-chain_iptm  iptm   ptm  ranking_score
-./fold_h0232_dimer_summary_confidences_0.json      0.2300  0.36  0.50           0.40
-./fold_h1232_summary_confidences_0.json            0.2300  0.36  0.50           0.41
-./fold_h1232_b_summary_confidences_0.json          0.2325  0.36  0.50           0.41
-./fold_h1232_i_summary_confidences_0.json          0.2400  0.36  0.50           0.41
-./fold_h1232_d_summary_confidences_0.json          0.2350  0.37  0.50           0.41
-./fold_h1232_h_summary_confidences_0.json          0.2350  0.36  0.50           0.41
-./fold_h1232_c_summary_confidences_0.json          0.2350  0.36  0.50           0.41
-./fold_h1232_j_summary_confidences_0.json          0.2450  0.38  0.51           0.42
-./fold_h1232_e_summary_confidences_0.json          0.2400  0.37  0.51           0.42
-./fold_h1232_f_summary_confidences_0.json          0.2500  0.38  0.52           0.43
-./fold_h1232_g_summary_confidences_0.json          0.2600  0.40  0.53           0.44
+
+- ./fold_h0232_dimer_summary_confidences_0.json      0.2300  0.36  0.50           0.40
+- ./fold_h1232_summary_confidences_0.json            0.2300  0.36  0.50           0.41
+- ./fold_h1232_b_summary_confidences_0.json          0.2325  0.36  0.50           0.41
+- ./fold_h1232_i_summary_confidences_0.json          0.2400  0.36  0.50           0.41
+- ./fold_h1232_d_summary_confidences_0.json          0.2350  0.37  0.50           0.41
+- ./fold_h1232_h_summary_confidences_0.json          0.2350  0.36  0.50           0.41
+- ./fold_h1232_c_summary_confidences_0.json          0.2350  0.36  0.50           0.41
+- ./fold_h1232_j_summary_confidences_0.json          0.2450  0.38  0.51           0.42
+- ./fold_h1232_e_summary_confidences_0.json          0.2400  0.37  0.51           0.42
+- ./fold_h1232_f_summary_confidences_0.json          0.2500  0.38  0.52           0.43
+- ./fold_h1232_g_summary_confidences_0.json          0.2600  0.40  0.53           0.44
 
 
 
