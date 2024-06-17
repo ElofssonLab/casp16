@@ -919,15 +919,37 @@ But chain A is clearly interacting with itself (but only one copy)
 Even with rerun it is best - but will submit two alternative as model
 4 and 5
 
-/fold_h0233_twooneone_summary_confidences_0.json     0.322500  0.37  0.50           0.40
-./fold_h0233_dimer_b_summary_confidences_0.json       0.673333  0.75  0.79           0.76
-./fold_h0233_dimer_summary_confidences_0.json         0.700000  0.79  0.82           0.79
-./fold_h0233e_summary_confidences_0.json              0.823333  0.82  0.81           0.82
-./fold_h0233_summary_confidences_0.json               0.826667  0.84  0.83           0.83
-./fold_h0233c_summary_confidences_0.json              0.836667  0.84  0.82           0.83
-./fold_h0233b_summary_confidences_0.json              0.833333  0.84  0.84           0.84
-./fold_h0233d_summary_confidences_0.json              0.833333  0.84  0.84           0.84
+- /fold_h0233_twooneone_summary_confidences_0.json     0.322500  0.37  0.50           0.40
+- ./fold_h0233_dimer_b_summary_confidences_0.json       0.673333  0.75  0.79           0.76
+- ./fold_h0233_dimer_summary_confidences_0.json         0.700000  0.79  0.82           0.79
+- ./fold_h0233e_summary_confidences_0.json              0.823333  0.82  0.81           0.82
+- ./fold_h0233_summary_confidences_0.json               0.826667  0.84  0.83           0.83
+- ./fold_h0233c_summary_confidences_0.json              0.836667  0.84  0.82           0.83
+- ./fold_h0233b_summary_confidences_0.json              0.833333  0.84  0.84           0.84
+- ./fold_h0233d_summary_confidences_0.json              0.833333  0.84  0.84           0.84
 
+
+
+## 123. 	H1233 * 	Prot 	658 	A2B2C2 		Human astrovirus 1 capsid spike - antibody Fab 3H4 complex
+
+It is a dimer
+                                                 chain_iptm  iptm   ptm  ranking_score
+- ./fold_h0233_dimer_b_summary_confidences_0.json    0.673333  0.75  0.79           0.76
+- ./fold_h1233_summary_confidences_0.json            0.691667  0.78  0.81           0.79
+- ./fold_h0233_dimer_summary_confidences_0.json      0.700000  0.79  0.82           0.79
+
+Af3 standard submission
+
+- ./fold_h1233_b_summary_confidences_0.json          0.220000  0.30  0.41           0.32
+- ./fold_h1233_g_summary_confidences_0.json          0.673333  0.75  0.79           0.75
+- ./fold_h0233_dimer_b_summary_confidences_0.json    0.673333  0.75  0.79           0.76
+- ./fold_h1233_c_summary_confidences_0.json          0.683333  0.77  0.80           0.77
+- ./fold_h1233_d_summary_confidences_0.json          0.683333  0.76  0.80           0.77
+- ./fold_h1233_e_summary_confidences_0.json          0.693333  0.76  0.80           0.77
+- ./fold_h1233_i_summary_confidences_0.json          0.690000  0.77  0.81           0.78
+- ./fold_h1233_h_summary_confidences_0.json          0.700000  0.78  0.81           0.79
+- ./fold_h1233_summary_confidences_0.json            0.691667  0.78  0.81           0.79
+- ./fold_h0233_dimer_summary_confidences_0.json      0.700000  0.79  0.82           0.79
 
 
 ## * RNA
@@ -957,6 +979,11 @@ Submitted standard AF3 and will rerun more for manual
 - ./fold_h1220h_summary_confidences_0.json       0.322  0.55  0.68           0.72
 - ./fold_h1220d_summary_confidences_0.json       0.330  0.55  0.69           0.73
 - ./fold_h1220c_summary_confidences_0.json       0.370  0.58  0.70           0.73
+
+
+## 124. 	H2220 * 	Prot 	1912 	A1B4 	 	- 	BoDV-1 Replication complex
+
+Just resubmitting old models
 
 
 
@@ -1680,10 +1707,70 @@ higher scoring models
  Just resubmitted
 
 
+## 
 
 
+## 122. 	H0265 	Prot 	293 	UNK 	 	- 	TLR4 TIR domain (O00206) : MAL TIR domain (P58753) complex
+
+Clearly highest score with monomer - but some interactions predicted
+for dimers as well
+
+- ./fold_h0265_tetramer_summary_confidences_0.json    0.115000  0.23  0.31           0.25
+- ./fold_h0265_trimer_summary_confidences_0.json      0.153333  0.27  0.37           0.29
+- ./fold_h0265_dimer_summary_confidences_0.json       0.310000  0.37  0.49           0.39
+- ./fold_h0265_summary_confidences_0.json             0.800000  0.80  0.82           0.80
+
+Running more monomers
+- ./fold_h0265_d_summary_confidences_0.json           0.690000  0.69  0.74           0.70
+- ./fold_h0265_g_summary_confidences_0.json           0.700000  0.70  0.75           0.71
+- ./fold_h0265_i_summary_confidences_0.json           0.710000  0.71  0.77           0.72
+- ./fold_h0265_c_summary_confidences_0.json           0.760000  0.76  0.79           0.76
+- ./fold_h0265_b_summary_confidences_0.json           0.780000  0.78  0.81           0.79
+- ./fold_h0265_summary_confidences_0.json             0.800000  0.80  0.82           0.80
 
 
+ 
+
+## 125. 	R0252 	NucA 	520 	UNK 		- 	ROOL UCC118
+
+Nothing looks good - will submit monomer
+
+- ./fold_r0252_trimer_summary_confidences_0.json          0.12  0.15  0.18           0.15
+- ./fold_r0252_dimer_summary_confidences_0.json           0.14  0.14  0.18           0.15
+- ./fold_r0252_tetramer_summary_confidences_0.json        0.11  0.17  0.19           0.17
+- ./fold_r0252_summary_confidences_0.json                  NaN   NaN  0.20           0.20
+
+
+More monomers
+
+- ./fold_r0252_b_summary_confidences_0.json                NaN   NaN  0.19           0.19
+- ./fold_r0252_h_summary_confidences_0.json                NaN   NaN  0.19           0.19
+- ./fold_r0252_f_summary_confidences_0.json                NaN   NaN  0.20           0.20
+- ./fold_r0252_g_summary_confidences_0.json                NaN   NaN  0.20           0.20
+- ./fold_r0252_e_summary_confidences_0.json                NaN   NaN  0.20           0.20
+- ./fold_r0252_summary_confidences_0.json                  NaN   NaN  0.20           0.20
+- ./fold_r0252_c_summary_confidences_0.json                NaN   NaN  0.20           0.20
+- ./fold_r0252_d_summary_confidences_0.json                NaN   NaN  0.20           0.20
+
+
+## 126. 	R0253 	NucA 	574 	UNK 	 	- 	ROOL env209 
+
+
+Nothing looks good - will submit monomer
+- ./fold_r0253_tetramer_summary_confidences_0.json        0.12  0.19  0.21         -99.81
+- ./fold_r0253_dimer_summary_confidences_0.json           0.15  0.15  0.17           0.15
+- ./fold_r0253_trimer_summary_confidences_0.json          0.12  0.16  0.18           0.16
+- ./fold_r0253_summary_confidences_0.json                  NaN   NaN  0.21           0.21
+
+- ./fold_r0253_i_summary_confidences_0.json                NaN   NaN  0.17           0.17
+- ./fold_r0253_c_summary_confidences_0.json                NaN   NaN  0.18           0.18
+- ./fold_r0253_e_summary_confidences_0.json                NaN   NaN  0.18           0.18
+- ./fold_r0253_f_summary_confidences_0.json                NaN   NaN  0.20           0.20
+- ./fold_r0253_d_summary_confidences_0.json                NaN   NaN  0.21           0.21
+- ./fold_r0253_summary_confidences_0.json                  NaN   NaN  0.21           0.21
+- ./fold_r0253_h_summary_confidences_0.json                NaN   NaN  0.23           0.23
+- ./fold_r0253_b_summary_confidences_0.json                NaN   NaN  0.24           0.24
+- ./fold_r0253_g_summary_confidences_0.json                NaN   NaN  0.26           0.26
 
 
 ## Remaining stuff
