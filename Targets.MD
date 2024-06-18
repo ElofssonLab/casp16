@@ -33,6 +33,7 @@ Made new models
 
 
 
+
 ## 3. 	R1203 NucA 	134 	R1 	2024 response element stem-loop II
 Just AF3 predictions
 
@@ -929,7 +930,7 @@ Even with rerun it is best - but will submit two alternative as model
 - ./fold_h0233d_summary_confidences_0.json              0.833333  0.84  0.84           0.84
 
 
-
+## +,CAPRI H1233
 ## 123. 	H1233 * 	Prot 	658 	A2B2C2 		Human astrovirus 1 capsid spike - antibody Fab 3H4 complex
 
 It is a dimer
@@ -980,6 +981,8 @@ Submitted standard AF3 and will rerun more for manual
 - ./fold_h1220d_summary_confidences_0.json       0.330  0.55  0.69           0.73
 - ./fold_h1220c_summary_confidences_0.json       0.370  0.58  0.70           0.73
 
+
+## ++,CAPRI H2220
 
 ## 124. 	H2220 * 	Prot 	1912 	A1B4 	 	- 	BoDV-1 Replication complex
 
@@ -1707,9 +1710,8 @@ higher scoring models
  Just resubmitted
 
 
-## 
 
-
+## * protein heterooligomer
 ## 122. 	H0265 	Prot 	293 	UNK 	 	- 	TLR4 TIR domain (O00206) : MAL TIR domain (P58753) complex
 
 Clearly highest score with monomer - but some interactions predicted
@@ -1731,6 +1733,7 @@ Running more monomers
 
  
 
+## * RNA (stage 0)
 ## 125. 	R0252 	NucA 	520 	UNK 		- 	ROOL UCC118
 
 Nothing looks good - will submit monomer
@@ -1752,7 +1755,7 @@ More monomers
 - ./fold_r0252_c_summary_confidences_0.json                NaN   NaN  0.20           0.20
 - ./fold_r0252_d_summary_confidences_0.json                NaN   NaN  0.20           0.20
 
-
+## * RNA (stage 0: predict stoichiometry)
 ## 126. 	R0253 	NucA 	574 	UNK 	 	- 	ROOL env209 
 
 
@@ -1771,6 +1774,39 @@ Nothing looks good - will submit monomer
 - ./fold_r0253_h_summary_confidences_0.json                NaN   NaN  0.23           0.23
 - ./fold_r0253_b_summary_confidences_0.json                NaN   NaN  0.24           0.24
 - ./fold_r0253_g_summary_confidences_0.json                NaN   NaN  0.26           0.26
+
+
+Monday: 5 targets
+
+## Tuesday: 4 targets
+## * monomer
+## 130. 	T1266 	Prot 	336 	A1 	Q99549
+
+## +,CAPRI T1234
+## 128. 	T1234 * 	Prot 	413 	A3 	 	YP_010355913.1
+
+## +,CAPRI T1235
+## 129. 	T1235 * 	Prot 	115 	A6 	 	A0A410N6V5.2
+
+## +,CAPRI H1236
+## 127. 	H1236 * 	Prot 	528 	A3B6 	 	Haloferax tailed virus 1
+
+## Wednesday: 4 targets
+## * protein homooligomer
+## * RNA with ligand
+## +,CAPRI T1237
+## ++,CAPRI H2222
+## 
+## Thursday: 4 targets
+## * hybrid complex (protein-RNA-DNA)
+## * RNA with ligand
+## +,CAPRI T1238
+## ++,CAPRI H2223
+## 
+## Friday: 3 targets
+## * protein single-sequence target (filament)
+## +,CAPRI T1240
+## ++,CAPRI H2225
 
 
 ## Remaining stuff
