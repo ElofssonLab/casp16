@@ -1013,6 +1013,38 @@ Clearly highest score for monomer
 - ./fold_t0234c_summary_confidences_0.json                 NaN   NaN  0.86           0.90
 - ./fold_t0234f_summary_confidences_0.json                 NaN   NaN  0.86           0.90
   
+  
+## +,CAPRI T1234
+## 128. 	T1234 * 	Prot 	413 	A3 	 	YP_010355913.1
+But it is a trimer
+New model is better (but looks the same)
+
+
+- ./fold_t0234_trimer_summary_confidences_0.json        0.24  0.27  0.47           0.33
+- ./fold_t1234_summary_confidences_0.json               0.30  0.34  0.53           0.40
+  
+
+Much better scores with more models - the best models (e and k)  pack the
+"central" helices differently (sticksout)
+
+
+- ./fold_t1234_m_summary_confidences_0.json         0.140000  0.17  0.41           0.25
+- ./fold_t1234_l_summary_confidences_0.json         0.170000  0.20  0.43           0.27
+- ./fold_t1234_q_summary_confidences_0.json         0.200000  0.24  0.46           0.29
+- ./fold_t1234_p_summary_confidences_0.json         0.210000  0.24  0.47           0.29
+- ./fold_t1234_i_summary_confidences_0.json         0.206667  0.22  0.45           0.29
+- ./fold_t1234_h_summary_confidences_0.json         0.180000  0.21  0.44           0.29
+- ./fold_t0234_trimer_summary_confidences_0.json    0.240000  0.27  0.47           0.33
+- ./fold_t1234_j_summary_confidences_0.json         0.246667  0.29  0.49           0.35
+- ./fold_t1234_f_summary_confidences_0.json         0.250000  0.28  0.49           0.35
+- ./fold_t1234_summary_confidences_0.json           0.300000  0.34  0.53           0.40
+- ./fold_t1234_d_summary_confidences_0.json         0.300000  0.34  0.53           0.41
+- ./fold_t1234_g_summary_confidences_0.json         0.393333  0.43  0.59           0.47
+- ./fold_t1234_c_summary_confidences_0.json         0.410000  0.45  0.60           0.51
+- ./fold_t1234_b_summary_confidences_0.json         0.593333  0.63  0.72           0.68
+- ./fold_t1234_e_summary_confidences_0.json         0.650000  0.68  0.77           0.70
+- ./fold_t1234_o_summary_confidences_0.json         0.650000  0.68  0.76           0.70
+- ./fold_t1234_k_summary_confidences_0.json         0.700000  0.72  0.790.77
 
 ## 79. 	T0235 * 	All groups 	115 	UNK 	- 	A0A410N6V5.2 
 
@@ -1038,10 +1070,26 @@ Run up to dodecamer.  Similar scores with 1,5,7 subunits
 - ./fold_t0235_hexameter_c_summary_confidences_0....    0.770000  0.87  0.88           0.87
 - ./fold_t0235_pentamer_b_summary_confidences_0.json    0.790000  0.86  0.88           0.87
   
+## +,CAPRI T1235
+## 129. 	T1235 * 	Prot 	115 	A6 	 	A0A410N6V5.2
+
+It was actually a hexamer
+
+
+ranking_score
+./fold_t1235_d_summary_confidences_0.json             0.750000  0.85  0.87           0.86
+./fold_t1235_summary_confidences_0.json               0.758333  0.86  0.88           0.86
+./fold_t0235_hexameter_summary_confidences_0.json     0.760000  0.85  0.87           0.86
+./fold_t1235_e_summary_confidences_0.json             0.770000  0.87  0.88           0.87
+./fold_t0235_hexameter_c_summary_confidences_0....    0.770000  0.87  0.88           0.87
+./fold_t1235_c_summary_confidences_0.json             0.790000  0.87  0.89           0.88
+./fold_t1235_b_summary_confidences_0.json             0.790000  0.88  0.89           0.88
+./fold_t1235_f_summary_confidences_0.json             0.780000  0.87 0.89           0.88
+
+Submit standard )and best for manual)
 
 
 ## * protein heterooligomer :: assembly only
-
 ## 76. 	H0236 * 	All groups 	528 	UNK 	- 	Haloferax tailed virus 1
 
 Clearly best scores for trimer - but not interaction of chain B
@@ -1059,6 +1107,29 @@ Also ThreeSix makes ok prediction. Submit a mix as elofsson
 ./fold_h0236_trimer_b_summary_confidences_0.json      0.336667  0.64  0.71           0.70
 ./fold_h0236_trimer_c_summary_confidences_0.json      0.326667  0.66  0.72           0.72
 ./fold_h0236_trimer_summary_confidences_0.json        0.365000  0.68  0.74           0.73
+
+## +,CAPRI H1236
+## 127. 	H1236 * 	Prot 	528 	A3B6 	 	Haloferax tailed virus 1
+ThreeSix was correct
+
+- ./fold_h1236_summary_confidences_0.json               0.351111  0.60  0.67           0.65
+- ./fold_h0236_threesix_summary_confidences_0.json      0.388889  0.61  0.68           0.67
+- ./fold_h0236_threesix_b_summary_confidences_0.json    0.387778  0.63  0.69           0.69
+
+
+
+- ./fold_h1236_d_summary_confidences_0.json             0.276667  0.56  0.64           0.62
+- ./fold_h1236_c_summary_confidences_0.json             0.330000  0.57  0.65           0.63
+- ./fold_h1236_g_summary_confidences_0.json             0.348889  0.58  0.65           0.63
+- ./fold_h1236_summary_confidences_0.json               0.351111  0.60  0.67           0.65
+- ./fold_h1236_e_summary_confidences_0.json             0.353333  0.60  0.67           0.66
+- ./fold_h1236_h_summary_confidences_0.json             0.382222  0.61  0.68           0.66
+- ./fold_h0236_threesix_summary_confidences_0.json      0.388889  0.61  0.68           0.67
+- ./fold_h1236_f_summary_confidences_0.json             0.375556  0.62  0.68           0.67
+- ./fold_h1236_i_summary_confidences_0.json             0.448889  0.64  0.70           0.69
+- ./fold_h0236_threesix_b_summary_confidences_0.json    0.387778  0.63  0.69           0.69
+
+
 
 ## Wednesday: 4 targets
 ## * protein homooligomer
@@ -1782,14 +1853,18 @@ Monday: 5 targets
 ## * monomer
 ## 130. 	T1266 	Prot 	336 	A1 	Q99549
 
-## +,CAPRI T1234
-## 128. 	T1234 * 	Prot 	413 	A3 	 	YP_010355913.1
+Looks ok 
+- ./fold_t1266_summary_confidences_0.json         NaN   NaN  0.78   0.84
+  
+  Running more
 
-## +,CAPRI T1235
-## 129. 	T1235 * 	Prot 	115 	A6 	 	A0A410N6V5.2
+- ./fold_t1266_f_summary_confidences_0.json         NaN   NaN  0.55           0.60
+- ./fold_t1266_c_summary_confidences_0.json         NaN   NaN  0.79           0.84
+- ./fold_t1266_summary_confidences_0.json           NaN   NaN  0.78           0.84
+- ./fold_t1266_e_summary_confidences_0.json         NaN   NaN  0.79           0.84
+- ./fold_t1266_d_summary_confidences_0.json         NaN   NaN  0.80           0.86
+- ./fold_t1266_b_summary_confidences_0.json         NaN   NaN  0.80           0.86
 
-## +,CAPRI H1236
-## 127. 	H1236 * 	Prot 	528 	A3B6 	 	Haloferax tailed virus 1
 
 ## Wednesday: 4 targets
 ## * protein homooligomer
