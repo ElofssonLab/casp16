@@ -1898,11 +1898,14 @@ Hihhest scores ffor monomer
 ./fold_h0267_summary_confidences_0.json             0.860000  0.86  0.88           0.88
 ./fold_h0267_b_summary_confidences_0.json           0.870000  0.87  0.88           0.88
 
+For manual running more tetramer and monomers (they look best)
+
 
 ## * RNA with ligand
 ## 133. 	R1263 	NucA/Ligand 	64 	A1 		- 	ZTP riboswitch with m-1-pyridinyl AICA
 Running with citric acid and AMP (not very similar) 
 They bind in different places (cit inside, AMP outside)
+
 
 
 ## +,CAPRI T1237
