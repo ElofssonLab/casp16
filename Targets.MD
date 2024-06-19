@@ -1153,6 +1153,19 @@ tetraers are best
 - ./fold_t0237_tetramer_i_summary_confidences_0.json    0.850000  0.89  0.90           0.92
 - ./fold_t0237_tetramer_f_summary_confidences_0.json    0.842500  0.89  0.90           0.92
 
+## 134. 	T1237 * 	Prot 	488 	A4 	
+as expected it is a tetramer - same models will be submitted for
+manuel (for Af3 the new submission)
+
+
+./fold_t0237_tetramer_g_summary_confidences_0.json      0.8300  0.88  0.89           0.90
+./fold_t1237_summary_confidences_0.json                 0.8300  0.87  0.88           0.90
+./fold_t0237_tetramer_d_summary_confidences_0.json      0.8300  0.88  0.89           0.91
+./fold_t0237_tetramer_h_summary_confidences_0.json      0.8300  0.88  0.89           0.91
+./fold_t0237_tetramer_e_summary_confidences_0.json      0.8300  0.88  0.89           0.91
+./fold_t0237_tetramer_summary_confidences_0.json        0.8300  0.88  0.89           0.91
+./fold_t0237_tetramer_i_summary_confidences_0.json      0.8500  0.89  0.90           0.92
+./fold_t0237_tetramer_f_summary_confidences_0.json      0.8425  0.89  0.90           0.92
 
 
 
@@ -1195,8 +1208,10 @@ one strand is pointing in a different direction
 - ./fold_h1222b_summary_confidences_0.json    0.703333  0.78  0.79           0.82
 - ./fold_h1222e_summary_confidences_0.json    0.710000  0.79  0.80           0.83
 
+## 132. 	H2222 * 	Prot 	485 	A1B1-26 	- 	RSV G - Fab 2B11 complex
+## ++,CAPRI H2222
 
-## Thursday: 3 targets
+Just resubmitting
 
 
 
@@ -1213,6 +1228,8 @@ different poses. Picks the top ones
 - ./fold_h1223_summary_confidences_0.json      0.443333  0.78  0.81           0.81
 - ./fold_h1223_f_summary_confidences_0.json    0.373333  0.77  0.81           0.81
 - ./fold_h1223_j_summary_confidences_0.json    0.386667  0.78  0.82 0.82
+
+
 
 
 ## * protein homooligomer 
@@ -1235,6 +1252,7 @@ ranking_score
 - ./fold_t0238_summary_confidences_0.json                  NaN   NaN  0.64           0.64
 - ./fold_t0238_b_summary_confidences_0.json                NaN   NaN  0.65           0.65
 - ./fold_t0238_dimer_c_summary_confidences_0.json     0.580000  0.58  0.61           0.58
+
 
 ## *,CAPRI hybrid complex similar to M1228 - see Additional Information on the target-specific page.
 ## 85. 	M1239v1 * 	Prot-NucA 	738 	A4B2C2D2E2 	 	- 	SPbeta_intRDF_DNA
@@ -1868,21 +1886,42 @@ Looks ok
 
 ## Wednesday: 4 targets
 ## * protein homooligomer
+
+
+## 131. 	H0267 	Prot 	926 	UNK 		- 	XauSPARDA
+
+Hihhest scores ffor monomer
+
+./fold_h0267_trimer_summary_confidences_0.json      0.458333  0.59  0.62           0.61
+./fold_h0267_dimer_summary_confidences_0.json       0.595000  0.65  0.70           0.67
+./fold_h0267_tetramer_summary_confidences_0.json    0.536250  0.71  0.73           0.72
+./fold_h0267_summary_confidences_0.json             0.860000  0.86  0.88           0.88
+./fold_h0267_b_summary_confidences_0.json           0.870000  0.87  0.88           0.88
+
+
 ## * RNA with ligand
+## 133. 	R1263 	NucA/Ligand 	64 	A1 		- 	ZTP riboswitch with m-1-pyridinyl AICA
+Running with citric acid and AMP (not very similar) 
+They bind in different places (cit inside, AMP outside)
+
+
 ## +,CAPRI T1237
-## ++,CAPRI H2222
+
 ## 
 ## Thursday: 4 targets
 ## * hybrid complex (protein-RNA-DNA)
 ## * RNA with ligand
 ## +,CAPRI T1238
 ## ++,CAPRI H2223
+
+Just resubmitting
+
 ## 
 ## Friday: 3 targets
 ## * protein single-sequence target (filament)
 ## +,CAPRI T1240
 ## ++,CAPRI H2225
-
+Just resubmitting
 
 ## Remaining stuff
 R1260 - submit some version with water shell. Works to buld it - will
