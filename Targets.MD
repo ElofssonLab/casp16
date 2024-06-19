@@ -1551,7 +1551,7 @@ For manual tries multiple ligands, gdp etc but the first ranked model always loo
 
 ## * RNA with ligand
 ## 115. 	R1262 	NucA/Ligand 	89 	A1   	- 	ZTP riboswitch with AICA
-
+h0267
 Submittes merged AMP model for AF3-.server
 - ./fold_r1262_gdp_b_summary_confidences_0.json        0.84  0.84  0.68           0.81
 - ./fold_r1262_gdp_summary_confidences_0.json          0.84  0.84  0.67           0.81
@@ -1890,13 +1890,13 @@ Looks ok
 
 ## 131. 	H0267 	Prot 	926 	UNK 		- 	XauSPARDA
 
-Hihhest scores ffor monomer
+Highest scores for monomer
 
-./fold_h0267_trimer_summary_confidences_0.json      0.458333  0.59  0.62           0.61
-./fold_h0267_dimer_summary_confidences_0.json       0.595000  0.65  0.70           0.67
-./fold_h0267_tetramer_summary_confidences_0.json    0.536250  0.71  0.73           0.72
-./fold_h0267_summary_confidences_0.json             0.860000  0.86  0.88           0.88
-./fold_h0267_b_summary_confidences_0.json           0.870000  0.87  0.88           0.88
+- ./fold_h0267_trimer_summary_confidences_0.json      0.458333  0.59  0.62           0.61
+- ./fold_h0267_dimer_summary_confidences_0.json       0.595000  0.65  0.70           0.67
+- ./fold_h0267_tetramer_summary_confidences_0.json    0.536250  0.71  0.73           0.72
+- ./fold_h0267_summary_confidences_0.json             0.860000  0.86  0.88           0.88
+- ./fold_h0267_b_summary_confidences_0.json           0.870000  0.87  0.88           0.88
 
 For manual running more tetramer and monomers (they look best)
 
@@ -1905,6 +1905,24 @@ For manual running more tetramer and monomers (they look best)
 ## 133. 	R1263 	NucA/Ligand 	64 	A1 		- 	ZTP riboswitch with m-1-pyridinyl AICA
 Running with citric acid and AMP (not very similar) 
 They bind in different places (cit inside, AMP outside)
+
+- ./fold_h0267_pentamer_summary_confidences_0.json      0.361000  0.57  0.59           0.57
+- ./fold_h0267_trimer_summary_confidences_0.json        0.458333  0.59  0.62           0.61
+- ./fold_h0267_dimer_summary_confidences_0.json         0.595000  0.65  0.70           0.67
+- ./fold_h0267_tetramer_c_summary_confidences_0.json    0.530000  0.70  0.72           0.71
+- ./fold_h0267_tetramer_f_summary_confidences_0.json    0.520000  0.69  0.71           0.70
+- ./fold_h0267_tetramer_c_summary_confidences_0.json    0.530000  0.70  0.72           0.71
+- ./fold_h0267_tetramer_b_summary_confidences_0.json    0.540000  0.71  0.73           0.71
+- ./fold_h0267_tetramer_e_summary_confidences_0.json    0.527500  0.70  0.72           0.71
+- R4 ./fold_h0267_tetramer_summary_confidences_0.json      0.536250  0.71  0.73           0.72
+- R2 ./fold_h0267_tetramer_d_summary_confidences_0.json    0.545000  0.72  0.73           0.73
+- ./fold_h0267_c_summary_confidences_0.json             0.860000  0.86  0.88           0.87
+- ./fold_h0267_f_summary_confidences_0.json             0.860000  0.86  0.88           0.88
+- R5 ./fold_h0267_g_summary_confidences_0.json             0.870000  0.87  0.89           0.88
+- R3 ./fold_h0267_summary_confidences_0.json               0.860000  0.86  0.88           0.88
+- R1 ./fold_h0267_b_summary_confidences_0.json             0.870000  0.87  0.88           0.88
+
+
 
 
 
