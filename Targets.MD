@@ -1230,6 +1230,9 @@ different poses. Picks the top ones
 - ./fold_h1223_f_summary_confidences_0.json    0.373333  0.77  0.81           0.81
 - ./fold_h1223_j_summary_confidences_0.json    0.386667  0.78  0.82 0.82
 
+## ++,CAPRI H2223
+## 135. 	H2223 * 	Prot 	486 	A1B1C1  	- 	RSV G - Fab 1G8 complex
+ Just resubmitting (mande a new model but it had no better scores (the same)
 
 
 
@@ -1253,6 +1256,27 @@ ranking_score
 - ./fold_t0238_summary_confidences_0.json                  NaN   NaN  0.64           0.64
 - ./fold_t0238_b_summary_confidences_0.json                NaN   NaN  0.65           0.65
 - ./fold_t0238_dimer_c_summary_confidences_0.json     0.580000  0.58  0.61           0.58
+
+## +,CAPRI T1238
+## 138. 	T1238 * 	Prot 	327 	A2 		Bd2098 
+Was submitted as a mix (dimer as number one)
+
+
+- ./fold_t1238_i_summary_confidences_0.json              0.51  ...           0.52
+- ./fold_t0238_dimer_b_summary_confidences_0.json        0.53  ...           0.54
+- ./fold_t0238_dimer_d_summary_confidences_0.json        0.54  ...           0.55
+- ./fold_t1238_h_summary_confidences_0.json              0.55  ...           0.56
+- ./fold_t0238_dimer_e_summary_confidences_0.json        0.57  ...           0.57
+- ./fold_t0238_dimer_summary_confidences_0.json          0.56  ...           0.57
+- ./fold_t1238_f_summary_confidences_0.json              0.57  ...           0.57
+- ./fold_t0238_dimer_c_summary_confidences_0.json        0.58  ...           0.58
+- ./fold_t1238_d_summary_confidences_0.json              0.57  ...           0.58
+- ./fold_t1238_e_summary_confidences_0.json              0.57  ...           0.58
+- ./fold_t1238_b_summary_confidences_0.json              0.57  ...           0.58
+- ./fold_t1238_summary_confidences_0.json                0.59  ...           0.59
+- ./fold_t1238_c_summary_confidences_0.json              0.59  ...           0.60
+- ./fold_t1238_g_summary_confidences_0.json              0.60  ...           0.61
+
 
 
 ## *,CAPRI hybrid complex similar to M1228 - see Additional Information on the target-specific page.
@@ -1955,14 +1979,42 @@ alternative binding sites from that as prediction for manual model.
 
 ## 
 ## Thursday: 4 targets
+
+
 ## * hybrid complex (protein-RNA-DNA)
+## 136. 	M0268 	Prot-NucA 	996 	UNK 	 	- 	Activated XauSPARDA with nucleic acids
+
+The monomer looks nice and has clearly the best score. The DNA/RNA is
+complimentary
+
+- ./fold_m0268_trimer_summary_confidences_0.json    0.240000  ...           0.64
+- ./fold_m0268_dimer_summary_confidences_0.json     0.244167  ...           0.67
+- ./fold_m0268_summary_confidences_0.json           0.360000  ...           0.86
+
+
+af3 submit monomer..
+
+- ./fold_m0268_trimer_summary_confidences_0.json      0.240000  ...           0.64
+- ./fold_m0268_dimer_summary_confidences_0.json       0.244167  ...           0.67
+- ./fold_m0268_twoone_summary_confidences_0.json      0.305000  ...           0.68
+- ./fold_m0268_tetramer_summary_confidences_0.json    0.226667  ...           0.70
+- ./fold_m0268_onetwo_b_summary_confidences_0.json    0.095000  ...           0.73
+- ./fold_m0268_onetwo_summary_confidences_0.json      0.100000  ...           0.73
+- ./fold_m0268_e_summary_confidences_0.json           0.253333  ...           0.81
+- ./fold_m0268_h_summary_confidences_0.json           0.281667  ...           0.82
+- ./fold_m0268_f_summary_confidences_0.json           0.288333  ...           0.83
+- ./fold_m0268_d_summary_confidences_0.json           0.341667  ...           0.84
+- ./fold_m0268_c_summary_confidences_0.json           0.321667  ...           0.84
+- ./fold_m0268_b_summary_confidences_0.json           0.320000  ...           0.84
+- ./fold_m0268_summary_confidences_0.json             0.360000  ...           0.86
+
 ## * RNA with ligand
-## +,CAPRI T1238
-Was submitted as a mix (dimer as number one)
+## 137. 	R1264 	NucA/Ligand 	64 	A1 	- 	ZTP riboswitch with AICA derivative 
 
 
-## ++,CAPRI H2223
-Just resubmitting
+
+
+
 
 ## 
 ## Friday: 3 targets
