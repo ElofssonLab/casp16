@@ -1970,7 +1970,9 @@ Just resubmitting
 R1260 - submit some version with water shell. Works to buld it - will
 tun more models and then just submit
 
-Running twenty more models
+AF3: Made twenty*5 models and added waters, ions and NA-hepes randomly
+in asphere. Submitted that.
 
-
-run 45 ns (stopped then for some reason)
+Manual run 47 ns (stopped then for some reason)with gromacs (after
+adding salts to neutralize the system) From  the first
+structure. Extracted snapshots 473
