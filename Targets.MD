@@ -1334,6 +1334,17 @@ Conversion of ions did not work
 As this will be evaluated on the water shell I just submitted the same
 as a manual model
 
+R1260 - submit some version with water shell. Works to buld it - will
+tun more models and then just submit
+
+AF3: Made twenty*5 models and added waters, ions and NA-hepes randomly
+in asphere. Submitted that.
+
+Manual run 47 ns (stopped then for some reason)with gromacs (after
+adding salts to neutralize the system) From  the first
+structure. Extracted 473 snapshots
+
+
 ## Monday: 4 targets
 ## * protein heterooligomer and its two subunits
 
@@ -1967,12 +1978,3 @@ Just resubmitting
 
 
 ## Remaining stuff
-R1260 - submit some version with water shell. Works to buld it - will
-tun more models and then just submit
-
-AF3: Made twenty*5 models and added waters, ions and NA-hepes randomly
-in asphere. Submitted that.
-
-Manual run 47 ns (stopped then for some reason)with gromacs (after
-adding salts to neutralize the system) From  the first
-structure. Extracted 473 snapshots
