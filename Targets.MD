@@ -1975,4 +1975,4 @@ in asphere. Submitted that.
 
 Manual run 47 ns (stopped then for some reason)with gromacs (after
 adding salts to neutralize the system) From  the first
-structure. Extracted snapshots 473
+structure. Extracted 473 snapshots
