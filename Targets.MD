@@ -1971,3 +1971,6 @@ R1260 - submit some version with water shell. Works to buld it - will
 tun more models and then just submit
 
 Running twenty more models
+
+
+run 45 ns (stopped then for some reason)
