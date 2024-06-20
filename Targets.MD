@@ -1153,6 +1153,7 @@ tetraers are best
 - ./fold_t0237_tetramer_i_summary_confidences_0.json    0.850000  0.89  0.90           0.92
 - ./fold_t0237_tetramer_f_summary_confidences_0.json    0.842500  0.89  0.90           0.92
 
+## +,CAPRI T1237
 ## 134. 	T1237 * 	Prot 	488 	A4 	
 as expected it is a tetramer - same models will be submitted for
 manuel (for Af3 the new submission)
@@ -1901,10 +1902,6 @@ Highest scores for monomer
 For manual running more tetramer and monomers (they look best)
 
 
-## * RNA with ligand
-## 133. 	R1263 	NucA/Ligand 	64 	A1 		- 	ZTP riboswitch with m-1-pyridinyl AICA
-Running with citric acid and AMP (not very similar) 
-They bind in different places (cit inside, AMP outside)
 
 - ./fold_h0267_pentamer_summary_confidences_0.json      0.361000  0.57  0.59           0.57
 - ./fold_h0267_trimer_summary_confidences_0.json        0.458333  0.59  0.62           0.61
@@ -1923,26 +1920,51 @@ They bind in different places (cit inside, AMP outside)
 - R1 ./fold_h0267_b_summary_confidences_0.json             0.870000  0.87  0.88           0.88
 
 
+## * RNA with ligand
+## 133. 	R1263 	NucA/Ligand 	64 	A1 		- 	ZTP riboswitch with m-1-pyridinyl AICA
+Running with citric acid and AMP (not very similar) 
+They bind in different places (cit inside, AMP outside)
+
+- ./fold_r1263_cit4amp4_summary_confidences_0.json        0.10  0.45  0.56           0.47
+- ./fold_r1263_amp_summary_confidences_0.json             0.50  0.50  0.58           0.52
+- ./fold_r1263_i_summary_confidences_0.json               0.54  0.54  0.54           0.54
+- ./fold_r1263_cit_summary_confidences_0.json             0.57  0.57  0.46           0.55
+- ./fold_r1263_c_summary_confidences_0.json               0.56  0.56  0.54           0.55
+- ./fold_r1263_f_summary_confidences_0.json               0.55  0.55  0.53           0.55
+- ./fold_r1263_h_summary_confidences_0.json               0.57  0.57  0.52           0.56
+- ./fold_r1263_d_summary_confidences_0.json               0.58  0.58  0.49           0.56
+- ./fold_r1263_b_summary_confidences_0.json               0.59  0.59  0.50           0.57
+- ./fold_r1263_e_summary_confidences_0.json               0.59  0.59  0.52           0.58
+- ./fold_r1263_g_summary_confidences_0.json               0.61  0.61  0.54           0.59
+
+As all these models are similar I decided to run cit5 and use the
+alternative binding sites from that as prediction for manual model.
 
 
-
-## +,CAPRI T1237
 
 ## 
 ## Thursday: 4 targets
 ## * hybrid complex (protein-RNA-DNA)
 ## * RNA with ligand
 ## +,CAPRI T1238
-## ++,CAPRI H2223
+Was submitted as a mix (dimer as number one)
 
+
+## ++,CAPRI H2223
 Just resubmitting
 
 ## 
 ## Friday: 3 targets
 ## * protein single-sequence target (filament)
 ## +,CAPRI T1240
+Monomer or trimer ?
+
+
+
 ## ++,CAPRI H2225
 Just resubmitting
+
+
 
 ## Remaining stuff
 R1260 - submit some version with water shell. Works to buld it - will
