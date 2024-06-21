@@ -1332,6 +1332,32 @@ Manual predictions are less clear - just pick the top ranked ones
 - ./fold_t0240_c_summary_confidences_0.json                NaN   NaN  0.38           0.48
 - ./fold_t0240_trimer_summary_confidences_0.json        0.3700  0.42  0.42           0.50
 
+## +,CAPRI T1240
+## 140. 	T1240 * 	Prot 	653 	A3 	 		Bd3442
+ Monomer or trimer ? It was a trimer
+
+- ./fold_t0240_trimer_j_summary_confidences_0.json    0.320000  0.36  0.37           0.42
+- ./fold_t0240_trimer_c_summary_confidences_0.json    0.300000  0.33  0.34           0.42
+- ./fold_t1240_i_summary_confidences_0.json           0.330000  0.37  0.38           0.43
+- ./fold_t1240_c_summary_confidences_0.json           0.330000  0.36  0.37           0.43
+- ./fold_t1240_d_summary_confidences_0.json           0.313333  0.35  0.36           0.43
+- ./fold_t1240_g_summary_confidences_0.json           0.330000  0.37  0.38           0.43
+- ./fold_t0240_trimer_g_summary_confidences_0.json    0.330000  0.37  0.38           0.44
+- ./fold_t0240_trimer_h_summary_confidences_0.json    0.340000  0.38  0.39           0.44
+- ./fold_t1240_e_summary_confidences_0.json           0.350000  0.40  0.40           0.45
+- ./fold_t1240_b_summary_confidences_0.json           0.340000  0.38  0.39           0.46
+- ./fold_t0240_trimer_f_summary_confidences_0.json    0.340000  0.38  0.39           0.46
+- ./fold_t1240_h_summary_confidences_0.json           0.350000  0.39  0.40           0.46
+- ./fold_t1240_summary_confidences_0.json             0.353333  0.40  0.41           0.47
+- ./fold_t0240_trimer_summary_confidences_0.json      0.370000  0.42  0.42           0.50
+- ./fold_t1240_f_summary_confidences_0.json           0.390000  0.44  0.44           0.50
+
+Submits just best models (t1240_ for af3) 
+
+Best models are extended some with lower scores are not - just submit
+as model 5 (t1240_d)
+
+
 
 ## +,CAPRI H1225
 ## 90. 	H1225 * 	All groups 	483 	A1B1C1 	RSV G - Fab 1G1 complex
@@ -1344,6 +1370,10 @@ Human sampling more (As with other similar moels)
 - ./fold_h1225_e_summary_confidences_0.json    0.453333  0.69  0.73           0.74
 - ./fold_h1225_g_summary_confidences_0.json    0.473333  0.70  0.72           0.74
 - ./fold_h1225_f_summary_confidences_0.json    0.443333  0.70  0.73           0.74
+
+## 139. 	H2225 * 	Prot 	483 	A1B1C1  	- 	RSV G - Fab 1G1 complex
+## ++,CAPRI H2225
+Just resubmitting
 
 
 
@@ -1994,39 +2024,56 @@ complimentary
 
 af3 submit monomer..
 
-- ./fold_m0268_trimer_summary_confidences_0.json      0.240000  ...           0.64
-- ./fold_m0268_dimer_summary_confidences_0.json       0.244167  ...           0.67
-- ./fold_m0268_twoone_summary_confidences_0.json      0.305000  ...           0.68
-- ./fold_m0268_tetramer_summary_confidences_0.json    0.226667  ...           0.70
-- ./fold_m0268_onetwo_b_summary_confidences_0.json    0.095000  ...           0.73
-- ./fold_m0268_onetwo_summary_confidences_0.json      0.100000  ...           0.73
-- ./fold_m0268_e_summary_confidences_0.json           0.253333  ...           0.81
-- ./fold_m0268_h_summary_confidences_0.json           0.281667  ...           0.82
-- ./fold_m0268_f_summary_confidences_0.json           0.288333  ...           0.83
-- ./fold_m0268_d_summary_confidences_0.json           0.341667  ...           0.84
-- ./fold_m0268_c_summary_confidences_0.json           0.321667  ...           0.84
-- ./fold_m0268_b_summary_confidences_0.json           0.320000  ...           0.84
-- ./fold_m0268_summary_confidences_0.json             0.360000  ...           0.86
+- ./fold_m0268_fourtwo_summary_confidences_0.json       0.204545  0.57  0.59           0.58
+- ./fold_m0268_one_twoone_summary_confidences_0.json    0.248571  0.60  0.71           0.62
+- ./fold_m0268_twooneone_summary_confidences_0.json     0.275714  0.60  0.71           0.63
+- ./fold_m0268_trimer_summary_confidences_0.json        0.240000  0.63  0.66           0.64
+- ./fold_m0268_dimer_summary_confidences_0.json         0.244167  0.66  0.69           0.67
+- ./fold_m0268_twoone_summary_confidences_0.json        0.305000  0.66  0.70           0.68
+- ./fold_m0268_tetramer_summary_confidences_0.json      0.226667  0.70  0.71           0.70
+- ./fold_m0268_onetwo_b_summary_confidences_0.json      0.095000  0.71  0.80           0.73
+- ./fold_m0268_onetwo_summary_confidences_0.json        0.100000  0.71  0.80           0.73
+- ./fold_m0268_e_summary_confidences_0.json             0.253333  0.80  0.86           0.81
+- ./fold_m0268_h_summary_confidences_0.json             0.281667  0.81  0.86           0.82
+- ./fold_m0268_f_summary_confidences_0.json             0.288333  0.82  0.87           0.83
+- ./fold_m0268_d_summary_confidences_0.json             0.341667  0.83  0.87           0.84
+- ./fold_m0268_c_summary_confidences_0.json             0.321667  0.83  0.87           0.84
+- ./fold_m0268_b_summary_confidences_0.json             0.320000  0.82  0.87           0.84
+- ./fold_m0268_summary_confidences_0.json               0.360000  0.84  0.89           0.86
+
+
+One  dna dimer looks good the position of the other is uncertain. The
+binding of the good one is in between the two protein chains.
+
+(BDF is one set)
+CH_ is one
+E is one
+
+TWOONe pack the DNA pair as BDF
+Two oneone sorts of packs it nice (but scores are bad) submit as model
+4 and 5
 
 ## * RNA with ligand
 ## 137. 	R1264 	NucA/Ligand 	64 	A1 	- 	ZTP riboswitch with AICA derivative 
 
+For af3 submitting "cit" model for manual cit5 (5 alternativ binding sites)
 
-
-
-
-
-## 
-## Friday: 3 targets
 ## * protein single-sequence target (filament)
-## +,CAPRI T1240
-Monomer or trimer ?
+## 141. 	T1269 	Prot 	1410 	A1 		MUC5AC uniprot P98088 
 
+All models looks the same - slight variation of the packing of
+domains. (RMSD >1Å)
 
-
-## ++,CAPRI H2225
-Just resubmitting
-
+./fold_t1269_g_summary_confidences_0.json         NaN   NaN  0.68           0.71
+./fold_t1269_h_summary_confidences_0.json         NaN   NaN  0.69           0.73
+./fold_t1269_summary_confidences_0.json           NaN   NaN  0.70           0.74
+./fold_t1269_i_summary_confidences_0.json         NaN   NaN  0.70           0.74
+./fold_t1269_e_summary_confidences_0.json         NaN   NaN  0.71           0.74
+./fold_t1269_c_summary_confidences_0.json         NaN   NaN  0.70           0.74
+./fold_t1269_d_summary_confidences_0.json         NaN   NaN  0.70           0.75
+./fold_t1269_f_summary_confidences_0.json         NaN   NaN  0.72           0.76
+./fold_t1269_b_summary_confidences_0.json         NaN   NaN  0.73           0.77
 
 
 ## Remaining stuff
+Check M0268 if you 
