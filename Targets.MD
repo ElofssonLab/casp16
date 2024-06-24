@@ -2089,9 +2089,13 @@ Submitted a few versions at stage 0 - first ranked twotwoone
 ##  * M0271 (stage 0), and its 8 protein subunits and one RNA subunit as separate tertiary structure targets
 ##  +,CAPRI H1245
 
-Submitted monomer version (h0245_a has much higher scores than the rest)
+Submitted monomer version (h0245_a has much higher scores than the
+rest) But they all look the same
 
 ##  + T1246
+
+Submitted dimer with monomer as a backup
+
 
 ##  Wednesday: 3 targets
 ##  ++,CAPRI H2229
@@ -2101,13 +2105,23 @@ Submitted monomer version (h0245_a has much higher scores than the rest)
 ##  Thursday: 3 targets
 ##  * DNA target with a ligand
 ##  + T1257
+
+Submitted trimers with dimer as a backup
+
 ##  + H1258
+
+Submitted complicated model of dimer (with some cuts to fit into 5000 residues)
 
 ##  Friday: 5 targets
 ##  * RNA (stage 0)
 ##  * RNA (stage 0)
 ##  + R1254 (RNA, stage 1)
+Submitted monomer with dimer as a backupe
+
+
 ##  +,CAPRI T1259
+Submitted trimer
+
 ##  ++,CAPRI H2232
 
 ## Remaining stuff
