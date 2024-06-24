@@ -2064,16 +2064,51 @@ For af3 submitting "cit" model for manual cit5 (5 alternativ binding sites)
 All models looks the same - slight variation of the packing of
 domains. (RMSD >1Å)
 
-./fold_t1269_g_summary_confidences_0.json         NaN   NaN  0.68           0.71
-./fold_t1269_h_summary_confidences_0.json         NaN   NaN  0.69           0.73
-./fold_t1269_summary_confidences_0.json           NaN   NaN  0.70           0.74
-./fold_t1269_i_summary_confidences_0.json         NaN   NaN  0.70           0.74
-./fold_t1269_e_summary_confidences_0.json         NaN   NaN  0.71           0.74
-./fold_t1269_c_summary_confidences_0.json         NaN   NaN  0.70           0.74
-./fold_t1269_d_summary_confidences_0.json         NaN   NaN  0.70           0.75
-./fold_t1269_f_summary_confidences_0.json         NaN   NaN  0.72           0.76
-./fold_t1269_b_summary_confidences_0.json         NaN   NaN  0.73           0.77
+- ./fold_t1269_g_summary_confidences_0.json         NaN   NaN  0.68           0.71
+- ./fold_t1269_h_summary_confidences_0.json         NaN   NaN  0.69           0.73
+- ./fold_t1269_summary_confidences_0.json           NaN   NaN  0.70           0.74
+- ./fold_t1269_i_summary_confidences_0.json         NaN   NaN  0.70           0.74
+- ./fold_t1269_e_summary_confidences_0.json         NaN   NaN  0.71           0.74
+- ./fold_t1269_c_summary_confidences_0.json         NaN   NaN  0.70           0.74
+- ./fold_t1269_d_summary_confidences_0.json         NaN   NaN  0.70           0.75
+- ./fold_t1269_f_summary_confidences_0.json         NaN   NaN  0.72           0.76
+- ./fold_t1269_b_summary_confidences_0.json         NaN   NaN  0.73           0.77
 
+
+
+##  Monday: 4 targets
+##  * protein homooligomer (stage 0)
+##  +,CAPRI H1244
+
+Submitted a few versions at stage 0 - first ranked twotwoone
+
+##  ++,CAPRI H2227
+##  ++ T2243
+
+##  Tuesday: 3 targets (12 with subunits), including one large hybrid complex M0271 of an RNA and 10 different proteins (some in multiple copies).
+##  * M0271 (stage 0), and its 8 protein subunits and one RNA subunit as separate tertiary structure targets
+##  +,CAPRI H1245
+
+Submitted monomer version (h0245_a has much higher scores than the rest)
+
+##  + T1246
+
+##  Wednesday: 3 targets
+##  ++,CAPRI H2229
+##  ++,CAPRI H2230
+##  ++ T2247
+
+##  Thursday: 3 targets
+##  * DNA target with a ligand
+##  + T1257
+##  + H1258
+
+##  Friday: 5 targets
+##  * RNA (stage 0)
+##  * RNA (stage 0)
+##  + R1254 (RNA, stage 1)
+##  +,CAPRI T1259
+##  ++,CAPRI H2232
 
 ## Remaining stuff
-Check M0268 if you 
+
