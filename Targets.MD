@@ -2078,15 +2078,23 @@ domains. (RMSD >1Å)
 
 ##  Monday: 4 targets
 ##  * protein homooligomer (stage 0)
-##  +,CAPRI H1244
 
+
+##  +,CAPRI H1244
 Submitted a few versions at stage 0 - first ranked twotwoone
 
 ##  ++,CAPRI H2227
+Will just resubmit "1" version
+
 ##  ++ T2243
 
-##  Tuesday: 3 targets (12 with subunits), including one large hybrid complex M0271 of an RNA and 10 different proteins (some in multiple copies).
+##  Tuesday: 3 targets (12 with subunits), including one 
+
+
 ##  * M0271 (stage 0), and its 8 protein subunits and one RNA subunit as separate tertiary structure targets
+## a large hybrid complex M0271 of an RNA and 10 different proteins (some in multiple copies).
+
+
 ##  +,CAPRI H1245
 
 Submitted monomer version (h0245_a has much higher scores than the
@@ -2099,11 +2107,17 @@ Submitted dimer with monomer as a backup
 
 ##  Wednesday: 3 targets
 ##  ++,CAPRI H2229
+Will just resubmit "1" version
+
 ##  ++,CAPRI H2230
+Will just resubmit "1" version
+
 ##  ++ T2247
+Will just resubmit "1" version
 
 ##  Thursday: 3 targets
 ##  * DNA target with a ligand
+
 ##  + T1257
 
 Submitted trimers with dimer as a backup
@@ -2113,8 +2127,13 @@ Submitted trimers with dimer as a backup
 Submitted complicated model of dimer (with some cuts to fit into 5000 residues)
 
 ##  Friday: 5 targets
+
 ##  * RNA (stage 0)
+
+
 ##  * RNA (stage 0)
+
+
 ##  + R1254 (RNA, stage 1)
 Submitted monomer with dimer as a backupe
 
@@ -2123,6 +2142,7 @@ Submitted monomer with dimer as a backupe
 Submitted trimer
 
 ##  ++,CAPRI H2232
+Will just resubmit "1" version
 
 ## Remaining stuff
 
