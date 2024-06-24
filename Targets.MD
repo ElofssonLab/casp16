@@ -548,6 +548,34 @@ Submitted:
 
 Submit the H0227 model for manual
 
+##  ++,CAPRI H2227
+Will just resubmit "1" version
+
+
+## 143. 	H2227 * 	Prot 	1304 	A1B6   24-07-01 	- 	LetA (P0AD03) and LetB (P76272)
+
+It was technically challenging to generate a typical set of 8000+
+MassiveFold predictions for target H1227. To decrease the CPU RAM
+usage and make the problem computationally manageable, we truncated
+subunit B to its first 279 residues and are now releasing the
+second-phase target H2227 as a truncated version of H1227.
+
+QA MODEL 1 accuracy estimates should be done on H1227 CASP16 models, while QA MODEL 2 - on the H2227 MassiveFold set.
+
+Will rerun for H2227 sequence and submit as af3/manual predictions
+
+
+- ./fold_h2227_c_summary_confidences_0.json    0.417143  0.58  0.60           0.64
+- ./fold_h2227_d_summary_confidences_0.json    0.428571  0.58  0.61           0.64
+- ./fold_h2227_i_summary_confidences_0.json    0.458571  0.62  0.64           0.67
+- ./fold_h2227_summary_confidences_0.json      0.488571  0.63  0.65           0.68
+- ./fold_h2227_h_summary_confidences_0.json    0.471429  0.62  0.64           0.68
+- ./fold_h2227_g_summary_confidences_0.json    0.484286  0.64  0.66           0.69
+- ./fold_h2227_e_summary_confidences_0.json    0.475714  0.63  0.65           0.69
+- ./fold_h2227_b_summary_confidences_0.json    0.475714  0.63  0.65           0.69
+
+All looks the same (cut away most of chain B)
+
 
 
 ## * RNA
@@ -1449,9 +1477,29 @@ nanobody is binding -this makes some sense to me).
 - ./fold_h0244_twotwoone_summary_confidences_0.json     0.352000  0.51  0.53           0.75 
 - ./fold_h0244_twotwoone_d_summary_confidences_0....    0.348000  0.50  0.53           0.76 
 
+##  +,CAPRI H1244
+## 142. 	H1244 * 	Prot 	425 	A2B2C2 24-07-08 	BJCNb48
+## 145. 	T1244s1 	Prot 	157 	A1 	2027-08 	- 	BJCNb48
+## 146. 	T1244s2 	Prot 	129 	A1 	2027-08 	- 	BJCNb48
+ Submitted a few versions at stage 0 - first ranked twotwoone
+It is actually "dimer"
+
+Running more..
+
+- ./fold_h1244_h_summary_confidences_0.json        0.210000  0.38  0.43           0.57
+- ./fold_h1244_summary_confidences_0.json          0.203333  0.37  0.42           0.58
+- ./fold_h0244_dimer_summary_confidences_0.json    0.220000  0.40  0.44           0.59
+- ./fold_h1244_f_summary_confidences_0.json        0.211667  0.39  0.43           0.60
+- ./fold_h1244_d_summary_confidences_0.json        0.206667  0.38  0.42           0.60
+- ./fold_h1244_e_summary_confidences_0.json        0.210000  0.39  0.43           0.60
+- ./fold_h1244_g_summary_confidences_0.json        0.216667  0.39  0.43           0.61
+- ./fold_h1244_i_summary_confidences_0.json        0.261667  0.43  0.47           0.65
+- ./fold_h1244_b_summary_confidences_0.json        0.285000  0.46  0.49           0.67
+- ./fold_h1244_c_summary_confidences_0.json        0.366667  0.53  0.56           0.72
+
+Dimer actually looks nice, not sure why I did not like it before.
 
 ## * protein monomer
-
 ## 99. 	T1243 	All groups 	293 	A1 	202     MTMA3 (UNIPROT ID: P0CH91)
 
 Easy target - do a standard stuff - all look the same
@@ -1462,6 +1510,9 @@ Easy target - do a standard stuff - all look the same
 - ./fold_t1243_c_summary_confidences_0.json         NaN   NaN  0.92           0.94
 - ./fold_t1243_f_summary_confidences_0.json         NaN   NaN  0.92 0.94
 
+##  ++ T2243
+## 147. 	T2243 	Prot 	293 	A1 	2024-06 	- 	MTMA3 (UNIPROT ID: P0CH91) 
+Will just resubmit "1" version
 
 
 
@@ -2078,15 +2129,46 @@ domains. (RMSD >1Å)
 
 ##  Monday: 4 targets
 ##  * protein homooligomer (stage 0)
+## 144. 	T0270 	Prot 	437 	UNK 	2027-08 	- 	HtrA 
+
+- ./fold_t0270_dimer_summary_confidences_0.json       0.180000  0.18  0.38           0.23
+- ./fold_t0270_tetramer_summary_confidences_0.json    0.282500  0.40  0.47           0.43
+- ./fold_t0270_pentamer_summary_confidences_0.json    0.296000  0.42  0.47           0.44
+- ./fold_t0270_hexamer_summary_confidences_0.json     0.376667  0.48  0.54           0.51
+- ./fold_t0270_trimer_summary_confidences_0.json      0.610000  0.64  0.66           0.65
+- ./fold_t0270_summary_confidences_0.json                  NaN   NaN  0.76           0.78
+
+Hexamer is actually nice WIll run more trimers monomers and hexamers
+
+for AF3 submit monomer, trimer, hexamer
+- R1 fold_t0270_model_0.pdb
+- R2 fold_t0270_trimer_model_0.pdb
+- R3 fold_t0270_hexamer_model_0.pdb
+- R4 fold_t0270_model_1.pdb
+- R5 fold_t0270_trimer_model_1.pdb
+
+Manual with more choices
+- ./fold_t0270_dimer_summary_confidences_0.json        0.180000  0.18  0.38           0.23
+- ./fold_t0270_tetramer_summary_confidences_0.json     0.282500  0.40  0.47           0.43
+- ./fold_t0270_pentamer_summary_confidences_0.json     0.296000  0.42  0.47           0.44
+- ./fold_t0270_hexamer_b_summary_confidences_0.json    0.341667  0.45  0.49           0.47
+- ./fold_t0270_hexamer_c_summary_confidences_0.json    0.338333  0.46  0.50           0.48
+- ./fold_t0270_hexamer_f_summary_confidences_0.json    0.378333  0.48  0.54           0.50
+- ./fold_t0270_hexamer_summary_confidences_0.json      0.376667  0.48  0.54           0.51
+- ./fold_t0270_trimer_c_summary_confidences_0.json     0.600000  0.63  0.65           0.64
+- ./fold_t0270_trimer_summary_confidences_0.json       0.610000  0.64  0.66           0.65
+- ./fold_t0270_trimer_d_summary_confidences_0.json     0.620000  0.64  0.67           0.66
+- R5 ./fold_t0270_hexamer_d_summary_confidences_0.json    0.525000  0.64  0.68           0.66
+- ./fold_t0270_d_summary_confidences_0.json                 NaN   NaN  0.71           0.73
+- ./fold_t0270_c_summary_confidences_0.json                 NaN   NaN  0.71           0.73
+- ./fold_t0270_trimer_e_summary_confidences_0.json     0.700000  0.72  0.74           0.74
+- R4 ./fold_t0270_trimer_f_summary_confidences_0.json     0.700000  0.73  0.75           0.74
+- ./fold_t0270_e_summary_confidences_0.json                 NaN   NaN  0.72           0.74
+- R3 ./fold_t0270_f_summary_confidences_0.json                 NaN   NaN  0.72           0.74
+- R2 ./fold_t0270_trimer_b_summary_confidences_0.json     0.710000  0.74  0.76           0.75
+- R1  ./fold_t0270_b_summary_confidences_0.json                 NaN   NaN  0.73           0.75
 
 
-##  +,CAPRI H1244
-Submitted a few versions at stage 0 - first ranked twotwoone
-
-##  ++,CAPRI H2227
-Will just resubmit "1" version
-
-##  ++ T2243
 
 ##  Tuesday: 3 targets (12 with subunits), including one 
 
