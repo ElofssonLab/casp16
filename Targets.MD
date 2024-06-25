@@ -1554,6 +1554,22 @@ One model has for some reason much better score than the otthers will
 submit that as manual prediction
 
 
+##  +,CAPRI H1245
+
+Submitted monomer version (H0245_A)) has much higher scores than the
+rest) But they all look the same
+
+It was a monomer
+
+                                           chain_iptm  iptm   ptm  ranking_score
+./fold_h0245_summary_confidences_0.json          0.18  0.18  0.56           0.31
+./fold_h1245_summary_confidences_0.json          0.20  0.20  0.57           0.33
+./fold_h0245_f_summary_confidences_0.json        0.22  0.22  0.58           0.34
+./fold_h0245_d_summary_confidences_0.json        0.21  0.21  0.57           0.34
+./fold_h0245_e_summary_confidences_0.json        0.22  0.22  0.57           0.34
+./fold_h0245_b_summary_confidences_0.json        0.23  0.23  0.58           0.35
+./fold_h0245_a_summary_confidences_0.json        0.75  0.75  0.80           0.81
+
 
 ## * protein single-sequence target
 ## 106. 	T0246 	Prot 	168 	UNK    	- 	DcmC 
@@ -1590,6 +1606,18 @@ I still think dimer is more likely Picks
 - ./fold_t0246_dimer_c_summary_confidences_0.json        0.920  0.92  0.93           0.94
 - ./fold_t0246_dimer_b_summary_confidences_0.json        0.920  0.92  0.93           0.94
 - ./fold_t0246_dimer_f_summary_confidences_0.json        0.920  0.92  0.93           0.94
+
+
+##  + T1246
+Submitted dimer with monomer as a backup
+It was a monomer
+./fold_t0246_f_summary_confidences_0.json         NaN   NaN  0.91           0.93
+./fold_t1246_summary_confidences_0.json           NaN   NaN  0.91           0.93
+./fold_t0246_summary_confidences_0.json           NaN   NaN  0.92           0.94
+./fold_t0246_b_summary_confidences_0.json         NaN   NaN  0.91           0.94
+./fold_t0246_e_summary_confidences_0.json         NaN   NaN  0.91           0.94
+./fold_t0246_d_summary_confidences_0.json         NaN   NaN  0.91           0.94
+./fold_t0246_c_summary_confidences_0.json         NaN   NaN  0.91           0.94
 
 
 
@@ -2180,15 +2208,145 @@ and monmers as backup
 ##  * M0271 (stage 0), and its 8 protein subunits and one RNA subunit as separate tertiary structure targets
 ## a large hybrid complex M0271 of an RNA and 10 different proteins (some in multiple copies).
 
+For af3 submit monomer 
 
-##  +,CAPRI H1245
+- ./fold_m0271_2xb_summary_confidences_0.json           0.194167  0.43  0.46         -99.51
+- ./fold_m0271_2xd_summary_confidences_0.json           0.198333  0.44  0.46         -99.51
+- ./fold_m0271_2xc_summary_confidences_0.json           0.200000  0.44  0.47         -99.51
+- ./fold_m0271_chain_a_dimer_summary_confidences_...    0.180000  0.18  0.35           0.39
+- ./fold_m0271_chain_b_dimer_summary_confidences_...    0.220000  0.22  0.41           0.44
+- ./fold_m0271_2xf_summary_confidences_0.json           0.200833  0.44  0.47           0.50
+- ./fold_m0271_2xe_summary_confidences_0.json           0.248333  0.46  0.48           0.50
+- ./fold_m0271_2xj_summary_confidences_0.json           0.203333  0.46  0.48           0.51
+- ./fold_m0271_summary_confidences_0.json               0.228182  0.45  0.47           0.51
+- ./fold_m0271_2xg_summary_confidences_0.json           0.240000  0.47  0.50           0.53
+- ./fold_m0271_2xrna_summary_confidences_0.json         0.205000  0.45  0.48           0.53
+- ./fold_m0271_2xh_summary_confidences_0.json           0.224167  0.46  0.49           0.53
 
-Submitted monomer version (h0245_a has much higher scores than the
-rest) But they all look the same
 
-##  + T1246
+A lot of disordered regions (that are hallucinated with AF3)
 
-Submitted dimer with monomer as a backup
+- A M0271, subunit 1, 818 residues;
+- B M0271, subunit 2, 414 residues; sum 1232
+- C M0271, subunit 3, 384 residues; sum 1616
+- D M0271, subunit 4, 368 residues; sum 1984
+- E  M02714, subunit 5, 762 residues; sum 2746
+- F M0271, subunit 6, 587 residues; sum 3333
+- G M0271, subunit 7, 393 residues; sum 3726
+- H M0271, subunit 8, 218 residues; sum 3944
+- I M0271, subunit 9, 169 residues; sum 4013
+- J M0271, subunit 10, 164 residues; sum 4177
+- RNA M02724, subunit 11, RNA, 77 residues;
+ 
+
+Only interactions between chains A-D and a small part of E - no
+indication of dimers in that region
+
+In the model some interactions between
+E-G
+B-H
+F-J
+G-RNA
+
+From interaction maps
+F-G, I , J  (C-terminal fragments of F and G)
+No real indication of dimers.
+
+No real indication of interactions with RNA.
+
+Not complete version
+- ./fold_m0271_chain_a_dimer_summary_confidences_...    0.180000  0.18  0.35           0.39
+- ./fold_m0271_chain_b_dimer_summary_confidences_...    0.220000  0.22  0.41           0.44
+- ./fold_m0271_f_summary_confidences_0.json             0.250909  0.47  0.50           0.53
+- ./fold_m0271_e_summary_confidences_0.json             0.257273  0.48  0.51           0.55
+- ./fold_m0271_a_e_dimer_summary_confidences_0.json     0.260000  0.41  0.45           0.57
+- ./fold_m0271_a_f_summary_confidences_0.json           0.453333  0.57  0.58           0.73
+
+
+Rerunning more monomer versions and more 
+
+
+- ./fold_m0271_2xd_summary_confidences_0.json           0.198333  0.44  0.46         -99.51
+- ./fold_m0271_2xb_summary_confidences_0.json           0.194167  0.43  0.46         -99.51
+- ./fold_m0271_2xc_summary_confidences_0.json           0.200000  0.44  0.47         -99.51
+- ./fold_m0271_f_j_summary_confidences_0.json           0.146667  0.23  0.27           0.34
+- ./fold_m0271_f_j_dimer_summary_confidences_0.json     0.105455  0.25  0.27           0.36
+- ./fold_m0271_chain_a_dimer_summary_confidences_...    0.180000  0.18  0.35           0.39
+- ./fold_m0271_chain_b_dimer_summary_confidences_...    0.220000  0.22  0.41           0.44
+- ./fold_m0271_2xh_d_summary_confidences_0.json         0.195833  0.44  0.47           0.49
+- ./fold_m0271_2xh_c_summary_confidences_0.json         0.205000  0.45  0.48           0.49
+- ./fold_m0271_2xg_e_summary_confidences_0.json         0.198333  0.44  0.47           0.50
+- ./fold_m0271_2xf_summary_confidences_0.json           0.200833  0.44  0.47           0.50
+- ./fold_m0271_2xgh_summary_confidences_0.json          0.188462  0.45  0.47           0.50
+- ./fold_m0271_2xg_d_summary_confidences_0.json         0.205000  0.45  0.48           0.50
+- ./fold_m0271_2xg_d_summary_confidences_0.json         0.205000  0.45  0.48           0.50
+- ./fold_m0271_2xg_c_summary_confidences_0.json         0.202500  0.45  0.47           0.50
+- ./fold_m0271_2xe_summary_confidences_0.json           0.248333  0.46  0.48           0.50
+- ./fold_m0271_summary_confidences_0.json               0.228182  0.45  0.47           0.51
+- ./fold_m0271_d_summary_confidences_0.json             0.239091  0.46  0.48           0.51
+- ./fold_m0271_2xj_summary_confidences_0.json           0.203333  0.46  0.48           0.51
+- ./fold_m0271_2xh_f_summary_confidences_0.json         0.189167  0.45  0.48           0.52
+- ./fold_m0271_i_summary_confidences_0.json             0.233636  0.46  0.49           0.52
+- ./fold_m0271_2xh_e_summary_confidences_0.json         0.201667  0.44  0.47           0.52
+- ./fold_m0271_c_summary_confidences_0.json             0.238182  0.46  0.48           0.52
+- ./fold_m0271_2xg_summary_confidences_0.json           0.240000  0.47  0.50           0.53
+- ./fold_m0271_2xrna_summary_confidences_0.json         0.205000  0.45  0.48           0.53
+- ./fold_m0271_h_summary_confidences_0.json             0.267273  0.47  0.50           0.53
+- ./fold_m0271_2xh_summary_confidences_0.json           0.224167  0.46  0.49           0.53
+- ./fold_m0271_f_summary_confidences_0.json             0.250909  0.47  0.50           0.53
+- ./fold_m0271_b_summary_confidences_0.json             0.253636  0.48  0.50           0.54
+- ./fold_m0271_g_summary_confidences_0.json             0.250909  0.47  0.50           0.54
+- ./fold_m0271_e_summary_confidences_0.json             0.257273  0.48 0.51           0.55
+
+Some monomers are scoring highest ( in particular in chain_iptm) will
+use these and take 2xH and 2xG as backups
+
+Certainly not correct - but everythign appears to be disordered so not
+sure what to do. Might try to cut away disordered regions?
+
+Ordered regions (somewhat continues:
+A 126-521
+B 48-361
+C 11-301
+D 102-
+E 491-
+F 56-171, 406-
+G 50-93, 288-
+H 100-
+I 12-
+J 21-126
+
+
+>M0271 RECC, trypanosoma brucei lister 424, subunit 1, 818 residues;
+RSLRSASAVENLLFTDAAKNYCRLCMEEVQVTPKAHISTPYRGSHTNHTCREVVLDSLALLAIRGYPIDDVYFVWADTLYQSSVFQRIPELVSPRWTVDKRSEVLAKILFMLKDMGVIDISLAAQAPDLFDNTAQQVHHRRRVAFERLEYIGDNSWGNHLSNRMMLLFPDRQWTYSQNAYTFNCFRDACEMNVTLEFMFDTLRVGELLPPGVREKLGTGKIKADVVEAVIGELHVTLWGLEPQLYDSVCFVEINGVGEARLAALVQHCLTEIYDLIVLSYVQELSGSAVPLAKQIAADRIWNSVYPPVRKAKDRAPGGRKSRSTVVNVVGVGEVRQLPSLPSLFPAASKRPTRAPHPLRRLRKLGEIPEETVCAGTNKDVFVHLIESYERLDMLDD
+>M0271 RECC, trypanosoma brucei lister 424, subunit 2, 414 residues;
+HTCLLCDVSYESWGDHAESTTHIARHAICRTFVSPERHNAVMQQLWKHIRLDFGYVDEVTHKKEDRRRMRLASTMRHLQEKGVLHHSLPRVTVDAQSEVSLTVESDSFVNYMFLGESFARQETLDRVARLMPRAEALELSSIISFVLSKRRLAHFFDIFEMRKMVLNGDSSDDKASADGDVPPTIPRLQQDGKAVILFSCLGELQMFSRRDRSHSVATRSAAEQLVLNVLGTHVMENIIGELVHEALQTVVEEGTAVWREHCGELKHKLFEGTKAASPPIATTPNPVSNSGGPEVTADVNDQMWVDLCRLYVL
+>M0271 RECC, trypanosoma brucei lister 424, subunit 3, 384 residues;
+PMCALTGKCVEDWESHRKSFDMRIFELLKGRVTSPTEPLPIKQIYATIANPCRLVEEFTCAKTTRRLGRLHTALSFLRRHNVLLHSLLFHVKETQTWNTTPDFDRLALYGESSLRHEVRARTLRLFPGIDSETYAALTSSVLSEEALHGLFDRLLMKALVGEKPVGKMRDWSLTPNQCGQMLCAIVGEMSWFAARTKATDRTHNNALFPPSDALILHVLCCHVLESLPAELLYNVLEPKVQRIKENWVNEPMSIPEQLHLKPRTIGSLSLSLVAKPLTEEEGRRKEVAVS
+>M0271 RECC, trypanosoma brucei lister 424, subunit 4, 368 residues;
+SFDVFEGNNKQAWLDLKTGWCHLCQEPLGATMGVHIGDRDHTNLQYFLFLYAAHGRRWSSEEVLRSCLATAPTVHNYATRHTTWDHLHVMDDALRRAELEALLFHLTHPPQQALSHVLQGRSPLGFWYSGERMWKLRISRLVTQVFPPISAGMMTNFTQKCWGRSNGERMYDALRLQRIKAYYGWQPYESKEKKAFFVRQLLWELLSVEVRDEVDELTKHMADLALRRMAFEMIFLQSMEYMHKVQYVYDLMGRPTVDELAAMNLL
+>M0271 RECC, trypanosoma brucei lister 424, subunit 5, 762 residues;
+AAKRRFTCPICVEKQQTLQQQQSENVGSGFCTDIPSFRLLDALLDHVESVHGEELTEDQLRELYAKQRQSTLYPQKSSTGDGAGSRETPDDSEKKEGSVGNTSMDELKSLPEEVRRVVPPAPVEQDALAVHIRAGSNALMIGRIADVQHGFLGAMTVTQYVLEVDGDERINSKGVTTPASACTPDPASTKAVEAKGEEGEVVEPEKEFIVIRCMGDNFPASLLKDQVKLGSRVLVQGTLRMNRHVDDVSKRLHAYPFIQVVPPLGYVKVVG
+>M0271 RECC, trypanosoma brucei lister 424, subunit 6A, 587 residues;
+KKFHCSVCKKPFRLEMAAKLHLQQAHGGDGSVEAGPGPGVEASSVNVVSTPVPSPISPVERTFVDEEERRPRRMRPTPKPLHQPDRDIPAAAMEEMLGVWDKIGLNRLEGNFVHS
+>M0271 RECC, trypanosoma brucei lister 424, subunit 6B, 587 residues;
+EHGCPTCGKKFSTFEGAAMHSKSKHGIVLESKKVKDRLNRKGVPDLPAYVPSPVDLSSTSPFGTRSAIGASWAETELIPHAQCVSNITIVGRVLDVSQASENVSHVTVFVEGERSGEEETLTLCCFGEVSQKIRGTLKRNATIFASGTLRLHPVYEASNNKYYVSPVVHVSMPTGTLAVIT
+>M0271 RECC, trypanosoma brucei lister 424, subunit 7A, 393 residues;
+SFQCGECGKAFRLINALNHHIMTKHAGKAKAMMNKGGKLEEVNP
+>M0271 RECC, trypanosoma brucei lister 424, subunit 7B, 393 residues;
+VNHCVMLGVVQNIQEGFVFEDKVLQFTLITDFEGPSPGDPDKDFHTVRVFDSDYSSRVKEQLRDGEWFLVTGRLRMVPQYDGSMRKYYHYPVIQVHPGCGSVLKV
+>M0271 RECC, trypanosoma brucei lister 424, subunit 8, 218 residues;
+TSCAHIEGVVRQVECGYVGGDRVLQFIIEVEEVPASGGTPMRLPLAVRWRPGSEVAQNRMDEWQKEMERLVGRRVLASGRLQVEECFDSGSRRLYKTPSLVLPATSTVEMISLQELEC
+>M0271 RECC, trypanosoma brucei lister 424, subunit 9, 169 residues;
+PLNRVTMVGAMHDIQVGFLDRCSVFQFTLTCTVLDFQKVAEPQPKSPGSLPSSTRTAPNANGEEVEKHINKEQYTVRCLGSEAYTEALKNYLDDGCIVRVIGRLKTTEVVDAGKKQPFPCIIVEQGRWSTVSLVHSLRKQRRDWQLQNILTSVATLE
+>M0271 RECC, trypanosoma brucei lister 424, subunit 10, 164 residues;
+QTFMRCCKSVNSVTLVGVVHDIQSGFVYEDAVTQFTLTTTSIDTTHPTQEVVVEKDHHTIRCFGELFSAEVKQKVKEGNVVCVNGRLRLSPQLEPSCNKHFYFPYIQVQPPHGQV
+>M0271 RECC, trypanosoma brucei lister 424, subunit 11, RNA, 77 residues;
+GCGCUGAUGGUCUAGGUGGUUAUGACGUCGCUUUAACACGGCGAAGGUCUCGGGUUCGAGUCCCGAUCGGCGUACCA
+
+
+
+Cutting did not improve scores significantly:
 
 
 ##  Wednesday: 3 targets
@@ -2200,6 +2358,9 @@ Will just resubmit "1" version
 
 ##  ++ T2247
 Will just resubmit "1" version
+
+
+
 
 ##  Thursday: 3 targets
 ##  * DNA target with a ligand
