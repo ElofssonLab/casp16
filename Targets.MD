@@ -2346,8 +2346,35 @@ GCGCUGAUGGUCUAGGUGGUUAUGACGUCGCUUUAACACGGCGAAGGUCUCGGGUUCGAGUCCCGAUCGGCGUACCA
 
 
 
-Cutting did not improve scores significantly:
-
+Cutting  improve scores significantly - but not sure it is
+relevant. Not sure if is worth anything...
+- /fold_m0271_cut_dimer_b_summary_confidences_0....    0.091667  0.39  0.42         -99.52
+- ./fold_m0271_cut_dimer_d_summary_confidences_0....    0.096250  0.40  0.43         -99.52
+- ./fold_m0271_cut_dimer_f_summary_confidences_0....    0.096667  0.40  0.43         -99.51
+- ./fold_m0271_cut_f_g_x2_f_summary_confidences_0...    0.069500  0.30  0.35           0.39
+- ./fold_m0271_cut_dimer_e_summary_confidences_0....    0.068750  0.32  0.35           0.41
+- ./fold_m0271_cut_dimer_c_summary_confidences_0....    0.076250  0.32  0.36           0.42
+- ./fold_m0271_cut_dimer_rna_summary_confidences_...    0.070400  0.35  0.38           0.43
+- ./fold_m0271_cut_dimer_rna_d_summary_confidence...    0.069200  0.34  0.37           0.43
+- ./fold_m0271_cut_dimer_summary_confidences_0.json     0.072400  0.36  0.39           0.44
+- ./fold_m0271_cut_dimer_rna_b_summary_confidence...    0.079600  0.37  0.40           0.45
+- ./fold_m0271_cut_dimer_g_summary_confidences_0....    0.085417  0.37  0.41           0.46
+- ./fold_m0271_cut_f_g_x2_d_summary_confidences_0...    0.085500  0.41  0.45           0.49
+- ./fold_m0271_cut_f_g_x2_summary_confidences_0.json    0.084500  0.41  0.45           0.49
+- ./fold_m0271_cut_f_g_x2_c_summary_confidences_0...    0.085000  0.41  0.45           0.50
+- ./fold_m0271_cut_f_g_x2_e_summary_confidences_0...    0.083500  0.42  0.46           0.51
+- ./fold_m0271_cut_f_g_x2_b_summary_confidences_0...    0.088000  0.42  0.46           0.51
+- ./fold_m0271_cut_c_summary_confidences_0.json         0.156923  0.48  0.53           0.58
+- ./fold_m0271_cut_b_summary_confidences_0.json         0.140000  0.48  0.53           0.58
+- ./fold_m0271_cut_e_summary_confidences_0.json         0.142308  0.49  0.54           0.58
+- ./fold_m0271_cut_d_summary_confidences_0.json         0.174615  0.50  0.55           0.59
+- ./fold_m0271_cut_summary_confidences_0.json           0.170769  0.50  0.55           0.60
+- ./fold_m0271_cut_f_summary_confidences_0.json         0.175385  0.52  0.56           0.61
+  
+  
+  Packing is not consistent
+  
+  
 
 ##  Wednesday: 3 targets
 ##  ++,CAPRI H2229
