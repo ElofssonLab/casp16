@@ -2153,20 +2153,24 @@ Manual with more choices
 - ./fold_t0270_pentamer_summary_confidences_0.json     0.296000  0.42  0.47           0.44
 - ./fold_t0270_hexamer_b_summary_confidences_0.json    0.341667  0.45  0.49           0.47
 - ./fold_t0270_hexamer_c_summary_confidences_0.json    0.338333  0.46  0.50           0.48
-- ./fold_t0270_hexamer_f_summary_confidences_0.json    0.378333  0.48  0.54           0.50
-- ./fold_t0270_hexamer_summary_confidences_0.json      0.376667  0.48  0.54           0.51
+- R3 ./fold_t0270_hexamer_f_summary_confidences_0.json    0.378333  0.48  0.54           0.50
+- R2 ./fold_t0270_hexamer_summary_confidences_0.json      0.376667  0.48  0.54           0.51
 - ./fold_t0270_trimer_c_summary_confidences_0.json     0.600000  0.63  0.65           0.64
 - ./fold_t0270_trimer_summary_confidences_0.json       0.610000  0.64  0.66           0.65
 - ./fold_t0270_trimer_d_summary_confidences_0.json     0.620000  0.64  0.67           0.66
-- R5 ./fold_t0270_hexamer_d_summary_confidences_0.json    0.525000  0.64  0.68           0.66
+- R1 ./fold_t0270_hexamer_d_summary_confidences_0.json    0.525000  0.64  0.68           0.66
 - ./fold_t0270_d_summary_confidences_0.json                 NaN   NaN  0.71           0.73
 - ./fold_t0270_c_summary_confidences_0.json                 NaN   NaN  0.71           0.73
 - ./fold_t0270_trimer_e_summary_confidences_0.json     0.700000  0.72  0.74           0.74
-- R4 ./fold_t0270_trimer_f_summary_confidences_0.json     0.700000  0.73  0.75           0.74
+-  ./fold_t0270_trimer_f_summary_confidences_0.json     0.700000  0.73  0.75           0.74
 - ./fold_t0270_e_summary_confidences_0.json                 NaN   NaN  0.72           0.74
-- R3 ./fold_t0270_f_summary_confidences_0.json                 NaN   NaN  0.72           0.74
-- R2 ./fold_t0270_trimer_b_summary_confidences_0.json     0.710000  0.74  0.76           0.75
-- R1  ./fold_t0270_b_summary_confidences_0.json                 NaN   NaN  0.73           0.75
+-  ./fold_t0270_f_summary_confidences_0.json                 NaN   NaN  0.72           0.74
+- R5 ./fold_t0270_trimer_b_summary_confidences_0.json     0.710000  0.74  0.76           0.75
+- R4  ./fold_t0270_b_summary_confidences_0.json                 NaN   NaN  0.73           0.75
+
+Hexamer looks good - trimer not - will select hexamer and just trimer
+and monmers as backup
+
 
 
 
