@@ -2436,13 +2436,21 @@ From this it appears as if only chain A and D are duplicated
 reruns with 1 or 2 rna molecules
 1rna resulted in "overlapping" model 2rna in bad confidence for RNA chain
 
-- ./fold_m0271_cut_2112_1rna_summary_confidences_...    0.152667  0.42  0.47         -99.50 # Overlappign
+- ./fold_m0271_cut_2112_1rna_summary_confidences_...    0.152667  0.42  0.47         -99.50
+- ./fold_m0271_cut_2112_1rna_b_summary_confidence...    0.152667  0.42  0.47         -99.50
+- ./fold_m0271_cut_2112_1rna_e_summary_confidence...    0.152667  0.42  0.47         -99.50
+- ./fold_m0271_cut_dimer_rna_d_summary_confidence...    0.069200  0.34  0.37           0.43
+- ./fold_m0271_cut_dimer_rna_summary_confidences_...    0.070400  0.35  0.38           0.43
+- ./fold_m0271_cut_dimer_rna_b_summary_confidence...    0.079600  0.37  0.40           0.45
 - ./fold_m0271_cut_2112_2rna_summary_confidences_...    0.108750  0.39  0.43           0.47
+- ./fold_m0271_cut_2112_2rna_c_summary_confidence...    0.108750  0.39  0.43           0.47
 - ./fold_m0271_cut_dimerfull_rna_summary_confiden...    0.089231  0.41  0.43           0.50
+- ./fold_m0271_2xrna_summary_confidences_0.json         0.205000  0.45  0.48           0.53
 
-Replaceing M4
 
-Rerunnig more 1/2 rnas..
+Replacing M4 with fold_m0271_cut_dimerfull_rna_summary
+
+Rerunnig more 1/2 rnas. All with 1rna overlaps
 
 
 ##  Wednesday: 3 targets
