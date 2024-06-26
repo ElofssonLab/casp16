@@ -2379,12 +2379,13 @@ TSCAHIEGVVRQVECGYVGGDRVLQFIIEVEEVPASGGTPMRLPLAVRWRPGSEVAQNRMDEWQKEMERLVGRRVLASGR
 MFSSTFRRLAIRPLNRVTMVGAMHDIQVGFLDRCSVFQFTLTCTVLDFQKVAEPQPKSPGSLPSSTRTAPNANGEEVEKHINKEQYTVRCLGSEAYTEALKNYLDDGCIVRVIGRLKTTEVVDAGKKQPFPCIIVEQGRWSTVSLVHSLRKQRRDWQLQNILTSVATLE
 >M0271 RECC, trypanosoma brucei lister 424, subunit 9, 169 residues;
 PLNRVTMVGAMHDIQVGFLDRCSVFQFTLTCTVLDFQKVAEPQPKSPGSLPSSTRTAPNANGEEVEKHINKEQYTVRCLGSEAYTEALKNYLDDGCIVRVIGRLKTTEVVDAGKKQPFPCIIVEQGRWSTVSLVHSLRKQRRDWQLQNILTSVATLE
->M0271 RECC, trypanosoma brucei lister 424, subunit 10, 164 residues;
-QTFMRCCKSVNSVTLVGVVHDIQSGFVYEDAVTQFTLTTTSIDTTHPTQEVVVEKDHHTIRCFGELFSAEVKQKVKEGNVVCVNGRLRLSPQLEPSCNKHFYFPYIQVQPPHGQV
 
 
 >M0271 RECC, trypanosoma brucei lister 424, subunit 10, 164 residues;
 MLALTSRRLLLQQTFMRCCKSVNSVTLVGVVHDIQSGFVYEDAVTQFTLTTTSIDTTHPTQEVVVEKDHHTIRCFGELFSAEVKQKVKEGNVVCVNGRLRLSPQLEPSCNKHFYFPYIQVQPPHGQVAVIHGDRRTVPAAVNPAVEDIKSEKEGAGGDQSGVPS
+>M0271 RECC, trypanosoma brucei lister 424, subunit 10, 164 residues;
+QTFMRCCKSVNSVTLVGVVHDIQSGFVYEDAVTQFTLTTTSIDTTHPTQEVVVEKDHHTIRCFGELFSAEVKQKVKEGNVVCVNGRLRLSPQLEPSCNKHFYFPYIQVQPPHGQV
+
 
 
 >M0271 RECC, trypanosoma brucei lister 424, subunit 11, RNA, 77 residues;
@@ -2423,12 +2424,26 @@ relevant. Not sure if is worth anything...
   
   Packing is not consistent
 
-Manual predictions pick THree
+Manual predictions pick Three
 
 - M5 ./fold_m0271_cut_dimer_rna_b_summary_confidence...    0.079600  0.37  0.40           0.45
 - M4 ./fold_m0271_cut_dimer_summary_confidences_0.json     0.072400  0.36  0.39           0.44
 - M3 ./fold_m0271_cut_f_summary_confidences_0.json         0.175385  0.52  0.56           0.61
-  
+
+
+Rerunnig with complete (cut) dimer
+From this it appears as if only chain A and D are duplicated
+reruns with 1 or 2 rna molecules
+1rna resulted in "overlapping" model 2rna in bad confidence for RNA chain
+
+- ./fold_m0271_cut_2112_1rna_summary_confidences_...    0.152667  0.42  0.47         -99.50 # Overlappign
+- ./fold_m0271_cut_2112_2rna_summary_confidences_...    0.108750  0.39  0.43           0.47
+- ./fold_m0271_cut_dimerfull_rna_summary_confiden...    0.089231  0.41  0.43           0.50
+
+Replaceing M4
+
+Rerunnig more 1/2 rnas..
+
 
 ##  Wednesday: 3 targets
 ##  ++,CAPRI H2229
