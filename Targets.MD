@@ -1658,6 +1658,14 @@ Predictied as dimers initially but should be monomer
 
 All models look the same af3 first model, top ranked manual 
 
+##  ++,CAPRI H2230
+Will just resubmit "1" version
+
+
+
+##  ++,CAPRI H2229
+Will just resubmit "1" version
+
 
 ## 111. 	T1247 	Prot 	697 	A1  PilK 
 - ./fold_t1247_e_summary_confidences_0.json         NaN   NaN  0.56           0.57
@@ -1673,6 +1681,10 @@ All models look the same af3 first model, top ranked manual
   
   For af3-defaults
   for manual - submit top 5 first ranked
+
+##  ++ T2247
+Will just resubmit "1" version
+
 
 
 ## * RNA with ligand
@@ -1755,6 +1767,66 @@ Run more for manual
 
 For manual pick top 5 vesion (i.e 4 trimers and one dimer)
 
+## 167. 	T1257 	Prot 	1263 	A3 	P13390 
+##  + T1257
+Submitted trimers with dimer as a backup
+
+-                                                   chain_iptm  iptm   ptm  ranking_score
+- ./fold_t0257_trimer_b_summary_confidences_0.json    0.360000  0.40  0.42           0.51
+- ./fold_t0257_trimer_c_summary_confidences_0.json    0.330000  0.38  0.40           0.53
+- ./fold_t1257_h_summary_confidences_0.json           0.360000  0.40  0.42           0.54
+- ./fold_t1257_g_summary_confidences_0.json           0.370000  0.41  0.43           0.55
+- ./fold_t1257_summary_confidences_0.json             0.370000  0.41  0.43           0.55
+- ./fold_t0257_trimer_e_summary_confidences_0.json    0.340000  0.38  0.40           0.55
+- ./fold_t1257_d_summary_confidences_0.json           0.360000  0.41  0.42           0.55
+- ./fold_t1257_i_summary_confidences_0.json           0.380000  0.42  0.44           0.55
+- ./fold_t1257_b_summary_confidences_0.json           0.353333  0.40  0.42           0.55
+- ./fold_t0257_trimer_f_summary_confidences_0.json    0.390000  0.43  0.44           0.56
+- ./fold_t1257_e_summary_confidences_0.json           0.370000  0.41  0.43           0.56
+- ./fold_t1257_f_summary_confidences_0.json           0.343333  0.39  0.41           0.57
+- ./fold_t1257_c_summary_confidences_0.json           0.360000  0.40  0.42           0.57
+- ./fold_t0257_trimer_summary_confidences_0.json      0.370000  0.41  0.43           0.57
+- ./fold_t0257_trimer_d_summary_confidences_0.json    0.370000  0.42  0.43           0.58
+
+
+Packing of the three "domains" is different between different models -
+no idea which is the best - no clear clusters
+
+No "Clusters"
+- ./fold_t0257_trimer_b_summary_confidences_0.json
+- ./fold_t0257_trimer_f_summary_confidences_0.json 
+
+- ./fold_t0257_trimer_summary_confidences_0.json  
+
+- ./fold_t1257_c_summary_confidences_0.json       
+
+- ./fold_t0257_trimer_c_summary_confidences_0.json
+
+- ./fold_t0257_trimer_d_summary_confidences_0.json
+
+- ./fold_t0257_trimer_d_summary_confidences_0.json
+
+- ./fold_t0257_trimer_e_summary_confidences_0.json
+
+- ./fold_t1257_b_summary_confidences_0.json       
+
+- ./fold_t1257_d_summary_confidences_0.json       
+
+- ./fold_t1257_e_summary_confidences_0.json       
+
+- ./fold_t1257_f_summary_confidences_0.json       
+
+- ./fold_t1257_g_summary_confidences_0.json       
+
+- ./fold_t1257_h_summary_confidences_0.json       
+
+- ./fold_t1257_i_summary_confidences_0.json       
+
+- ./fold_t1257_summary_confidences_0.json         
+
+
+Just submit high scoring models as manual
+
 ## * protein heterooligomer :: assembly only
 ## 113. 	H0258 	Prot 	2827 	UNK     	- 	LRRK2/14-3-3 complex
 
@@ -1783,6 +1855,49 @@ Building cut protein as dimers and rebuilding with full sequences
 looks good. Can you one or two B chains - scores are similar but
 strong interactions between the B-chains so likely correct (tetramer
 does not show any interactions between the dimers)
+
+## 166. 	H1258 	Prot 	2827 	A1B2 	 	LRRK2/14-3-3 complex 
+##  + H1258
+Submitted complicated model of dimer (with some cuts to fit into 5000 residues)
+
+- ./fold_h1258_h_summary_confidences_0.json            0.320000  0.26  0.65           0.37
+- ./fold_h1258_d_summary_confidences_0.json            0.320000  0.26  0.65           0.37
+- ./fold_h1258_c_summary_confidences_0.json            0.363333  0.27  0.65           0.37
+- ./fold_h1258_b_summary_confidences_0.json            0.326667  0.26  0.65           0.37
+- ./fold_h1258_i_summary_confidences_0.json            0.360000  0.27  0.65           0.37
+- ./fold_h0258_one_two_b_summary_confidences_0.json    0.320000  0.26  0.65           0.37
+- ./fold_h1258_g_summary_confidences_0.json            0.353333  0.26  0.65           0.37
+- ./fold_h0258_one_two_summary_confidences_0.json      0.353333  0.27  0.65           0.37
+- ./fold_h0258_one_two_c_summary_confidences_0.json    0.353333  0.26  0.65           0.37
+- ./fold_h1258_f_summary_confidences_0.json            0.336667  0.26  0.65           0.37
+- ./fold_h0258_one_two_d_summary_confidences_0.json    0.356667  0.26  0.65           0.37
+- ./fold_h0258_one_two_e_summary_confidences_0.json    0.336667  0.27  0.65           0.38
+- ./fold_h1258_summary_confidences_0.json              0.366667  0.28   0.65           0.39
+  
+  
+  Different clusters  for chain B and B
+  
+- fold_h0258_one_two_b_model_0.cif	
+- fold_h0258_one_two_d_model_0.cif	
+- fold_h1258_d_model_0.cif		
+- fold_h1258_h_model_0.cif
+- fold_h1258_i_model_0.cif
+- fold_h1258_model_0.cif  -M 1
+
+
+- fold_h0258_one_two_c_model_0.cif	
+- fold_h0258_one_two_e_model_0.cif	-M 2
+
+
+- fold_h0258_one_two_model_0.cif		
+- fold_h1258_f_model_0.cif		-M 3
+
+
+- fold_h1258_b_model_0.cif		-M 5
+
+- fold_h1258_c_model_0.cif		
+
+- fold_h1258_g_model_0.cif -M 4
 
 ### Monomers
 - ./fold_h0258_summary_confidences_0.json               0.220000  0.22  0.70           0.34
@@ -2450,32 +2565,30 @@ reruns with 1 or 2 rna molecules
 
 Replacing M4 with fold_m0271_cut_dimerfull_rna_summary
 
-Rerunnig more 1/2 rnas. All with 1rna overlaps
+Rerunnig more 1/2 RNAs. 
 
-
-##  Wednesday: 3 targets
-##  ++,CAPRI H2229
-Will just resubmit "1" version
-
-##  ++,CAPRI H2230
-Will just resubmit "1" version
-
-##  ++ T2247
-Will just resubmit "1" version
-
+All with 1RNA overlaps - unclear what can be extracted except the core.
 
 
 
 ##  Thursday: 3 targets
 ##  * DNA target with a ligand
+## 165. 	D1273 	NucA/Ligand 	27 	A1 1 	- 	RKEC1 
 
-##  + T1257
-Submitted trimers with dimer as a backup
+Different binding poses for cit and amsp
+For af3 submit a mix. (amp1,3,5)
 
-##  + H1258
-Submitted complicated model of dimer (with some cuts to fit into 5000 residues)
+- ./fold_d1273_cit_b_summary_confidences_0.json        0.21  0.21  0.27           0.22
+- ./fold_d1273_cit_f_summary_confidences_0.json        0.22  0.22  0.26           0.22
+- ./fold_d1273_cit_summary_confidences_0.json          0.21  0.21  0.27           0.22
+- ./fold_d1273_cit_e_summary_confidences_0.json        0.21  0.21  0.32           0.23
+- ./fold_d1273_cit_d_summary_confidences_0.json        0.26  0.26  0.31           0.27
+- ./fold_d1273_amp_c_summary_confidences_0.json        0.27  0.27  0.40           0.30
+- ./fold_d1273_amp_d_summary_confidences_0.json        0.29  0.29  0.40           0.31
+- ./fold_d1273_amp_summary_confidences_0.json          0.29  0.29  0.38           0.31
+- ./fold_d1273_amp_b_summary_confidences_0.json        0.31  0.31  0.42           0.33
 
-
+Manual submit 3 best AMP and 2best CIT
 
 ##  Friday: 5 targets
 
