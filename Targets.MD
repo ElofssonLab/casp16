@@ -2314,7 +2314,8 @@ Manual with more choices
 Hexamer looks good - trimer not - will select hexamer and just trimer
 and monmers as backup
 
-
+Update (Jun 28) skip monomer (as it clearly not is a monomer. -
+replace M4 with. /fold_t0270_hexamer_c_summary_confidences_0.json
 
 
 ##  Tuesday: 3 targets (12 with subunits), including one 
@@ -2610,3 +2611,5 @@ Will just resubmit "1" version
 
 ## Remaining stuff
 
+M0271 - can I do something better?
+M0268
