@@ -2751,13 +2751,44 @@ More trials, just pick best (which are bad) for manual
 
 
 
+## Monday: 5 targets
+## * protein monomer
+## + H1265
+## ++,CAPRI H2233
+## + R1252
+## + R1253 (check additional information for this target once released)
+
+## Tuesday: 4 targets
+## ++,CAPRI T2234
+## ++,CAPRI T2235
+## ++,CAPRI H2236
+## ++ T2266
+
+## Wednesday: 3 targets
+## * large protein complex with subunits
+## +,CAPRI H1267
+## ++,CAPRI T2237
+
+
+## Thursday: 2 targets
+## * a hybrid complex
+## ++,CAPRI T2238
+
+
+## Friday: 4 targets
+## * monomer
+## + M1268
+## ++,CAPRI T2240
+## ++ T2269
+
+
+
 ## Remaining stuff
 
-M0271 - can I do something better?
-M0268
 
 M1271 - can I do something more
-R1254 - can you use molscript to build a complete model
+
+R1254 - can you use MolPC to build a complete model
 - Asked Samuel
 
-FIX ERRORR WITH PDOCKQ1 FOR MASSIVEFOLD
+
