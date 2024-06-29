@@ -2003,6 +2003,25 @@ More models even better
 - ./fold_t0259_trimer_c_summary_confidences_0.json    0.836667  0.86  0.88           0.97
 - ./fold_t0259_trimer_k_summary_confidences_0.json    0.860000  0.88  0.89           0.98
   
+  ##  +,CAPRI T1259
+## 173. 	T1259 * 	Prot 	243 	 	AZI86_00190 
+ Submitted trimer
+./fold_t0259_trimer_j_summary_confidences_0.json    0.770000  0.80  0.82           0.89
+./fold_t0259_trimer_h_summary_confidences_0.json    0.810000  0.83  0.85           0.93
+./fold_t0259_trimer_d_summary_confidences_0.json    0.810000  0.84  0.85           0.94
+./fold_t0259_trimer_f_summary_confidences_0.json    0.830000  0.85  0.87           0.95
+./fold_t0259_trimer_summary_confidences_0.json      0.820000  0.84  0.86           0.95
+./fold_t0259_trimer_b_summary_confidences_0.json    0.830000  0.86  0.87           0.96
+./fold_t0259_trimer_e_summary_confidences_0.json    0.840000  0.87  0.88           0.96
+./fold_t0259_trimer_i_summary_confidences_0.json    0.820000  0.85  0.86           0.96
+./fold_t1259_summary_confidences_0.json             0.830000  0.86  0.87           0.96
+./fold_t0259_trimer_g_summary_confidences_0.json    0.860000  0.89  0.90           0.97
+./fold_t0259_trimer_c_summary_confidences_0.json    0.836667  0.86  0.88           0.97
+./fold_t0259_trimer_k_summary_confidences_0.json    0.860000  0.88 0.89           0.98
+
+WIll do t1259 for af3 and top 5 for manui
+
+
   
   
 
@@ -2030,10 +2049,33 @@ More models
 
 Submit dimer as model 5 just in case.
 
+## 172. 	R1254 	NucA 	413 	R14 	- 	GOLLD 3primedomain env38
+##  + R1254 (RNA, stage 1)
+Submitted monomer with dimer as a backupe
+ 
+ 14 mer is TOO BIG - try to cut it up.
+ Many models overlap
+ 
+-  ./fold_r1254_dodecamer_summary_confidences_0.json     0.090000  0.28  0.29         -99.72
+- ./fold_r0254_dodecamer_summary_confidences_0.json     0.090000  0.28  0.29         -99.72
+- ./fold_r1254_5prime_summary_confidences_0.json        0.088571  0.29  0.29         -99.71
+- ./fold_r0254_5prime_summary_confidences_0.json        0.088571  0.29  0.29         -99.71
+- ./fold_r0254_3prime_summary_confidences_0.json        0.090000  0.29  0.29         -99.71
+- ./fold_r1254_3prime_summary_confidences_0.json        0.090000  0.29  0.29         -99.71
+- ./fold_r1254_triimer_summary_confidences_0.json       0.100000  0.12  0.16           0.13
+- ./fold_r1254_tetramer_summary_confidences_0.json      0.090000  0.14  0.17           0.14
+- ./fold_r1254_dimer_summary_confidences_0.json         0.130000  0.13  0.18           0.14
+- ./fold_r0254_heptameter_summary_confidences_0.json    0.090000  0.21  0.22           0.21
+- ./fold_r1254_heptameter_summary_confidences_0.json    0.090000  0.21  0.22           0.21
+
+
+submit heptamer for af3cd 
+
+
 ## +,CAPRI H1232
 ## 118. 	H1232 * 	Prot 	462 	A2B2 	Human astrovirus 2 capsid spike - antibody scFv 4B6 complex 
 
-submitted twp-one as manual predictions but it is twotwo
+Submitted twp-one as manual predictions but it is twotwo
 
 Submitted new model as prediction for af3 - but generating more makes
 higher scoring models
@@ -2051,6 +2093,10 @@ higher scoring models
 - ./fold_h1232_f_summary_confidences_0.json          0.2500  0.38  0.52           0.43
 - ./fold_h1232_g_summary_confidences_0.json          0.2600  0.40  0.53           0.44
 
+##  ++,CAPRI H2232
+##168. 	H2232 * 	Prot 	462 	A2B2 		- 	Human astrovirus 2 capsid spike - antibody scFv 4B6 complex 
+
+Will just resubmit "1" version
 
 
 ## ++,CAPRI T2218
@@ -2570,6 +2616,12 @@ Rerunnig more 1/2 RNAs.
 
 All with 1RNA overlaps - unclear what can be extracted except the core.
 
+## 169. 	M1271 	Prot-NucA 	4354 	A1B1C1D1E1F2G2H1I1J5R1 	- 	RECC
+This is too big - but will try to run some cut versions. Hopefull they
+do not overlap
+
+./fold_m1271_cutgh_summary_confidences_0.json     0.083810  0.39  0.42           0.44
+./fold_m1271_cutabe_summary_confidences_0.json    0.121765  0.40  0.43           0.46
 
 
 ##  Thursday: 3 targets
@@ -2593,23 +2645,77 @@ Manual submit 3 best AMP and 2best CIT
 
 ##  Friday: 5 targets
 
-##  * RNA (stage 0)
+
+
+
+
+
+
+
+
 
 
 ##  * RNA (stage 0)
+## 170. 	R0250 	NucA 	744 	UNK 	- 	GOLLD full env46
+very liklely some very complex combination but that is unlikely I can run.
+
+Low scores:
+- ./fold_r0250_tetramer_summary_confidences_0.json        0.14  0.21  0.23         -99.78
+- ./fold_r0250_pentamer_summary_confidences_0.json        0.14  0.24  0.25         -99.76
+- ./fold_r0250_dimer_summary_confidences_0.json           0.15  0.15  0.17           0.16
+- ./fold_r0250_summary_confidences_0.json                  NaN   NaN  0.18           0.18
+- ./fold_r0250_trimer_summary_confidences_0.json          0.14  0.18  0.20           0.18
 
 
-##  + R1254 (RNA, stage 1)
-Submitted monomer with dimer as a backupe
+Tetramer and pentamer ovelaps submit trimer for af3
+More trials, just pick best (which are bad) for manual
+
+- ./fold_r0250_trimer_d_summary_confidences_0.json      0.140000  0.18  0.20         -99.81
+- ./fold_r0250_tetramer_c_summary_confidences_0.json    0.140000  0.22  0.23         -99.78
+- ./fold_r0250_tetramer_summary_confidences_0.json      0.140000  0.21  0.23         -99.78
+- ./fold_r0250_tetramer_b_summary_confidences_0.json    0.140000  0.22  0.23         -99.78
+- ./fold_r0250_pentamer_summary_confidences_0.json      0.140000  0.24  0.25         -99.76
+- ./fold_r0250_hexamer_summary_confidences_0.json       0.140000  0.26  0.27         -99.74
+- ./fold_r0250_dimer_summary_confidences_0.json         0.150000  0.15  0.17           0.16
+- ./fold_r0250_summary_confidences_0.json                    NaN   NaN  0.18           0.18
+- ./fold_r0250_trimer_summary_confidences_0.json        0.140000  0.18  0.20           0.18
+- ./fold_r0250_trimer_b_summary_confidences_0.json      0.140000  0.18  0.20           0.18
+- ./fold_r0250_trimer_c_summary_confidences_0.json      0.136667  0.17  0.20           0.18
 
 
-##  +,CAPRI T1259
-Submitted trimer
+##  * RNA (stage 0)
+## 171. 	R0251 	NucA 	833 	UNK 	- 	GOLLD full env38
 
-##  ++,CAPRI H2232
-Will just resubmit "1" version
+very liklely some very complex combination but that is unlikely I can run.
+
+Here even dimers overlap
+- ./fold_r0251_dimer_summary_confidences_0.json           0.18  0.18  0.20         -99.81
+- ./fold_r0251_tetramer_summary_confidences_0.json        0.15  0.23  0.24         -99.77
+- ./fold_r0251_pentamer_summary_confidences_0.json        0.15  0.26  0.27         -99.74
+- ./fold_r0251_summary_confidences_0.json                  NaN   NaN  0.19           0.19
+- ./fold_r0251_trimer_summary_confidences_0.json          0.15  0.19  0.21           0.19
+
+Tetramer and pentamer ovelaps submit trimer for af3
+More trials, just pick best (which are bad) for manual
+
+- ./fold_r0251_dimer_summary_confidences_0.json          0.180  0.18  0.20         -99.81
+- ./fold_r0251_tetramer_summary_confidences_0.json       0.150  0.23  0.24         -99.77
+- ./fold_r0251_pentamer_summary_confidences_0.json       0.150  0.26  0.27         -99.74
+- ./fold_r0251_hexamer_summary_confidences_0.json        0.145  0.28  0.29         -99.72
+- ./fold_r0251_summary_confidences_0.json                  NaN   NaN  0.19           0.19
+- ./fold_r0251_trimer_b_summary_confidences_0.json       0.150  0.19  0.21           0.19
+- ./fold_r0251_trimer_summary_confidences_0.json         0.150  0.19  0.21           0.19
+- ./fold_r0251_trimer_d_summary_confidences_0.json       0.150  0.19  0.21           0.19
+- ./fold_r0251_trimer_c_summary_confidences_0.json       0.150  0.19  0.21           0.20
+
+
 
 ## Remaining stuff
 
 M0271 - can I do something better?
 M0268
+
+M1271 - can I do something more
+R1254 - can you use molscript to build a complete model
+
+FIX ERRORR WITH PDOCKQ1 FOR MASSIVEFOLD
