@@ -2745,7 +2745,7 @@ fold_m1271_cutgh_f_  (except a few proteins)
 fold_m1271_cut_ (except a few proteins)
 
 ### 4 
-/fold_m1271_cut_d
+/fold_m1271_cut_d (This is missing one model)
 
 
 ### 5
@@ -2762,7 +2762,7 @@ Pick manual
 R1: fold_m1271_cutgh_e  (cluster #3)
 R2: fold_m1271_cutgh_f (cluster #1)
 R3: fold_m1271_cutgh_g_
-R4: fold_m1271_cut_d
+R4: fold_m1271_cutgh_b 
 R5: fold_m1271_cutabe
 
 
