@@ -2125,6 +2125,13 @@ submit 2x heptamer for af3 (just copied and moved the complex)
 For manual will submit 
 9+5, 8+6 and 7+7
 
+R1: ./fold_r1254_heptameter_g
+R2:  ./fold_r1254_ninemer
+R3: ./fold_r1254_octamer_e_summary
+R4: ./fold_r1254_octamer_b
+R5: ./fold_r1254_heptameter_e
+
+
 
 
 
@@ -2717,6 +2724,48 @@ af3: fold_m1271_cut_ , cutgh, cutabe, cut2 ,cutgh2
 -./fold_m1271_cut_c_summary_confidences_0.json       0.089524  0.44  0.48           0.53
 
 
+Clusters:
+### 1
+fold_m1271_cut_c_
+fold_m1271_cutgh_f
+
+fold_m1271_cutgh_e (some similarity to #1 )
+fold_m1271_cutgh (some )
+
+### 2 
+fold_m1271_cutgh_g_ 
+fold_m1271_cutgh_d_ (identical)
+
+### 3
+fold_m1271_cut_b 
+fold_m1271_cut_e 
+fold_m1271_cutabe_g
+fold_m1271_cutgh_e_ 
+fold_m1271_cutgh_f_  (except a few proteins)
+fold_m1271_cut_ (except a few proteins)
+
+### 4 
+/fold_m1271_cut_d
+
+
+### 5
+/fold_m1271_cutgh_b
+
+### 6
+fold_m1271_cut_f (a bit similar to fold_m1271_cut and 
+
+### 7
+fold_m1271_cutabe XXX (All individual)
+
+Pick manual
+
+R1: fold_m1271_cutgh_e  (cluster #3)
+R2: fold_m1271_cutgh_f (cluster #1)
+R3: fold_m1271_cutgh_g_
+R4: fold_m1271_cut_d
+R5: fold_m1271_cutabe
+
+
 ##  Thursday: 3 targets
 ##  * DNA target with a ligand
 ## 165. 	D1273 	NucA/Ligand 	27 	A1 1 	- 	RKEC1 
@@ -2850,7 +2899,7 @@ Submittd twoone (and monomer as backup)
 ## Remaining stuff
 
 
-M1271 - can I do something more
+M1271 - can I do something more. Submitted some different models
 
 R1254 - can you use MolPC to build a complete model
 - Asked Samuel
