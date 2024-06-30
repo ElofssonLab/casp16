@@ -2071,38 +2071,60 @@ Submitted monomer with dimer as a backupe
 
 submit 2x heptamer for af3 (just copied and moved the complex)
 
+                                                   chain_iptm  iptm   ptm  ranking_score
+- ./fold_r1254_octamer_d_summary_confidences_0.json     0.090000  0.22  0.23         -99.78
 - ./fold_r1254_octamer_summary_confidences_0.json       0.090000  0.22  0.23         -99.78
+- ./fold_r1254_ninemer_g_summary_confidences_0.json     0.090000  0.24  0.25         -99.76
+- ./fold_r1254_ninemer_f_summary_confidences_0.json     0.090000  0.24  0.25         -99.76
+- ./fold_r1254_ninemer_c_summary_confidences_0.json     0.090000  0.24  0.25         -99.76
+- ./fold_r1254_ninemer_b_summary_confidences_0.json     0.090000  0.24  0.25         -99.76
+- ./fold_r1254_ninemer_d_summary_confidences_0.json     0.090000  0.24  0.25         -99.76
+- ./fold_r1254_ninemer_h_summary_confidences_0.json     0.090000  0.24  0.25         -99.76
+- ./fold_r1254_ninemer_e_summary_confidences_0.json     0.090000  0.24  0.25         -99.76
+- ./fold_r1254_ninemer_i_summary_confidences_0.json     0.090000  0.24  0.25         -99.76
 - ./fold_r1254_decamer_b_summary_confidences_0.json     0.090000  0.25  0.26         -99.75
 - ./fold_r1254_elevemer_summary_confidences_0.json      0.090000  0.27  0.28         -99.73
-- ./fold_r0254_dodecamer_summary_confidences_0.json     0.090000  0.28  0.29         -99.72
+- ./fold_r1254_dodecamer_c_summary_confidences_0....    0.090000  0.28  0.29         -99.72
+- ./fold_r1254_dodecamer_h_summary_confidences_0....    0.090000  0.28  0.29         -99.72
+- ./fold_r1254_dodecamer_k_summary_confidences_0....    0.090000  0.28  0.29         -99.72
+- ./fold_r1254_dodecamer_d_summary_confidences_0....    0.090000  0.28  0.29         -99.72
+- ./fold_r1254_dodecamer_i_summary_confidences_0....    0.090000  0.28  0.29         -99.72
+- ./fold_r1254_dodecamer_e_summary_confidences_0....    0.090000  0.28  0.29         -99.72
 - ./fold_r1254_dodecamer_summary_confidences_0.json     0.090000  0.28  0.29         -99.72
+- ./fold_r0254_dodecamer_summary_confidences_0.json     0.090000  0.28  0.29         -99.72
 - ./fold_r1254_dodecamer_b_summary_confidences_0....    0.090000  0.28  0.29         -99.72
-- ./fold_r0254_3prime_summary_confidences_0.json        0.090000  0.29  0.29         -99.71
-- ./fold_r1254_3prime_summary_confidences_0.json        0.090000  0.29  0.29         -99.71
-- ./fold_r0254_5prime_summary_confidences_0.json        0.088571  0.29  0.29         -99.71
-- ./fold_r1254_5prime_summary_confidences_0.json        0.088571  0.29  0.29         -99.71
+- ./fold_r1254_dodecamer_f_summary_confidences_0....    0.090000  0.28  0.29         -99.72
+- ./fold_r1254_dodecamer_g_summary_confidences_0....    0.100000  0.28  0.29         -99.72
+- ./fold_r1254_dodecamer_j_summary_confidences_0....    0.096667  0.28  0.29         -99.72
+- ./fold_r1254_dodecamer_l_summary_confidences_0....    0.095000  0.28  0.29         -99.72
 - ./fold_r1254_trimer_b_summary_confidences_0.json      0.096667  0.12  0.18           0.13
 - ./fold_r1254_trimer_h_summary_confidences_0.json      0.096667  0.12  0.18           0.13
 - ./fold_r1254_triimer_summary_confidences_0.json       0.100000  0.12  0.16           0.13
 - ./fold_r1254_trimer_c_summary_confidences_0.json      0.110000  0.13  0.18           0.14
-- ./fold_r1254_dimer_summary_confidences_0.json         0.130000  0.13  0.18           0.14
 - ./fold_r1254_tetramer_summary_confidences_0.json      0.090000  0.14  0.17           0.14
+- ./fold_r1254_dimer_summary_confidences_0.json         0.130000  0.13  0.18           0.14
 - ./fold_r1254_tetramer_b_summary_confidences_0.json    0.092500  0.15  0.18           0.16
 - ./fold_r1254_tetramer_c_summary_confidences_0.json    0.097500  0.15  0.18           0.16
 - ./fold_r1254_heptameter_f_summary_confidences_0...    0.090000  0.20  0.22           0.21
+- ./fold_r1254_heptameter_j_summary_confidences_0...    0.090000  0.20  0.22           0.21
 - ./fold_r1254_heptameter_summary_confidences_0.json    0.090000  0.21  0.22           0.21
+- ./fold_r1254_heptameter_c_summary_confidences_0...    0.090000  0.20  0.22           0.21
+- ./fold_r0254_heptameter_summary_confidences_0.json    0.090000  0.21  0.22           0.21
 - ./fold_r1254_heptameter_b_summary_confidences_0...    0.090000  0.20  0.22           0.21
 - ./fold_r1254_heptamer_g_summary_confidences_0.json    0.090000  0.21  0.22           0.21
 - ./fold_r1254_heptameter_e_summary_confidences_0...    0.090000  0.20  0.22           0.21
-- ./fold_r0254_heptameter_summary_confidences_0.json    0.090000  0.21  0.22           0.21
 - ./fold_r1254_heptameter_g_summary_confidences_0...    0.090000  0.20  0.22           0.21
-- ./fold_r1254_heptameter_c_summary_confidences_0...    0.090000  0.20  0.22           0.21
-- ./fold_r1254_dimer_g_summary_confidences_0.json       0.220000  0.22  0.23           0.22
+- ./fold_r1254_octamer_c_summary_confidences_0.json     0.090000  0.22  0.23           0.22
+- ./fold_r1254_octamer_f_summary_confidences_0.json     0.090000  0.22  0.23           0.22
+- ./fold_r1254_octamer_b_summary_confidences_0.json     0.090000  0.22  0.23           0.22
 - ./fold_r1254_dimer_b_summary_confidences_0.json       0.220000  0.22  0.23           0.22
+- ./fold_r1254_dimer_g_summary_confidences_0.json       0.220000  0.22  0.23           0.22
+- ./fold_r1254_octamer_e_summary_confidences_0.json     0.090000  0.22  0.23           0.22
 - ./fold_r1254_ninemer_summary_confidences_0.json       0.090000  0.24  0.25           0.24
 
 For manual will submit 
 9+5, 8+6 and 7+7
+
 
 
 
@@ -2672,6 +2694,28 @@ do not overlap
 
 af3: fold_m1271_cut_ , cutgh, cutabe, cut2 ,cutgh2
 
+-./fold_m1271_cutabe_g_summary_confidences_0.json    0.123529  0.41  0.44         -99.52
+-./fold_m1271_cutgh_f_summary_confidences_0.json     0.092381  0.42  0.44         -99.50
+-./fold_m1271_cutabe_j_summary_confidences_0.json    0.109412  0.39  0.42           0.42
+-./fold_m1271_cutabe_h_summary_confidences_0.json    0.118824  0.40  0.43           0.44
+-./fold_m1271_cutgh_summary_confidences_0.json       0.083810  0.39  0.42           0.44
+-./fold_m1271_cutabe_f_summary_confidences_0.json    0.124118  0.40  0.43           0.45
+-./fold_m1271_cutabe_i_summary_confidences_0.json    0.124706  0.40  0.43           0.46
+-./fold_m1271_cutabe_summary_confidences_0.json      0.121765  0.40  0.43           0.46
+-./fold_m1271_cut_e_summary_confidences_0.json       0.068095  0.37  0.41           0.46
+-./fold_m1271_cutgh_h_summary_confidences_0.json     0.089048  0.41  0.44           0.48
+-./fold_m1271_cutgh_e_summary_confidences_0.json     0.088571  0.40  0.43           0.49
+-./fold_m1271_cutgh_i_summary_confidences_0.json     0.091429  0.41  0.45           0.49
+-./fold_m1271_cut_f_summary_confidences_0.json       0.074286  0.39  0.44           0.49
+-./fold_m1271_cutgh_b_summary_confidences_0.json     0.093333  0.42  0.45           0.50
+-./fold_m1271_cut_g_summary_confidences_0.json       0.083333  0.40  0.44           0.50
+-./fold_m1271_cut_summary_confidences_0.json         0.077619  0.41  0.45           0.50
+-./fold_m1271_cut_d_summary_confidences_0.json       0.081000  0.40  0.45           0.50
+-./fold_m1271_cut_b_summary_confidences_0.json       0.082857  0.41  0.45           0.51
+-./fold_m1271_cutgh_d_summary_confidences_0.json     0.096190  0.42  0.45           0.52
+-./fold_m1271_cutgh_g_summary_confidences_0.json     0.096190  0.42  0.45           0.52
+-./fold_m1271_cut_c_summary_confidences_0.json       0.089524  0.44  0.48           0.53
+
 
 ##  Thursday: 3 targets
 ##  * DNA target with a ligand
@@ -2754,30 +2798,50 @@ More trials, just pick best (which are bad) for manual
 ## Monday: 5 targets
 ## * protein monomer
 ## + H1265
+Submitted monomer.
+
 ## ++,CAPRI H2233
+Submitting old models
+
 ## + R1252
 ## + R1253 (check additional information for this target once released)
 
 ## Tuesday: 4 targets
 ## ++,CAPRI T2234
+Submitting old models
+
 ## ++,CAPRI T2235
+Submitting old models
+
 ## ++,CAPRI H2236
+Submitting old models
+
+
 ## ++ T2266
+Submitting old models
+
 
 ## Wednesday: 3 targets
 ## * large protein complex with subunits
 ## +,CAPRI H1267
+Sibmitted momomer and tetramer
+
 ## ++,CAPRI T2237
+Submitting old models
 
 
 ## Thursday: 2 targets
 ## * a hybrid complex
 ## ++,CAPRI T2238
+Submitting old models
 
 
 ## Friday: 4 targets
 ## * monomer
 ## + M1268
+Submittd twoone (and monomer as backup)
+
+
 ## ++,CAPRI T2240
 ## ++ T2269
 
