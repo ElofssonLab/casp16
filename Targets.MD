@@ -1285,6 +1285,10 @@ ranking_score
 - ./fold_t0238_b_summary_confidences_0.json                NaN   NaN  0.65           0.65
 - ./fold_t0238_dimer_c_summary_confidences_0.json     0.580000  0.58  0.61           0.58
 
+## 184. 	H2233 * 	Prot 	658 	A2B2C2	- 	Human astrovirus 1 capsid spike - antibody Fab 3H4 complex
+## ++,CAPRI H2233
+Submitting old models
+
 ## +,CAPRI T1238
 ## 138. 	T1238 * 	Prot 	327 	A2 		Bd2098 
 Was submitted as a mix (dimer as number one)
@@ -2125,11 +2129,12 @@ submit 2x heptamer for af3 (just copied and moved the complex)
 For manual will submit 
 9+5, 8+6 and 7+7
 
-R1: ./fold_r1254_heptameter_g
+R5: ./fold_r1254_heptameter_g  (This model has quite a different
+packing on the monomer so changed it to No 5)
 R2:  ./fold_r1254_ninemer
 R3: ./fold_r1254_octamer_e_summary
 R4: ./fold_r1254_octamer_b
-R5: ./fold_r1254_heptameter_e
+R1: ./fold_r1254_heptameter_e
 
 
 
@@ -2190,7 +2195,38 @@ Running more monomers
 - ./fold_h0265_summary_confidences_0.json             0.800000  0.80  0.82           0.80
 
 
- 
+## 183. 	H1265 	Prot 	293 	A9B18 	TLR4 TIR domain (O00206) : MAL TIR domain (P58753) complex
+## + H1265
+Submitted monomer.
+It was actually A9B18 (who could have guessed that)
+
+-./fold_h1265_pentamer_summary_confidences_0.json    0.061333  0.22  0.26           0.23
+-./fold_h1265_hexamer_summary_confidences_0.json     0.055000  0.22  0.26           0.23
+-./fold_h1265_heptamer_summary_confidences_0.json    0.046667  0.23  0.26           0.23
+-./fold_h1265_tetramer_summary_confidences_0.json    0.091667  0.23  0.28           0.24
+-./fold_h1265_octamer_summary_confidences_0.json     0.047500  0.25  0.27           0.25
+-./fold_h1265_f_summary_confidences_0.json           0.046667  0.26  0.28           0.26
+-./fold_h1265_j_summary_confidences_0.json           0.046667  0.26  0.28           0.26
+-./fold_h1265_summary_confidences_0.json             0.047037  0.25  0.28           0.26
+-./fold_h1265_g_summary_confidences_0.json           0.046667  0.26  0.28           0.26
+-./fold_h1265_b_summary_confidences_0.json           0.045185  0.26  0.28           0.26
+-./fold_h1265_e_summary_confidences_0.json           0.045926  0.26  0.28           0.26
+-./fold_h1265_d_summary_confidences_0.json           0.046296  0.26  0.28           0.26
+-./fold_h1265_h_summary_confidences_0.json           0.046296  0.26  0.28           0.26
+-./fold_h1265_c_summary_confidences_0.json           0.046296  0.26  0.28           0.26
+-./fold_h1265_trimer_summary_confidences_0.json      0.197778  0.34  0.40           0.35
+-./fold_h1265_dimer_summary_confidences_0.json       0.275000  0.40  0.48           0.42
+
+The packing difference is quite different between models.
+The low-mers are straight the higher circular
+
+"C,G,H" looks very nice the only one that closes the ring
+
+- R1 /fold_h1265_c
+- R2 ./fold_h1265_h
+- R3 /fold_h1265_g
+- R4 /fold_h1265_e
+- R5 /fold_h1265_f  (looks almost closed)
 
 ## * RNA (stage 0)
 ## 125. 	R0252 	NucA 	520 	UNK 		- 	ROOL UCC118
@@ -2213,6 +2249,29 @@ More monomers
 - ./fold_r0252_summary_confidences_0.json                  NaN   NaN  0.20           0.20
 - ./fold_r0252_c_summary_confidences_0.json                NaN   NaN  0.20           0.20
 - ./fold_r0252_d_summary_confidences_0.json                NaN   NaN  0.20           0.20
+## + R1252
+## 185. 	R1252 	NucA 	520 	R6 	- 	ROOL UCC118
+Was actually an hexamer
+
+Not identical mdels (B-looks quite different (not circular))
+- ./fold_r1252_i_summary_confidences_0.json        0.11  0.22  0.23
+  -99.78 OVERLAP
+- ./fold_r1252_c_summary_confidences_0.json        0.11  0.21  0.24           0.22
+- ./fold_r1252_h_summary_confidences_0.json        0.11  0.21  0.23
+  0.22 OVERLAPS
+- ./fold_r1252_d_summary_confidences_0.json        0.11  0.21  0.23           0.22
+- ./fold_r1252_e_summary_confidences_0.json        0.11  0.21  0.23           0.22
+- ./fold_r1252_b_summary_confidences_0.json        0.11  0.21  0.23
+  0.22 NOT CIRCULAR
+- ./fold_r1252_k_summary_confidences_0.json        0.11  0.21  0.23
+  0.22 SOME OVERLAP
+- ./fold_r1252_g_summary_confidences_0.json        0.11  0.21  0.23           0.22
+- ./fold_r1252_l_summary_confidences_0.json        0.11  0.21  0.23           0.22
+- ./fold_r1252_summary_confidences_0.json          0.11  0.21  0.23           0.22
+- ./fold_r1252_j_summary_confidences_0.json        0.11  0.21  0.23           0.22
+- ./fold_r1252_f_summary_confidences_0.json        0.11  0.21  0.23           0.22
+
+Jus submit top 4 models + B (as #5)
 
 ## * RNA (stage 0: predict stoichiometry)
 ## 126. 	R0253 	NucA 	574 	UNK 	 	- 	ROOL env209 
@@ -2235,7 +2294,51 @@ Nothing looks good - will submit monomer
 - ./fold_r0253_g_summary_confidences_0.json                NaN   NaN  0.26           0.26
 
 
-Monday: 5 targets
+## + R1253 (check additional information for this target once released)
+
+Was actually octamer !
+## 186. 	R1253v1 	NucA /Ensmbl 	574 	R8 - 	ROOL env209
+## 187. 	R1253v2 	NucA /Ensmbl 	574 	R8 - 	ROOL env209
+
+
+Refolded RNA at 20 microM. The RNA structure was solved in two
+alternative conformations that have different radii of gyration. The
+conformation corresponding to this target variant (R1253v1) is the one
+with a smaller radius of gyration.
+
+
+Models actually overlap (somehow) - should I really submit them
+- ./fold_r1253_j_summary_confidences_0.json            0.11000  0.27  0.27         -99.73
+- ./fold_r1253_f_summary_confidences_0.json            0.11125  0.27  0.27         -99.73
+- ./fold_r1253_k_summary_confidences_0.json            0.11000  0.27  0.27         -99.73
+- ./fold_r1253_g_summary_confidences_0.json            0.11250  0.27  0.27         -99.73
+- ./fold_r1253_b_summary_confidences_0.json            0.11000  0.27  0.27         -99.73
+- ./fold_r1253_summary_confidences_0.json              0.11000  0.27  0.27         -99.73
+- ./fold_r1253_i_summary_confidences_0.json            0.11000  0.27  0.27         -99.73
+- ./fold_r1253_e_summary_confidences_0.json            0.12000  0.27  0.27         -99.73
+- ./fold_r1253_h_summary_confidences_0.json            0.11000  0.26  0.27         -99.73
+- ./fold_r1253_d_summary_confidences_0.json            0.11000  0.27  0.27         -99.73
+- ./fold_r1253_c_summary_confidences_0.json            0.11000  0.26  0.27         -99.73
+- ./fold_r1253_dimer_summary_confidences_0.json        0.13000  0.13  0.16           0.14
+- ./fold_r1253_tetramer_summary_confidences_0.json     0.12000  0.18  0.22           0.19
+- ./fold_r1253_monomer_summary_confidences_0.json          NaN   NaN  0.23           0.23
+
+
+Octamers without chains on top of each otehrs are (h has chains
+overalapping though)
+
+- ./fold_r1253_c_summary_confidences_0.json            0.11000  0.26  0.27         -99.73
+- ./fold_r1253_h_summary_confidences_0.json            0.11000  0.26  0.27         -99.73
+
+Rgyr 
+../../bin/rgyr.py fold_r1253_c_model_0.cif 76.266 R1253v2
+../../bin/rgyr.py fold_r1253_h_model_0.cif 72.382 R1253v1
+
+Running more to see if we can find any mode OK models
+
+Q also good
+
+
 
 ## Tuesday: 4 targets
 ## * monomer
@@ -2844,16 +2947,28 @@ More trials, just pick best (which are bad) for manual
 
 
 
-## Monday: 5 targets
 ## * protein monomer
-## + H1265
-Submitted monomer.
+## 188. 	T1274 	Prot 	167 	A1 		CAB14884.3 
 
-## ++,CAPRI H2233
-Submitting old models
 
-## + R1252
-## + R1253 (check additional information for this target once released)
+- ./fold_t1274_g_summary_confidences_0.json         NaN   NaN  0.56           0.64
+- ./fold_t1274_j_summary_confidences_0.json         NaN   NaN  0.56           0.64
+- ./fold_t1274_c_summary_confidences_0.json         NaN   NaN  0.57           0.65
+- ./fold_t1274_summary_confidences_0.json           NaN   NaN  0.56           0.65
+- ./fold_t1274_e_summary_confidences_0.json         NaN   NaN  0.56           0.65
+- ./fold_t1274_b_summary_confidences_0.json         NaN   NaN  0.57           0.65
+- ./fold_t1274_h_summary_confidences_0.json         NaN   NaN  0.56           0.66
+- ./fold_t1274_i_summary_confidences_0.json         NaN   NaN  0.56           0.66
+- ./fold_t1274_d_summary_confidences_0.json         NaN   NaN  0.56           0.67
+- ./fold_t1274_k_summary_confidences_0.json         NaN   NaN  0.56           0.68
+- ./fold_t1274_f_summary_confidences_0.json         NaN   NaN  0.56           0.70
+
+Just submit the best models (and first fior AF3). They all look the
+same (not like monomers though)
+
+
+
+
 
 ## Tuesday: 4 targets
 ## ++,CAPRI T2234
@@ -2872,6 +2987,8 @@ Submitting old models
 
 ## Wednesday: 3 targets
 ## * large protein complex with subunits
+
+
 ## +,CAPRI H1267
 Sibmitted momomer and tetramer
 
@@ -2888,7 +3005,7 @@ Submitting old models
 ## Friday: 4 targets
 ## * monomer
 ## + M1268
-Submittd twoone (and monomer as backup)
+Submitted twoone (and monomer as backup)
 
 
 ## ++,CAPRI T2240
