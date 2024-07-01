@@ -2337,6 +2337,10 @@ Rgyr
 Running more to see if we can find any mode OK models
 
 Q also good
+../../bin/rgyr.py fold_r1253_q_model_0.cif 79.998  R1253v2
+../../bin/rgyr.py fold_r1253_c_model_0.cif 76.266 R1253v1
+
+(H has some overlap - so I only include this as #5 for v1)
 
 
 
