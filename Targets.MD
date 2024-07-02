@@ -3020,9 +3020,18 @@ Submitted twoone (and monomer as backup)
 ## Remaining stuff
 
 
+H1265
+ run 20 more models to see if I get more to look ok.
+ 
+R1253
+ run 20 more models to see if I get someti
+
+
 M1271 - can I do something more. Submitted some different models
+
 
 R1254 - can you use MolPC to build a complete model
 - Asked Samuel
-
+- Create script to create symmetric file
+-  run something more models to see if something works?
 
