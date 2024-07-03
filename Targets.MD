@@ -1074,8 +1074,12 @@ Much better scores with more models - the best models (e and k)  pack the
 - ./fold_t1234_o_summary_confidences_0.json         0.650000  0.68  0.76           0.70
 - ./fold_t1234_k_summary_confidences_0.json         0.700000  0.72  0.790.77
 
-## 79. 	T0235 * 	All groups 	115 	UNK 	- 	A0A410N6V5.2 
+## ++,CAPRI T2234
+Submitting old models
 
+
+
+## 79. 	T0235 * 	All groups 	115 	UNK 	- 	A0A410N6V5.2 
 Run up to dodecamer.  Similar scores with 1,5,7 subunits
 - ./fold_t0235_dodecamer_summary_confidences_0.json     0.273333  0.49  0.53           0.56
 - ./fold_t0235_octamer_summary_confidences_0.json       0.475000  0.63  0.66           0.63
@@ -1115,6 +1119,9 @@ ranking_score
 ./fold_t1235_f_summary_confidences_0.json             0.780000  0.87 0.89           0.88
 
 Submit standard )and best for manual)
+
+## ++,CAPRI T2235
+Submitting old models
 
 
 ## * protein heterooligomer :: assembly only
@@ -2228,6 +2235,69 @@ The low-mers are straight the higher circular
 - R4 /fold_h1265_e
 - R5 /fold_h1265_f  (looks almost closed)
 
+H1265
+ run 20 more models to see if I get more to look ok. (Much better now)
+ 
+"Cllosed models":
+aa, ab, ac, ad, ae, ag (almost), ah, aj, ak (whole in the middle), al,
+ar, at, av, aw
+
+
+Skip not closed models (when I now have enough to choose from).
+
+
+fold_h1265_a[abcdehlrtvw]_model_0.cif fold_h1265_[chge]_model_0.cif
+- ./fold_h1265_av_summary_confidences_0.json          0.046296  0.26  0.28           0.26
+- ./fold_h1265_h_summary_confidences_0.json           0.046296  0.26  0.28           0.26
+- ./fold_h1265_aa_summary_confidences_0.json          0.046667  0.26  0.28           0.26
+- ./fold_h1265_c_summary_confidences_0.json           0.046296  0.26  0.28           0.26
+- ./fold_h1265_al_summary_confidences_0.json          0.046667  0.26  0.28           0.26
+- ./fold_h1265_aw_summary_confidences_0.json          0.046296  0.26  0.28           0.26
+- ./fold_h1265_at_summary_confidences_0.json          0.046667  0.26  0.28           0.26
+- ./fold_h1265_ah_summary_confidences_0.json          0.046667  0.26  0.28           0.26
+- ./fold_h1265_ar_summary_confidences_0.json          0.046667  0.26  0.28           0.26
+- ./fold_h1265_ae_summary_confidences_0.json          0.046667  0.26  0.28           0.26
+- ./fold_h1265_g_summary_confidences_0.json           0.046667  0.26  0.28           0.26
+- ./fold_h1265_ab_summary_confidences_0.json          0.046296  0.26  0.28           0.26
+- ./fold_h1265_ad_summary_confidences_0.json          0.046667  0.26  0.28           0.26
+- ./fold_h1265_ac_summary_confidences_0.json          0.046667  0.25  0.28           0.27
+
+
+
+Radius of gyration (low are more spherical - high more flat)
+
+### Spherical
+fold_h1265_at_model_0.cif 51.739  (really a hole in the moddle=
+fold_h1265_aw_model_0.cif 52.392 similar to AT
+fold_h1265_g_model_0.cif 52.101
+fold_h1265_ar_model_0.cif 52.585  (some gaps)
+fold_h1265_al_model_0.cif 52.606
+fold_h1265_ad_model_0.cif 52.705 (some gaps)
+
+fold_h1265_h_model_0.cif 52.891 (but also a bit similar to 4-5 cluster)
+
+
+### Ring with 2*9 chains + two "caps" with 4 and 5 chains
+
+fold_h1265_ac_model_0.cif 49.833 Compact
+fold_h1265_ae_model_0.cif 51.469
+fold_h1265_aa_model_0.cif 54.163
+fold_h1265_c_model_0.cif 54.174
+
+### Ring with 2*9 chains + two "caps" with 3 and 6 chains
+fold_h1265_ab_model_0.cif 52.614
+fold_h1265_av_model_0.cif 53.346
+fold_h1265_ah_model_0.cif 54.758
+
+
+### Selection
+
+- R1 ./fold_h1265_ac
+- R2 ./fold_h1265_ad
+- R3 ./fold_h1265_ab
+- R4 fold_h1265_g
+- R5 ./fold_h1265_h
+
 ## * RNA (stage 0)
 ## 125. 	R0252 	NucA 	520 	UNK 		- 	ROOL UCC118
 
@@ -2331,18 +2401,55 @@ overalapping though)
 - ./fold_r1253_h_summary_confidences_0.json            0.11000  0.26  0.27         -99.73
 
 Rgyr 
-../../bin/rgyr.py fold_r1253_c_model_0.cif 76.266 R1253v2
-../../bin/rgyr.py fold_r1253_h_model_0.cif 72.382 R1253v1
+- ../../bin/rgyr.py fold_r1253_c_model_0.cif 76.266 R1253v2
+- ../../bin/rgyr.py fold_r1253_h_model_0.cif 72.382 R1253v1
 
 Running more to see if we can find any mode OK models
 
 Q also good
-../../bin/rgyr.py fold_r1253_q_model_0.cif 79.998  R1253v2
-../../bin/rgyr.py fold_r1253_c_model_0.cif 76.266 R1253v1
+- ../../bin/rgyr.py fold_r1253_q_model_0.cif 79.998  R1253v2
+- ../../bin/rgyr.py fold_r1253_c_model_0.cif 76.266 R1253v1
 
 (H has some overlap - so I only include this as #5 for v1)
 
+R1253
+ run 20 more models to see if I get someti
+OK models 
+am, ao, at
+"am" is OK
 
+20 more (b -models)
+bi, bp, bs
+
+ In total 6 good models. Here are the scores (all the same)
+-  ./fold_r1253_h_summary_confidences_0.json            0.11000  0.26  0.27         -99.73
+- ./fold_r1253_q_summary_confidences_0.json            0.11000  0.26  0.27         -99.73 
+- ./fold_r1253_am_summary_confidences_0.json           0.11000  0.26  0.27         -99.73
+- ./fold_r1253_ao_summary_confidences_0.json           0.11000  0.26 0.27         -99.73
+- ./fold_r1253_at_summary_confidences_0.json           0.11000  0.26  0.27         -99.73
+- ./fold_r1253_c_summary_confidences_0.json            0.11000  0.26  0.27         -99.73
+
+
+The models are all different but two clusters (depending on the length)
+
+
+
+SHORT R1253v1
+-  ../../bin/rgyr.py fold_r1253_ao_model_0.cif 69.644 
+- ../../bin/rgyr.py fold_r1253_h_model_0.cif 72.382 
+-  ../../bin/rgyr.py fold_r1253_at_model_0.cif 73.426
+- /bin/rgyr.py fold_r1253_bp_model_0.cif 72.184 
+- fold_r1253_bs_model_0.cif 70.78 
+(ao and h bp has some overlaps) - just use these as 3, 4 and 5
+bs a lot of overlap - skip
+
+LONG R1253v2
+- ../../bin/rgyr.py fold_r1253_c_model_0.cif 76.266 
+-  ../../bin/rgyr.py fold_r1253_am_model_0.cif 78.205 
+- ../../bin/rgyr.py fold_r1253_q_model_0.cif 79.998 
+- bin/rgyr.py fold_r1253_bi_model_0.cif 79.756 
+
+(bi has a lot of overlap - skip it)
 
 ## Tuesday: 4 targets
 ## * monomer
@@ -2359,6 +2466,10 @@ Looks ok
 - ./fold_t1266_e_summary_confidences_0.json         NaN   NaN  0.79           0.84
 - ./fold_t1266_d_summary_confidences_0.json         NaN   NaN  0.80           0.86
 - ./fold_t1266_b_summary_confidences_0.json         NaN   NaN  0.80           0.86
+
+
+## ++ T2266
+Submitting old models
 
 
 ## Wednesday: 4 targets
@@ -2974,30 +3085,17 @@ same (not like monomers though)
 
 
 
-## Tuesday: 4 targets
-## ++,CAPRI T2234
-Submitting old models
-
-## ++,CAPRI T2235
-Submitting old models
-
-## ++,CAPRI H2236
-Submitting old models
-
-
-## ++ T2266
-Submitting old models
-
 
 ## Wednesday: 3 targets
 ## * large protein complex with subunits
 
 
 ## +,CAPRI H1267
-Sibmitted momomer and tetramer
+SUbmitted momomer and tetramer
 
 ## ++,CAPRI T2237
 Submitting old models
+
 
 
 ## Thursday: 2 targets
@@ -3020,11 +3118,6 @@ Submitted twoone (and monomer as backup)
 ## Remaining stuff
 
 
-H1265
- run 20 more models to see if I get more to look ok.
- 
-R1253
- run 20 more models to see if I get someti
 
 
 M1271 - can I do something more. Submitted some different models
