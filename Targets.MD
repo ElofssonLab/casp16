@@ -3196,6 +3196,8 @@ Can likely be a dimer/trimer but too long to run
 ### Chain B, C,  D, E, G, I 
 
 Interaction map shows that these shold itnteract
+Chain I only Some interactions with the comples
+
 
 CDE forms a trimer
 BG aligns it
@@ -3205,11 +3207,12 @@ Will try 3B,CDE,3G,3I - this looks good
 ./fold_h0272_b3cde3g3i_summary_confidences_0.json     0.162500  0.38 0.40           0.62
 
 
-### Chain I
-Some interactions with the comples
+Will make a model from 
+A+F+H (in some combination)
+
+
 
 ### Chain F 
-### Chain G 
 ### Chain H 
 
 
