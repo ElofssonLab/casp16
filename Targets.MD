@@ -3421,7 +3421,13 @@ not read it carefully)
 - ./fold_m0276_20mer_d_summary_confidences_0.json    0.027547  0.28  0.30           0.28
 
 
-picks 20_20 for af3 but the best scoring ones
+picks 20_20 for af3 but the best scoring ones:
+- ./fold_m0276_20_20_b_summary_confidences_0.json        0.03  0.26  0.29           0.27
+- ./fold_m0276_20_20_e_summary_confidences_1.json        0.03  0.26  0.29           0.27
+- ./fold_m0276_20_20_c_summary_confidences_0.json        0.03  0.27  0.29           0.27
+- ./fold_m0276_20_20_summary_confidences_1.json          0.03  0.26  0.29           0.27
+- ./fold_m0276_20_20_c_summary_confidences_1.json        0.03  0.26 0.29           0.27
+
 
 12 looks nice (but not 12b). I prefer 12 and 20 will run some more
 
@@ -3429,9 +3435,11 @@ Manual picks (as goof as any)
 
 sunbmit 10,12,16,18 and 20 for manual.
 
-fold_m0276_12_12
-/fold_m0276_20_20
-/fold_m0276_18_18_b
+- R1  fold_m0276_12_12_model_0
+- R2 fold_m0276_20_20_c_model_1
+- R3 fold_m0276_18_18_b_model_2
+- R4 fold_m0276_16_16_model_2
+- R5 fold_m0276_10_10_model_3
 
 
 ## Friday: 4 targets
