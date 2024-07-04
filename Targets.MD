@@ -3375,42 +3375,42 @@ Generate a lot of models with superpositions to see if any look good.
 ## * a hybrid complex
 ## 206. 	M0276 	Prot-NucA 	229 	UNK 8 	- 	One domain of A0A026WM60_OOCBI in complex with 33mer ssDNA
 
-Low scores for everything. How do you pack 33 DNA strands?
-./fold_m0276_20mer_c_summary_confidences_0.json    0.027547  0.28  0.30         -99.72
-./fold_m0276_22_22_summary_confidences_0.json      0.030000  0.28  0.30         -99.72
-./fold_m0276_dimer_summary_confidences_0.json      0.011429  0.14  0.24           0.16
-./fold_m0276_summary_confidences_0.json            0.010882  0.14  0.25           0.16
-./fold_m0276_b_summary_confidences_0.json          0.010588  0.13  0.25           0.16
-./fold_m0276_e_summary_confidences_0.json          0.010588  0.13  0.25           0.16
-./fold_m0276_d_summary_confidences_0.json          0.010588  0.13  0.25           0.16
-./fold_m0276_c_summary_confidences_0.json          0.010588  0.14  0.25           0.16
-./fold_m0276_trimer_summary_confidences_0.json     0.012500  0.15  0.25           0.17
-./fold_m0276_10mer_summary_confidences_0.json      0.024419  0.21  0.26           0.22
-./fold_m0276_11mer_c_summary_confidences_0.json    0.025000  0.22  0.26           0.23
-./fold_m0276_11mer_summary_confidences_0.json      0.025000  0.22  0.26           0.23
-./fold_m0276_16mer_summary_confidences_0.json      0.026531  0.25  0.29           0.26
-./fold_m0276_20mer_summary_confidences_0.json      0.027547  0.28  0.30           0.28
-./fold_m0276_20mer_b_summary_confidences_0.json    0.027547  0.28 0.30           0.28
+Low scores for everything. I run many models with 33 dna chains (did
+not read it carefully)
+
+- ./fold_m0276_20mer_e_summary_confidences_0.json    0.027547  0.28  0.30         -99.72
+- ./fold_m0276_20mer_c_summary_confidences_0.json    0.027547  0.28  0.30         -99.72
+- ./fold_m0276_22_22_summary_confidences_0.json      0.030000  0.28  0.30         -99.72
+- ./fold_m0276_c_summary_confidences_0.json          0.010588  0.14  0.25           0.16
+- ./fold_m0276_d_summary_confidences_0.json          0.010588  0.13  0.25           0.16
+- ./fold_m0276_4_4_summary_confidences_0.json        0.055000  0.13  0.30           0.16
+- ./fold_m0276_e_summary_confidences_0.json          0.010588  0.13  0.25           0.16
+- ./fold_m0276_b_summary_confidences_0.json          0.010588  0.13  0.25           0.16
+- ./fold_m0276_dimer_summary_confidences_0.json      0.011429  0.14  0.24           0.16
+- ./fold_m0276_summary_confidences_0.json            0.010882  0.14  0.25           0.16
+- ./fold_m0276_3_3_summary_confidences_0.json        0.065000  0.11  0.34           0.16
+- ./fold_m0276_trimer_summary_confidences_0.json     0.012500  0.15  0.25           0.17
+- ./fold_m0276_2_2_summary_confidences_0.json        0.095000  0.11  0.46           0.18
+- ./fold_m0276_10_10_summary_confidences_0.json      0.032500  0.18  0.25           0.20
+- ./fold_m0276_12_12_summary_confidences_0.json      0.030417  0.20  0.25           0.21
+- ./fold_m0276_10mer_summary_confidences_0.json      0.024419  0.21  0.26           0.22
+- ./fold_m0276_11mer_summary_confidences_0.json      0.025000  0.22  0.26           0.23
+- ./fold_m0276_11mer_c_summary_confidences_0.json    0.025000  0.22  0.26           0.23
+- ./fold_m0276_16_16_summary_confidences_0.json      0.030000  0.24  0.27           0.24
+- ./fold_m0276_18_18_b_summary_confidences_0.json    0.030000  0.25  0.28           0.26
+- ./fold_m0276_16mer_summary_confidences_0.json      0.026531  0.25  0.29           0.26
+- ./fold_m0276_20_20_summary_confidences_0.json      0.030000  0.27  0.29           0.27
+- ./fold_m0276_20mer_f_summary_confidences_0.json    0.027547  0.28  0.30           0.28
+- ./fold_m0276_20mer_d_summary_confidences_0.json    0.027547  0.28  0.30           0.28
+- ./fold_m0276_20mer_g_summary_confidences_0.json    0.027547  0.28  0.30           0.28
+- ./fold_m0276_20mer_b_summary_confidences_0.json    0.027547  0.28  0.30           0.28
+- ./fold_m0276_20mer_summary_confidences_0.json      0.027547  0.28  0.30           0.28
 
 
-For af3 submit 20mer (highest scores) but only some of these models
-are non overlapping
-                                                 chain_iptm  iptm  ptm  ranking_score
-- ./fold_m0276_20mer_summary_confidences_1.json      0.027547  0.28  0.3         -99.72
-- ./fold_m0276_20mer_b_summary_confidences_3.json    0.027547  0.28  0.3         -99.72
-- ./fold_m0276_20mer_c_summary_confidences_4.json    0.027547  0.28  0.3         -99.72
-- ./fold_m0276_20mer_c_summary_confidences_3.json    0.027547  0.28  0.3         -99.72
-- ./fold_m0276_20mer_b_summary_confidences_4.json    0.027547  0.28  0.3         -99.72
-- ./fold_m0276_20mer_c_summary_confidences_2.json    0.027547  0.28  0.3         -99.72
-- ./fold_m0276_20mer_summary_confidences_4.json      0.027547  0.28  0.3         -99.72
-- ./fold_m0276_20mer_c_summary_confidences_1.json    0.027547  0.28  0.3         -99.72
-- ./fold_m0276_20mer_c_summary_confidences_0.json    0.027547  0.28  0.3         -99.72
-- ./fold_m0276_20mer_summary_confidences_2.json      0.027547  0.28  0.3         -99.72
-- ./fold_m0276_20mer_summary_confidences_3.json      0.027547  0.28  0.3         -99.72
-- ./fold_m0276_20mer_b_summary_confidences_2.json    0.027547  0.28  0.3           0.28
-- ./fold_m0276_20mer_summary_confidences_0.json      0.027547  0.28  0.3           0.28
-- ./fold_m0276_20mer_b_summary_confidences_0.json    0.027547  0.28  0.3           0.28
-- ./fold_m0276_20mer_b_summary_confidences_1.json    0.027547  0.28  0.30.28
+sunbmit 10,12,16,18 and 20 for af3.
+
+12 looks nice (but not 12b). I prefer 12 and 20 will run some more
+
 
 
 ## Friday: 4 targets
