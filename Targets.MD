@@ -3191,7 +3191,22 @@ For AF3 submit separate A-chain and a complex of the rest
 ### Chain A
 Long helical  no interactions with the rest not too bad scores
 Can likely be a dimer/trimer but too long to run
+- ./fold_h0272_a1_dimer_summary_confidences_0.json      0.2600  0.26  0.28           0.30
+- ./fold_h0272_ai_summary_confidences_0.json            0.2900  0.29  0.33           0.34
+- ./fold_h0272_af_summary_confidences_0.json            0.2800  0.28  0.33           0.35
+- ./fold_h0272_ai3_summary_confidences_0.json           0.1750  0.29  0.33           0.35
+- ./fold_h0272_a2_dimer_summary_confidences_0.json      0.2800  0.28  0.34           0.38
+- ./fold_h0272_a_summary_confidences_0.json                NaN   NaN  0.33           0.39
+- ./fold_h0272_a_2_summary_confidences_0.json              NaN   NaN  0.32           0.39
+- ./fold_h0272_acde_summary_confidences_0.json          0.3100  0.32  0.33           0.42
+- ./fold_h0272_af2_summary_confidences_0.json           0.2600  0.34  0.37           0.42
+- ./fold_h0272_a_e_g_summary_confidences_0.json         0.2550  0.33  0.35           0.43
+- ./fold_h0272_acde_2_summary_confidences_0.json        0.3075  0.32  0.33           0.43
+- ./fold_h0272_a_e_summary_confidences_0.json           0.3660  0.36  0.37           0.45
+- ./fold_h0272_a_g_i_summary_confidences_0.json         0.3325  0.51  0.40           0.58
+- ./fold_h0272_ah_summary_confidences_0.json            0.5400  0.54  0.40           0.59
 
+Nothing looks good but pLDDT is OK
 
 ### Chain B, C,  D, E, G, I 
 
@@ -3243,6 +3258,29 @@ This gives
 
 
 Status (July 3 23:00)
+
+### Big complex:
+- ./fold_h0272_b3cdefg3hi3_summary_confidences_0....    0.127857  0.36  0.38           0.47
+- ./fold_h0272_b3cdefg3hi_b_summary_confidences_0...    0.151667  0.37  0.38           0.49
+- ./fold_h0272_b3cdefg3h3i_b_summary_confidences_...    0.140000  0.37  0.39           0.50
+- ./fold_h0272_b3cdefg3h3i_c_summary_confidences_...    0.135000  0.37  0.39           0.51
+- ./fold_h0272_b3cdefg3hi_c_summary_confidences_0...    0.168333  0.38  0.40           0.52
+- ./fold_h0272_b3cdefg3h3i_d_summary_confidences_...    0.140000  0.37  0.39           0.54
+- ./fold_h0272_b3cdefg3hi_summary_confidences_0.json    0.160000  0.37  0.39           0.56
+- ./fold_h0272_b3cde3g3i_b_summary_confidences_0....    0.162500  0.38  0.40           0.62
+- ./fold_h0272_b3cde3g3i_c_summary_confidences_0....    0.162500  0.38  0.40           0.62
+- ./fold_h0272_b3cde3g3i_d_summary_confidences_0....    0.162500  0.38  0.40           0.62
+- ./fold_h0272_b3cde3g3h_summary_confidences_0.json     0.162500  0.38  0.40           0.62
+- ./fold_h0272_b3cde3g3i_f_summary_confidences_0....    0.162500  0.38  0.40           0.62
+- ./fold_h0272_b3cde3g3i_summary_confidences_0.json     0.162500  0.38  0.40           0.62
+- ./fold_h0272_b3cde3g3i_h_summary_confidences_0....    0.142500  0.36  0.38           0.62
+- ./fold_h0272_b3cde3g3i_e_summary_confidences_0....    0.162500  0.38  0.40           0.62
+- ./fold_h0272_b3cde3g3i_i_summary_confidences_0....    0.149167  0.38  0.40           0.64
+- ./fold_h0272_b3cde3g3i_j_summary_confidences_0....    0.151667  0.38 0.40           0.64
+  
+###  A-chain
+
+  
 
 
 ### Chain F 
