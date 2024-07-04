@@ -3421,10 +3421,17 @@ not read it carefully)
 - ./fold_m0276_20mer_d_summary_confidences_0.json    0.027547  0.28  0.30           0.28
 
 
-sunbmit 10,12,16,18 and 20 for af3.
+picks 20_20 for af3 but the best scoring ones
 
 12 looks nice (but not 12b). I prefer 12 and 20 will run some more
 
+Manual picks (as goof as any)
+
+sunbmit 10,12,16,18 and 20 for manual.
+
+fold_m0276_12_12
+/fold_m0276_20_20
+/fold_m0276_18_18_b
 
 
 ## Friday: 4 targets
