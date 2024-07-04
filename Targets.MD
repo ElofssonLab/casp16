@@ -1204,7 +1204,8 @@ manuel (for Af3 the new submission)
 ./fold_t0237_tetramer_f_summary_confidences_0.json      0.8425  0.89  0.90           0.92
 
 ## ++,CAPRI T2237
-Submitting old models
+## 205. 	T2237 * 	Prot 	488 	A4 	2	- 	Bd3071 
+ Submitting old models
 
 
 
@@ -1317,6 +1318,11 @@ Was submitted as a mix (dimer as number one)
 - ./fold_t1238_summary_confidences_0.json                0.59  ...           0.59
 - ./fold_t1238_c_summary_confidences_0.json              0.59  ...           0.60
 - ./fold_t1238_g_summary_confidences_0.json              0.60  ...           0.61
+
+## ++,CAPRI T2238
+## 207. 	T2238 * 	Prot 	327 	A2 	 	Bd2098  
+Submitting old models
+
 
 
 
@@ -3133,7 +3139,6 @@ same (not like monomers though)
 ## 202. 	T0272s9 	Prot 	238 	A1 	2	- 	dystrophin-glycoprotein complex (DGC)
 ## 203. 	T1267s1 	Prot 	444 	A1 	2	- 	XauSPARDA
 ## 204. 	T1267s2 	Prot 	482 	A1 	2	- 	XauSPARDA
-## 205. 	T2237 * 	Prot 	488 	A4 	2	- 	Bd3071 
 
 
 
@@ -3366,10 +3371,29 @@ Generate a lot of models with superpositions to see if any look good.
 
 
 ## Thursday: 2 targets
-## * a hybrid complex
-## ++,CAPRI T2238
-Submitting old models
 
+## * a hybrid complex
+## 206. 	M0276 	Prot-NucA 	229 	UNK 8 	- 	One domain of A0A026WM60_OOCBI in complex with 33mer ssDNA
+
+Low scores for everything. How do you pack 33 DNA strands?
+./fold_m0276_20mer_c_summary_confidences_0.json    0.027547  0.28  0.30         -99.72
+./fold_m0276_22_22_summary_confidences_0.json      0.030000  0.28  0.30         -99.72
+./fold_m0276_dimer_summary_confidences_0.json      0.011429  0.14  0.24           0.16
+./fold_m0276_summary_confidences_0.json            0.010882  0.14  0.25           0.16
+./fold_m0276_b_summary_confidences_0.json          0.010588  0.13  0.25           0.16
+./fold_m0276_e_summary_confidences_0.json          0.010588  0.13  0.25           0.16
+./fold_m0276_d_summary_confidences_0.json          0.010588  0.13  0.25           0.16
+./fold_m0276_c_summary_confidences_0.json          0.010588  0.14  0.25           0.16
+./fold_m0276_trimer_summary_confidences_0.json     0.012500  0.15  0.25           0.17
+./fold_m0276_10mer_summary_confidences_0.json      0.024419  0.21  0.26           0.22
+./fold_m0276_11mer_c_summary_confidences_0.json    0.025000  0.22  0.26           0.23
+./fold_m0276_11mer_summary_confidences_0.json      0.025000  0.22  0.26           0.23
+./fold_m0276_16mer_summary_confidences_0.json      0.026531  0.25  0.29           0.26
+./fold_m0276_20mer_summary_confidences_0.json      0.027547  0.28  0.30           0.28
+./fold_m0276_20mer_b_summary_confidences_0.json    0.027547  0.28 0.30           0.28
+
+
+For af3 submit 20mer (highest scores)
 
 ## Friday: 4 targets
 ## * monomer
