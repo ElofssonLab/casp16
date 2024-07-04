@@ -3393,7 +3393,25 @@ Low scores for everything. How do you pack 33 DNA strands?
 ./fold_m0276_20mer_b_summary_confidences_0.json    0.027547  0.28 0.30           0.28
 
 
-For af3 submit 20mer (highest scores)
+For af3 submit 20mer (highest scores) but only some of these models
+are non overlapping
+                                                 chain_iptm  iptm  ptm  ranking_score
+- ./fold_m0276_20mer_summary_confidences_1.json      0.027547  0.28  0.3         -99.72
+- ./fold_m0276_20mer_b_summary_confidences_3.json    0.027547  0.28  0.3         -99.72
+- ./fold_m0276_20mer_c_summary_confidences_4.json    0.027547  0.28  0.3         -99.72
+- ./fold_m0276_20mer_c_summary_confidences_3.json    0.027547  0.28  0.3         -99.72
+- ./fold_m0276_20mer_b_summary_confidences_4.json    0.027547  0.28  0.3         -99.72
+- ./fold_m0276_20mer_c_summary_confidences_2.json    0.027547  0.28  0.3         -99.72
+- ./fold_m0276_20mer_summary_confidences_4.json      0.027547  0.28  0.3         -99.72
+- ./fold_m0276_20mer_c_summary_confidences_1.json    0.027547  0.28  0.3         -99.72
+- ./fold_m0276_20mer_c_summary_confidences_0.json    0.027547  0.28  0.3         -99.72
+- ./fold_m0276_20mer_summary_confidences_2.json      0.027547  0.28  0.3         -99.72
+- ./fold_m0276_20mer_summary_confidences_3.json      0.027547  0.28  0.3         -99.72
+- ./fold_m0276_20mer_b_summary_confidences_2.json    0.027547  0.28  0.3           0.28
+- ./fold_m0276_20mer_summary_confidences_0.json      0.027547  0.28  0.3           0.28
+- ./fold_m0276_20mer_b_summary_confidences_0.json    0.027547  0.28  0.3           0.28
+- ./fold_m0276_20mer_b_summary_confidences_1.json    0.027547  0.28  0.30.28
+
 
 ## Friday: 4 targets
 ## * monomer
