@@ -1404,6 +1404,11 @@ Submits just best models (t1240_ for af3)
 Best models are extended some with lower scores are not - just submit
 as model 5 (t1240_d)
 
+## 210. 	T2240 * 	Prot 	653    - 	Bd3442
+## ++,CAPRI T2240
+resubmitted
+
+
 
 
 ## +,CAPRI H1225
@@ -2635,6 +2640,10 @@ domains. (RMSD >1Å)
 - ./fold_t1269_f_summary_confidences_0.json         NaN   NaN  0.72           0.76
 - ./fold_t1269_b_summary_confidences_0.json         NaN   NaN  0.73           0.77
 
+## 211. 	T2269 	Prot 	1410 	A1  	- 	MUC5AC uniprot P98088 
+## ++ T2269
+resubmitted
+
 
 
 ##  Monday: 4 targets
@@ -3443,13 +3452,26 @@ sunbmit 10,12,16,18 and 20 for manual.
 
 
 ## Friday: 4 targets
+
+
 ## * monomer
+## 209. 	T1275 	Prot 	276 	A1 		 	OC12orf29
+
+./fold_t1275_f_summary_confidences_0.json         NaN   NaN  0.86           0.89
+./fold_t1275_summary_confidences_0.json           NaN   NaN  0.86           0.89
+./fold_t1275_g_summary_confidences_0.json         NaN   NaN  0.86           0.89
+./fold_t1275_b_summary_confidences_0.json         NaN   NaN  0.87           0.89
+./fold_t1275_e_summary_confidences_0.json         NaN   NaN  0.86           0.89
+./fold_t1275_i_summary_confidences_0.json         NaN   NaN  0.87           0.89
+./fold_t1275_d_summary_confidences_0.json         NaN   NaN  0.87           0.89
+./fold_t1275_h_summary_confidences_0.json         NaN   NaN  0.86           0.89
+./fold_t1275_c_summary_confidences_0.json         NaN   NaN  0.86 0.89
+
+Standard submisssion
+
 ## + M1268
 Submitted twoone (and monomer as backup)
-
-
-## ++,CAPRI T2240
-## ++ T2269
+This is too big
 
 
 
