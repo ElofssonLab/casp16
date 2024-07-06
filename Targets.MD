@@ -3474,6 +3474,36 @@ Submitted twoone (and monomer as backup)
 This is too big
 
 
+Chain B makes a nice octamer but only when run alone
+
+Tryying to submit two tetramers for AF3 - wil do manual later - it
+fails on check - se mail
+
+m  iptm   ptm  ranking_score
+- ./fold_m1268_chain_a_octamer_summary_confidence...    0.146250  0.28  0.31           0.31
+- ./fold_m1268_chain_b_octamer_summary_confidence...    0.173750  0.31  0.39           0.33
+- ./fold_m1268_chb_octamer_2x_arna_d_summary_conf...    0.109375  0.36  0.42           0.37
+- ./fold_m1268_chb_octamer_2x_arna_nodna_summary_...    0.125000  0.37  0.42           0.38
+- ./fold_m1268_chb_octamer_2x_arna_c_summary_conf...    0.117500  0.38  0.44           0.40
+- ./fold_m1268_chb_octamer_2x_arna_nodna_c_summar...    0.138571  0.39  0.44           0.40
+- ./fold_m1268_chb_octamer_2x_arna_summary_confid...    0.135000  0.41  0.46           0.42
+- ./fold_m1268_chb_octamer_1x_arna_nodna_summary_...    0.179091  0.41  0.46           0.42
+- ./fold_m1268_chb_octamer_2x_arna_b_summary_conf...    0.131250  0.41  0.46           0.42
+- ./fold_m1268_chb_octamer_2x_arna_nodna_b_summar...    0.159286  0.42  0.47           0.43
+- ./fold_m1268_chb_octamer_1x_arna_summary_confid...    0.127143  0.42  0.48           0.43
+- ./fold_m1268_chb_octamer_2x_arna_e_summary_conf...    0.129375  0.41  0.47           0.43
+- ./fold_m1268_chb_1a_norna_no_dna_summary_confid...    0.232222  0.43  0.48           0.44
+- ./fold_m1268_chb_octamer_2x_arna_nodna_d_summar...    0.161429  0.44  0.49           0.46
+- ./fold_m1268_pentamer_summary_confidences_0.json      0.118182  0.50  0.53           0.51
+- ./fold_m1268_4_8_summary_confidences_0.json           0.091923  0.55  0.57           0.56
+- ./fold_m1268_tetramer_b_summary_confidences_0.json    0.172222  0.58  0.61           0.59
+- ./fold_m1268_tetramer_nodna_summary_confidences...    0.184375  0.57  0.60           0.59
+- ./fold_m1268_dimer_summary_confidences_0.json         0.218000  0.59  0.64           0.60
+- ./fold_m1268_dimer_no_dna_summary_confidences_0...    0.371250  0.59  0.65           0.60
+- ./fold_m1268_tetramer_summary_confidences_0.json      0.217778  0.67  0.68           0.67
+- ./fold_m1268_tetramer_c_summary_confidences_0.json    0.245556  0.69  0.70           0.70
+
+
 
 ## Remaining stuff
 
