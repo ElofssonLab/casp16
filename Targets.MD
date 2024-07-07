@@ -3504,6 +3504,7 @@ m  iptm   ptm  ranking_score
 - ./fold_m1268_tetramer_c_summary_confidences_0.json    0.245556  0.69  0.70           0.70
 
 
+Made one symmetric model for manual predictions - but where to put the DNA?
 
 ## Remaining stuff
 
