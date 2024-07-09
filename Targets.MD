@@ -1523,6 +1523,12 @@ Running more..
 
 Dimer actually looks nice, not sure why I did not like it before.
 
+## ++,CAPRI H2244
+## 212. 	H2244 * 	Prot 	425 	A2B2C2  	- 	BJCNb48
+
+Just resubmitted
+
+
 ## * protein monomer
 ## 99. 	T1243 	All groups 	293 	A1 	202     MTMA3 (UNIPROT ID: P0CH91)
 
@@ -2698,7 +2704,42 @@ replace M4 with. /fold_t0270_hexamer_c_summary_confidences_0.json
 A hexamer - as submitted as rank #1
 
 Running 30 models to get a few that scores well
-
+- ./fold_t1270_ai_summary_confidences_0.json           0.321667  0.43  0.47           0.45
+- ./fold_t1270_am_summary_confidences_0.json           0.323333  0.43  0.48           0.45
+- ./fold_t1270_aa_summary_confidences_0.json           0.301667  0.43  0.48           0.45
+- ./fold_t1270_an_summary_confidences_0.json           0.306667  0.43  0.48           0.45
+- ./fold_t1270_ad_summary_confidences_0.json           0.321667  0.43  0.48           0.45
+- ./fold_t1270_summary_confidences_0.json              0.315000  0.44  0.49           0.46
+- ./fold_t1270_f_summary_confidences_0.json            0.345000  0.45  0.51           0.47
+- ./fold_t1270_j_summary_confidences_0.json            0.315000  0.44  0.49           0.47
+- ./fold_t1270_ac_summary_confidences_0.json           0.345000  0.45  0.50           0.47
+- ./fold_t1270_at_summary_confidences_0.json           0.330000  0.45  0.50           0.47
+- ./fold_t1270_ag_summary_confidences_0.json           0.340000  0.45  0.49           0.47
+- ./fold_t1270_b_summary_confidences_0.json            0.325000  0.45  0.49           0.47
+- ./fold_t1270_ae_summary_confidences_0.json           0.325000  0.45  0.50           0.47
+- ./fold_t0270_hexamer_b_summary_confidences_0.json    0.341667  0.45  0.49           0.47
+- ./fold_t1270_ah_summary_confidences_0.json           0.353333  0.46  0.50           0.48
+- ./fold_t1270_h_summary_confidences_0.json            0.346667  0.46  0.51           0.48
+- ./fold_t0270_hexamer_c_summary_confidences_0.json    0.338333  0.46  0.50           0.48
+- ./fold_t1270_as_summary_confidences_0.json           0.356667  0.46  0.52           0.48
+- ./fold_t1270_l_summary_confidences_0.json            0.368333  0.47  0.53           0.49
+- ./fold_t1270_aq_summary_confidences_0.json           0.368333  0.47  0.53           0.49
+- ./fold_t1270_g_summary_confidences_0.json            0.355000  0.46  0.52           0.49
+- ./fold_t1270_aj_summary_confidences_0.json           0.345000  0.47  0.51           0.49
+- ./fold_t1270_ab_summary_confidences_0.json           0.371667  0.48  0.52           0.50
+- ./fold_t0270_hexamer_f_summary_confidences_0.json    0.378333  0.48  0.54           0.50
+- ./fold_t0270_hexamer_summary_confidences_0.json      0.376667  0.48  0.54           0.51
+- ./fold_t1270_ar_summary_confidences_0.json           0.390000  0.49  0.55           0.51
+- ./fold_t1270_al_summary_confidences_0.json           0.391667  0.49  0.55           0.52
+- ./fold_t1270_ao_summary_confidences_0.json           0.396667  0.50  0.56           0.52
+- ./fold_t1270_ap_summary_confidences_0.json           0.401667  0.51  0.56           0.53
+- ./fold_t1270_c_summary_confidences_0.json            0.413333  0.52  0.57           0.54
+- ./fold_t1270_af_summary_confidences_0.json           0.423333  0.53  0.58           0.55
+- ./fold_t1270_e_summary_confidences_0.json            0.418333  0.52  0.58           0.55
+- ./fold_t1270_ak_summary_confidences_0.json           0.518333  0.63  0.66           0.65
+- ./fold_t1270_i_summary_confidences_0.json            0.530000  0.64  0.68           0.66
+- ./fold_t0270_hexamer_d_summary_confidences_0.json    0.525000  0.64  0.68           0.66
+- ./fold_t1270_d_summary_confidences_0.json            0.536667  0.65  0.68           0.67
 
 ##  Tuesday: 3 targets (12 with subunits), including one 
 
@@ -3589,9 +3630,6 @@ Running 30 model as scores are not very good - details differen
 - ./fold_t1277_d_summary_confidences_0.json          NaN   NaN  0.27           0.45
 - ./fold_t1277_ar_summary_confidences_0.json         NaN   NaN  0.27           0.45
 - ./fold_t1277_f_summary_confidences_0.json          NaN   NaN  0.27           0.46
-
-## ++,CAPRI H2244
-## 212. 	H2244 * 	Prot 	425 	A2B2C2  	- 	BJCNb48
 
 ## Tuesday: 3 targets
 ## * RNA target
