@@ -1601,6 +1601,11 @@ It was a monomer
 ./fold_h0245_a_summary_confidences_0.json        0.75  0.75  0.80           0.81
 
 
+## ++,CAPRI H2245
+## 215. 	H2245 * 	Prot 	317 	A1B1  	- 	FUNcomplex
+Just resubmitting
+
+
 ## * protein single-sequence target
 ## 106. 	T0246 	Prot 	168 	UNK    	- 	DcmC 
 
@@ -1650,13 +1655,12 @@ It was a monomer
 ./fold_t0246_c_summary_confidences_0.json         NaN   NaN  0.91           0.94
 
 
+## 217. 	T2246 	Prot 	168 		 	DcmC 
+## ++ T2246
+Just resubmitting
 
-## Wednesday: 4 targets
+
 ## * protein homooligomer
-
-
-
-
 ## +,CAPRI H1230 (and T1230s1) 
 ## 107. 	H1229 * 	Prot 	987 	A1B1  	ORF61/A3A
 ## 109. 	T1229s1 	Prot 	788 	A1 	26-26 	- 	ORF61/A3A 
@@ -3633,8 +3637,30 @@ Running 30 model as scores are not very good - details differen
 
 ## Tuesday: 3 targets
 ## * RNA target
-## ++,CAPRI H2245
-## ++ T2246
+## 216. 	R1286 	NucA 	526 	A1 		Lactobacillus ncRNA
+- ./fold_r1286_t_summary_confidences_0.json         NaN   NaN  0.17           0.17
+- ./fold_r1286_summary_confidences_0.json           NaN   NaN  0.17           0.17
+- ./fold_r1286_l_summary_confidences_0.json         NaN   NaN  0.17           0.17
+- ./fold_r1286_g_summary_confidences_0.json         NaN   NaN  0.17           0.17
+- ./fold_r1286_b_summary_confidences_0.json         NaN   NaN  0.17           0.17
+- ./fold_r1286_i_summary_confidences_0.json         NaN   NaN  0.17           0.17
+- ./fold_r1286_n_summary_confidences_0.json         NaN   NaN  0.17           0.17
+- ./fold_r1286_r_summary_confidences_0.json         NaN   NaN  0.17           0.17
+- ./fold_r1286_h_summary_confidences_0.json         NaN   NaN  0.17           0.17
+- ./fold_r1286_c_summary_confidences_0.json         NaN   NaN  0.17           0.17
+- ./fold_r1286_q_summary_confidences_0.json         NaN   NaN  0.17           0.17
+- ./fold_r1286_s_summary_confidences_0.json         NaN   NaN  0.18           0.18
+- ./fold_r1286_d_summary_confidences_0.json         NaN   NaN  0.18           0.18
+- ./fold_r1286_k_summary_confidences_0.json         NaN   NaN  0.18           0.18
+- ./fold_r1286_j_summary_confidences_0.json         NaN   NaN  0.19           0.19
+- ./fold_r1286_o_summary_confidences_0.json         NaN   NaN  0.20           0.20
+- ./fold_r1286_p_summary_confidences_0.json         NaN   NaN  0.22           0.22
+- ./fold_r1286_e_summary_confidences_0.json         NaN   NaN  0.22           0.22
+- ./fold_r1286_f_summary_confidences_0.json         NaN   NaN  0.23           0.23
+- ./fold_r1286_m_summary_confidences_0.json         NaN   NaN  0.24           0.24
+
+Just do standard procedure
+
 
 ## Wednesday: 3 targets
 ## * RNA target
