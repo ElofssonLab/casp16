@@ -2693,6 +2693,12 @@ and monmers as backup
 Update (Jun 28) skip monomer (as it clearly not is a monomer. -
 replace M4 with. /fold_t0270_hexamer_c_summary_confidences_0.json
 
+## +,CAPRI T1270
+## 213. 	T1270 * 	Prot 	437 	A6 	 	HtrA
+A hexamer - as submitted as rank #1
+
+Running 30 models to get a few that scores well
+
 
 ##  Tuesday: 3 targets (12 with subunits), including one 
 
@@ -3505,6 +3511,110 @@ m  iptm   ptm  ranking_score
 
 
 Made one symmetric model for manual predictions - but where to put the DNA?
+
+Created script that put 7+1 dimers on top of an 8-mer (from a or b
+chain) Basically the entire structure is determined by the
+octamer. ie these
+
+
+### Chain A (These are all the same)
+some overlap between different chains
+
+- fold_m1268_chain_a_octamer_b_model_0  
+- fold_m1268_chain_a_octamer_c_model_0
+- fold_m1268_chain_a_octamer_d_model_0
+- fold_m1268_chain_a_octamer_e_model_0
+- fold_m1268_chain_a_octamer_f_model_0 
+- fold_m1268_chain_a_octamer_model_0
+
+### Chain B
+- fold_m1268_chain_b_octamer_b_model_0
+- fold_m1268_chain_b_octamer_c_model_0
+- fold_m1268_chain_b_octamer_d_model_0
+- fold_m1268_chain_b_octamer_e_model_0
+- fold_m1268_chain_b_octamer_f_model_0
+- fold_m1268_chain_b_octamer_model_0
+
+
+# With RNA/DNA These all have two ot  ERRROR - WILL rerun
+- fold_m1268_chb_octamer_1x_arna_model_0
+- fold_m1268_chb_octamer_1x_arna_nodna_model_0
+- fold_m1268_chb_octamer_2x_arna_b_model_0
+- fold_m1268_chb_octamer_2x_arna_c_model_0
+- fold_m1268_chb_octamer_2x_arna_d_model_0
+- fold_m1268_chb_octamer_2x_arna_e_model_0
+- fold_m1268_chb_octamer_2x_arna_model_0
+- fold_m1268_chb_octamer_2x_arna_nodna_b_model_0
+- fold_m1268_chb_octamer_2x_arna_nodna_c_model_0
+- fold_m1268_chb_octamer_2x_arna_nodna_d_model_0
+- fold_m1268_chb_octamer_2x_arna_nodna_model_0
+
+
+Just pick for manual
+- R1 fold_m1268_chain_b_octamer_model_0...-elofsson.pdb
+- R2 fold_m1268_chain_a_octamer_model_0...-elofsson.pdb
+- R3 fold_m1268_tetramer_model_0-fold_m1268_tetramer_nodna_model_0-elofsson.pdb
+- R4 fold_m1268_chb_octamer_1x_arna_model_0..-elofsson.pdb
+- R5 fold_m1268_chb_octamer_2x_arna_model_0
+
+## Monday: 3 targets
+## * protein monomer
+## z214. 	T1277 	Prot 	283 	A1 Tue1 
+
+Running 30 model as scores are not very good - details differen
+- ./fold_t1277_ai_summary_confidences_0.json         NaN   NaN  0.17           0.34
+- ./fold_t1277_c_summary_confidences_0.json          NaN   NaN  0.17           0.34
+- ./fold_t1277_ao_summary_confidences_0.json         NaN   NaN  0.18           0.34
+- ./fold_t1277_ac_summary_confidences_0.json         NaN   NaN  0.17           0.35
+- ./fold_t1277_al_summary_confidences_0.json         NaN   NaN  0.18           0.36
+- ./fold_t1277_ap_summary_confidences_0.json         NaN   NaN  0.18           0.37
+- ./fold_t1277_ag_summary_confidences_0.json         NaN   NaN  0.18           0.37
+- ./fold_t1277_ae_summary_confidences_0.json         NaN   NaN  0.18           0.37
+- ./fold_t1277_aj_summary_confidences_0.json         NaN   NaN  0.18           0.37
+- ./fold_t1277_g_summary_confidences_0.json          NaN   NaN  0.17           0.38
+- ./fold_t1277_at_summary_confidences_0.json         NaN   NaN  0.17           0.38
+- ./fold_t1277_summary_confidences_0.json            NaN   NaN  0.18           0.38
+- ./fold_t1277_e_summary_confidences_0.json          NaN   NaN  0.18           0.38
+- ./fold_t1277_aa_summary_confidences_0.json         NaN   NaN  0.17           0.38
+- ./fold_t1277_b_summary_confidences_0.json          NaN   NaN  0.18           0.38
+- ./fold_t1277_ak_summary_confidences_0.json         NaN   NaN  0.18           0.38
+- ./fold_t1277_an_summary_confidences_0.json         NaN   NaN  0.18           0.38
+- ./fold_t1277_ah_summary_confidences_0.json         NaN   NaN  0.18           0.39
+- ./fold_t1277_am_summary_confidences_0.json         NaN   NaN  0.16           0.40
+- ./fold_t1277_ad_summary_confidences_0.json         NaN   NaN  0.18           0.40
+- ./fold_t1277_h_summary_confidences_0.json          NaN   NaN  0.18           0.40
+- ./fold_t1277_af_summary_confidences_0.json         NaN   NaN  0.18           0.42
+- ./fold_t1277_ab_summary_confidences_0.json         NaN   NaN  0.24           0.43
+- ./fold_t1277_aq_summary_confidences_0.json         NaN   NaN  0.27           0.45
+- ./fold_t1277_d_summary_confidences_0.json          NaN   NaN  0.27           0.45
+- ./fold_t1277_ar_summary_confidences_0.json         NaN   NaN  0.27           0.45
+- ./fold_t1277_f_summary_confidences_0.json          NaN   NaN  0.27           0.46
+
+## ++,CAPRI H2244
+## 212. 	H2244 * 	Prot 	425 	A2B2C2  	- 	BJCNb48
+
+## Tuesday: 3 targets
+## * RNA target
+## ++,CAPRI H2245
+## ++ T2246
+
+## Wednesday: 3 targets
+## * RNA target
+## * protein monomer
+## * protein filament
+
+## Thursday: 4 targets
+## *,CAPRI hybrid complex
+## * protein monomer
+## ++ T2257
+## ++ H2258
+
+## Friday: 4 targets
+## * hybrid complex
+## + R1250, stage 1 RNA
+## + R1251, stage 1 RNA
+## ++,CAPRI T2259
+
 
 ## Remaining stuff
 
