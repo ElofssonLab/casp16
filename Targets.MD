@@ -3667,6 +3667,8 @@ Just do standard procedure
 ## * protein monomer
 ## * protein filament
 
+
+
 ## Thursday: 4 targets
 ## *,CAPRI hybrid complex
 ## * protein monomer
@@ -3676,7 +3678,11 @@ Just do standard procedure
 ## Friday: 4 targets
 ## * hybrid complex
 ## + R1250, stage 1 RNA
+Submitted trimers although it did not look that good 
+
 ## + R1251, stage 1 RNA
+Submitted trimers although it did not look that good 
+
 ## ++,CAPRI T2259
 
 
