@@ -3663,10 +3663,25 @@ Just do standard procedure
 
 
 ## Wednesday: 3 targets
-## * RNA target
-## * protein monomer
-## * protein filament
 
+## * RNA target
+## 218. 	R0281 	NucA 	718 	UNK 	- 	2F RNA 6-helix bundle dimer
+
+## * protein monomer
+## 219. 	T1278 	Prot 	380 	A1 	2024 	Dehydrogenase
+
+- ./fold_t1278_summary_confidences_0.json           NaN   NaN  0.87           0.92
+- ./fold_t1278_f_summary_confidences_0.json         NaN   NaN  0.87           0.92
+- ./fold_t1278_e_summary_confidences_0.json         NaN   NaN  0.87           0.92
+- ./fold_t1278_b_summary_confidences_0.json         NaN   NaN  0.87           0.92
+- ./fold_t1278_c_summary_confidences_0.json         NaN   NaN  0.87           0.92
+- ./fold_t1278_d_summary_confidences_0.json         NaN   NaN  0.87 0.92
+
+All models good - all look the same (except one termini)
+
+
+## * protein filament
+## 220. 	T1279 	Prot 	428 	An 	2024  	Bd1369 
 
 
 ## Thursday: 4 targets
