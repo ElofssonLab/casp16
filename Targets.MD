@@ -3667,6 +3667,44 @@ Just do standard procedure
 ## * RNA target
 ## 218. 	R0281 	NucA 	718 	UNK 	- 	2F RNA 6-helix bundle dimer
 
+
+- ./fold_r0281_tetramer_summary_confidences_0.json        0.14  0.21  0.22         -99.79
+- ./fold_r0281_dimer_summary_confidences_0.json           0.14  0.14  0.18           0.15
+- ./fold_r0281_summary_confidences_0.json                  NaN   NaN  0.23           0.23
+
+
+More than dimers starts to overlap - but not all
+for AF3 picks the ones that do not overlap
+- ./fold_r0281_dimer_summary_confidences_1.json       0.130000  0.13  0.19           0.14
+- R5 ./fold_r0281_dimer_summary_confidences_2.json       0.140000  0.14  0.18           0.14
+- R3 ./fold_r0281_dimer_summary_confidences_0.json       0.140000  0.14  0.18           0.15
+- ./fold_r0281_summary_confidences_3.json                  NaN   NaN  0.19           0.19
+- ./fold_r0281_summary_confidences_4.json                  NaN   NaN  0.19           0.19
+- ./fold_r0281_summary_confidences_2.json                  NaN   NaN  0.20           0.20
+- R4 ./fold_r0281_summary_confidences_1.json                  NaN   NaN  0.22           0.22
+- R2 ./fold_r0281_summary_confidences_0.json                  NaN   NaN  0.23           0.23
+- R1  ./fold_r0281_hexamer_summary_confidences_0.json     0.130000  0.26  0.27           0.26
+
+
+For manual:
+
+- ./fold_r0281_dimer_c_summary_confidences_0.json         0.14  0.14  0.19           0.15
+- ./fold_r0281_dimer_e_summary_confidences_0.json         0.14  0.14  0.18           0.15
+- ./fold_r0281_dimer_summary_confidences_0.json           0.14  0.14  0.18           0.15
+- ./fold_r0281_dimer_b_summary_confidences_0.json         0.14  0.14  0.19           0.15
+- ./fold_r0281_dimer_d_summary_confidences_0.json         0.15  0.15  0.19           0.16
+- R4 ./fold_r0281_dimer_f_summary_confidences_0.json         0.15  0.15  0.19           0.16
+- ./fold_r0281_trimer_d_summary_confidences_0.json        0.13  0.17  0.20           0.18
+- R5 ./fold_r0281_trimer_c_summary_confidences_0.json        0.14  0.17  0.20           0.18
+- R3 ./fold_r0281_trimer_b_summary_confidences_0.json        0.13  0.17  0.20           0.18
+- ./fold_r0281_d_summary_confidences_0.json                NaN   NaN  0.20           0.20
+- ./fold_r0281_f_summary_confidences_0.json                NaN   NaN  0.21           0.21
+- ./fold_r0281_b_summary_confidences_0.json                NaN   NaN  0.22           0.22
+- ./fold_r0281_c_summary_confidences_0.json                NaN   NaN  0.22           0.22
+- ./fold_r0281_summary_confidences_0.json                  NaN   NaN  0.23           0.23
+- R2./fold_r0281_e_summary_confidences_0.json                NaN   NaN  0.23           0.23
+- R1 ./fold_r0281_hexamer_summary_confidences_0.json         0.13  0.26  0.27           0.26
+
 ## * protein monomer
 ## 219. 	T1278 	Prot 	380 	A1 	2024 	Dehydrogenase
 
@@ -3682,6 +3720,35 @@ All models good - all look the same (except one termini)
 
 ## * protein filament
 ## 220. 	T1279 	Prot 	428 	An 	2024  	Bd1369 
+
+T1269 was also a filament 
+
+Is is actually possible to submit anything except a monomer. 
+The trimer looks nice will submit this as the AF3 model No 1 - pick a
+few others for options
+
+
+Manual choices
+- ./fold_t1279_decamer_summary_confidences_0.json       0.113000  0.27  0.30         -99.68
+- ./fold_t1279_dimer_summary_confidences_0.json         0.210000  0.21  0.36           0.29
+- R5 ./fold_t1279_hexamer_summary_confidences_0.json       0.160000  0.25  0.31           0.30
+- R3 ./fold_t1279_dimer_b_summary_confidences_0.json       0.220000  0.22  0.37           0.30
+- R2 ./fold_t1279_decamer_b_summary_confidences_0.json     0.100000  0.26  0.30           0.32
+- ./fold_t1279_tetramer_c_summary_confidences_0.json    0.315000  0.30  0.37           0.37
+- ./fold_t1279_tetramer_summary_confidences_0.json      0.320000  0.31  0.37           0.37
+- ./fold_t1279_tetramer_b_summary_confidences_0.json    0.327500  0.31  0.37           0.37
+- ./fold_t1279_trimer_f_summary_confidences_0.json      0.386667  0.40  0.48           0.47
+- ./fold_t1279_trimer_b_summary_confidences_0.json      0.386667  0.41  0.49           0.48
+- ./fold_t1279_trimer_summary_confidences_0.json        0.400000  0.42  0.49           0.49
+- ./fold_t1279_trimer_c_summary_confidences_0.json      0.410000  0.43  0.50           0.50
+- ./fold_t1279_trimer_e_summary_confidences_0.json      0.420000  0.44  0.51           0.50
+- R1 ./fold_t1279_trimer_d_summary_confidences_0.json      0.443333  0.46  0.53           0.53
+- ./fold_t1279_b_summary_confidences_0.json                  NaN   NaN  0.62           0.67
+- ./fold_t1279_f_summary_confidences_0.json                  NaN   NaN  0.62           0.67
+- ./fold_t1279_e_summary_confidences_0.json                  NaN   NaN  0.61           0.67
+- ./fold_t1279_d_summary_confidences_0.json                  NaN   NaN  0.62           0.67
+- ./fold_t1279_summary_confidences_0.json                    NaN   NaN  0.62           0.68
+- R4 ./fold_t1279_c_summary_confidences_0.json                  NaN   NaN  0.62           0.68
 
 
 ## Thursday: 4 targets
