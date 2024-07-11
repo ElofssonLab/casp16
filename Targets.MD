@@ -3752,10 +3752,33 @@ Manual choices
 
 
 ## Thursday: 4 targets
+
+## 221. 	H2258 	Prot 	2827 	A1B
+		 
 ## *,CAPRI hybrid complex
 ## * protein monomer
+## 222. 	T1280 	Prot 	237 	A1 	 	C-terminal domain of bacteriophage K gp155
+
+Easy target, not much to do
+- ./fold_t1280_g_summary_confidences_0.json         NaN   NaN  0.94           0.94
+- ./fold_t1280_summary_confidences_0.json           NaN   NaN  0.94           0.94
+- ./fold_t1280_c_summary_confidences_0.json         NaN   NaN  0.94           0.94
+- ./fold_t1280_f_summary_confidences_0.json         NaN   NaN  0.95           0.95
+- ./fold_t1280_h_summary_confidences_0.json         NaN   NaN  0.95           0.95
+- ./fold_t1280_d_summary_confidences_0.json         NaN   NaN  0.95           0.95
+- ./fold_t1280_b_summary_confidences_0.json         NaN   NaN  0.95           0.95
+- ./fold_t1280_i_summary_confidences_0.json         NaN   NaN  0.95           0.95
+- ./fold_t1280_e_summary_confidences_0.json         NaN   NaN  0.95           0.95
+
+
 ## ++ T2257
+## 223. 	T2257 	Prot 	1263 - 	P13390 
+ Just resubmit
+
+##   221. 	H2258 	Prot 	2827 	A1B2 	- 	LRRK2/14-3-3 complex
 ## ++ H2258
+just resubmit
+
 
 ## Friday: 4 targets
 ## * hybrid complex
