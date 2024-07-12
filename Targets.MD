@@ -1861,6 +1861,13 @@ No "Clusters"
 
 Just submit high scoring models as manual
 
+
+## ++ T2257
+## 223. 	T2257 	Prot 	1263 - 	P13390 
+ Just resubmit
+
+
+
 ## * protein heterooligomer :: assembly only
 ## 113. 	H0258 	Prot 	2827 	UNK     	- 	LRRK2/14-3-3 complex
 
@@ -2002,6 +2009,9 @@ i.e
 - R1 fold_h0258_cut_dimer_model_0-fold_h0258_one_two_e_model_0-dimer-elofsson.pdb
 
 
+##   221. 	H2258 	Prot 	2827 	A1B2 	- 	LRRK2/14-3-3 complex
+## ++ H2258
+just resubmit
 
 
 ## Friday: 4 targets
@@ -3751,11 +3761,37 @@ Manual choices
 - R4 ./fold_t1279_c_summary_confidences_0.json                  NaN   NaN  0.62           0.68
 
 
-## Thursday: 4 targets
-
-## 221. 	H2258 	Prot 	2827 	A1B
 		 
 ## *,CAPRI hybrid complex
+## 222. 	M1282 * 	Prot-NucA 	249 	A1B1 	- 	Spike-RBD/Aptamer complex 
+
+Arrived Lated
+
+AF3 standard 
+Running 20 models as the packing of the RNA-chain is different for these
+
+
+- ./fold_m1282_b_summary_confidences_0.json        0.22  0.22  0.72           0.32
+- ./fold_m1282_i_summary_confidences_0.json        0.22  0.22  0.72           0.32
+- ./fold_m1282_o_summary_confidences_0.json        0.21  0.21  0.72           0.32
+- ./fold_m1282_m_summary_confidences_0.json        0.25  0.25  0.73           0.35
+- ./fold_m1282_f_summary_confidences_0.json        0.26  0.26  0.72           0.35
+- ./fold_m1282_d_summary_confidences_0.json        0.26  0.26  0.73           0.36
+- ./fold_m1282_summary_confidences_0.json          0.27  0.27  0.73           0.36
+- ./fold_m1282_j_summary_confidences_0.json        0.27  0.27  0.73           0.36
+- ./fold_m1282_n_summary_confidences_0.json        0.28  0.28  0.74           0.37
+- ./fold_m1282_l_summary_confidences_0.json        0.28  0.28  0.74           0.37
+- ./fold_m1282_q_summary_confidences_0.json        0.30  0.30  0.74           0.38
+- ./fold_m1282_t_summary_confidences_0.json        0.30  0.30  0.74           0.38
+- ./fold_m1282_p_summary_confidences_0.json        0.29  0.29  0.74           0.38
+- ./fold_m1282_r_summary_confidences_0.json        0.30  0.30  0.74           0.38
+- ./fold_m1282_k_summary_confidences_0.json        0.31  0.31  0.74           0.39
+- ./fold_m1282_e_summary_confidences_0.json        0.32  0.32  0.73           0.40
+- ./fold_m1282_g_summary_confidences_0.json        0.33  0.33  0.73           0.41
+- ./fold_m1282_h_summary_confidences_0.json        0.34  0.34  0.75           0.42
+- ./fold_m1282_s_summary_confidences_0.json        0.34  0.34  0.73           0.42
+
+
 ## * protein monomer
 ## 222. 	T1280 	Prot 	237 	A1 	 	C-terminal domain of bacteriophage K gp155
 
@@ -3769,15 +3805,6 @@ Easy target, not much to do
 - ./fold_t1280_b_summary_confidences_0.json         NaN   NaN  0.95           0.95
 - ./fold_t1280_i_summary_confidences_0.json         NaN   NaN  0.95           0.95
 - ./fold_t1280_e_summary_confidences_0.json         NaN   NaN  0.95           0.95
-
-
-## ++ T2257
-## 223. 	T2257 	Prot 	1263 - 	P13390 
- Just resubmit
-
-##   221. 	H2258 	Prot 	2827 	A1B2 	- 	LRRK2/14-3-3 complex
-## ++ H2258
-just resubmit
 
 
 ## Friday: 4 targets
