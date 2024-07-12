@@ -3909,6 +3909,26 @@ Will try two one - even better submit for af3 as rank 1,3 5
 Rerun more dimers and twoones
 
 
+- ./fold_m0287_summary_confidences_0.json             0.100000  0.10  0.82           0.26
+- ./fold_m0287_trimer_summary_confidences_0.json      0.195000  0.27  0.43           0.31
+- ./fold_m0287_hexamer_summary_confidences_0.json     0.106667  0.33  0.40           0.36
+- ./fold_m0287_pentamer_summary_confidences_0.json    0.130000  0.33  0.42           0.36
+- ./fold_m0287_tetramer_summary_confidences_0.json    0.185000  0.39  0.47           0.42
+- ./fold_m0287_twoone_e_summary_confidences_0.json    0.406667  0.68  0.73           0.70
+- ./fold_m0287_dimer_d_summary_confidences_0.json     0.375000  0.68  0.73           0.70
+- ./fold_m0287_twoone_b_summary_confidences_0.json    0.446667  0.68  0.72           0.70
+- ./fold_m0287_dimer_f_summary_confidences_0.json     0.265000  0.69  0.75           0.71
+- ./fold_m0287_dimer_e_summary_confidences_0.json     0.390000  0.69  0.74           0.71
+- ./fold_m0287_twoone_g_summary_confidences_0.json    0.396667  0.69  0.74           0.71
+- ./fold_m0287_dimer_summary_confidences_0.json       0.385000  0.69  0.74           0.71
+- ./fold_m0287_dimer_h_summary_confidences_0.json     0.390000  0.70  0.75           0.72
+- ./fold_m0287_dimer_b_summary_confidences_0.json     0.385000  0.70  0.75           0.72
+- R3./fold_m0287_dimer_c_summary_confidences_0.json     0.395000  0.71  0.75           0.72
+- R2 ./fold_m0287_dimer_g_summary_confidences_0.json     0.385000  0.70  0.75           0.72
+-  ./fold_m0287_twoone_d_summary_confidences_0.json    0.393333  0.70  0.74           0.72
+- R5 ./fold_m0287_twoone_f_summary_confidences_0.json    0.456667  0.70  0.74           0.72
+- R4 ./fold_m0287_twoone_summary_confidences_0.json      0.460000  0.70  0.74           0.72
+- R1 ./fold_m0287_twoone_c_summary_confidences_0.json    0.406667  0.71  0.76           0.73
 
 
 ## + R1251, stage 1 RNA
