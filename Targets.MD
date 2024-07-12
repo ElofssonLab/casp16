@@ -2066,6 +2066,9 @@ More models even better
 WIll do t1259 for af3 and top 5 for manui
 
 
+## ++,CAPRI T2259
+## 228. 	T2259 * 	Prot 	243 	A3  	- 	AZI86_00190 
+
   
   
 
@@ -3143,6 +3146,45 @@ More trials, just pick best (which are bad) for manual
 - ./fold_r0250_trimer_b_summary_confidences_0.json      0.140000  0.18  0.20           0.18
 - ./fold_r0250_trimer_c_summary_confidences_0.json      0.136667  0.17  0.20           0.18
 
+## + R1250, stage 1 RNA
+## 226. 	R1250 	NucA 	744 	R6 		GOLLD full env46
+ Submitted trimers although it did not look that good 
+ 
+ Earlier hexamer was overlapping - will run more to see if anyone
+ succeeds. Some of them overlap less than others
+ 
+ 
+ All have the same scores
+-  ./fold_r1250_b_summary_confidences_0.json          0.138333  0.26  0.27         -99.74
+- ./fold_r0250_hexamer_summary_confidences_0.json    0.140000  0.26  0.27         -99.74
+- ./fold_r1250_summary_confidences_0.json            0.140000  0.27  0.27         -99.73
+- ./fold_r1250_f_summary_confidences_0.json          0.140000  0.26  0.27         -99.73
+- ./fold_r1250_c_summary_confidences_0.json          0.140000  0.26  0.27         -99.73
+ 
+- they all overlap
+
+### Models that do not overlap too mych
+
+- fold_r0250_hexamer_model_ 1, 2 4
+- fold_r1250_b 1, 2, 3, 4 
+- fold_r1250_c 4 
+- fold_r1250_f 2, 3 4
+- fold_r1250_d 4 
+- fold_r1250_e 2, 3
+
+For AF3 pick r1250 b models
+
+For manual just a bit more variationcd tar
+
+- R1 R1250_b_1
+- R2 R1250_c_4 
+- R3 R1250_f 2
+- R4 R0250_d 4
+- R5 R1250 e 2
+
+Certainly not that good - but the best I can do
+
+
 
 ##  * RNA (stage 0)
 ## 171. 	R0251 	NucA 	833 	UNK 	- 	GOLLD full env38
@@ -3792,6 +3834,43 @@ Running 20 models as the packing of the RNA-chain is different for these
 - ./fold_m1282_s_summary_confidences_0.json        0.34  0.34  0.73           0.42
 
 
+### Cluster 1
+fold_m1282_s_ 0.42  R3
+fold_m1282_i_  0.32
+
+### Cluster 1b (similr but not binding to the same place
+- ./fold_m1282_b 0.32
+- ./fold_m1282_d 0.36
+- ./fold_m1282_e  0.40
+- ./fold_m1282_f 0.35
+- ./fold_m1282_g 0.41   R1
+
+### Cluster 2
+- fold_m1282_h 0.42   R2 
+- fold_m1282_l 0.37 
+- fold_m1282_r 0.38
+
+### Cluster 2b (slighlty different)
+- fold_m1282_m 0.35 
+- fold_m1282_p 0.35 
+
+### Cluster 2c
+- fold_m1282_n 0.37 
+- fold_m1282_o 0.32
+### Clsuter 2d
+- fold_m1282_q 0.38   R5
+### Cluster 2e
+- fold_m1282_t 0.38 
+### Cluster 2f
+- fold_m1282_ 0.36
+- fold_m1282_j 0.36 
+- fold_m1282_k 0.39  R4
+
+
+### Clsuter 3 LOw contacts
+- fold_m1282_i 0.32
+ 
+
 ## * protein monomer
 ## 222. 	T1280 	Prot 	237 	A1 	 	C-terminal domain of bacteriophage K gp155
 
@@ -3808,14 +3887,37 @@ Easy target, not much to do
 
 
 ## Friday: 4 targets
+
 ## * hybrid complex
-## + R1250, stage 1 RNA
-Submitted trimers although it did not look that good 
+## 225. 	M0287 	Prot-NucA 	852 	UNK  	- 	Q0X0A9_STRLS
+
+
+- ./fold_m0287_summary_confidences_0.json             0.100000  0.10  0.82           0.26
+- ./fold_m0287_trimer_summary_confidences_0.json      0.195000  0.27  0.43           0.31
+- ./fold_m0287_hexamer_summary_confidences_0.json     0.106667  0.33  0.40           0.36
+- ./fold_m0287_pentamer_summary_confidences_0.json    0.130000  0.33  0.42           0.36
+- ./fold_m0287_tetramer_summary_confidences_0.json    0.185000  0.39  0.47           0.42
+- ./fold_m0287_dimer_summary_confidences_0.json       0.385000  0.69 0.74           0.71
+
+
+Dimer looks good although RNA helix is a bit long - 
+
+Will try two one - even better submit for af3 as rank 1,3 5
+
+- ./fold_m0287_twoone_summary_confidences_0.json      0.460000  0.70  0.74           0.72
+
+Rerun more dimers and twoones
+
+
+
 
 ## + R1251, stage 1 RNA
-Submitted trimers although it did not look that good 
+## 227. 	R1251 	NucA 	833 	R14 	 	- 	GOLLD full env38
+ Submitted trimers although it did not look that good 
+ Too big to model - will try to combine tetramers and trimers
+ 
+ 
 
-## ++,CAPRI T2259
 
 
 ## Remaining stuff
