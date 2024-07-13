@@ -3936,9 +3936,62 @@ Rerun more dimers and twoones
  Submitted trimers although it did not look that good 
  Too big to model - will try to combine tetramers and trimers
  
+ Checking Rgyr of tetramers and trimers to test
  
+ Only use Tetramer> 70 (these have at least less overlap)
+-  fold_r1251_tetramer_b_model_3.cif 70.157
+- fold_r1251_tetramer_d_model_1.cif 70.305
+- fold_r1251_tetramer_d_model_2.cif 70.41
+- fold_r1251_tetramer_model_1.cif 71.031
+- fold_r1251_tetramer_d_model_3.cif 71.823
+- fold_r1251_tetramer_c_model_1.cif 73.096
+- fold_r1251_tetramer_model_0.cif 73.216
+- fold_r1251_tetramer_model_3.cif 73.494
+- fold_r1251_tetramer_b_model_4.cif 74.573
+- fold_r0251_tetramer_model_4.cif 74.844
+- fold_r0251_tetramer_model_3.cif 74.968
+- fold_r1251_tetramer_c_model_0.cif 79.277
 
 
+These trimers are not --99
+- ./fold_r0251_trimer_b_summary_confidences_0.json    0.150000  0.19  0.21           0.19
+- ./fold_r0251_trimer_b_summary_confidences_1.json    0.150000  0.19  0.21           0.19
+- ./fold_r1251_trimer_g_summary_confidences_1.json    0.150000  0.19  0.21           0.19
+- ./fold_r0251_trimer_summary_confidences_0.json      0.150000  0.19  0.21           0.19
+- ./fold_r1251_trimer_g_summary_confidences_2.json    0.146667  0.19  0.21           0.19
+- ./fold_r0251_trimer_b_summary_confidences_2.json    0.150000  0.19  0.21           0.19
+- ./fold_r0251_trimer_c_summary_confidences_1.json    0.150000  0.19  0.21           0.19
+- ./fold_r1251_trimer_e_summary_confidences_1.json    0.150000  0.19  0.21           0.19
+- ./fold_r1251_trimer_c_summary_confidences_0.json    0.150000  0.19  0.21           0.19
+- ./fold_r1251_trimer_f_summary_confidences_1.json    0.150000  0.19  0.21           0.19
+- ./fold_r1251_trimer_h_summary_confidences_0.json    0.150000  0.19  0.21           0.19
+- ./fold_r1251_trimer_d_summary_confidences_0.json    0.150000  0.19  0.21           0.19
+- ./fold_r0251_trimer_d_summary_confidences_0.json    0.150000  0.19  0.21           0.19
+- ./fold_r0251_trimer_summary_confidences_1.json      0.150000  0.19  0.21           0.19
+- ./fold_r1251_trimer_e_summary_confidences_0.json    0.150000  0.19  0.21           0.19
+- ./fold_r1251_trimer_f_summary_confidences_0.json    0.156667  0.19  0.21           0.20
+- ./fold_r0251_trimer_c_summary_confidences_0.json    0.150000  0.19  0.21           0.20
+- ./fold_r1251_trimer_summary_confidences_0.json      0.150000  0.19  0.21           0.20
+- ./fold_r1251_trimer_g_summary_confidences_0.json    0.150000  0.19  0.21           0.20
+- ./fold_r1251_trimer_b_summary_confidences_0.json    0.150000  0.19  0.21           0.20
+
+
+for AF3 pick 2 trimer and 2 tetramers and make a model from top ten criteria
+
+Pick the same for  AF3 and manual
+
+
+
+
+
+
+
+
+fold_r1251_tetramer_d_model_2.cif fold_r1251_tetramer_model_1.cif   fold_r1251_trimer_h_model_0.cif  fold_r1251_trimer_d_model_0.cif
+fold_r1251_tetramer_d_model_3.cif fold_r1251_tetramer_c_model_1.cif   fold_r0251_trimer_d_model_0.cif fold_r0251_trimer_model_1.cif
+fold_r1251_tetramer_model_0.cif  fold_r1251_tetramer_model_3.cif   fold_r1251_trimer_e_model_0.cif fold_r1251_trimer_f_model_0.cif
+fold_r1251_tetramer_b_model_4.cif fold_r0251_tetramer_model_4.cif   fold_r0251_trimer_c_model_0.cif fold_r1251_trimer_model_0.cif
+fold_r0251_tetramer_model_3.cif fold_r1251_tetramer_c_model_0.cif  fold_r1251_trimer_g_model_0.cif fold_r1251_trimer_b_model_0.cif
 
 ## Remaining stuff
 
