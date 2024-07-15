@@ -2334,6 +2334,11 @@ fold_h1265_ah_model_0.cif 54.758
 - R4 fold_h1265_g
 - R5 ./fold_h1265_h
 
+## ++ H2265
+## 229. 	H2265 	Prot 	293 	TLR4 TIR domain (O00206) : MAL TIR domain (P58753) complex
+Just resubmit
+
+
 ## * RNA (stage 0)
 ## 125. 	R0252 	NucA 	520 	UNK 		- 	ROOL UCC118
 
@@ -3093,6 +3098,7 @@ R1: fold_m1271_cutgh_e  (cluster #3)
 R2: fold_m1271_cutgh_f (cluster #1)
 R3: fold_m1271_cutgh_g_
 R4: fold_m1271_cutgh_b 
+
 R5: fold_m1271_cutabe
 
 
@@ -3233,6 +3239,9 @@ Just submit the best models (and first fior AF3). They all look the
 same (not like monomers though)
 
 
+## ++ T2274
+## 231. 	T2274 	Prot 	167 	A1 	- 	CAB14884.3 
+Just resubmit
 
 
 
@@ -3992,6 +4001,71 @@ fold_r1251_tetramer_d_model_3.cif fold_r1251_tetramer_c_model_1.cif   fold_r0251
 fold_r1251_tetramer_model_0.cif  fold_r1251_tetramer_model_3.cif   fold_r1251_trimer_e_model_0.cif fold_r1251_trimer_f_model_0.cif
 fold_r1251_tetramer_b_model_4.cif fold_r0251_tetramer_model_4.cif   fold_r0251_trimer_c_model_0.cif fold_r1251_trimer_model_0.cif
 fold_r0251_tetramer_model_3.cif fold_r1251_tetramer_c_model_0.cif  fold_r1251_trimer_g_model_0.cif fold_r1251_trimer_b_model_0.cif
+
+
+
+## * RNA (stage 0)
+## 230. 	R0283 	NucA /Ensmbl 	580 	UNK 	- 	Enterococcus ncRNA
+./fold_r0283_pentamer_summary_confidences_0.json       0.118  0.21  0.22         -99.79
+./fold_r0283_hexamer_summary_confidences_0.json        0.120  0.24  0.25         -99.76
+./fold_r0283_heptamer_summary_confidences_0.json       0.120  0.26  0.27         -99.74
+./fold_r0283_octamer_summary_confidences_0.json        0.120  0.28 0.28         -99.72
+./fold_r0283_dimer_summary_confidences_0.json          0.140  0.14  0.18           0.15
+./fold_r0283_trimer_summary_confidences_0.json         0.120  0.15  0.18           0.16
+./fold_r0283_tetramer_summary_confidences_0.json       0.120  0.18  0.20           0.18
+./fold_r0283_summary_confidences_0.json                  NaN   NaN  0.22           0.22
+
+Tetramer or monomer looks best - lets stick with that for AF3
+
+All tetramers looks different.
+
+Pentamer No.3 looks OK (not overlapping but a log of empty space)
+
+Running more tetramer - trimers etc
+
+
+
+- ./fold_r0283_pentamer_b_summary_confidences_0.json      0.1180  0.21  0.22         -99.79
+- ./fold_r0283_pentamer_summary_confidences_0.json        0.1180  0.21  0.22         -99.79
+- ./fold_r0283_hexamer_b_summary_confidences_0.json       0.1200  0.23  0.24         -99.77
+- ./fold_r0283_hexamer_summary_confidences_0.json         0.1200  0.24  0.25         -99.76
+- ./fold_r0283_heptamer_summary_confidences_0.json        0.1200  0.26  0.27         -99.74
+- ./fold_r0283_octamer_summary_confidences_0.json         0.1200  0.28  0.28         -99.72
+- R5 ./fold_r0283_dimer_summary_confidences_0.json           0.1400  0.14  0.18           0.15
+- ./fold_r0283_trimer_summary_confidences_0.json          0.1200  0.15  0.18           0.16
+- ./fold_r0283_trimer_f_summary_confidences_0.json        0.1300  0.16  0.18           0.16
+- ./fold_r0283_trimer_e_summary_confidences_0.json        0.1300  0.16  0.19           0.16
+- ./fold_r0283_trimer_d_summary_confidences_0.json        0.1300  0.16  0.19           0.16
+- ./fold_r0283_trimer_c_summary_confidences_0.json        0.1300  0.16  0.18           0.16
+- R4  ./fold_r0283_trimer_b_summary_confidences_0.json        0.1400  0.16  0.18           0.17
+- ./fold_r0283_tetramer_e_summary_confidences_0.json      0.1175  0.18  0.20           0.18
+- ./fold_r0283_tetramer_d_summary_confidences_0.json      0.1200  0.18  0.20           0.18
+- ./fold_r0283_tetramer_summary_confidences_0.json        0.1200  0.18  0.20           0.18
+- R2 ./fold_r0283_tetramer_c_summary_confidences_0.json      0.1150  0.18  0.20           0.18
+- R1 ./fold_r0283_tetramer_b_summary_confidences_0.json      0.1175  0.18  0.20           0.18
+- R3 ./fold_r0283_summary_confidences_0.json                    NaN   NaN  0.22           0.22
+
+Tetramers are ranking highest
+
+Just pcik for manual two tetramers, one monomer, one trimer and one
+dimer, see above
+
+## Tuesday:
+## * RNA (stage 0)
+## * monomer
+
+## Wednesday: 3 targets
+## * RNA (stage 0)
+## + H1272 (and subunits)
+## ++,CAPRI H2267
+
+## Thursday: 4 targets
+## * RNA
+## +,CAPRI M1276
+## 
+## Friday: 4 targets
+## * RNA
+## ++ M2271 subunits (pending confirmation)
 
 ## Remaining stuff
 
