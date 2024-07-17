@@ -2518,6 +2518,8 @@ Submitting old models
 
 
 ## 131. 	H0267 	Prot 	926 	UNK 		- 	XauSPARDA
+## 203. 	T1267s1 	Prot 	444 	A1 	2	- 	XauSPARDA
+## 204. 	T1267s2 	Prot 	482 	A1 	2	- 	XauSPARDA
 
 Highest scores for monomer
 
@@ -2569,6 +2571,10 @@ It was a dimer
 All models look the same.
 Standard submission
 
+
+## ++,CAPRI H2267
+## 235. 	H2267 * 	Prot 	926 	A2B2 4 	- 	XauSPARDA 
+Resubmitted
 
 ## * RNA with ligand
 ## 133. 	R1263 	NucA/Ligand 	64 	A1 		- 	ZTP riboswitch with m-1-pyridinyl AICA
@@ -3258,8 +3264,6 @@ Just resubmit
 ## 200. 	T0272s7 	Prot 	242 	A1 	2	- 	dystrophin-glycoprotein complex (DGC)
 ## 201. 	T0272s8 	Prot 	818 	A1 	2	- 	dystrophin-glycoprotein complex (DGC)
 ## 202. 	T0272s9 	Prot 	238 	A1 	2	- 	dystrophin-glycoprotein complex (DGC)
-## 203. 	T1267s1 	Prot 	444 	A1 	2	- 	XauSPARDA
-## 204. 	T1267s2 	Prot 	482 	A1 	2	- 	XauSPARDA
 
 
 
@@ -4052,12 +4056,83 @@ dimer, see above
 
 ## Tuesday:
 ## * RNA (stage 0)
+## 232. 	R0285 	NucA 	577 	UNK OLE
+
+All overalaps so for AF3 -submit monomer
+
+
+Some hexamer/pentamers are not all collapsed to a single model but
+actually to dimer, trimers or tetraers will rerun to see if something
+works. Only one without overlap is:
+- ./fold_r0285_dimer_d_summary_confidences_0.json       0.140000  0.14  0.25         -99.84
+- ./fold_r0285_dimer_summary_confidences_0.json         0.140000  0.14  0.24         -99.84
+- ./fold_r0285_dimer_c_summary_confidences_0.json       0.130000  0.13  0.24         -99.84
+- ./fold_r0285_trimer_c_summary_confidences_0.json      0.120000  0.16  0.24         -99.82
+- ./fold_r0285_trimer_b_summary_confidences_0.json      0.120000  0.16  0.24         -99.82
+- ./fold_r0285_trimer_summary_confidences_0.json        0.126667  0.16  0.23         -99.82
+- ./fold_r0285_tetramer_summary_confidences_0.json      0.120000  0.19  0.23         -99.80
+- ./fold_r0285_tetramer_c_summary_confidences_0.json    0.120000  0.19  0.23         -99.80
+- ./fold_r0285_tetramer_b_summary_confidences_0.json    0.120000  0.19  0.22         -99.80
+- ./fold_r0285_tetramer_d_summary_confidences_0.json    0.120000  0.19  0.23         -99.80
+- ./fold_r0285_pentamer_summary_confidences_0.json      0.120000  0.21  0.23         -99.79
+- ./fold_r0285_hexamer_summary_confidences_0.json       0.120000  0.23  0.25         -99.76
+- ./fold_r0285_heptamer_summary_confidences_0.json      0.120000  0.25  0.27         -99.74
+- ./fold_r0285_octamer_summary_confidences_0.json       0.120000  0.27  0.28         -99.73
+- R2 ./fold_r0285_trimer_d_summary_confidences_0.json      0.130000  0.16  0.24           0.17
+- R5 ./fold_r0285_summary_confidences_0.json                    NaN   NaN  0.34           0.34
+- R4 ./fold_r0285_b_summary_confidences_0.json                  NaN   NaN  0.36           0.36
+- R3 ./fold_r0285_c_summary_confidences_0.json                  NaN   NaN  0.36           0.36
+- R1  ./fold_r0285_d_summary_confidences_0.json                  NaN   NaN 0.37           0.37
+
+
+
+
+
 ## * monomer
+## 233. 	T1284 	Prot 	120 	A1 	gp62 
+
+All models look the same
+
+- ./fold_t1284_l_summary_confidences_0.json         NaN   NaN  0.76           0.76
+- ./fold_t1284_summary_confidences_0.json           NaN   NaN  0.76           0.76
+- ./fold_t1284_p_summary_confidences_0.json         NaN   NaN  0.76           0.76
+- ./fold_t1284_c_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_t1284_q_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_t1284_k_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_t1284_n_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_t1284_f_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_t1284_j_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_t1284_h_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_t1284_s_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_t1284_t_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_t1284_e_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_t1284_r_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_t1284_d_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_t1284_g_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_t1284_m_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_t1284_o_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_t1284_i_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_t1284_b_summary_confidences_0.json         NaN   NaN  0.79           0.79
+
 
 ## Wednesday: 3 targets
 ## * RNA (stage 0)
+## 236. 	R0290 	NucA 	627 	UNK 	2 	HYER1-withoutTRS 
+
+
+
+
 ## + H1272 (and subunits)
-## ++,CAPRI H2267
+## 234. 	H1272 	Prot 	6879 	A1B1C1D1E1F1G1H1I1 	dystrophin-glycoprotein complex (DGC)
+## 237. 	T1272s2 	Prot 	363 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 238. 	T1272s3 	Prot 	318 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 239. 	T1272s4 	Prot 	289 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 240. 	T1272s5 	Prot 	291 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 241. 	T1272s6 	Prot 	624 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 242. 	T1272s7 	Prot 	242 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 243. 	T1272s8 	Prot 	818 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 244. 	T1272s9 	Prot 	238 	A1 	 	dystrophin-glycoprotein complex (DGC) 
+
 
 ## Thursday: 4 targets
 ## * RNA
