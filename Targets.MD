@@ -3495,6 +3495,55 @@ Generate a lot of models with superpositions to see if any look good.
 - R5 fold_h0272_a_model_0-fold_h0272_b3cdefg3hi_model_0-elofsson.pdb
 
 
+## + H1272 (and subunits)
+## 234. 	H1272 	Prot 	6879 	A1B1C1D1E1F1G1H1I1 	dystrophin-glycoprotein complex (DGC)
+## 237. 	T1272s2 	Prot 	363 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 238. 	T1272s3 	Prot 	318 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 239. 	T1272s4 	Prot 	289 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 240. 	T1272s5 	Prot 	291 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 241. 	T1272s6 	Prot 	624 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 242. 	T1272s7 	Prot 	242 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 243. 	T1272s8 	Prot 	818 	A1 	 	dystrophin-glycoprotein complex (DGC)
+## 244. 	T1272s9 	Prot 	238 	A1 	 	dystrophin-glycoprotein complex (DGC) 
+
+Simpler than I assumed, but still bigger than possible to run with AF3
+
+It is basically impossible to get anything with the A-chain to look
+good, so just do a translation for AF3 (different than AF3 for H0272)
+
+
+FOr B-I it is mainly the F chain that varies. It has two domains
+sometimes on one side of the protein sometimes on both
+
+
+For manual pick least overlapping models
+
+- fold_h1272_a_cde_2_model_3-fold_h1272_b_i_d_model_0-elofsson.pdb There are: 19 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_o_model_0-elofsson.pdb There are: 19 overlapping atoms
+- fold_h1272_a_bcde_4_model_1-fold_h1272_b_i_l_model_0-elofsson.pdb There are: 19 overlapping atoms
+- fold_h1272_a_fg_model_1-fold_h1272_b_i_o_model_0-elofsson.pdb There are: 18 overlapping atoms
+- fold_h1272_a_fg_3_model_4-fold_h1272_b_i_g_model_0-elofsson.pdb There are: 18 overlapping atoms
+- fold_h1272_a_bcde_4_model_3-fold_h1272_b_i_c_model_0-elofsson.pdb There are: 18 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_l_model_0-elofsson.pdb There are: 18 overlapping atoms
+- fold_h1272_a_ghi_model_1-fold_h1272_b_i_n_model_0-elofsson.pdb There are: 17 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_n_model_0-elofsson.pdb There are: 17 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_d_model_0-elofsson.pdb There are: 17 overlapping atoms
+- R5 fold_h1272_a_cde_2_model_3-fold_h1272_b_i_s_model_0-elofsson.pdb There are: 16 overlapping atoms
+- R4 fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_t_model_0-elofsson.pdb There are: 16 overlapping atoms
+- R3 fold_h1272_a_ghi_model_1-fold_h1272_b_i_o_model_0-elofsson.pdb There are: 15 overlapping atoms
+- R2 fold_h1272_a_fg_model_4-fold_h1272_b_i_p_model_0-elofsson.pdb There are: 15 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_p_model_0-elofsson.pdb There are: 15 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_g_model_0-elofsson.pdb There are: 14 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_f_model_0-elofsson.pdb There are: 14 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_q_model_0-elofsson.pdb There are: 13 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_s_model_0-elofsson.pdb There are: 10 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_r_model_0-elofsson.pdb There are: 10 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_i_model_0-elofsson.pdb There are: 10 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_e_model_0-elofsson.pdb There are: 10 overlapping atoms
+- fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_k_model_0-elofsson.pdb There are: 9 overlapping atoms
+-R1  fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_m_model_0-elofsson.pdb There are: 8 overlapping atoms
+
+
 ## Thursday: 2 targets
 
 ## * a hybrid complex
@@ -4118,20 +4167,45 @@ All models look the same
 ## Wednesday: 3 targets
 ## * RNA (stage 0)
 ## 236. 	R0290 	NucA 	627 	UNK 	2 	HYER1-withoutTRS 
+Only dimer and monomer with out overlaps
+- ./fold_r0290_heptameter_summary_confidences_0.json    0.130000  0.27  0.28         -99.73
+- ./fold_r0290_heptameter_summary_confidences_4.json    0.130000  0.27  0.28         -99.73
+- ./fold_r0290_octamer_summary_confidences_0.json       0.130000  0.29  0.30         -99.71
+- ./fold_r0290_octamer_summary_confidences_4.json       0.130000  0.29  0.30         -99.71
+- ./fold_r0290_octamer_summary_confidences_1.json       0.130000  0.29  0.30         -99.71
+- ./fold_r0290_octamer_summary_confidences_2.json       0.130000  0.29  0.30         -99.71
+- ./fold_r0290_octamer_summary_confidences_3.json       0.130000  0.29  0.30         -99.71
+- ./fold_r0290_dimer_summary_confidences_0.json         0.160000  0.16  0.37           0.20
+- ./fold_r0290_dimer_summary_confidences_1.json         0.160000  0.16  0.36           0.20
+- ./fold_r0290_summary_confidences_3.json                    NaN   NaN  0.54           0.54
+- ./fold_r0290_summary_confidences_4.json                    NaN   NaN  0.54           0.54
+- ./fold_r0290_summary_confidences_1.json                    NaN   NaN  0.55           0.55
+- ./fold_r0290_summary_confidences_2.json                    NaN   NaN  0.55           0.55
+- ./fold_r0290_summary_confidences_0.json                    NaN   NaN  0.56
 
+Sobmit monomer for aF3
+- ./fold_r0290_dimer_d_summary_confidences_0.json       0.140000  0.14  0.33         -99.82
+- ./fold_r0290_trimer_summary_confidences_0.json        0.133333  0.17  0.26         -99.81
+- ./fold_r0290_trimer_d_summary_confidences_0.json      0.130000  0.17  0.26         -99.81
+- ./fold_r0290_trimer_c_summary_confidences_0.json      0.133333  0.17  0.26         -99.81
+- ./fold_r0290_trimer_b_summary_confidences_0.json      0.130000  0.17  0.26         -99.81
+- ./fold_r0290_dimer_c_summary_confidences_0.json       0.170000  0.17  0.31         -99.80
+- ./fold_r0290_tetramer_b_summary_confidences_0.json    0.130000  0.20  0.24         -99.79
+- ./fold_r0290_tetramer_d_summary_confidences_0.json    0.135000  0.20  0.27         -99.79
+- ./fold_r0290_tetramer_c_summary_confidences_0.json    0.130000  0.20  0.25         -99.79
+- ./fold_r0290_tetramer_summary_confidences_0.json      0.130000  0.20  0.25         -99.79
+- ./fold_r0290_pentamer_summary_confidences_0.json      0.130000  0.22  0.26         -99.77
+- ./fold_r0290_hexamer_summary_confidences_0.json       0.130000  0.25  0.27         -99.75
+- ./fold_r0290_heptameter_summary_confidences_0.json    0.130000  0.27  0.28         -99.73
+- ./fold_r0290_octamer_summary_confidences_0.json       0.130000  0.29  0.30         -99.71
+- R4 ./fold_r0290_dimer_summary_confidences_0.json         0.160000  0.16  0.37           0.20
+- R2./fold_r0290_dimer_b_summary_confidences_0.json       0.250000  0.25  0.36           0.28
+- R5 ./fold_r0290_summary_confidences_0.json                    NaN   NaN  0.56           0.56
+- R3 ./fold_r0290_b_summary_confidences_0.json                  NaN   NaN  0.56           0.56
+- R1 ./fold_r0290_c_summary_confidences_0.json                  NaN   NaN  0.57           0.57
 
+Submit monomer and dimer for Manual
 
-
-## + H1272 (and subunits)
-## 234. 	H1272 	Prot 	6879 	A1B1C1D1E1F1G1H1I1 	dystrophin-glycoprotein complex (DGC)
-## 237. 	T1272s2 	Prot 	363 	A1 	 	dystrophin-glycoprotein complex (DGC)
-## 238. 	T1272s3 	Prot 	318 	A1 	 	dystrophin-glycoprotein complex (DGC)
-## 239. 	T1272s4 	Prot 	289 	A1 	 	dystrophin-glycoprotein complex (DGC)
-## 240. 	T1272s5 	Prot 	291 	A1 	 	dystrophin-glycoprotein complex (DGC)
-## 241. 	T1272s6 	Prot 	624 	A1 	 	dystrophin-glycoprotein complex (DGC)
-## 242. 	T1272s7 	Prot 	242 	A1 	 	dystrophin-glycoprotein complex (DGC)
-## 243. 	T1272s8 	Prot 	818 	A1 	 	dystrophin-glycoprotein complex (DGC)
-## 244. 	T1272s9 	Prot 	238 	A1 	 	dystrophin-glycoprotein complex (DGC) 
 
 
 ## Thursday: 4 targets
@@ -4144,14 +4218,4 @@ All models look the same
 
 ## Remaining stuff
 
-
-
-
-M1271 - can I do something more. Submitted some different models
-
-
-R1254 - can you use MolPC to build a complete model
-- Asked Samuel
-- Create script to create symmetric file
--  run something more models to see if something works?
 
