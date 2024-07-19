@@ -4299,8 +4299,35 @@ all look basically the same
   
 ## Friday: 4 targets
 ## * RNA
+## 248. 	R1288 	NucA/Ligand 	58 	A1	- 	SAMURI 
+Low scores but they all look the same (RMSD 3-5Å)
+
+- ./fold_r1288_g_summary_confidences_0.json         NaN   NaN  0.24           0.24
+- ./fold_r1288_s_summary_confidences_0.json         NaN   NaN  0.25           0.25
+- ./fold_r1288_i_summary_confidences_0.json         NaN   NaN  0.25           0.25
+- ./fold_r1288_o_summary_confidences_0.json         NaN   NaN  0.26           0.26
+- ./fold_r1288_l_summary_confidences_0.json         NaN   NaN  0.26           0.26
+- ./fold_r1288_b_summary_confidences_0.json         NaN   NaN  0.26           0.26
+- ./fold_r1288_f_summary_confidences_0.json         NaN   NaN  0.27           0.27
+- ./fold_r1288_summary_confidences_0.json           NaN   NaN  0.27           0.27
+- ./fold_r1288_d_summary_confidences_0.json         NaN   NaN  0.27           0.27
+- ./fold_r1288_e_summary_confidences_0.json         NaN   NaN  0.27           0.27
+- ./fold_r1288_p_summary_confidences_0.json         NaN   NaN  0.27           0.27
+- ./fold_r1288_n_summary_confidences_0.json         NaN   NaN  0.27           0.27
+- ./fold_r1288_r_summary_confidences_0.json         NaN   NaN  0.28           0.28
+- ./fold_r1288_q_summary_confidences_0.json         NaN   NaN  0.28           0.28
+- ./fold_r1288_j_summary_confidences_0.json         NaN   NaN  0.28           0.28
+- ./fold_r1288_h_summary_confidences_0.json         NaN   NaN  0.28           0.28
+- ./fold_r1288_c_summary_confidences_0.json         NaN   NaN  0.28           0.28
+- ./fold_r1288_m_summary_confidences_0.json         NaN   NaN  0.29           0.29
+- ./fold_r1288_k_summary_confidences_0.json         NaN   NaN  0.29           0.29
+- ./fold_r1288_t_summary_confidences_0.json         NaN   NaN  0.31   0.31
+  
+  Standard submissions
+  
+
 ## ++ M2271 subunits (pending confirmation)
-Just resubmit
+Just resubmit (not ready yet)
 
 ## Remaining stuff
 
