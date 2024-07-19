@@ -3615,6 +3615,66 @@ sunbmit 10,12,16,18 and 20 for manual.
 - R4 fold_m0276_16_16_model_2
 - R5 fold_m0276_10_10_model_3
 
+## +,CAPRI M1276
+## 245. 	M1276 * 	Prot-NucA 	- 	One domain of A0A026WM60_OOCBI in complex with 33mer ssDNA
+## 247. 	T1276 	Prot 	196 	A1B1 	One domain of A0A026WM60_OOCBI in complex with 33mer ssDNA 
+Submiottesd 12-20 mers - no idea if that was correct 
+
+Monomer !!
+
+- ./fold_m1276_s_summary_confidences_0.json        0.19  0.19  0.81           0.31
+- ./fold_m1276_q_summary_confidences_0.json        0.19  0.19  0.81           0.31
+- ./fold_m1276_d_summary_confidences_0.json        0.22  0.22  0.82           0.34
+- ./fold_m1276_g_summary_confidences_0.json        0.22  0.22  0.81           0.34
+- ./fold_m1276_i_summary_confidences_0.json        0.22  0.22  0.82           0.34
+- ./fold_m1276_b_summary_confidences_0.json        0.23  0.23  0.82           0.34
+- ./fold_m1276_e_summary_confidences_0.json        0.23  0.23  0.82           0.35
+- ./fold_m1276_h_summary_confidences_0.json        0.24  0.24  0.82           0.35
+- ./fold_m1276_r_summary_confidences_0.json        0.28  0.28  0.82           0.39
+- ./fold_m1276_m_summary_confidences_0.json        0.28  0.28  0.82           0.39
+- ./fold_m1276_p_summary_confidences_0.json        0.30  0.30  0.82           0.40
+- ./fold_m1276_t_summary_confidences_0.json        0.31  0.31  0.82           0.41
+- ./fold_m1276_c_summary_confidences_0.json        0.32  0.32  0.82           0.42
+- ./fold_m1276_o_summary_confidences_0.json        0.33  0.33  0.83           0.43
+- ./fold_m1276_j_summary_confidences_0.json        0.33  0.33  0.83           0.43
+- ./fold_m1276_n_summary_confidences_0.json        0.37  0.37  0.82           0.46
+- ./fold_m1276_l_summary_confidences_0.json        0.38  0.38  0.83           0.47
+- ./fold_m1276_f_summary_confidences_0.json        0.40  0.40  0.84           0.49
+- ./fold_m1276_k_summary_confidences_0.json        0.48  0.48  0.84           0.55
+- ./fold_m1276_summary_confidences_0.json          0.51  0.51  0.85           0.58
+
+Clusters:
+### Single stranded RNA - binding mode 1 (with highest Iptm)
+- ./fold_m1276_f_summary_confidences_0.json        0.40  0.40  0.84   0.49
+- ./fold_m1276_k_summary_confidences_0.json        0.48  0.48  0.84    0.55
+- R3  ./fold_m1276_summary_confidences_0.json          0.51  0.51  0.85    0.58
+	
+### Single stranded RNA - binding mode 2 (with lower Iptm)
+- ./fold_m1276_b_summary_confidences_0.json        0.23  0.23  0.82           0.34
+- ./fold_m1276_i_summary_confidences_0.json        0.22  0.22  0.82           0.34
+- ./fold_m1276_h_summary_confidences_0.json        0.24  0.24  0.82           0.35
+- ./fold_m1276_e_summary_confidences_0.json        0.23  0.23  0.82           0.35
+- ./fold_m1276_c_summary_confidences_0.json        0.32  0.32  0.82           0.42
+- ./fold_m1276_j_summary_confidences_0.json        0.33  0.33  0.83   0.43
+- ./fold_m1276_m_summary_confidences_0.json        0.28  0.28  0.82           0.39
+- ./fold_m1276_q_summary_confidences_0.json        0.19  0.19  0.81           0.31
+- ./fold_m1276_r_summary_confidences_0.json        0.28  0.28  0.82           0.39
+- ./fold_m1276_s_summary_confidences_0.json        0.19  0.19  0.81           0.31
+- ./fold_m1276_t_summary_confidences_0.json        0.31  0.31  0.82           0.41
+- ./fold_m1276_n_summary_confidences_0.json        0.37  0.37  0.82           0.46
+- R4 ./fold_m1276_l_summary_confidences_0.json        0.38  0.38  0.83           0.47
+
+### Single stranded RNA - binding mode 3 (with lower Iptm)
+- ./fold_m1276_p_summary_confidences_0.json        0.30  0.30  0.82           0.40
+- R5 ./fold_m1276_o_summary_confidences_0.json        0.33  0.33  0.83           0.43 
+
+  
+### Double stranded RNA (not the same binding modes)
+- R2./fold_m1276_g_summary_confidences_0.json        0.22  0.22  0.81           0.34
+- R1 ./fold_m1276_d_summary_confidences_0.json        0.22  0.22  0.82           0.34
+
+I like the double stranded even if it has low scores
+
 
 ## Friday: 4 targets
 
@@ -4208,13 +4268,39 @@ Submit monomer and dimer for Manual
 
 
 
-## Thursday: 4 targets
+
 ## * RNA
-## +,CAPRI M1276
-## 
+## 246. 	R1289 	NucA 	284 	A1 	- 	Precursor tRNA
+- ./fold_r1289_l_summary_confidences_0.json         NaN   NaN  0.55           0.55
+- ./fold_r1289_c_summary_confidences_0.json         NaN   NaN  0.55           0.55
+- ./fold_r1289_f_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_t_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_h_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_d_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_r_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_i_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_e_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_n_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_o_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_p_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_g_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_m_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_q_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_j_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1289_k_summary_confidences_0.json         NaN   NaN  0.57           0.57
+- ./fold_r1289_s_summary_confidences_0.json         NaN   NaN  0.57           0.57
+- ./fold_r1289_summary_confidences_0.json           NaN   NaN  0.57           0.57
+- ./fold_r1289_b_summary_confidences_0.json         NaN   NaN  0.57           0.57
+
+
+all look basically the same
+
+
+  
 ## Friday: 4 targets
 ## * RNA
 ## ++ M2271 subunits (pending confirmation)
+Just resubmit
 
 ## Remaining stuff
 
