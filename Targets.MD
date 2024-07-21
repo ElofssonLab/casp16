@@ -4300,7 +4300,7 @@ all look basically the same
 ## Friday: 4 targets
 ## * RNA
 ## 248. 	R1288 	NucA/Ligand 	58 	A1	- 	SAMURI 
-Low scores but they all look the same (RMSD 3-5Å)
+Low scores but they all look the same (RMSD 3-5Å) - but I forgot the ligand
 
 - ./fold_r1288_g_summary_confidences_0.json         NaN   NaN  0.24           0.24
 - ./fold_r1288_s_summary_confidences_0.json         NaN   NaN  0.25           0.25
@@ -4323,11 +4323,125 @@ Low scores but they all look the same (RMSD 3-5Å)
 - ./fold_r1288_k_summary_confidences_0.json         NaN   NaN  0.29           0.29
 - ./fold_r1288_t_summary_confidences_0.json         NaN   NaN  0.31   0.31
   
-  Standard submissions
+
+With ligands
+- ./fold_r1288_peptide_summary_confidences_0.json        0.1975  0.43  0.54           0.95
+- ./fold_r1288_peptide_3_summary_confidences_0.json      0.2275  0.45  0.56           0.97
+- R4 ./fold_r1288_peptide_4_summary_confidences_0.json      0.2400  0.46  0.55           0.98
+- R2 ./fold_r1288_peptide_2_summary_confidences_0.json      0.2700  0.45  0.60           0.98
+- R1 ./fold_r1288_fad_summary_confidences_0.json      0.3525  0.64  0.62           0.63
+- ./fold_r1288_nad_2_summary_confidences_0.json      0.2675  0.51  0.58           0.53
+- R5 ./fold_r1288_nad_3_summary_confidences_0.json      0.2775  0.52  0.60           0.53
+- R3 ./fold_r1288_nad_summary_confidences_0.json        0.2725  0.53  0.59 0.55
   
+For AF3 submitting FAD (best ipTM)
+
+For manual picking some diffe
 
 ## ++ M2271 subunits (pending confirmation)
 Just resubmit (not ready yet)
+
+Rerunning standard stuff for all 8 models as monomers - why not.
+
+## 249. 	T2271s1 	Prot 	818 	A1 	- 	RECC
+- ./fold_t2271s1_e_summary_confidences_0.json         NaN   NaN  0.50           0.77
+- ./fold_t2271s1_f_summary_confidences_0.json         NaN   NaN  0.50           0.78
+- ./fold_t2271s1_b_summary_confidences_0.json         NaN   NaN  0.50           0.78
+- ./fold_t2271s1_summary_confidences_0.json           NaN   NaN  0.51           0.78
+- ./fold_t2271s1_c_summary_confidences_0.json         NaN   NaN  0.50           0.78
+- ./fold_t2271s1_d_summary_confidences_0.json         NaN   NaN  0.51           0.79
+
+## 250. 	T2271s2 	Prot 	414 	A1 	- 	RECC 
+- ./fold_t2271s2_f_summary_confidences_0.json         NaN   NaN  0.62           0.82
+- ./fold_t2271s2_b_summary_confidences_0.json         NaN   NaN  0.63           0.82
+- ./fold_t2271s2_summary_confidences_0.json           NaN   NaN  0.63           0.83
+- ./fold_t2271s2_e_summary_confidences_0.json         NaN   NaN  0.63           0.83
+- ./fold_t2271s2_c_summary_confidences_0.json         NaN   NaN  0.64           0.83
+- ./fold_t2271s2_d_summary_confidences_0.json         NaN   NaN  0.64           0.83
+
+## 251. 	T2271s3 	Prot 	384 	A1 	- 	RECC
+- ./fold_t2271s3_c_summary_confidences_0.json         NaN   NaN  0.68           0.82
+- ./fold_t2271s3_f_summary_confidences_0.json         NaN   NaN  0.68           0.82
+- ./fold_t2271s3_b_summary_confidences_0.json         NaN   NaN  0.68           0.83
+- ./fold_t2271s3_e_summary_confidences_0.json         NaN   NaN  0.68           0.83
+- ./fold_t2271s3_d_summary_confidences_0.json         NaN   NaN  0.68           0.84
+- ./fold_t2271s3_summary_confidences_0.json           NaN   NaN  0.67           0.84
+
+
+
+## 252. 	T2271s4 	Prot 	368 	A1 	- 	RECC
+
+- ./fold_t2271s4_f_summary_confidences_0.json         NaN   NaN  0.70           0.83
+- ./fold_t2271s4_summary_confidences_0.json           NaN   NaN  0.71           0.83
+- ./fold_t2271s4_d_summary_confidences_0.json         NaN   NaN  0.70           0.83
+- ./fold_t2271s4_c_summary_confidences_0.json         NaN   NaN  0.70           0.83
+- ./fold_t2271s4_e_summary_confidences_0.json         NaN   NaN  0.71           0.83
+- ./fold_t2271s4_b_summary_confidences_0.json         NaN   NaN  0.71 0.84
+
+## 253. 	T2271s5 	Prot 	762 	A1 	- 	RECC
+
+-                                              chain_iptm  iptm   ptm  ranking_score
+- ./fold_t2271s5_e_summary_confidences_0.json         NaN   NaN  0.23           0.59
+- ./fold_t2271s5_summary_confidences_0.json           NaN   NaN  0.23           0.59
+- ./fold_t2271s5_c_summary_confidences_0.json         NaN   NaN  0.23           0.59
+- ./fold_t2271s5_d_summary_confidences_0.json         NaN   NaN  0.24           0.59
+- ./fold_t2271s5_f_summary_confidences_0.json         NaN   NaN  0.23           0.59
+- ./fold_t2271s5_b_summary_confidences_0.json         NaN   NaN  0.23 0.60
+
+
+## 254. 	T2271s6 	Prot 	587 	A1 	- 	RECC
+
+- ./fold_t2271s6_b_summary_confidences_0.json         NaN   NaN  0.25           0.61
+- ./fold_t2271s6_e_summary_confidences_0.json         NaN   NaN  0.25           0.61
+- ./fold_t2271s6_d_summary_confidences_0.json         NaN   NaN  0.25           0.61
+- ./fold_t2271s6_f_summary_confidences_0.json         NaN   NaN  0.25           0.61
+- ./fold_t2271s6_c_summary_confidences_0.json         NaN   NaN  0.25           0.62
+- ./fold_t2271s6_summary_confidences_0.json           NaN   NaN  0.25           0.62
+
+## 255. 	T2271s7 	Prot 	393 	A1 	- 	RECC
+
+- ./fold_t2271s7_c_summary_confidences_0.json         NaN   NaN  0.37           0.66
+- ./fold_t2271s7_f_summary_confidences_0.json         NaN   NaN  0.38           0.67
+- ./fold_t2271s7_d_summary_confidences_0.json         NaN   NaN  0.37           0.67
+- ./fold_t2271s7_e_summary_confidences_0.json         NaN   NaN  0.38           0.67
+- ./fold_t2271s7_b_summary_confidences_0.json         NaN   NaN  0.38           0.67
+- ./fold_t2271s7_summary_confidences_0.json           NaN   NaN  0.38           0.67
+
+## 256. 	T2271s8 	Prot 	218 	A1 	- 	RECC 
+- ./fold_t2271s8_summary_confidences_0.json           NaN   NaN  0.51           0.73
+- ./fold_t2271s8_d_summary_confidences_0.json         NaN   NaN  0.52           0.73
+- ./fold_t2271s8_c_summary_confidences_0.json         NaN   NaN  0.53           0.73
+- ./fold_t2271s8_f_summary_confidences_0.json         NaN   NaN  0.52           0.73
+- ./fold_t2271s8_b_summary_confidences_0.json         NaN   NaN  0.52           0.75
+- ./fold_t2271s8_e_summary_confidences_0.json         NaN   NaN  0.52           0.75
+
+## Monday: 2 targets
+## * RNA
+## ++,CAPRI T2227
+
+## Tuesday: 2 targets
+## * hybrid protein-RNA complex
+## * homomultimer
+
+## Wednesday: 3 targets
+## + RNA R1281
+## ++ T2278
+## ++ T2279
+
+## Thursday: 2 targets
+## * homomultimer (alternative conformations)
+## ++ T2280
+
+## Friday: 2 targets
+## * homomultimer
+## ++,CAPRI M1287 (protein-DNA)
+
+
+# Info
+
+2. We also plan to release two targets where predictors will be invited to submit an ensemble of models describing the position and relative orientation of domains connected by a flexible linker in a two-domain protein. Deadline for these targets will be set in the end of August. It is also possible that we will have another ensembles target this CASP. The announcements will go out next week.
+
+3. The last week of July will be the last week of CASP16 target release. As of now, we have 8 targets lined up, two each day from Monday, July 29 through Thursday, August 1. Some last minute changes are possible but there will be no new targets after August 1.
 
 ## Remaining stuff
 
