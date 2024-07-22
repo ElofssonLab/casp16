@@ -2769,9 +2769,12 @@ Running 30 models to get a few that scores well
 - ./fold_t0270_hexamer_d_summary_confidences_0.json    0.525000  0.64  0.68           0.66
 - ./fold_t1270_d_summary_confidences_0.json            0.536667  0.65  0.68           0.67
 
+## ++,CAPRI T2227 T2270 
+## 258. 	T2270 * 	Prot 	437 	A6 	- 	HtrA
+Just resubmit
+
+
 ##  Tuesday: 3 targets (12 with subunits), including one 
-
-
 ##  * M0271 (stage 0), and its 8 protein subunits and one RNA subunit as separate tertiary structure targets
 ## a large hybrid complex M0271 of an RNA and 10 different proteins (some in multiple copies).
 
@@ -4417,7 +4420,29 @@ Rerunning standard stuff for all 8 models as monomers - why not.
 
 ## Monday: 2 targets
 ## * RNA
-## ++,CAPRI T2227
+## 257. 	R1291 	NucA 	480 	A1 	O.I.intron-fulllength
+- ./fold_r1291_h_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_r1291_o_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_r1291_n_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_r1291_b_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_r1291_g_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_r1291_l_summary_confidences_0.json         NaN   NaN  0.77           0.77
+- ./fold_r1291_d_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_r1291_r_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_r1291_m_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_r1291_p_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_r1291_j_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_r1291_f_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_r1291_q_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_r1291_k_summary_confidences_0.json         NaN   NaN  0.78           0.78
+- ./fold_r1291_i_summary_confidences_0.json         NaN   NaN  0.79           0.79
+- ./fold_r1291_summary_confidences_0.json           NaN   NaN  0.79           0.79
+- ./fold_r1291_c_summary_confidences_0.json         NaN   NaN  0.79           0.79
+- ./fold_r1291_s_summary_confidences_0.json         NaN   NaN  0.79           0.79
+- ./fold_r1291_e_summary_confidences_0.json         NaN   NaN  0.79           0.79
+
+
+All very similar - standard predictions
 
 ## Tuesday: 2 targets
 ## * hybrid protein-RNA complex
