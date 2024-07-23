@@ -4446,7 +4446,73 @@ All very similar - standard predictions
 
 ## Tuesday: 2 targets
 ## * hybrid protein-RNA complex
+## 259. 	M1293 	Prot-NucA 	524 	A1B1R1	- 	Translation enhancer motif
+## 260. 	R1293 	NucA 	82 	R1 	Translation enhancer motif
+- ./fold_m1293_e_summary_confidences_0.json    0.736667  0.76  0.80           0.76
+- ./fold_m1293_s_summary_confidences_0.json    0.736667  0.76  0.80           0.77
+- ./fold_m1293_d_summary_confidences_0.json    0.733333  0.76  0.80           0.77
+- ./fold_m1293_q_summary_confidences_0.json    0.716667  0.77  0.80           0.77
+- ./fold_m1293_h_summary_confidences_0.json    0.733333  0.77  0.81           0.78
+- ./fold_m1293_o_summary_confidences_0.json    0.733333  0.77  0.80           0.78
+- ./fold_m1293_j_summary_confidences_0.json    0.733333  0.78  0.81           0.78
+- ./fold_m1293_t_summary_confidences_0.json    0.730000  0.77  0.81           0.78
+- ./fold_m1293_g_summary_confidences_0.json    0.736667  0.77  0.81           0.78
+- ./fold_m1293_r_summary_confidences_0.json    0.743333  0.77  0.81           0.78
+- ./fold_m1293_f_summary_confidences_0.json    0.726667  0.78  0.81           0.78
+- ./fold_m1293_l_summary_confidences_0.json    0.733333  0.77  0.81           0.78
+- ./fold_m1293_summary_confidences_0.json      0.740000  0.77  0.81           0.78
+- ./fold_m1293_p_summary_confidences_0.json    0.696667  0.77  0.79           0.78
+- ./fold_m1293_m_summary_confidences_0.json    0.736667  0.78  0.81           0.79
+- ./fold_m1293_b_summary_confidences_0.json    0.743333  0.78  0.82           0.79
+- ./fold_m1293_c_summary_confidences_0.json    0.736667  0.78  0.81           0.79
+- ./fold_m1293_k_summary_confidences_0.json    0.753333  0.78  0.82           0.79
+- ./fold_m1293_n_summary_confidences_0.json    0.746667  0.79  0.82           0.80
+- ./fold_m1293_i_summary_confidences_0.json    0.743333  0.81  0.83 0.81
+
+
+Variataions in RNA structure, but the binding region to is all the
+same so just take top scoring variations
+
+### Top scoring Clusters
+
+### R1 
+- ./fold_m1293_i_summary_confidences_0.json    0.743333  0.81  0.83           0.81
+- ./fold_m1293_k_summary_confidences_0.json    0.753333  0.78  0.82           0.79
+- ./fold_m1293_g_summary_confidences_0.json    0.736667  0.77  0.81           0.78
+### R2
+- ./fold_m1293_n_summary_confidences_0.json    0.746667  0.79  0.82           0.80
+### R3
+- ./fold_m1293_c_summary_confidences_0.json    0.736667  0.78  0.81           0.7
+### R4
+- ./fold_m1293_m_summary_confidences_0.json    0.736667  0.78  0.81           0.79
+### R5
+- ./fold_m1293_p_summary_confidences_0.json    0.696667  0.77  0.79           0.78
+
+
 ## * homomultimer
+## 261. 	T1292 	Prot 	196 	A2 		isocyanide hydratase-like iron binding protein
+- ./fold_t1292_t_summary_confidences_0.json        0.91  0.91  0.92           0.94
+- ./fold_t1292_r_summary_confidences_0.json        0.92  0.92  0.93           0.94
+- ./fold_t1292_b_summary_confidences_0.json        0.91  0.91  0.93           0.94
+- ./fold_t1292_n_summary_confidences_0.json        0.92  0.92  0.93           0.94
+- ./fold_t1292_d_summary_confidences_0.json        0.92  0.92  0.93           0.95
+- ./fold_t1292_p_summary_confidences_0.json        0.92  0.92  0.93           0.95
+- ./fold_t1292_k_summary_confidences_0.json        0.92  0.92  0.93           0.95
+- ./fold_t1292_g_summary_confidences_0.json        0.92  0.92  0.93           0.95
+- ./fold_t1292_l_summary_confidences_0.json        0.93  0.93  0.94           0.95
+- ./fold_t1292_i_summary_confidences_0.json        0.92  0.92  0.93           0.95
+- ./fold_t1292_e_summary_confidences_0.json        0.92  0.92  0.93           0.95
+- ./fold_t1292_o_summary_confidences_0.json        0.92  0.92  0.93           0.95
+- ./fold_t1292_c_summary_confidences_0.json        0.92  0.92  0.93           0.95
+- ./fold_t1292_summary_confidences_0.json          0.93  0.93  0.94           0.95
+- ./fold_t1292_s_summary_confidences_0.json        0.92  0.92  0.93           0.95
+- ./fold_t1292_h_summary_confidences_0.json        0.92  0.92  0.93           0.95
+- ./fold_t1292_j_summary_confidences_0.json        0.93  0.93  0.94           0.95
+- ./fold_t1292_q_summary_confidences_0.json        0.92  0.92  0.93           0.95
+- ./fold_t1292_f_summary_confidences_0.json        0.93  0.93  0.94           0.96
+
+
+All look the same - default predictions
 
 ## Wednesday: 3 targets
 ## + RNA R1281
@@ -4460,7 +4526,7 @@ All very similar - standard predictions
 ## Friday: 2 targets
 ## * homomultimer
 ## ++,CAPRI M1287 (protein-DNA)
-
+Submitted two-one
 
 # Info
 
