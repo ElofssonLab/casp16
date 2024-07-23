@@ -4477,14 +4477,19 @@ same so just take top scoring variations
 
 ### R1 
 - ./fold_m1293_i_summary_confidences_0.json    0.743333  0.81  0.83           0.81
+- ./fold_m1293_n_summary_confidences_0.json    0.746667  0.79  0.82           0.80
+
+## R2 
 - ./fold_m1293_k_summary_confidences_0.json    0.753333  0.78  0.82           0.79
 - ./fold_m1293_g_summary_confidences_0.json    0.736667  0.77  0.81           0.78
-### R2
-- ./fold_m1293_n_summary_confidences_0.json    0.746667  0.79  0.82           0.80
-### R3
 - ./fold_m1293_c_summary_confidences_0.json    0.736667  0.78  0.81           0.7
+
+### R3
+- ./fold_m1293_b_summary_confidences_0.json    0.743333  0.78  0.82           0.79
+
 ### R4
 - ./fold_m1293_m_summary_confidences_0.json    0.736667  0.78  0.81           0.79
+
 ### R5
 - ./fold_m1293_p_summary_confidences_0.json    0.696667  0.77  0.79           0.78
 
