@@ -4607,11 +4607,16 @@ Loop around residue 146
 
 
 One outlier is fold_t1294_f_model_1
-another fold_t1294_d_model_0
+another fold_t1294_d_model_0 and all fold_t1294_c_model_X
 
 
 
-For AF3 just pick fold_t1294_model_X.cif and fold_t1294_d_model_X.cif
+For AF3 just pick fold_t1294_model_X.cif and fold_t1294_d_model_X.cif 
+
+
+Alternative B
+
+For manual pick B and C
 
 
 ## Friday: 2 targets
@@ -4619,7 +4624,10 @@ For AF3 just pick fold_t1294_model_X.cif and fold_t1294_d_model_X.cif
 ## ++,CAPRI M1287 (protein-DNA)
 Submitted two-one
 
-# Info
+
+
+
+## Info
 
 2. We also plan to release two targets where predictors will be invited to submit an ensemble of models describing the position and relative orientation of domains connected by a flexible linker in a two-domain protein. Deadline for these targets will be set in the end of August. It is also possible that we will have another ensembles target this CASP. The announcements will go out next week.
 
