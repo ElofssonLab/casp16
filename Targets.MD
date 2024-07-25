@@ -3894,6 +3894,10 @@ For manual:
 
 All models good - all look the same (except one termini)
 
+## ++ T2278
+## 263. 	T2278 	Prot 	380 	A1 	- 	Dehydrogenase
+Just resubmit
+
 
 ## * protein filament
 ## 220. 	T1279 	Prot 	428 	An 	2024  	Bd1369 
@@ -3927,6 +3931,10 @@ Manual choices
 - ./fold_t1279_summary_confidences_0.json                    NaN   NaN  0.62           0.68
 - R4 ./fold_t1279_c_summary_confidences_0.json                  NaN   NaN  0.62           0.68
 
+
+## ++ T2279
+## 264. 	T2279 	Prot 	428 	An 	- 	Bd1369
+Just resubmit
 
 		 
 ## *,CAPRI hybrid complex
@@ -4009,6 +4017,10 @@ Easy target, not much to do
 - ./fold_t1280_b_summary_confidences_0.json         NaN   NaN  0.95           0.95
 - ./fold_t1280_i_summary_confidences_0.json         NaN   NaN  0.95           0.95
 - ./fold_t1280_e_summary_confidences_0.json         NaN   NaN  0.95           0.95
+
+## ++ T2280
+## 267. 	T2280 	Prot 	237 	A1 	- 	C-terminal domain of bacteriophage K gp155 
+Just resubmit
 
 
 ## Friday: 4 targets
@@ -4557,19 +4569,50 @@ Nothin has goof scores all a re different
 
 Just take the top scoring ones - nothinfg really looks better
 
-## ++ T2278
-## 263. 	T2278 	Prot 	380 	A1 	- 	Dehydrogenase
 
-Just resubmit
-
-## ++ T2279
-## 264. 	T2279 	Prot 	428 	An 	- 	Bd1369
-
-Just resubmit
 
 ## Thursday: 2 targets
 ## * homomultimer (alternative conformations)
-## ++ T2280
+## 265. 	T1294v1 	Prot /Ensmbl 	214 	A2 	 	Isocyanide hydratase
+## 266. 	T1294v2 	Prot /Ensmbl 	214 	A2 	 	Isocyanide hydratase
+
+-                                            chain_iptm  iptm   ptm  ranking_score
+- ./fold_t1294_r_summary_confidences_0.json        0.91  0.91  0.92           0.92
+- ./fold_t1294_e_summary_confidences_0.json        0.91  0.91  0.92           0.93
+- ./fold_t1294_g_summary_confidences_0.json        0.91  0.91  0.92           0.93
+- ./fold_t1294_q_summary_confidences_0.json        0.91  0.91  0.92           0.93
+- ./fold_t1294_j_summary_confidences_0.json        0.92  0.92  0.93           0.93
+- ./fold_t1294_f_summary_confidences_0.json        0.91  0.91  0.92           0.93
+- ./fold_t1294_m_summary_confidences_0.json        0.91  0.91  0.92           0.93
+- ./fold_t1294_h_summary_confidences_0.json        0.91  0.91  0.92           0.93
+- ./fold_t1294_d_summary_confidences_0.json        0.92  0.92  0.92           0.93
+- ./fold_t1294_c_summary_confidences_0.json        0.91  0.91  0.92           0.93
+- ./fold_t1294_summary_confidences_0.json          0.92  0.92  0.93           0.93
+- ./fold_t1294_t_summary_confidences_0.json        0.91  0.91  0.92           0.93
+- ./fold_t1294_n_summary_confidences_0.json        0.91  0.91  0.92           0.93
+- ./fold_t1294_b_summary_confidences_0.json        0.92  0.92  0.93           0.93
+- ./fold_t1294_i_summary_confidences_0.json        0.91  0.91  0.92           0.93
+- ./fold_t1294_o_summary_confidences_0.json        0.92  0.92  0.93           0.93
+- ./fold_t1294_l_summary_confidences_0.json        0.91  0.91  0.92           0.93
+- ./fold_t1294_p_summary_confidences_0.json        0.92  0.92  0.93           0.94
+- ./fold_t1294_k_summary_confidences_0.json        0.92  0.92  0.93           0.94
+
+
+All models look the same - nothing that indicate two conformations -
+except
+
+N-terminal (low confidence)
+
+Loop around residue 146
+
+
+One outlier is fold_t1294_f_model_1
+another fold_t1294_d_model_0
+
+
+
+For AF3 just pick fold_t1294_model_X.cif and fold_t1294_d_model_X.cif
+
 
 ## Friday: 2 targets
 ## * homomultimer
