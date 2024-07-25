@@ -4521,8 +4521,51 @@ All look the same - default predictions
 
 ## Wednesday: 3 targets
 ## + RNA R1281
+## 262. 	R1281 	NucA 	718 	A2 	- 	2F RNA 6-helix bundle dimer
+Submitteshexamer  of trimers -  hexaemers as No 1 before - wrong
+
+Nothin has goof scores all a re different
+
+                                                 chain_iptm  iptm   ptm  ranking_score
+- ./fold_r1281_q_summary_confidences_0.json              0.14  0.14  0.18           0.14
+- ./fold_r1281_k_summary_confidences_0.json              0.13  0.13  0.19           0.14
+- ./fold_r1281_e_summary_confidences_0.json              0.14  0.14  0.18           0.14
+- ./fold_r1281_r_summary_confidences_0.json              0.14  0.14  0.19           0.15
+- ./fold_r1281_i_summary_confidences_0.json              0.14  0.14  0.19           0.15
+- ./fold_r1281_d_summary_confidences_0.json              0.14  0.14  0.19           0.15
+- ./fold_r1281_o_summary_confidences_0.json              0.14  0.14  0.19           0.15
+- ./fold_r1281_c_summary_confidences_0.json              0.14  0.14  0.19           0.15
+- ./fold_r1281_t_summary_confidences_0.json              0.14  0.14  0.19           0.15
+- ./fold_r0281_dimer_summary_confidences_0.json          0.14  0.14  0.18           0.15
+- ./fold_r1281_g_summary_confidences_0.json              0.13  0.13  0.19           0.15
+- ./fold_r1281_f_summary_confidences_0.json              0.14  0.14  0.19           0.15
+- ./fold_r1281_m_summary_confidences_0.json              0.14  0.14  0.18           0.15
+- ./fold_r1281_a_summary_confidences_0.json              0.13  0.13  0.19           0.15
+- ./fold_r0281_dimer_c_summary_confidences_0.json        0.14  0.14  0.19           0.15
+- ./fold_r1281_l_summary_confidences_0.json              0.14  0.14  0.19           0.15
+- ./fold_r0281_dimer_b_summary_confidences_0.json        0.14  0.14  0.19           0.15
+- ./fold_r0281_dimer_e_summary_confidences_0.json        0.14  0.14  0.18           0.15
+- ./fold_r1281_j_summary_confidences_0.json              0.14  0.14  0.19           0.15
+- ./fold_r1281_n_summary_confidences_0.json              0.14  0.14  0.19           0.15
+- ./fold_r0281_dimer_d_summary_confidences_0.json        0.15  0.15  0.19           0.16
+- ./fold_r1281_b_summary_confidences_0.json              0.15  0.15  0.19           0.16
+- ./fold_r1281_h_summary_confidences_0.json              0.15  0.15  0.20           0.16
+- ./fold_r1281_s_summary_confidences_0.json              0.15  0.15  0.20           0.16
+- ./fold_r0281_dimer_f_summary_confidences_0.json        0.15  0.15  0.19           0.16
+- ./fold_r1281_p_summary_confidences_0.json              0.15  0.15  0.20           0.16
+
+
+Just take the top scoring ones - nothinfg really looks better
+
 ## ++ T2278
+## 263. 	T2278 	Prot 	380 	A1 	- 	Dehydrogenase
+
+Just resubmit
+
 ## ++ T2279
+## 264. 	T2279 	Prot 	428 	An 	- 	Bd1369
+
+Just resubmit
 
 ## Thursday: 2 targets
 ## * homomultimer (alternative conformations)
