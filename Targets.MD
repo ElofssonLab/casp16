@@ -4621,15 +4621,106 @@ For manual pick B and C
 
 ## Friday: 2 targets
 ## * homomultimer
+## 269. 	T1295 	Prot 	469 	A8 		TM_Ag 
+
+All look the same (but scores are bad)
+
+- ./fold_t1295_2_summary_confidences_0.json      0.15500  0.30  0.32           0.30
+- ./fold_t1295_i_summary_confidences_0.json      0.15375  0.29  0.32           0.30
+- ./fold_t1295_b_summary_confidences_0.json      0.15375  0.29  0.32           0.30
+- ./fold_t1295_c_summary_confidences_0.json      0.15875  0.30  0.33           0.30
+- ./fold_t1295_19_summary_confidences_0.json     0.15625  0.30  0.33           0.30
+- ./fold_t1295_15_summary_confidences_0.json     0.15750  0.30  0.33           0.30
+- ./fold_t1295_14_summary_confidences_0.json     0.15750  0.30  0.33           0.30
+- ./fold_t1295_d_summary_confidences_0.json      0.15625  0.30  0.33           0.30
+- ./fold_t1295_4_summary_confidences_0.json      0.15125  0.29  0.32           0.30
+- ./fold_t1295_18_summary_confidences_0.json     0.15375  0.29  0.32           0.30
+- ./fold_t1295_g_summary_confidences_0.json      0.15500  0.30  0.32           0.30
+- ./fold_t1295_5_summary_confidences_0.json      0.15250  0.29  0.32           0.30
+- ./fold_t1295_8_summary_confidences_0.json      0.15750  0.30  0.33           0.31
+- ./fold_t1295_11_summary_confidences_0.json     0.15375  0.31  0.33           0.31
+- ./fold_t1295_0_summary_confidences_0.json      0.16250  0.30  0.34           0.31
+- ./fold_t1295_13_summary_confidences_0.json     0.16000  0.30  0.33           0.31
+- ./fold_t1295_summary_confidences_0.json        0.15875  0.30  0.33           0.31
+- ./fold_t1295_17_summary_confidences_0.json     0.15875  0.30  0.33           0.31
+- ./fold_t1295_1_summary_confidences_0.json      0.15750  0.30  0.33           0.31
+- ./fold_t1295_9_summary_confidences_0.json      0.16125  0.30  0.33           0.31
+- ./fold_t1295_f_summary_confidences_0.json      0.16250  0.30  0.33           0.31
+- ./fold_t1295_3_summary_confidences_0.json      0.16500  0.31  0.34           0.31
+- ./fold_t1295_h_summary_confidences_0.json      0.16250  0.30  0.33           0.31
+- ./fold_t1295_6_summary_confidences_0.json      0.17000  0.31  0.34           0.32
+- ./fold_t1295_10_summary_confidences_0.json     0.17000  0.31  0.34           0.32
+- ./fold_t1295_e_summary_confidences_0.json      0.16875  0.31  0.34           0.32
+- ./fold_t1295_7_summary_confidences_0.json      0.17125  0.31  0.35           0.32
+- ./fold_t1295_12_summary_confidences_0.json     0.17125  0.31  0.34           0.32
+- ./fold_t1295_16_summary_confidences_0.json     0.17875  0.32  0.35           0.33
+
 ## ++,CAPRI M1287 (protein-DNA)
-Submitted two-one
-
-
-
+## 268. 	M1287 * 	Prot-NucA 	852 	A2D2    	- 	Q0X0A9_STRLS
+ Submitted two-one was dimer
+ 
+-                                                  chain_iptm  iptm   ptm  ranking_score
+- ./fold_m1287_h_summary_confidences_0.json            0.2600  0.66  0.72           0.68
+- ./fold_m1287_i_summary_confidences_0.json            0.3725  0.66  0.71           0.69
+- ./fold_m1287_f_summary_confidences_0.json            0.3575  0.67  0.72           0.69
+- ./fold_m1287_j_summary_confidences_0.json            0.2700  0.67  0.73           0.69
+- ./fold_m1287_summary_confidences_0.json              0.3725  0.67  0.72           0.69
+- ./fold_m0287_dimer_d_summary_confidences_0.json      0.3750  0.68  0.73           0.70
+- ./fold_m1287_d_summary_confidences_0.json            0.3750  0.68  0.74           0.71
+- ./fold_m1287_c_summary_confidences_0.json            0.3650  0.69  0.73           0.71
+- ./fold_m1287_b_summary_confidences_0.json            0.3850  0.69  0.74           0.71
+- ./fold_m0287_dimer_f_summary_confidences_0.json      0.2650  0.69  0.75           0.71
+- ./fold_m0287_dimer_e_summary_confidences_0.json      0.3900  0.69  0.74           0.71
+- ./fold_m1287_g_summary_confidences_0.json            0.3850  0.69  0.74           0.71
+- ./fold_m1287_e_summary_confidences_0.json            0.3900  0.69  0.74           0.71
+- ./fold_m0287_dimer_summary_confidences_0.json        0.3850  0.69  0.74           0.71
+- ./fold_m0287_dimer_b_summary_confidences_0.json      0.3850  0.70  0.75           0.72
+- ./fold_m0287_dimer_c_summary_confidences_0.json      0.3950  0.71  0.75           0.72
+- ./fold_m0287_dimer_h_summary_confidences_0.json      0.3900  0.70  0.75           0.72
+- ./fold_m0287_dimer_g_summary_confidences_0.json      0.3850  0.70  0.75           0.72
+- ./fold_m1287_k_summary_confidences_0.json   0.3850  0.70  0.75           0.73
 
 ## Info
 
-2. We also plan to release two targets where predictors will be invited to submit an ensemble of models describing the position and relative orientation of domains connected by a flexible linker in a two-domain protein. Deadline for these targets will be set in the end of August. It is also possible that we will have another ensembles target this CASP. The announcements will go out next week.
+
+
+# 2. We also plan to release two targets where predictors will be
+   invited to submit an ensemble of models describing the position and
+   relative orientation of domains connected by a flexible linker in a
+   two-domain protein. Deadline for these targets will be set in the
+   end of August. It is also possible that we will have another
+   ensembles target this CASP. The announcements will go out next
+   week.
+   
+## 269. 	T1200 	Prot /Ensmbl 	129 	A1 	 	WT_ZLBT-C
+## 271. 	T1300 	Prot /Ensmbl 	129 	A1 		Gly6_ZLBT-C 
+ 
+This challenge is to describe the position and orientation of the
+C-terminal domain of a two-domain protein relative to the N-terminal
+domain. NMR studies have established that each domain is highly
+ordered and that they are connected by a six-residue linker that is
+flexible. The atomic coordinates of each domain have been determined
+previously and are not part of the challenge (see Specifications at
+https://predictioncenter.org/download_area/CASP16/extra_experiments/ensembles). In
+order to compare predictions with experimental NMR and SAXS data, it
+is necessary that the predicted coordinates of the atoms within
+helices 2 and 3 of each domain fall within 0.5 Å RMSD of the pdb
+coordinates (2LR2 and 4NPD). For evaluation against the NMR RDC data,
+predicted ensembles will be kernelized by the evaluators to produce a
+3D continuous probability distribution whose mean and covariances will
+be compared with those determined from the data(see
+Specifications). We also plan to evaluate predictions versus SAXS
+data. It is critical that submitted ensembles include the
+population/probability and its uncertainty for each ensemble
+member. The two targets are described in the Specifications document
+including the sequences and a description of how predictions will be
+compared with NMR data. T1200 is the target with the wild type
+linker. Conformational ensembles and population estimates should be
+submitted through a dedicated gateway
+https://predictioncenter.org/casp16/predictions_submission_ENSMBL.cgi,
+which contain further instructions on preparing submission files. 
+
+ 
 
 3. The last week of July will be the last week of CASP16 target release. As of now, we have 8 targets lined up, two each day from Monday, July 29 through Thursday, August 1. Some last minute changes are possible but there will be no new targets after August 1.
 
