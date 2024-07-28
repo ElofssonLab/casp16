@@ -4720,9 +4720,24 @@ submitted through a dedicated gateway
 https://predictioncenter.org/casp16/predictions_submission_ENSMBL.cgi,
 which contain further instructions on preparing submission files. 
 
+ Please submit as a set of PDB files in CASP TS format. Individual predictions should be tarred, gzipped, and uploaded as one archive file. The tarball should also contain the populations.txt file listing all models with associated population and uncertainty values, e.g.
+
+T1200TS987_1 0.35 [population] 0.1 [uncertainty]
+T1200TS987_2 0.55 0.05 
+T1200TS987_3 0.10 0.05 
+
+The populations must add up to 1.00, and uncertainties be in population units, e.g. if the population is 0.35 and uncertainty 0.1, then the population is estimated to be between 0.25 and 0.45.
+
+To create a submission tarball, please run: tar -czf T1200TS987.tgz ./Models_and_Populations. Tarball's name should combine the target name and the group name - T1200 and TS234 in the provided example. Names of individual models inside the archive should follow the CASP model naming scheme, e.g. T1200TS987_1, where _1 is the model (conformation) number. If file size is very big, you can split the archive into parts and clearly specify that in the file name, e.g. T1200TS987_part1.tgz. 
  
 
-3. The last week of July will be the last week of CASP16 target release. As of now, we have 8 targets lined up, two each day from Monday, July 29 through Thursday, August 1. Some last minute changes are possible but there will be no new targets after August 1.
+
+
+3. The last week of July will be the last week of CASP16 target
+   release. As of now, we have 8 targets lined up, two each day from
+   Monday, July 29 through Thursday, August 1. Some last minute
+   changes are possible but there will be no new targets after August
+   1.
 
 ## Remaining stuff
 
