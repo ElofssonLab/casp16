@@ -4693,7 +4693,8 @@ All look the same (but scores are bad)
    week.
    
 ## 269. 	T1200 	Prot /Ensmbl 	129 	A1 	 	WT_ZLBT-C
-## 271. 	T1300 	Prot /Ensmbl 	129 	A1 		Gly6_ZLBT-C 
+   WILDTYPE (not as
+## 271. 	T1300 	Prot /Ensmbl 	129 	A1 		Gly6_ZLBT-C  GLY6LINKER
  
 This challenge is to describe the position and orientation of the
 C-terminal domain of a two-domain protein relative to the N-terminal
@@ -4730,8 +4731,15 @@ The populations must add up to 1.00, and uncertainties be in population units, e
 
 To create a submission tarball, please run: tar -czf T1200TS987.tgz ./Models_and_Populations. Tarball's name should combine the target name and the group name - T1200 and TS234 in the provided example. Names of individual models inside the archive should follow the CASP model naming scheme, e.g. T1200TS987_1, where _1 is the model (conformation) number. If file size is very big, you can split the archive into parts and clearly specify that in the file name, e.g. T1200TS987_part1.tgz. 
  
+### AF3 submissions
 
+For AF3 - took the 100 models generateion by fold_ts12/300_[0-9]*cif
+and gave them a 1% probabiliy each
 
+For manual will generate 100 _0.cif models and submit these.
+
+The average rgyr is smaller for T1300 than T1200
+18.2959 vs 21.7582 perhaps this indicates that packingx is different
 
 3. The last week of July will be the last week of CASP16 target
    release. As of now, we have 8 targets lined up, two each day from
