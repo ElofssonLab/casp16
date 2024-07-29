@@ -4739,6 +4739,189 @@ To create a submission tarball, please run: tar -czf T1200TS987.tgz ./Models_and
    changes are possible but there will be no new targets after August
    1.
 
+
+## Monday: 2 targets
+## * a mutant of M1209 hybrid complex
+## + R1283
+
+## 272. 	M1296 	Prot-NucA 	520 	A1 	- 	G34U mutant of M1209 complex
+## 276. 	R1296 	NucA 	72 	A1 9 		- 	G34U mutant of M1209 complex 
+- ./fold_m1296_d_summary_confidences_0.json    0.553333  0.71  0.76           0.73
+- ./fold_m1296_c_summary_confidences_0.json    0.566667  0.71  0.75           0.73
+- ./fold_m1296_e_summary_confidences_0.json    0.600000  0.72  0.76           0.74
+- ./fold_m1296_summary_confidences_0.json      0.623333  0.74  0.77           0.76
+- ./fold_m1296_b_summary_confidences_0.json    0.650000  0.75  0.78           0.77
+- ./fold_m1296_i_summary_confidences_0.json    0.670000  0.76  0.78           0.78
+- ./fold_m1296_g_summary_confidences_0.json    0.666667  0.76  0.79           0.78
+- ./fold_m1296_h_summary_confidences_0.json    0.686667  0.78  0.80           0.79
+- ./fold_m1296_f_summary_confidences_0.json    0.676667  0.77  0.79           0.79
+
+All look the same.. Default submissions
+
+## 273. 	R1283v1 	NucA /Ensmbl 	580 A1	- 	Enterococcus ncRNA
+./fold_r1283v1_summary_confidences_0.json           NaN   NaN  0.20           0.20
+./fold_r1283v1_b_summary_confidences_0.json         NaN   NaN  0.21           0.21
+./fold_r1283v1_d_summary_confidences_0.json         NaN   NaN  0.22           0.22
+./fold_r1283v1_e_summary_confidences_0.json         NaN   NaN  0.22           0.22
+./fold_r1283v1_c_summary_confidences_0.json         NaN   NaN  0.23           0.23
+./fold_r1283v1_f_summary_confidences_0.json         NaN   NaN  0.23           0.23
+
+All different - default suvmissions. Probably no real reason to run more?
+
+
+## 274. 	R1283v2 	NucA /Ensmbl 	580 A4		- 	Enterococcus ncRNA
+
+All different - default submissions for AF3
+
+Running more
+
+- ./fold_r1283v2_c_summary_confidences_0.json      0.1175  0.18  0.2           0.18
+- ./fold_r1283v2_h_summary_confidences_0.json      0.1175  0.18  0.2           0.18
+- ./fold_r1283v2_d_summary_confidences_0.json      0.1200  0.18  0.2           0.18
+- ./fold_r1283v2_i_summary_confidences_0.json      0.1200  0.18  0.2           0.18
+- ./fold_r1283v2_e_summary_confidences_0.json      0.1200  0.18  0.2           0.18
+- ./fold_r1283v2_b_summary_confidences_0.json      0.1175  0.18  0.2           0.18
+- ./fold_r1283v2_summary_confidences_0.json        0.1200  0.18  0.2           0.18
+- ./fold_r1283v2_k_summary_confidences_0.json      0.1200  0.18  0.2           0.18
+- ./fold_r1283v2_g_summary_confidences_0.json      0.1200  0.18  0.2           0.18
+- ./fold_r1283v2_l_summary_confidences_0.json      0.1175  0.18  0.2           0.18
+- ./fold_r1283v2_j_summary_confidences_0.json      0.1175  0.18  0.2           0.18
+- ./fold_r1283v2_f_summary_confidences_0.json      0.1200  0.18  0.2           0.18
+
+Checking overlaps - not much
+
+- fold_r1283v2_b_model_3.pdb  There are: 157 overlapping atoms
+- fold_r1283v2_d_model_4.pdb  There are: 18 overlapping atoms
+- fold_r1283v2_b_model_2.pdb  There are: 18 overlapping atoms
+- fold_r1283v2_model_4.pdb  There are: 16 overlapping atoms
+- fold_r1283v2_b_model_1.pdb  There are: 9 overlapping atoms
+- fold_r1283v2_d_model_1.pdb  There are: 8 overlapping atoms
+- fold_r1283v2_c_model_1.pdb  There are: 8 overlapping atoms
+- fold_r1283v2_b_model_4.pdb  There are: 7 overlapping atoms
+- fold_r1283v2_model_2.pdb  There are: 6 overlapping atoms
+- fold_r1283v2_f_model_4.pdb  There are: 6 overlapping atoms
+- fold_r1283v2_e_model_0.pdb  There are: 6 overlapping atoms
+- fold_r1283v2_model_1.pdb  There are: 5 overlapping atoms
+- fold_r1283v2_f_model_2.pdb  There are: 5 overlapping atoms
+- fold_r1283v2_e_model_3.pdb  There are: 5 overlapping atoms
+- fold_r1283v2_d_model_3.pdb  There are: 5 overlapping atoms
+- fold_r1283v2_c_model_3.pdb  There are: 5 overlapping atoms
+- fold_r1283v2_f_model_3.pdb  There are: 4 overlapping atoms
+- fold_r1283v2_f_model_1.pdb  There are: 4 overlapping atoms
+- fold_r1283v2_b_model_0.pdb  There are: 4 overlapping atoms
+- fold_r1283v2_model_0.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_f_model_0.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_e_model_4.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_e_model_2.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_d_model_2.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_d_model_0.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_c_model_4.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_c_model_2.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_c_model_0.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_model_3.pdb  There are: 1 overlapping atoms
+- fold_r1283v2_e_model_1.pdb  There are: 1 overlapping atoms
+
+(base) MacBook-Pro-17:R1283v2 arnee$ sort -rnk4 foo  | grep _0.pdb
+- fold_r1283v2_k_model_0.pdb  There are: 10 overlapping atoms
+- fold_r1283v2_i_model_0.pdb  There are: 7 overlapping atoms
+- fold_r1283v2_e_model_0.pdb  There are: 6 overlapping atoms
+- fold_r1283v2_l_model_0.pdb  There are: 5 overlapping atoms
+- fold_r1283v2_g_model_0.pdb  There are: 5 overlapping atoms
+- fold_r1283v2_b_model_0.pdb  There are: 4 overlapping atoms
+- fold_r1283v2_model_0.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_j_model_0.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_f_model_0.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_d_model_0.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_c_model_0.pdb  There are: 3 overlapping atoms
+- fold_r1283v2_h_model_0.pdb  There are: 2 overlapping atoms
+
+But same score for everything (except some that overlaps), so pick
+minumum overlaps
+
+- fold_r1283v2_h_model_1.pdb  There are: 2 overlapping atoms
+- fold_r1283v2_h_model_0.pdb  There are: 2 overlapping atoms
+- fold_r1283v2_model_3.pdb  There are: 1 overlapping atoms
+- fold_r1283v2_k_model_3.pdb  There are: 1 overlapping atoms
+- fold_r1283v2_e_model_1.pdb  There are: 1 overlapping atoms
+
+
+
+## 275. 	R1283v3 	NucA /Ensmbl 	580 A8	 	- 	Enterococcus ncRNA 
+
+./fold_r1283v3_f_summary_confidences_0.json        0.12  0.28  0.28         -99.72
+./fold_r1283v3_summary_confidences_0.json          0.12  0.28  0.28         -99.72
+./fold_r1283v3_b_summary_confidences_0.json        0.12  0.28  0.28         -99.72
+./fold_r1283v3_e_summary_confidences_0.json        0.12  0.28  0.28         -99.72
+./fold_r1283v3_d_summary_confidences_0.json        0.12  0.28  0.28         -99.72
+./fold_r1283v3_c_summary_confidences_0.json        0.12  0.28  0.28 -99.72
+
+
+All overlaps - but some of the laters do not:
+
+- fold_r1283v3_c_model_2.pdb  There are: 11208 overlapping atoms
+- fold_r1283v3_f_model_1.pdb  There are: 10422 overlapping atoms
+- fold_r1283v3_model_1.pdb  There are: 10288 overlapping atoms
+- fold_r1283v3_c_model_0.pdb  There are: 9999 overlapping atoms
+- fold_r1283v3_e_model_1.pdb  There are: 9478 overlapping atoms
+- fold_r1283v3_e_model_0.pdb  There are: 9189 overlapping atoms
+- fold_r1283v3_b_model_0.pdb  There are: 9184 overlapping atoms
+- fold_r1283v3_f_model_0.pdb  There are: 9179 overlapping atoms
+- fold_r1283v3_d_model_3.pdb  There are: 9028 overlapping atoms
+- fold_r1283v3_d_model_1.pdb  There are: 8566 overlapping atoms
+- fold_r1283v3_d_model_0.pdb  There are: 8244 overlapping atoms
+- fold_r1283v3_d_model_2.pdb  There are: 8043 overlapping atoms
+- fold_r1283v3_c_model_1.pdb  There are: 7710 overlapping atoms
+- fold_r1283v3_model_0.pdb  There are: 7646 overlapping atoms
+- fold_r1283v3_f_model_2.pdb  There are: 2439 overlapping atoms
+- fold_r1283v3_b_model_2.pdb  There are: 2399 overlapping atoms
+- fold_r1283v3_model_2.pdb  There are: 2301 overlapping atoms
+- fold_r1283v3_b_model_1.pdb  There are: 2278 overlapping atoms
+- fold_r1283v3_e_model_3.pdb  There are: 1996 overlapping atoms
+- fold_r1283v3_e_model_4.pdb  There are: 1741 overlapping atoms
+- fold_r1283v3_e_model_2.pdb  There are: 1591 overlapping atoms
+- fold_r1283v3_model_3.pdb  There are: 1229 overlapping atoms
+- fold_r1283v3_model_4.pdb  There are: 1147 overlapping atoms
+- fold_r1283v3_d_model_4.pdb  There are: 1131 overlapping atoms
+- fold_r1283v3_b_model_3.pdb  There are: 1105 overlapping atoms
+- fold_r1283v3_b_model_4.pdb  There are: 1092 overlapping atoms
+- fold_r1283v3_c_model_3.pdb  There are: 744 overlapping atoms - 3   pairs overlap
+- fold_r1283v3_f_model_4.pdb  There are: 139 overlapping atoms - Some overlap
+- fold_r1283v3_c_model_4.pdb  There are: 91 overlapping atoms
+- fold_r1283v3_f_model_3.pdb  There are: 71 overlapping atoms
+
+For AF3:
+$ sort -rnk4 foo | grep v3_model
+- fold_r1283v3_model_1.pdb  There are: 10288 overlapping atoms
+- fold_r1283v3_model_0.pdb  There are: 7646 overlapping atoms
+- fold_r1283v3_model_2.pdb  There are: 2301 overlapping atoms
+- fold_r1283v3_model_3.pdb  There are: 1229 overlapping atoms
+- fold_r1283v3_model_4.pdb  There are: 1147 overlapping atoms
+
+Sort in this order.. (but all are bad)
+
+Running more and pick the ones with least overlap
+
+- fold_r1283v3_f_model_4.pdb  There are: 139 overlapping atoms
+- fold_r1283v3_o_model_3.pdb  There are: 99 overlapping atoms
+- fold_r1283v3_g_model_4.pdb  There are: 91 overlapping atoms
+- fold_r1283v3_c_model_4.pdb  There are: 91 overlapping atoms
+- fold_r1283v3_f_model_3.pdb  There are: 71 overlapping atoms
+
+## Tuesday: 3 targets
+## * large hybrid protein-RNA complex with known parts and a novel oligomerization state
+## + R1285
+## ++ T2284
+
+## Wednesday: 3 targets
+## *,CAPRI homooligomer
+## + R1290
+## + re-release of a CASP16 target for a filament prediction
+
+## Thursday: 3 targets
+## ++ H2272 subunits
+## ++ T2276
+## + re-release of a CASP16 target for a filament prediction
+
 ## Remaining stuff
 
 
