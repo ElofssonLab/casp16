@@ -4238,6 +4238,10 @@ All models look the same
 - ./fold_t1284_i_summary_confidences_0.json         NaN   NaN  0.78           0.78
 - ./fold_t1284_b_summary_confidences_0.json         NaN   NaN  0.79           0.79
 
+## ++ T2284
+## 279. 	T2284 	Prot 	120 	A1 		- 	gp62 
+Just resubmit
+
 
 ## Wednesday: 3 targets
 ## * RNA (stage 0)
@@ -4917,8 +4921,128 @@ Running more and pick the ones with least overlap
 
 ## Tuesday: 3 targets
 ## * large hybrid protein-RNA complex with known parts and a novel oligomerization state
+## 277. 	M1297 	Prot-NucA 	1887 	A4B4C4D4E2R2 	- 	Telomerase
+
+Too big - need to skip a few 
+
+Everything seems to create duplicates. These do not
+
+
+
+### A4 (makes it look nicer)
+### fold_m1297_a4b4c4d2e1r2 (these look nice)
+- ./fold_m1297_a4b4c4d2e1r2_summary_confidences_2...    0.132941  0.36  0.39           0.41
+- ./fold_m1297_a4b4c4d2e1r2_summary_confidences_3...    0.132941  0.36  0.39           0.41
+- ./fold_m1297_a4b4c4d2e1r2_summary_confidences_4...    0.132353  0.36  0.40           0.41
+- ./fold_m1297_a4b4c4d2e1r2_summary_confidences_1...    0.132941  0.36  0.39           0.42
+- ./fold_m1297_a4b4c4d2e1r2_summary_confidences_0...    0.131176  0.36  0.39           0.43
+A: ABCD
+B: EFGH
+C: IJKL
+D MN (missing 2)
+E: O  # Should be possible to place by symmetry
+R PQ
+
+This looks nicer - make duplication of it for AF3. However, some
+overlaps..
+- fold_m1297_a4b4c4d2e1r2_model_0-complete-fix.pdb  There are: 50 overlapping atoms
+- fold_m1297_a4b4c4d2e1r2_model_1-complete-fix.pdb  There are: 69 overlapping atoms
+- fold_m1297_a4b4c4d2e1r2_model_2-complete-fix.pdb  There are: 72 overlapping atoms
+- fold_m1297_a4b4c4d2e1r2_model_3-complete-fix.pdb  There are: 32 overlapping atoms
+- fold_m1297_a4b4c4d2e1r2_model_4-complete-fix.pdb  There are: 52 overlapping atoms
+
+Model 2 and 3 did not pass steric tests (using halfs at the moment)
+
+
+- ./fold_m1297_a4b2c4d4e1r2_summary_confidences_0...    0.138824  ...           0.44
+- ./fold_m1297_a4b2c4d4e1r2_summary_confidences_1...    0.138824  ...           0.42
+- ./fold_m1297_a4b2c4d4e1r2_summary_confidences_2...    0.134706  ...           0.42
+- ./fold_m1297_a4b2c4d4e1r2_summary_confidences_3...    0.137059  ...           0.42
+- ./fold_m1297_a4b2c4d4e1r2_summary_confidences_4...    0.137647  ...           0.41
+A: ABCD
+B: EF  (missing 2)
+C: GHIJ
+D KLMN
+E: O  # Should be possible to place by symmetry
+R PQ
+
+
+- ./fold_m1297_a4b4c3d4e1r2_summary_confidences_0...    0.142222  ...           0.43
+- ./fold_m1297_a4b4c3d4e1r2_summary_confidences_1...    0.138889  ...           0.40
+
+
+### less nice...
+- ./fold_m1297_a4b4c4d4e1r1_summary_confidences_1...    0.141111  0.37  0.40           0.43
+- ./fold_m1297_a4b4c4d4e1r1_summary_confidences_0...    0.131667  0.37  0.40           0.43
+
+
+### A2
+### These do not lookl like Half a4b4c4d2e1r2s
+- ./fold_m1297_a2b2c2d2e1r1_summary_confidences_3...    0.286000  0.43  0.46           0.47
+- ./fold_m1297_a2b2c2d2e1r1_summary_confidences_2...    0.338000  0.45  0.48           0.49
+- ./fold_m1297_a2b2c2d2e1r1_summary_confidences_1...    0.340000  0.45  0.48           0.49
+- ./fold_m1297_a2b2c2d2e1r1_summary_confidences_0...    0.343000  0.45  0.48           0.50
+
+### a2b4c4d4e2r2
+- ./fold_m1297_a2b4c4d4e2r2_b_summary_confidences...    0.211111  ...           0.50
+- ./fold_m1297_a2b4c4d4e2r2_b_summary_confidences...    0.212222  ...           0.51
+- ./fold_m1297_a2b4c4d4e2r2_b_summary_confidences...    0.215556  ...           0.50
+- ./fold_m1297_a2b4c4d4e2r2_b_summary_confidences...    0.216111  ...           0.51
+- ./fold_m1297_a2b4c4d4e2r2_b_summary_confidences...    0.218333  ... 0.52
+
+### Overlaps of the complete models (A4B4 is better) - use these for AAF3
+fold_m1297_a4b2c4d4e1r2_model_0-complete-fix.pdb  There are: 89 overlapping atoms
+fold_m1297_a4b2c4d4e1r2_model_1-complete-fix.pdb  There are: 29 overlapping atoms
+fold_m1297_a4b2c4d4e1r2_model_2-complete-fix.pdb  There are: 71 overlapping atoms
+fold_m1297_a4b2c4d4e1r2_model_3-complete-fix.pdb  There are: 50 overlapping atoms
+fold_m1297_a4b2c4d4e1r2_model_4-complete-fix.pdb  There are: 71 overlapping atoms
+fold_m1297_a4b4c4d2e1r2_model_0-complete-fix.pdb  There are: 29 overlapping atoms
+fold_m1297_a4b4c4d2e1r2_model_1-complete-fix.pdb  There are: 16 overlapping atoms
+fold_m1297_a4b4c4d2e1r2_model_2-complete-fix.pdb  There are: 30 overlapping atoms
+fold_m1297_a4b4c4d2e1r2_model_3-complete-fix.pdb  There are: 14 overlapping atoms
+fold_m1297_a4b4c4d2e1r2_model_4-complete-fix.pdb  There are: 27 overlapping atoms
+
+Submitting a4b4c4d2e1r2 for af3
+
+running five more of each for manual
+
+## 278. 	R1285 	NucA 	577 	A2 		- 	OLE
 ## + R1285
-## ++ T2284
+
+Most models overlap  (tails)
+- ./fold_r1285_g_summary_confidences_2.json        0.13  0.13  0.24         -99.84
+- ./fold_r1285_i_summary_confidences_1.json        0.14  0.14  0.25         -99.84
+- ./fold_r1285_d_summary_confidences_3.json        0.13  0.13  0.24         -99.84
+- ./fold_r1285_summary_confidences_0.json          0.14  0.14  0.27           0.16
+- ./fold_r1285_h_summary_confidences_0.json        0.15  0.15  0.28           0.17
+
+Overlap
+- fold_r1285_c_model_0.pdb  There are: 1102 overlapping atoms
+- fold_r1285_g_model_0.pdb  There are: 1092 overlapping atoms
+- fold_r1285_f_model_0.pdb  There are: 1073 overlapping atoms
+- fold_r1285_i_model_0.pdb  There are: 1069 overlapping atoms
+- fold_r1285_i_model_2.pdb  There are: 996 overlapping atoms
+- fold_r1285_d_model_2.pdb  There are: 973 overlapping atoms
+- fold_r1285_b_model_2.pdb  There are: 971 overlapping atoms
+- fold_r1285_e_model_0.pdb  There are: 760 overlapping atoms
+- fold_r1285_f_model_2.pdb  There are: 686 overlapping atoms
+- fold_r1285_d_model_0.pdb  There are: 686 overlapping atoms
+- fold_r1285_f_model_4.pdb  There are: 675 overlapping atoms
+- fold_r1285_e_model_2.pdb  There are: 498 overlapping atoms
+- fold_r1285_h_model_2.pdb  There are: 261 overlapping atoms   # Only some overlap
+- fold_r1285_model_0.pdb  There are: 1 overlapping atoms
+- fold_r1285_h_model_0.pdb  There are: 1 overlapping atoms
+
+Just submit default for AF3
+
+Five best after running 20 models for manual
+
+- ./fold_r1285_r_summary_confidences_0.json        0.14  0.14  0.26           0.16
+- ./fold_r1285_summary_confidences_0.json          0.14  0.14  0.27           0.16
+- ./fold_r1285_m_summary_confidences_0.json        0.14  0.14  0.27           0.17
+- ./fold_r1285_m_summary_confidences_1.json        0.14  0.14  0.27           0.17
+- ./fold_r1285_h_summary_confidences_0.json        0.15  0.15  0.28           0.17
+
 
 ## Wednesday: 3 targets
 ## *,CAPRI homooligomer
