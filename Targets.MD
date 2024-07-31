@@ -5006,6 +5006,23 @@ Submitting a4b4c4d2e1r2 for af3
 
 running five more of each for manual
 
+Models with least overlap:
+
+- fold_m1297_a4b4c4d2e1r2_b_model_2-complete-elofsson.pdb  There are: 27 overlapping atoms
+- fold_m1297_a4b4c4d2e1r2_e_model_3-complete-elofsson.pdb  There are: 25 overlapping atoms
+- fold_m1297_a4b4c4d2e1r2_e_model_1-complete-elofsson.pdb  There are: 24 overlapping atoms
+- fold_m1297_a4b2c4d4e1r2_f_model_3-complete-elofsson.pdb  There are: 23 overlapping atoms
+- fold_m1297_a4b4c4d2e1r2_d_model_4-complete-elofsson.pdb  There are: 19 overlapping atoms
+- fold_m1297_a4b4c4d2e1r2_model_1-complete-elofsson.pdb  There are: 16 overlapping atoms
+- fold_m1297_a4b4c4d2e1r2_f_model_4-complete-elofsson.pdb  There are: 16 overlapping atoms
+- fold_m1297_a4b4c4d2e1r2_b_model_4-complete-elofsson.pdb  There are: 16 overlapping atoms
+- R4 fold_m1297_a4b4c4d2e1r2_model_3-complete-elofsson.pdb  There are: 14 overlapping atoms
+- fold_m1297_a4b4c4d2e1r2_f_model_1-complete-elofsson.pdb  There are: 14 overlapping atoms
+- R3 fold_m1297_a4b4c4d2e1r2_f_model_0-complete-elofsson.pdb  There are: 14 overlapping atoms
+- R2 fold_m1297_a4b4c4d2e1r2_d_model_1-complete-elofsson.pdb  There are: 9 overlapping atoms
+- R5  fold_m1297_a4b4c4d2e1r2_b_model_3-complete-elofsson.pdb  There are: 5 overlapping atoms
+- R1  fold_m1297_a4b4c4d2e1r2_b_model_1-complete-elofsson.pdb  There are: 1 overlapping atoms
+
 ## 278. 	R1285 	NucA 	577 	A2 		- 	OLE
 ## + R1285
 
@@ -5046,8 +5063,87 @@ Five best after running 20 models for manual
 
 ## Wednesday: 3 targets
 ## *,CAPRI homooligomer
+## 282. 	T1298 * 	Prot 	342 	A2 	Cyclic nucleotide-binding protein 
+- ./fold_t1298_b_summary_confidences_0.json        0.64  0.64  0.67           0.65
+- ./fold_t1298_g_summary_confidences_0.json        0.66  0.66  0.68           0.66
+- ./fold_t1298_f_summary_confidences_0.json        0.65  0.65  0.68           0.66
+- ./fold_t1298_c_summary_confidences_0.json        0.65  0.65  0.68           0.66
+- ./fold_t1298_h_summary_confidences_0.json        0.65  0.65  0.68           0.66
+- ./fold_t1298_i_summary_confidences_0.json        0.66  0.66  0.68           0.66
+- ./fold_t1298_summary_confidences_0.json          0.67  0.67  0.69           0.67
+- ./fold_t1298_d_summary_confidences_0.json        0.67  0.67  0.69           0.67
+- ./fold_t1298_e_summary_confidences_0.json        0.66  0.66  0.68           0.67
+
+Same scores but two configurations
+
+fold_t1298_b_model_0 RMSD =   0.0
+fold_t1298_d_model_0 RMSD =    2.467 (5109 atoms)
+fold_t1298_e_model_0 RMSD =    1.265 (4864 atoms)
+fold_t1298_f_model_0 RMSD =    1.643 (5154 atoms)
+fold_t1298_h_model_0 RMSD =    1.285 (5323 atoms)
+fold_t1298_model_0   RMSD =    2.245 (5022 atoms)
+
+fold_t1298_c_model_0 RMSD =   14.471 (4853 atoms)  
+fold_t1298_g_model_0 RMSD =   14.006 (4798 atoms)
+fold_t1298_i_model_0 RMSD =   14.577 (4837 atoms)
+
+For AF3 pick default for elofsson  Pick 3 from cluster 1 and 2 from
+cluster 2
+
+-R1  ./fold_t1298_e_summary_confidences_0.json        0.66  0.66  0.68           0.67
+-R2  ./fold_t1298_i_summary_confidences_0.json        0.66  0.66  0.68           0.66
+-R3  ./fold_t1298_d_summary_confidences_0.json        0.67  0.67  0.69           0.67
+-R4 ./fold_t1298_c_summary_confidences_0.json        0.65  0.65  0.68           0.66
+-R5  ./fold_t1298_summary_confidences_0.json          0.67  0.67  0.69           0.67
+
+
+
+
 ## + R1290
+## 280. 	R1290 	NucA 	627 	A1 		- 	HYER1-withoutTRS
+- ./fold_r1290_e_summary_confidences_0.json         NaN   NaN  0.55           0.55
+- ./fold_r1290_d_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1290_f_summary_confidences_0.json         NaN   NaN  0.56           0.56
+- ./fold_r1290_h_summary_confidences_0.json         NaN   NaN  0.57   0.57
+- R5 ./fold_r1290_b_summary_confidences_0.json         NaN   NaN  0.57           0.57
+- R4 ./fold_r1290_i_summary_confidences_0.json         NaN   NaN  0.57           0.57
+- R3 ./fold_r1290_summary_confidences_0.json           NaN   NaN  0.57           0.57
+- R2 ./fold_r1290_c_summary_confidences_0.json         NaN   NaN  0.58           0.58
+-R1 ./fold_r1290_g_summary_confidences_0.json         NaN   NaN  0.58 0.58
+
+
+### Cluster 1
+CDHI
+
+G outlier
+
+### Cluster 2
+BEF_model
+
+
 ## + re-release of a CASP16 target for a filament prediction
+## 281. 	T1269v1 	Prot 	1410 	An 	MUC5AC uniprot P98088
+
+Earlier it was only treated as a monomer - willl resubmit oligomers as well
+- ./fold_t1269_v1_trimer_summary_confidences_0.json     0.323333  0.43  0.52           0.47
+- ./fold_t1269_v1_diimer_c_summary_confidences_0....    0.630000  0.63  0.66           0.66
+- ./fold_t1269_v1_diimer_summary_confidences_0.json     0.650000  0.65  0.68           0.68
+- ./fold_t1269_v1_diimer_d_summary_confidences_0....    0.650000  0.65  0.68           0.68
+- ./fold_t1269_v1_diimer_e_summary_confidences_0....    0.640000  0.64  0.67           0.68
+- ./fold_t1269_v1_diimer_f_summary_confidences_0....    0.660000  0.66  0.69           0.69
+- ./fold_t1269_v1_diimer_b_summary_confidences_0....    0.670000  0.67  0.70           0.70
+- ./fold_t1269_g_summary_confidences_0.json                  NaN   NaN  0.68           0.71
+- ./fold_t1269_h_summary_confidences_0.json                  NaN   NaN  0.69           0.73
+- ./fold_t1269_summary_confidences_0.json                    NaN   NaN  0.70           0.74
+- ./fold_t1269_i_summary_confidences_0.json                  NaN   NaN  0.70           0.74
+- ./fold_t1269_e_summary_confidences_0.json                  NaN   NaN  0.71           0.74
+- ./fold_t1269_c_summary_confidences_0.json                  NaN   NaN  0.70           0.74
+- ./fold_t1269_d_summary_confidences_0.json                  NaN   NaN  0.70           0.75
+- ./fold_t1269_f_summary_confidences_0.json                  NaN   NaN  0.72           0.76
+- ./fold_t1269_b_summary_confidences_0.json                  NaN   NaN0.73           0.77
+  
+  Dimer clearly better than trimer will submit that. Just default for
+  AF3 and top ranked for manual
 
 ## Thursday: 3 targets
 ## ++ H2272 subunits
@@ -5057,3 +5153,4 @@ Five best after running 20 models for manual
 ## Remaining stuff
 
 
+T1200 and T1300 manual (100 models (x5?) for each.
