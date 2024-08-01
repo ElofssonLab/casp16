@@ -5256,7 +5256,14 @@ T1219 manual predictions (check AF3 as well)
 
 Check that everything works
 
-
+TARGETS
+T1300 {'elofsson': 0, 'af3server': 0}
+H2272 {'elofsson': 5, 'af3server': 0}
+T1200 {'elofsson': 0, 'af3server': 0}
+ALLTARGETS
+H2272 {'elofsson': 5, 'af3server': 0}
+T1219v1 {'elofsson': 0, 'af3server': 5}
+T1219v2 {'elofsson': 0, 'af3server': 5}
 
 
 ## 1. Re-release of target T1269
