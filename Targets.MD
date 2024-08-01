@@ -3546,6 +3546,20 @@ For manual pick least overlapping models
 - fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_k_model_0-elofsson.pdb There are: 9 overlapping atoms
 -R1  fold_h1272_a_bcde_4_model_2-fold_h1272_b_i_m_model_0-elofsson.pdb There are: 8 overlapping atoms
 
+## 280. 	H2272 	Prot 	6879 	A1B1C1D1E1F1G1H1I1 	 	- 	dystrophin-glycoprotein complex (DGC)
+## 284. 	T2272s2 	Prot 	363 	A1 	-12 	- 	dystrophin-glycoprotein complex (DGC)
+## 285. 	T2272s3 	Prot 	318 	A1 	-12 	- 	dystrophin-glycoprotein complex (DGC)
+## 286. 	T2272s4 	Prot 	289 	A1 	-12 	- 	dystrophin-glycoprotein complex (DGC)
+## 287. 	T2272s5 	Prot 	291 	A1 	-12 	- 	dystrophin-glycoprotein complex (DGC)
+## 288. 	T2272s6 	Prot 	624 	A1 	-12 	- 	dystrophin-glycoprotein complex (DGC)
+## 289. 	T2272s7 	Prot 	242 	A1 	-12 	- 	dystrophin-glycoprotein complex (DGC)
+## 290. 	T2272s8 	Prot 	818 	A1 	-12 	- 	dystrophin-glycoprotein complex (DGC)
+## 291. 	T2272s9 	Prot 	238 	A1 	-12 	-   dystrophin-glycoprotein complex (DGC)
+  
+
+For manual - just resubmit 
+For AF4 generate new mononmer units
+
 
 ## Thursday: 2 targets
 
@@ -5147,10 +5161,116 @@ Earlier it was only treated as a monomer - willl resubmit oligomers as well
 
 ## Thursday: 3 targets
 ## ++ H2272 subunits
+
+
+
 ## ++ T2276
+## 295. 	T2276 	Prot 	196 	A1B1 	- 	One domain of A0A026WM60_OOCBI in complex with 33mer ssDNA 
+
+This is without yhe DNA - resubmitting it with new predictions -it was
+the easiest
+
+- ./fold_t2276_summary_confidences_0.json           NaN   NaN  0.87           0.87
+- ./fold_t2276_f_summary_confidences_0.json         NaN   NaN  0.87           0.87
+- ./fold_t2276_d_summary_confidences_0.json         NaN   NaN  0.87           0.87
+- ./fold_t2276_c_summary_confidences_0.json         NaN   NaN  0.87           0.87
+- ./fold_t2276_b_summary_confidences_0.json         NaN   NaN  0.87           0.87
+- ./fold_t2276_e_summary_confidences_0.json         NaN   NaN  0.87           0.87
+
+Resubmit new model - default methodology
+
 ## + re-release of a CASP16 target for a filament prediction
+## 292. 	T1219v1 	Prot 	32 	An 	2024	HD6 uniprot Q01524
+## 293. 	T1219v2 	Prot 	32 	An 	2024		9FJL
+
+100mer have different packings.. 
+
+PyMOL>extra_fit nter,,
+PyMOL>extra_fit nter,,cealign
+
+
+Picks for AF3
+
+### v1
+- fold_t1219_100mer_c_model_0 RMSD =    0.0
+- fold_t1219_100mer_c_model_1 RMSD =    3.830 (56 atoms)  
+- fold_t1219_100mer_c_model_4 RMSD =    5.111 (80 atoms)
+- fold_t1219_100mer_model_3 RMSD =    3.488 (64 atoms)
+- fold_t1219_100mer_model_4 RMSD =    5.573 (64 atoms)
+
+
+### v2
+- fold_t1219_100mer_model_0 RMSD =   11.586 (64 atoms)
+- fold_t1219_100mer_model_1 RMSD =   10.967 (64 atoms)
+- fold_t1219_100mer_model_2 RMSD =   12.010 (80 atoms)
+- fold_t1219_100mer_c_model_2 RMSD =   10.923 (56 atoms)
+- fold_t1219_100mer_c_model_3 RMSD =   11.880 (64 atoms)
+
+
+PyMOL>extra_fit chain A,,cealign
+- fold_t1219_100mer_c_model_1 RMSD =    3.541 (24 atoms)
+- fold_t1219_100mer_c_model_2 RMSD =    2.497 (24 atoms)
+- fold_t1219_100mer_c_model_3 RMSD =    2.009 (24 atoms)
+- fold_t1219_100mer_c_model_4 RMSD =    2.897 (24 atoms)
+- fold_t1219_100mer_model_0 RMSD =    0.889 (32 atoms)
+- fold_t1219_100mer_model_1 RMSD =    3.291 (32 atoms)
+- fold_t1219_100mer_model_2 RMSD =    2.351 (24 atoms)
+- fold_t1219_100mer_model_3 RMSD =    2.354 (32 atoms)
+- fold_t1219_100mer_model_4 RMSD =    2.236 (32 atoms)
+
+
+On a momomer level all (except c_model_1) are quite similar.
+
+
+PDB format only allowsd 62 chains (not sure how to fix the
+cif_to_pdb.py script and pymol calls all chains after 32 Z)
+
+Will use predictions with 52 chains (62 did not work)
+
+Quite many looks quite different non .- trivial to cluaster them
+
+
+For AF3 just submit :_model as V1 and _B as V2
+
+
+## 294. 	T1299 	Prot 	168 	A1 		9FJL 
+- ./fold_t1299_b_summary_confidences_0.json         NaN   NaN  0.9            0.9
+- ./fold_t1299_summary_confidences_0.json           NaN   NaN  0.9            0.9
+- ./fold_t1299_e_summary_confidences_0.json         NaN   NaN  0.9            0.9
+- ./fold_t1299_d_summary_confidences_0.json         NaN   NaN  0.9            0.9
+- ./fold_t1299_c_summary_confidences_0.json         NaN   NaN  0.9            0.9
+- ./fold_t1299_f_summary_confidences_0.json         NaN   NaN  0.9 0.9
+
+
+All identical .- default submission
+
+
+
 
 ## Remaining stuff
 
 
 T1200 and T1300 manual (100 models (x5?) for each.
+
+T1219 manual predictions (check AF3 as well)
+
+Check that everything works
+
+
+
+
+## 1. Re-release of target T1269
+   Target T1269 has been re-released as T1269v1. The original target was intended to be modeled as a filament, but this was not done. We now request that T1269v1 be modeled as a filament. Only multi-chain predictions will be evaluated; monomeric models will be ignored.
+   Tomorrow, we will re-release another target of the same type, which will be posted as a two-variant target due to experimental data supporting distinct inner and outer filament conformations.
+
+## 2. New protein target
+   We have received another protein structure for prediction. Please expect an extra target tomorrow, in addition to those already announced.
+
+## 3. Pharma-ligand targets (L2000-series)
+   The first pharma-ligand targets expire tomorrow. If you have not received a confirmation email that your models passed the verification stage, they will be excluded from CASP16 unless fixed by tomorrow morning, California time.
+
+## 4. Potential new ligand target
+   We are in discussions with experimentalists about another ligand target for CASP. There is a possibility it could be released tomorrow. If not, it may be released later in August with an extended deadline (mid-September). Stay tuned for updates.
+
+## 5. Extended deadlines
+   Deadlines for QMODE3 QA prediction on H1272 subunits and TS prediction on H2272 subunits have been extended. To facilitate submission of T2272sx predictions, we have created a fictional complex target H2272 (which will not be evaluated). Predictors can submit a model on H2272, and our system will process it into subunits, alleviating the burden of making 8 separate submissions. 
