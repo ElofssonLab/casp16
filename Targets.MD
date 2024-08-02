@@ -5233,6 +5233,57 @@ Quite many looks quite different non .- trivial to cluaster them
 For AF3 just submit :_model as V1 and _B as V2
 
 
+Foldseek clustering of all give several clusters.
+
+1
+
+- fold_t1219_100mer_b_model_0_HA
+- fold_t1219_100mer_b_model_0_N
+- fold_t1219_100mer_b_model_4_A
+- fold_t1219_100mer_e_model_2_Q
+- fold_t1219_156mer_c_model_0_A
+- fold_t1219_156mer_c_model_0_UC
+- fold_t1219_156mer_c_model_1_ZB
+- fold_t1219_156mer_c_model_2_HA
+- fold_t1219_156mer_c_model_3_BA
+- fold_t1219_156mer_d_model_2_Y
+- fold_t1219_156mer_d_model_3_LE
+- fold_t1219_156mer_d_model_4_KC  # looks OK
+- fold_t1219_156mer_model_0_JE
+- fold_t1219_156mer_model_2_KA
+- fold_t1219_156mer_model_4_Q
+
+### 52mers look better Pick these 
+- fold_t1219_52mer_b_model_0_A
+- fold_t1219_52mer_b_model_0_H
+- fold_t1219_52mer_b_model_0_J  
+- fold_t1219_52mer_d_model_0_L
+- fold_t1219_52mer_d_model_1_BA
+- fold_t1219_52mer_d_model_2_B
+- fold_t1219_52mer_e_model_0_BA
+- fold_t1219_52mer_e_model_1_V
+- fold_t1219_52mer_g_model_0_A
+- fold_t1219_52mer_model_0_KA
+
+Extract chains and near chains
+
+No ideas what is v1 and v2 - just pick randomly
+
+### V1
+- fold_t1219_156mer_d_model_4-KC  ## Too many steric clashes skip it
+- fold_t1219_52mer_b_model_0-J
+- fold_t1219_52mer_b_model_0-A
+- fold_t1219_52mer_b_model_0-H
+- fold_t1219_52mer_d_model_0-L
+- fold_t1219_52mer_d_model_1-BA
+### V3
+- fold_t1219_52mer_d_model_2-B
+- fold_t1219_52mer_e_model_0-BA
+- fold_t1219_52mer_e_model_1-V
+- fold_t1219_52mer_g_model_0-A
+- fold_t1219_52mer_model_0-KA
+
+
 ## 294. 	T1299 	Prot 	168 	A1 		9FJL 
 - ./fold_t1299_b_summary_confidences_0.json         NaN   NaN  0.9            0.9
 - ./fold_t1299_summary_confidences_0.json           NaN   NaN  0.9            0.9
