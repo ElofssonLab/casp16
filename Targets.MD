@@ -4503,6 +4503,16 @@ All very similar - standard predictions
 Variataions in RNA structure, but the binding region to is all the
 same so just take top scoring variations
 
+
+### Update
+It shold actually be a dimer - but I missed that (initital information
+was wrong). Too late to resubmit AF3 predictions but update manual-
+
+
+
+
+
+
 ### Top scoring Clusters
 
 ### R1 
