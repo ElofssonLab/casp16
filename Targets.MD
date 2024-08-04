@@ -4506,11 +4506,32 @@ same so just take top scoring variations
 
 ### Update
 It shold actually be a dimer - but I missed that (initital information
-was wrong). Too late to resubmit AF3 predictions but update manual-
+was wrong). Too late to resubmit AF3 predictions but update manual. 
 
 
+Only some have no overlap 
+- fold_r1290_dimer_d_model_0.pdb  There are: 2 overlapping atoms
+- fold_r1290_dimer_h_model_0.pdb  There are: 1 overlapping atoms
+- fold_r1290_dimer_c_model_0.pdb  There are: 1 overlapping atoms
+- fold_r1290_dimer_model_0.pdb  There are: 0 overlapping atoms
+- fold_r1290_dimer_j_model_1.pdb  There are: 0 overlapping atoms
+- fold_r1290_dimer_j_model_0.pdb  There are: 0 overlapping atoms
+- fold_r1290_dimer_e_model_1.pdb  There are: 0 overlapping atoms
+- fold_r1290_dimer_e_model_0.pdb  There are: 0 overlapping atoms
+- fold_r1290_dimer_b_model_1.pdb  There are: 0 overlapping atoms
+- fold_r1290_dimer_b_model_0.pdb  There are: 0 overlapping atoms
+- fold_r1290_dimer_j_summary_confidences_1.json        0.13  0.13  0.36           0.17
+- fold_r1290_dimer_e_summary_confidences_1.json        0.13  0.13  0.36           0.17
+- fold_r1290_dimer_e_summary_confidences_0.json        0.13  0.13  0.36           0.18
+- fold_r1290_dimer_b_summary_confidences_1.json        0.14  0.14  0.35           0.18
+- fold_r1290_dimer_j_summary_confidences_0.json        0.13  0.13  0.36           0.18
+- fold_r1290_dimer_c_summary_confidences_0.json        0.15  0.15  0.36           0.19
+- fold_r1290_dimer_d_summary_confidences_0.json        0.16  0.16  0.36           0.20
+- fold_r1290_dimer_b_summary_confidences_0.json        0.16  0.16  0.36           0.20
+- fold_r1290_dimer_h_summary_confidences_0.json        0.18  0.18  0.36           0.22
+- fold_r1290_dimer_summary_confidences_0.json          0.28  0.28  0.36           0.30
 
-
+The top models look quite similar so just default submission
 
 
 ### Top scoring Clusters
