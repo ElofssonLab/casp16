@@ -5363,3 +5363,20 @@ T1219v2 {'elofsson': 0, 'af3server': 5}
 
 ## 5. Extended deadlines
    Deadlines for QMODE3 QA prediction on H1272 subunits and TS prediction on H2272 subunits have been extended. To facilitate submission of T2272sx predictions, we have created a fictional complex target H2272 (which will not be evaluated). Predictors can submit a model on H2272, and our system will process it into subunits, alleviating the burden of making 8 separate submissions. 
+
+
+
+## AlphaFold3 problems
+
+Should affect H0245 and forward...
+
+We think you could be one of the users affected by a misconfiguration in our system, where the AlphaFold 3 predictions were generated without providing template information to the system. This misconfiguration is now resolved but it may have resulted in less accurate predictions in the window 24 July - 9 August.
+
+Do I need to re-run any jobs?
+
+We expect the impact of this misconfiguration to have been small for most jobs - but we would recommend re-running jobs from this period if those jobs had low confidence predictions. The confidence measures have not been affected, so high confidence predictions during this period are still trustworthy.
+
+For any individual input, rerunning may result in a higher or lower confidence value. This is because the answer and confidence depends on the random seed used and other sources of variation that are inherent in the model's prediction.
+
+
+If you have any questions, please don’t hesitate to contact us at alphafold@google.com
