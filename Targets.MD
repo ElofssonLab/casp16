@@ -2572,6 +2572,17 @@ All models look the same.
 Standard submission
 
 
+./fold_h1267_b_summary_confidences_0.json          0.4800  0.52  0.61           0.55
+./fold_h1267_d_summary_confidences_0.json          0.5200  0.56  0.63           0.58
+./fold_h1267_h_summary_confidences_0.json          0.5725  0.63  0.68           0.64
+./fold_h1267_i_summary_confidences_0.json          0.5750  0.63  0.68           0.64
+./fold_h1267_e_summary_confidences_0.json          0.5675  0.62  0.68           0.64
+./fold_h1267_f_summary_confidences_0.json          0.5675  0.62  0.67           0.64
+./fold_h1267_g_summary_confidences_0.json          0.5750  0.63  0.68           0.65
+./fold_h1267_summary_confidences_0.json            0.5850  0.63  0.68           0.65
+./fold_h1267_c_summary_confidences_0.json          0.6025  0.65  0.71           0.67
+./fold_h0267_dimer_summary_confidences_0.json      0.5950  0.65  0.70           0.67
+
 ## ++,CAPRI H2267
 ## 235. 	H2267 * 	Prot 	926 	A2B2 4 	- 	XauSPARDA 
 Resubmitted
@@ -2595,17 +2606,6 @@ They bind in different places (cit inside, AMP outside)
 
 As all these models are similar I decided to run cit5 and use the
 alternative binding sites from that as prediction for manual model.
-
-./fold_h1267_b_summary_confidences_0.json          0.4800  0.52  0.61           0.55
-./fold_h1267_d_summary_confidences_0.json          0.5200  0.56  0.63           0.58
-./fold_h1267_h_summary_confidences_0.json          0.5725  0.63  0.68           0.64
-./fold_h1267_i_summary_confidences_0.json          0.5750  0.63  0.68           0.64
-./fold_h1267_e_summary_confidences_0.json          0.5675  0.62  0.68           0.64
-./fold_h1267_f_summary_confidences_0.json          0.5675  0.62  0.67           0.64
-./fold_h1267_g_summary_confidences_0.json          0.5750  0.63  0.68           0.65
-./fold_h1267_summary_confidences_0.json            0.5850  0.63  0.68           0.65
-./fold_h1267_c_summary_confidences_0.json          0.6025  0.65  0.71           0.67
-./fold_h0267_dimer_summary_confidences_0.json      0.5950  0.65  0.70           0.67
 
 ## 
 ## Thursday: 4 targets
