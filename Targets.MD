@@ -5380,3 +5380,26 @@ For any individual input, rerunning may result in a higher or lower confidence v
 
 
 If you have any questions, please don’t hesitate to contact us at alphafold@google.com
+
+
+
+## Resubmission of ligands
+
+ As we are getting more experimental structures for evaluation, we
+ have noticed that some targets were released with inaccurate or
+ incorrect SMILES information. To address this, we will be
+ re-releasing the targets with corrected ligand data tomorrow (four
+ RNA and one protein). We understand that some CASP16 predictors may
+ not be ready to return to their modeling desks immediately, so we
+ have extended the deadline for these targets as much as possible
+ (September 18). This extension will still allow for the evaluation of
+ predictions and their analysis by the assessors before the
+ assessors-organizers meeting at the end of September. 
+ 
+ 
+## R1261v1
+## R1262v1
+## R1263v1
+## R1264v1
+ 
+ Just resubmitted (now with ions) as I did beofre
