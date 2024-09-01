@@ -5398,8 +5398,41 @@ If you have any questions, please don’t hesitate to contact us at alphafold@go
  
  
 ## R1261v1
+
+Ligand always the same some variation on placment of ions.
+
+Pick 
+1. AMP 
+2. Cit
+3. AMP
+4. GDp
+5. Cit
+
 ## R1262v1
+
+Ligand always the same some variation on placment of ions.
+
+Pick 
+1. AMP 
+2. Cit
+3. AMP
+4. GDp
+5. Cit
+
+
 ## R1263v1
+
+Cit and AMP at different ends. Do trust cit more
+
+Pick cit for 13 and AMP for 2 4
+
+
 ## R1264v1
- 
+
+
+Cit and amp are in quite differnt places. AMP is too big, Cit is too small
+
+Let take every second, i.e. 1,3,5 from AMP and 2,4 for citric for
+manual
+
  Just resubmitted (now with ions) as I did beofre
