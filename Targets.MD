@@ -5424,7 +5424,7 @@ Pick
 
 Cit and AMP at different ends. Do trust cit more
 
-Pick cit for 13 and AMP for 2 4
+Pick cit for 1 3 5 and AMP for 2 4
 
 
 ## R1264v1
@@ -5435,4 +5435,4 @@ Cit and amp are in quite differnt places. AMP is too big, Cit is too small
 Let take every second, i.e. 1,3,5 from AMP and 2,4 for citric for
 manual
 
- Just resubmitted (now with ions) as I did beofre
+ Just resubmitted (now with ions) as I did before
