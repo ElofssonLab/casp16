@@ -216,6 +216,7 @@ Standard af3-model
 
 - T1214/fold_t1214_summary_confidences_4....         NaN  ...           0.95
 
+I did not submit ligands for this target...
 
 
 
@@ -5396,6 +5397,8 @@ If you have any questions, please don’t hesitate to contact us at alphafold@go
  predictions and their analysis by the assessors before the
  assessors-organizers meeting at the end of September. 
  
+ 
+ Resubmitted elofsson models with 
  
 ## R1261v1
 
