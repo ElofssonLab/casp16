@@ -5439,3 +5439,10 @@ Let take every second, i.e. 1,3,5 from AMP and 2,4 for citric for
 manual
 
  Just resubmitted (now with ions) as I did before
+
+
+
+## New ligands
+
+Generated for all targets - not submitted
+
