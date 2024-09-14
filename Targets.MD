@@ -13,7 +13,11 @@ The Critical Assessment of protein Structure Prediction (CASP) is a community-wi
 ## 1. 	T1201  All groups 	210 	A2 		Q9GZX9
 Default AF3 predictions
 
-- T1201/fold_t1201_summary_confidences_1....        0.67  ...           0.76
+- T1201/fold_t1201_summary_confidences_1....        0.67  ...
+  0.76
+  
+  
+  PBB: 8BWD - completely wrong
 
 ### 27. 	T2201 	All groups 	210 	A2	- 	Q9GZX9
 made new models
@@ -24,7 +28,10 @@ made new models
 ## 2. 	H1202 All groups 	190 	A2B2	Q9GZX9_plus_P43026
 Default AF3 predictions
 
-- H1202/fold_h1202_summary_confidences_0....      0.6600  ...           0.84
+- H1202/fold_h1202_summary_confidences_0....      0.6600  ...
+  0.84
+  
+  PDB: 8BWL - perfect prediction
 
 ### 29. 	H2202 	All groups 	190 	A2B2 	- 	Q9GZX9_plus_P43026 
 Made new models
@@ -38,6 +45,8 @@ Made new models
 Just AF3 predictions
 
 - R1203/fold_r1203_summary_confidences_1....         NaN  ...           0.40
+
+PDB 8u06 - some part is OK (rmsd 6 Å) but not othe overall fold
 
 
 ## 4. 	H1204  All groups 	429 	5-17 	from: 2024-05-17 	Human hemoglobin
