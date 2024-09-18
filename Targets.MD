@@ -1005,6 +1005,11 @@ Manual selections
 - ./fold_r1255f_summary_confidences_0.json         NaN   NaN  0.34           0.34
 
 
+## 184. 	H2233 * 	Prot 	658 	A2B2C2	- 	Human astrovirus 1 capsid spike - antibody Fab 3H4 complex
+## ++,CAPRI H2233
+Submitting old models
+
+
 ## +,CAPRI H1220
 ## 72. 	H1220 * 	All groups 	1912 	A1B4 from:  	BoDV-1 Replication complex
 
@@ -1305,9 +1310,6 @@ ranking_score
 - ./fold_t0238_b_summary_confidences_0.json                NaN   NaN  0.65           0.65
 - ./fold_t0238_dimer_c_summary_confidences_0.json     0.580000  0.58  0.61           0.58
 
-## 184. 	H2233 * 	Prot 	658 	A2B2C2	- 	Human astrovirus 1 capsid spike - antibody Fab 3H4 complex
-## ++,CAPRI H2233
-Submitting old models
 
 ## +,CAPRI T1238
 ## 138. 	T1238 * 	Prot 	327 	A2 		Bd2098 
@@ -1328,6 +1330,8 @@ Was submitted as a mix (dimer as number one)
 - ./fold_t1238_summary_confidences_0.json                0.59  ...           0.59
 - ./fold_t1238_c_summary_confidences_0.json              0.59  ...           0.60
 - ./fold_t1238_g_summary_confidences_0.json              0.60  ...           0.61
+
+
 
 ## ++,CAPRI T2238
 ## 207. 	T2238 * 	Prot 	327 	A2 	 	Bd2098  
@@ -5337,6 +5341,7 @@ No ideas what is v1 and v2 - just pick randomly
 All identical .- default submission
 
 
+PDB: 9fjl - model perfect
 
 
 ## Remaining stuff
@@ -5454,4 +5459,51 @@ manual
 ## New ligands
 
 Generated for all targets - not submitted
+
+# Summary of results
+
+Stoichiomtery predictions
+
+
+
+
+H0123 A1B1C1D1 correct
+H0208 A1 correct
+H0213 A1 correct
+H0215  A5 A1 
+H0217 Too big - resubmitted wrong
+H0220 A1B1 was A1B4
+H0222 A1B1C1 correc
+H0223 A1B1C1 correc
+H0225 A1B1C1 correc
+H0227 Hexamer (predicted after manual knowledge)
+H0229 A1B1 A1B1
+H0230 A1 A1
+H0232 A2B1 A2B2
+H0233 A1B1C1 A2B2C2
+H0236 A3B3 A3B6 (submitted as backup)
+H0244 A2B2C1 A2B2C2
+H0245 A1B1
+H0258 A2B2 A1B2
+H0265 A1B1
+H0267 A4 A2
+H0272 Too big was monomer.
+
+M0268 . too big
+M0271 . Was monomer too big
+M0276 - predicted with many DNA strands
+M0287 A2B1 A2B2
+
+T0206: A2 A2
+T0218: A3 A2 -
+T0234: A1 A3 -
+T0235: A5 A6 (second ranked)
+T0237: A4 A4
+T0238: A2 A2 
+T0240: A3 A4
+T0246: A1 A1
+T0257: A3 A3
+T0259: A3 A3
+T0270: A6 A6
+
 
