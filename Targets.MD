@@ -3572,7 +3572,7 @@ For manual pick least overlapping models
   
 
 For manual - just resubmit 
-For AF4 generate new mononmer units
+For AF3 generate new mononmer units
 
 
 ## Thursday: 2 targets
