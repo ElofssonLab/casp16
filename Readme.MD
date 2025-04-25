@@ -17,3 +17,7 @@ The file scores.csv contains all the pTM/ipTM/Ranking_confidence values for all 
 
 ## Models
 All models will be uploaded to a figshare repository ASAP. A preliminary link to the repository is here https://figshare.com/s/0df8bc3bef2dbd7e057f 
+
+## Preprint
+
+https://doi.org/10.1101/2025.04.10.648174
